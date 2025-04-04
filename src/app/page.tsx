@@ -67,7 +67,7 @@ export default function Home() {
             variants={staggerContainer}
             className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center"
           >
-            <motion.div variants={slideUp} className="text-left text-shadow pl-6 md:pl-0">
+            <motion.div variants={slideUp} className="text-left text-shadow pl-2 md:pl-0">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 md:mb-6 leading-tight drop-shadow-lg">
                 Transform Your Learning Experience
               </h1>
