@@ -11,13 +11,11 @@ import { getCourseDetailsById, courseDetails } from '@/data/courses/courseDetail
 
 type CourseId = keyof typeof courseDetails;
 
-type PageParams = {
+export default function CourseDetail({ params }: {
   params: {
     courseId: string;
   }
-};
-
-export default function CourseDetail({ params }: PageParams) {
+}) {
   // NOTE: In a future version of Next.js, params will be a Promise,
   // and you'll need to use React.use(params) to unwrap it.
   // For now, direct access is supported for migration purposes.

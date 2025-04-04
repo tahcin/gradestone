@@ -14,15 +14,13 @@ import rehypeHighlight from 'rehype-highlight';
 import remarkGfm from 'remark-gfm';
 import 'highlight.js/styles/atom-one-dark.css';
 
-interface PageParams {
-  params: {
-    courseId: string;
-    moduleId: string;
-    noteId: string;
-  };
-}
-
-export default function NotePage({ params }: PageParams) {
+export default function NotePage({ params }: { 
+  params: { 
+    courseId: string; 
+    moduleId: string; 
+    noteId: string; 
+  } 
+}) {
   const courseId = params.courseId;
   const moduleId = parseInt(params.moduleId);
   const noteId = parseInt(params.noteId);

@@ -10,15 +10,13 @@ import { getTest as getWebDevTest } from '@/data/courses/web-development/tests';
 import { getTest as getDataScienceTest } from '@/data/courses/data-science/tests';
 import { getTest as getBlockchainTest } from '@/data/courses/blockchain-development/tests';
 
-interface PageParams {
-  params: {
-    courseId: string;
-    moduleId: string;
-    testId: string;
-  };
-}
-
-export default function TestPage({ params }: PageParams) {
+export default function TestPage({ params }: { 
+  params: { 
+    courseId: string; 
+    moduleId: string; 
+    testId: string; 
+  } 
+}) {
   const courseId = params.courseId;
   const moduleId = parseInt(params.moduleId);
   const testId = parseInt(params.testId);
