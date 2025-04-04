@@ -1,29 +1,22 @@
-'use client';
-
-import React, { Suspense } from 'react';
-import { useState } from 'react';
-import Link from 'next/link';
+import React, { use } from 'react';
 import { notFound } from 'next/navigation';
-import { motion } from 'framer-motion';
-import { fadeIn, slideUp, staggerContainer } from '../../../utils/animations';
 import { getCourseById } from '@/data/courses/index';
 import { getCourseDetailsById, courseDetails } from '@/data/courses/courseDetails';
 
 type CourseId = keyof typeof courseDetails;
 
-// Create a client component wrapper for the page content
+// Import the client component directly
 import CourseDetailPage from '@/components/CourseDetailPage';
 
-// This is a server component now
+// This is a server component
 export default function CourseServerPage({ params }: {
-  params: {
+  params: Promise<{
     courseId: string;
-  }
+  }>;
 }) {
-  // NOTE: In a future version of Next.js, params will be a Promise,
-  // and you'll need to use React.use(params) to unwrap it.
-  // For now, direct access is supported for migration purposes.
-  const courseId = params.courseId;
+  // Unwrap params Promise
+  const resolvedParams = use(params);
+  const courseId = resolvedParams.courseId;
   
   // Get course details
   const course = getCourseDetailsById(courseId);

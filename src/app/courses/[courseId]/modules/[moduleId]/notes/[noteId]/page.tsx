@@ -1,33 +1,26 @@
-'use client';
-
-import React, { useState, useEffect } from 'react';
+import React, { use } from 'react';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { fadeIn } from '@/utils/animations';
 import { getCourseDetailsById } from '@/data/courses/courseDetails';
 import { getNote as getWebDevNote } from '@/data/courses/web-development/notes';
 import { getNote as getDataScienceNote } from '@/data/courses/data-science/notes';
 import { getNote as getBlockchainNote } from '@/data/courses/blockchain-development/notes';
-import Markdown from 'react-markdown';
-import rehypeHighlight from 'rehype-highlight';
-import remarkGfm from 'remark-gfm';
-import 'highlight.js/styles/atom-one-dark.css';
 
-// Create a client component wrapper for the page content
+// Import the client component directly
 import NotePage from '@/components/NotePage';
 
-// This is a server component now
+// This is a server component
 export default function NoteServerPage({ params }: {
-  params: {
+  params: Promise<{
     courseId: string;
     moduleId: string;
     noteId: string;
-  }
+  }>;
 }) {
-  const courseId = params.courseId;
-  const moduleId = parseInt(params.moduleId);
-  const noteId = parseInt(params.noteId);
+  // Unwrap params Promise
+  const resolvedParams = use(params);
+  const courseId = resolvedParams.courseId;
+  const moduleId = parseInt(resolvedParams.moduleId);
+  const noteId = parseInt(resolvedParams.noteId);
   
   const course = getCourseDetailsById(courseId);
   
