@@ -1,0 +1,280 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+  }
+
+  /* Theme transition class for smooth dark/light mode switching */
+  html.theme-transition,
+  html.theme-transition *,
+  html.theme-transition *:before,
+  html.theme-transition *:after {
+    transition-property: background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+  }
+
+  body {
+    @apply bg-light text-dark dark:bg-gray-900 dark:text-gray-100;
+    /* Mobile-friendly top padding for fixed navbar */
+    padding-top: 60px;
+    border-top: none;
+    /* Remove transition for theme changes */
+    transition-property: none;
+  }
+
+  h1 {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold dark:text-white tracking-tight;
+  }
+
+  h2 {
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold dark:text-white tracking-tight;
+  }
+
+  h3 {
+    @apply text-lg sm:text-xl md:text-2xl font-bold dark:text-white tracking-tight;
+  }
+  
+  p {
+    @apply text-sm sm:text-base leading-relaxed;
+  }
+  
+  /* Improve touch targets for mobile */
+  button, a {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all text-center inline-flex items-center justify-center;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-opacity-90 dark:bg-primary/90 dark:hover:bg-primary focus:ring-2 focus:ring-primary/50 focus:outline-none;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-opacity-90 dark:bg-secondary/90 dark:hover:bg-secondary focus:ring-2 focus:ring-secondary/50 focus:outline-none;
+  }
+
+  .card {
+    @apply rounded-lg shadow-md p-4 sm:p-6 bg-white dark:bg-gray-800 dark:border dark:border-gray-700 transition-transform hover:shadow-lg;
+  }
+
+  .container-custom {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  /* Mobile-optimized responsive utilities */
+  .section-padding {
+    @apply py-8 sm:py-12 md:py-16 lg:py-20;
+  }
+
+  .grid-responsive {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6;
+  }
+  
+  /* Mobile-friendly spacing */
+  .mb-mobile {
+    @apply mb-4 sm:mb-6;
+  }
+  
+  .mt-mobile {
+    @apply mt-4 sm:mt-6;
+  }
+  
+  .py-mobile {
+    @apply py-4 sm:py-6;
+  }
+  
+  .px-mobile {
+    @apply px-3 sm:px-4;
+  }
+}
+
+/* Global styling */
+:root {
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --secondary: #0ea5e9;
+  --secondary-hover: #0284c7;
+  --dark: #1e293b;
+  --light: #f8fafc;
+}
+
+body {
+  @apply antialiased text-gray-700 bg-white dark:bg-gray-900 dark:text-gray-200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Ensure no horizontal overflow on mobile */
+  overflow-x: hidden;
+  width: 100%;
+  border-top: none;
+  /* Allow transitions for theme changes */
+}
+
+/* Custom container */
+.container-custom {
+  @apply container mx-auto max-w-7xl;
+}
+
+/* Button styles - mobile-friendly */
+.btn {
+  @apply px-5 py-2.5 rounded-lg font-medium transition-colors duration-200 text-sm sm:text-base;
+  /* Improve touch targets on mobile */
+  min-height: 44px;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-indigo-700;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-sky-700;
+}
+
+.btn-outline {
+  @apply border border-gray-300 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-800;
+}
+
+/* Card style - mobile-friendly spacing */
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-xl shadow-md p-4 sm:p-6 md:p-8;
+}
+
+/* Animation utilities */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease forwards;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease forwards;
+}
+
+.animate-scale {
+  animation: scale 0.3s ease forwards;
+}
+
+.hover-scale {
+  transition: transform 0.2s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.03);
+}
+
+/* Define animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Page transition classes */
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 640px) {
+  /* Adjust font sizes for mobile */
+  html {
+    font-size: 15px;
+  }
+  
+  /* Optimize spacing on mobile */
+  .container-custom {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  /* Improve touch targets for interactive elements */
+  a, button, .btn, [role="button"] {
+    padding: 0.6rem 0.8rem;
+  }
+  
+  /* Ensure images don't overflow on mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Better scroll experience on mobile */
+  .scroll-container {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 1rem;
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Safe area insets for notched devices */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+} 
