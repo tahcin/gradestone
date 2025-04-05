@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import ChatBot from './ChatBot';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/utils/animations';
@@ -274,6 +275,9 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                 </Link>
               )}
             </div>
+
+            {/* Chat Bot */}
+            <ChatBot noteContent={note.content} iconColor={course.iconColor} />
           </motion.div>
         </div>
       </div>

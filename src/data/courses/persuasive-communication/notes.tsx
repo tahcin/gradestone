@@ -347,7 +347,7 @@ Provide a roadmap that outlines the structure of your message.
 
 **Example:**
 \`\`\`
-"I'll first explain the current challenges we face, then present three potential solutions, and finally recommend the most effective approach based on our specific needs."
+"I'll first explain the current challenges we face, then present three potential solutions,and finally recommend the most effective approach based on our specific needs."
 \`\`\`
 
 ![Speaker presenting to an audience](https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?auto=format&fit=crop&q=80&w=1000)
