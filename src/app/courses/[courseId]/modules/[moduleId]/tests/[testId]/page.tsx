@@ -1,9 +1,9 @@
 import React, { use } from 'react';
 import { notFound } from 'next/navigation';
 import { getCourseDetailsById } from '@/data/courses/courseDetails';
-import { getTest as getWebDevTest } from '@/data/courses/web-development/tests';
-import { getTest as getDataScienceTest } from '@/data/courses/data-science/tests';
-import { getTest as getBlockchainTest } from '@/data/courses/blockchain-development/tests';
+import { getTest as getIKSTest } from '@/data/courses/indian-knowledge-system/tests';
+import { getTest as getPCTest } from '@/data/courses/persuasive-communication/tests';
+import { getTest as getMicroeconomicsTest } from '@/data/courses/principles-of-microeconomics/tests';
 
 // Import the client component directly
 import TestPage from '@/components/TestPage';
@@ -31,14 +31,15 @@ export default function TestServerPage({ params }: {
   // Get the appropriate test based on the courseId
   let testData;
   switch (courseId) {
-    case 'web-development':
-      testData = getWebDevTest(moduleId, testId);
+    case 'indian-knowledge-system':
+      testData = getIKSTest(moduleId, testId);
       break;
-    case 'data-science':
-      testData = getDataScienceTest(moduleId, testId);
+    case 'persuasive-communication':
+      testData = getPCTest(moduleId, testId);
       break;
-    case 'blockchain-development':
-      testData = getBlockchainTest(moduleId, testId);
+      break;
+    case 'principles-of-microeconomics':
+      testData = getMicroeconomicsTest(moduleId, testId);
       break;
     default:
       testData = null;
@@ -74,4 +75,4 @@ export default function TestServerPage({ params }: {
     nextModuleFirstNote={nextModuleFirstNote}
     hasNextModule={hasNextModule}
   />;
-} 
+}

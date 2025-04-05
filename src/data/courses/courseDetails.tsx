@@ -212,6 +212,391 @@ export const courseDetails = {
     ],
   },
   
+  'persuasive-communication': {
+    title: 'Persuasive Communication',
+    description: 'Develop effective persuasion techniques and communication skills for professional and academic settings.',
+    overview: 'This comprehensive course teaches you the art and science of persuasive communication. You will learn how to craft compelling messages, understand your audience, and deliver presentations that inspire action. Through practical exercises and real-world case studies, you will develop the skills needed to influence others ethically and effectively in various professional and academic contexts.',
+    category: 'Communication',
+    level: 'Year 1',
+    duration: '8 weeks',
+    instructor: 'Dr. Maya Patel',
+    instructorBio: 'Dr. Patel is a communication expert with over 15 years of experience in corporate training and academia. She has published numerous articles on persuasion techniques and has consulted for Fortune 500 companies on improving their communication strategies.',
+    gradientFrom: 'from-purple-500',
+    gradientTo: 'to-pink-600',
+    darkGradientFrom: 'dark:from-purple-600',
+    darkGradientTo: 'dark:to-pink-700',
+    iconColor: 'text-purple-500',
+    accentColor: 'bg-purple-600',
+    accentHoverColor: 'hover:bg-purple-700',
+    modules: [
+      {
+        id: 1,
+        title: 'Principles of Persuasion',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Fundamentals of Persuasion', 
+            type: 'note',
+            description: 'Learn the core principles of persuasion including ethos, pathos, and logos, and how to apply them effectively.'
+          },
+          { 
+            id: 2, 
+            title: 'Persuasion Principles Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Test your understanding of persuasion principles through scenario-based questions.'
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Audience Analysis',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Understanding Your Audience', 
+            type: 'note',
+            description: 'Learn techniques for analyzing your audience and tailoring your message to their needs, values, and expectations.'
+          },
+          { 
+            id: 2, 
+            title: 'Audience Analysis Assessment', 
+            type: 'test', 
+            questions: 8,
+            description: 'Apply audience analysis techniques to various communication scenarios.'
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Crafting Persuasive Messages',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Message Structure and Delivery', 
+            type: 'note',
+            description: 'Learn how to structure persuasive messages and deliver them effectively across different mediums.'
+          },
+          { 
+            id: 2, 
+            title: 'Message Crafting Assessment', 
+            type: 'test', 
+            questions: 12,
+            description: 'Create and evaluate persuasive messages for different contexts and audiences.'
+          },
+        ],
+      },
+    ],
+  },
+  
+  'indian-knowledge-system': {
+    title: 'Indian Knowledge System',
+    description: 'Explore the rich heritage of Indian knowledge traditions, philosophies, and their modern applications.',
+    overview: 'This course offers a comprehensive exploration of India\'s ancient knowledge systems and their relevance in the contemporary world. From Vedic mathematics to Ayurveda, from philosophical traditions to architectural principles, you will discover the depth and breadth of Indian intellectual heritage. The course emphasizes both theoretical understanding and practical applications of these knowledge systems in solving modern challenges.',
+    category: 'Humanities',
+    level: 'Year 1',
+    duration: '10 weeks',
+    instructor: 'Prof. Rajesh Sharma',
+    instructorBio: 'Prof. Sharma is a renowned scholar of Indian philosophy and knowledge systems with over 20 years of teaching experience. He has authored several books on the subject and has been instrumental in integrating traditional knowledge with modern education systems.',
+    gradientFrom: 'from-red-500',
+    gradientTo: 'to-orange-500',
+    darkGradientFrom: 'dark:from-red-600',
+    darkGradientTo: 'dark:to-orange-600',
+    iconColor: 'text-red-500',
+    accentColor: 'bg-red-600',
+    accentHoverColor: 'hover:bg-red-700',
+    modules: [
+      {
+        id: 1,
+        title: 'Philosophical Foundations',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Indian Philosophical Systems', 
+            type: 'note',
+            description: 'Explore the six major schools of Indian philosophy (Shad Darshana) and their fundamental principles.'
+          },
+          { 
+            id: 2, 
+            title: 'Philosophy Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Test your understanding of Indian philosophical concepts and their interconnections.'
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Scientific Traditions',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Mathematics and Astronomy', 
+            type: 'note',
+            description: 'Learn about Vedic mathematics, ancient Indian astronomical knowledge, and their contributions to global scientific development.'
+          },
+          { 
+            id: 2, 
+            title: 'Scientific Traditions Assessment', 
+            type: 'test', 
+            questions: 8,
+            description: 'Apply ancient mathematical techniques and evaluate astronomical concepts from Indian traditions.'
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Modern Applications',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Contemporary Relevance', 
+            type: 'note',
+            description: 'Discover how Indian knowledge systems are being applied in fields like sustainable development, health, and education today.'
+          },
+          { 
+            id: 2, 
+            title: 'Applications Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Analyze case studies of successful integration of traditional knowledge in modern contexts.'
+          },
+        ],
+      },
+    ],
+  },
+  
+  'principles-of-microeconomics': {
+    title: 'Principles of Microeconomics',
+    description: 'Understand fundamental microeconomic concepts, market structures, and decision-making processes.',
+    overview: 'This course introduces you to the fundamental principles of microeconomics, focusing on how individuals and businesses make decisions in a world of scarcity. You will learn about supply and demand, market structures, consumer behavior, and the role of government in the economy. Through real-world examples and case studies, you will develop analytical skills to understand economic issues and evaluate policy options.',
+    category: 'Economics',
+    level: 'Year 1',
+    duration: '12 weeks',
+    instructor: 'Dr. Arun Kapoor',
+    instructorBio: 'Dr. Kapoor is an economist with expertise in microeconomic theory and its applications. He has worked with policy think tanks and has extensive experience teaching economics to undergraduate students, making complex concepts accessible and engaging.',
+    gradientFrom: 'from-green-500',
+    gradientTo: 'to-teal-600',
+    darkGradientFrom: 'dark:from-green-600',
+    darkGradientTo: 'dark:to-teal-700',
+    iconColor: 'text-green-500',
+    accentColor: 'bg-green-600',
+    accentHoverColor: 'hover:bg-green-700',
+    modules: [
+      {
+        id: 1,
+        title: 'Basic Economic Concepts',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Scarcity and Choice', 
+            type: 'note',
+            description: 'Understand the fundamental economic problem of scarcity and how it leads to the need for choice and opportunity cost.'
+          },
+          { 
+            id: 2, 
+            title: 'Economic Concepts Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Test your understanding of basic economic principles through problem-solving exercises.'
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Supply and Demand',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Market Equilibrium', 
+            type: 'note',
+            description: 'Learn how supply and demand interact to determine prices and quantities in competitive markets.'
+          },
+          { 
+            id: 2, 
+            title: 'Supply and Demand Assessment', 
+            type: 'test', 
+            questions: 12,
+            description: 'Apply supply and demand analysis to predict market outcomes under different scenarios.'
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Market Structures',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Competition and Market Power', 
+            type: 'note',
+            description: 'Explore different market structures from perfect competition to monopoly and their implications for efficiency.'
+          },
+          { 
+            id: 2, 
+            title: 'Market Structures Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Analyze firm behavior and market outcomes under different competitive conditions.'
+          },
+        ],
+      },
+    ],
+  },
+  
+  'foundation-of-business-communication-ii': {
+    title: 'Foundation of Business Communication 2',
+    description: 'Build advanced business communication skills for effective professional interactions and presentations.',
+    overview: 'Building on the fundamentals of business communication, this course focuses on advanced communication strategies for complex business environments. You will develop skills in crafting persuasive business proposals, managing crisis communication, facilitating effective meetings, and delivering impactful presentations. The course emphasizes practical applications through case studies, role-playing, and real-world projects.',
+    category: 'Business',
+    level: 'Year 1',
+    duration: '10 weeks',
+    instructor: 'Prof. Neha Gupta',
+    instructorBio: 'Prof. Gupta brings 15 years of corporate communication experience to the classroom. She has worked as a communication consultant for multinational corporations and specializes in helping professionals overcome communication barriers in diverse business settings.',
+    gradientFrom: 'from-blue-500',
+    gradientTo: 'to-indigo-600',
+    darkGradientFrom: 'dark:from-blue-600',
+    darkGradientTo: 'dark:to-indigo-700',
+    iconColor: 'text-blue-500',
+    accentColor: 'bg-blue-600',
+    accentHoverColor: 'hover:bg-blue-700',
+    modules: [
+      {
+        id: 1,
+        title: 'Advanced Written Communication',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Business Proposals and Reports', 
+            type: 'note',
+            description: 'Learn techniques for writing persuasive business proposals, comprehensive reports, and effective business cases.'
+          },
+          { 
+            id: 2, 
+            title: 'Written Communication Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Apply advanced writing techniques to create professional business documents.'
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Presentation Skills',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Impactful Business Presentations', 
+            type: 'note',
+            description: 'Develop skills for designing and delivering compelling presentations that achieve business objectives.'
+          },
+          { 
+            id: 2, 
+            title: 'Presentation Skills Assessment', 
+            type: 'test', 
+            questions: 8,
+            description: 'Create and evaluate business presentations for different audiences and purposes.'
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Cross-Cultural Communication',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Navigating Cultural Differences', 
+            type: 'note',
+            description: 'Learn strategies for effective communication across cultural boundaries in global business environments.'
+          },
+          { 
+            id: 2, 
+            title: 'Cross-Cultural Communication Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Apply cultural intelligence to resolve communication challenges in diverse business scenarios.'
+          },
+        ],
+      },
+    ],
+  },
+  
+  'evolution-of-business-and-market': {
+    title: 'Evolution of Business and Market',
+    description: 'Study the historical development of business practices, market structures, and economic systems.',
+    overview: 'This course traces the evolution of business and markets from ancient trading systems to modern global economies. You will explore how economic, technological, and social forces have shaped business practices and market structures throughout history. The course provides insights into the development of capitalism, the industrial revolution, the rise of corporations, and the emergence of digital economies, offering valuable context for understanding contemporary business challenges.',
+    category: 'Business',
+    level: 'Year 1',
+    duration: '10 weeks',
+    instructor: 'Dr. Vikram Mehta',
+    instructorBio: 'Dr. Mehta is an economic historian specializing in the development of business institutions. His research focuses on the intersection of technology, society, and business evolution, and he has published extensively on the transformation of markets across different historical periods.',
+    gradientFrom: 'from-yellow-500',
+    gradientTo: 'to-amber-600',
+    darkGradientFrom: 'dark:from-yellow-600',
+    darkGradientTo: 'dark:to-amber-700',
+    iconColor: 'text-yellow-500',
+    accentColor: 'bg-amber-600',
+    accentHoverColor: 'hover:bg-amber-700',
+    modules: [
+      {
+        id: 1,
+        title: 'Pre-Industrial Business',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Ancient and Medieval Commerce', 
+            type: 'note',
+            description: 'Explore trading systems, guilds, and commercial practices from ancient civilizations through the Middle Ages.'
+          },
+          { 
+            id: 2, 
+            title: 'Pre-Industrial Era Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Analyze the economic and social factors that influenced early business development.'
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Industrial Revolution and Capitalism',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Rise of Modern Business', 
+            type: 'note',
+            description: 'Understand how industrialization transformed business practices, labor relations, and market structures.'
+          },
+          { 
+            id: 2, 
+            title: 'Industrial Era Assessment', 
+            type: 'test', 
+            questions: 12,
+            description: 'Evaluate the impact of technological innovations on business evolution during the industrial age.'
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Modern Global Economy',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Digital Transformation', 
+            type: 'note',
+            description: 'Examine how information technology, globalization, and new business models are reshaping markets and competition.'
+          },
+          { 
+            id: 2, 
+            title: 'Contemporary Markets Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Analyze current trends in business evolution and predict future developments in market structures.'
+          },
+        ],
+      },
+    ],
+  },
+  
   // Template for adding a new course
   /* 
   'course-id': {
@@ -259,4 +644,4 @@ export const courseDetails = {
 // Helper function to get course details by ID
 export function getCourseDetailsById(courseId: string) {
   return courseDetails[courseId as keyof typeof courseDetails];
-} 
+}

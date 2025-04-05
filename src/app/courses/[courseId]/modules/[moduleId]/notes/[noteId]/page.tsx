@@ -1,9 +1,9 @@
 import React, { use } from 'react';
 import { notFound } from 'next/navigation';
 import { getCourseDetailsById } from '@/data/courses/courseDetails';
-import { getNote as getWebDevNote } from '@/data/courses/web-development/notes';
-import { getNote as getDataScienceNote } from '@/data/courses/data-science/notes';
-import { getNote as getBlockchainNote } from '@/data/courses/blockchain-development/notes';
+import { getNote as getPCNote } from '@/data/courses/persuasive-communication/notes';
+import { getNote as getIKSNote } from '@/data/courses/indian-knowledge-system/notes';
+import { getNote as getMicroeconomicsNote } from '@/data/courses/principles-of-microeconomics/notes';
 
 // Import the client component directly
 import NotePage from '@/components/NotePage';
@@ -31,14 +31,15 @@ export default function NoteServerPage({ params }: {
   // Get the appropriate note based on the courseId
   let note;
   switch (courseId) {
-    case 'web-development':
-      note = getWebDevNote(moduleId, noteId);
+    case 'persuasive-communication':
+      note = getPCNote(moduleId, noteId);
       break;
-    case 'data-science':
-      note = getDataScienceNote(moduleId, noteId);
+    case 'indian-knowledge-system':
+      note = getIKSNote(moduleId, noteId);
       break;
-    case 'blockchain-development':
-      note = getBlockchainNote(moduleId, noteId);
+      
+    case 'principles-of-microeconomics':
+      note = getMicroeconomicsNote(moduleId, noteId);
       break;
     default:
       note = null;
@@ -60,4 +61,4 @@ export default function NoteServerPage({ params }: {
     courseId={courseId}
     test={test}
   />;
-} 
+}

@@ -5,6 +5,7 @@ import { motion, useAnimationControls } from 'framer-motion';
 import { fadeIn, slideUp, staggerContainer } from '../../utils/animations';
 import { useEffect, useState } from 'react';
 import { courses, getCourseById } from '@/data/courses/index';
+import { getInitialsExcludingCommonWords } from '@/utils/textUtils';
 
 // Get unique terms for filtering
 const terms = Array.from(new Set(courses.map(course => course.term)));
@@ -157,7 +158,9 @@ export default function CoursesPage() {
                   <div className="absolute inset-0 flex items-center justify-center bg-black/10">
                     <div className="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
                       {course.icon}
-                      <div className="text-xl font-semibold text-white mt-2 sm:mt-0">{course.title.split(' ')[0]}</div>
+                      <div className="text-xl font-semibold text-white mt-2 sm:mt-0">
+                        {getInitialsExcludingCommonWords(course.title)}
+                      </div>
                     </div>
                   </div>
                   <div className="absolute top-2 right-2 bg-black/30 text-white text-xs px-3 py-1 font-medium rounded-lg">
@@ -199,4 +202,4 @@ export default function CoursesPage() {
       </div>
     </motion.div>
   );
-} 
+}

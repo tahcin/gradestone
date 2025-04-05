@@ -243,90 +243,90 @@ export default function Home() {
             variants={staggerContainer}
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6"
           >
-            {/* Course 1 */}
+            {/* Course 1 - Persuasive Communication */}
             <motion.div 
               variants={slideUp} 
               className="card overflow-hidden hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200"
             >
-              <div className="relative h-48 sm:h-40 bg-gradient-to-r from-blue-500 to-indigo-600 dark:from-blue-600 dark:to-indigo-700 mb-4 rounded-lg overflow-hidden">
+              <div className="relative h-48 sm:h-40 bg-gradient-to-r from-purple-500 to-pink-600 dark:from-purple-600 dark:to-pink-700 mb-4 rounded-lg overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center bg-black/10">
                   <div className="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                     </svg>
-                    <div className="text-xl font-semibold text-white mt-2 sm:mt-0">Web Development</div>
+                    <div className="text-xl font-semibold text-white mt-2 sm:mt-0">PC</div>
                   </div>
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-3">Modern Web Development</h3>
+              <h3 className="text-lg font-bold mb-3">Persuasive Communication</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-5 text-sm line-clamp-2">
-                Learn the latest technologies in web development including React, Node.js, and more.
-              </p>
-              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3 sm:gap-0">
-                <span className="text-indigo-600 dark:text-indigo-400 font-semibold text-sm">8 Modules</span>
-                <Link 
-                  href="/courses/web-development" 
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-md font-medium transition-colors w-[120px] sm:w-auto text-center"
-                >
-                  View Course
-                </Link>
-              </div>
-            </motion.div>
-
-            {/* Course 2 */}
-            <motion.div 
-              variants={slideUp}
-              className="card overflow-hidden hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200"
-            >
-              <div className="relative h-48 sm:h-40 bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-cyan-600 dark:to-blue-600 mb-4 rounded-lg overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center bg-black/10">
-                  <div className="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                    <div className="text-xl font-semibold text-white mt-2 sm:mt-0">Data Science</div>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-bold mb-3">Data Science Fundamentals</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-5 text-sm line-clamp-2">
-                Master the basics of data science, machine learning, and data visualization.
-              </p>
-              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3 sm:gap-0">
-                <span className="text-cyan-600 dark:text-cyan-400 font-semibold text-sm">10 Modules</span>
-                <Link 
-                  href="/courses/data-science" 
-                  className="bg-cyan-600 hover:bg-cyan-700 text-white text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-md font-medium transition-colors w-[120px] sm:w-auto text-center"
-                >
-                  View Course
-                </Link>
-              </div>
-            </motion.div>
-
-            {/* Course 3 */}
-            <motion.div 
-              variants={slideUp}
-              className="card overflow-hidden hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200"
-            >
-              <div className="relative h-48 sm:h-40 bg-gradient-to-r from-purple-500 to-pink-500 dark:from-purple-600 dark:to-pink-600 mb-4 rounded-lg overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center bg-black/10">
-                  <div className="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-                    </svg>
-                    <div className="text-xl font-semibold text-white mt-2 sm:mt-0">Digital Marketing</div>
-                  </div>
-                </div>
-              </div>
-              <h3 className="text-lg font-bold mb-3">Digital Marketing Mastery</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-5 text-sm line-clamp-2">
-                Learn digital marketing strategies, SEO, social media marketing, and analytics.
+                Develop effective persuasion techniques and communication skills for professional and academic settings.
               </p>
               <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3 sm:gap-0">
                 <span className="text-purple-600 dark:text-purple-400 font-semibold text-sm">8 Modules</span>
                 <Link 
-                  href="/courses/digital-marketing" 
+                  href="/courses/persuasive-communication" 
                   className="bg-purple-600 hover:bg-purple-700 text-white text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-md font-medium transition-colors w-[120px] sm:w-auto text-center"
+                >
+                  View Course
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* Course 2 - Indian Knowledge System */}
+            <motion.div 
+              variants={slideUp}
+              className="card overflow-hidden hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200"
+            >
+              <div className="relative h-48 sm:h-40 bg-gradient-to-r from-red-500 to-orange-500 dark:from-red-600 dark:to-orange-600 mb-4 rounded-lg overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center bg-black/10">
+                  <div className="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                    <div className="text-xl font-semibold text-white mt-2 sm:mt-0">IKS</div>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-bold mb-3">Indian Knowledge System</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-5 text-sm line-clamp-2">
+                Explore the rich heritage of Indian knowledge traditions, philosophies, and their modern applications.
+              </p>
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3 sm:gap-0">
+                <span className="text-red-600 dark:text-red-400 font-semibold text-sm">7 Modules</span>
+                <Link 
+                  href="/courses/indian-knowledge-system" 
+                  className="bg-red-600 hover:bg-red-700 text-white text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-md font-medium transition-colors w-[120px] sm:w-auto text-center"
+                >
+                  View Course
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* Course 3 - Principles of Microeconomics */}
+            <motion.div 
+              variants={slideUp}
+              className="card overflow-hidden hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200"
+            >
+              <div className="relative h-48 sm:h-40 bg-gradient-to-r from-green-500 to-teal-600 dark:from-green-600 dark:to-teal-700 mb-4 rounded-lg overflow-hidden">
+                <div className="absolute inset-0 flex items-center justify-center bg-black/10">
+                  <div className="flex flex-col sm:flex-row items-center sm:space-x-2 text-center sm:text-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                    </svg>
+                    <div className="text-xl font-semibold text-white mt-2 sm:mt-0">PM</div>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-lg font-bold mb-3">Principles of Microeconomics</h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-5 text-sm line-clamp-2">
+                Understand fundamental microeconomic concepts, market structures, and decision-making processes.
+              </p>
+              <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-3 sm:gap-0">
+                <span className="text-green-600 dark:text-green-400 font-semibold text-sm">9 Modules</span>
+                <Link 
+                  href="/courses/principles-of-microeconomics" 
+                  className="bg-green-600 hover:bg-green-700 text-white text-sm px-3 sm:px-4 py-1.5 sm:py-2 rounded-md font-medium transition-colors w-[120px] sm:w-auto text-center"
                 >
                   View Course
                 </Link>
@@ -441,4 +441,4 @@ export default function Home() {
       </motion.section>
     </div>
   );
-} 
+}

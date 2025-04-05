@@ -62,7 +62,7 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
           initial="hidden"
           animate="visible"
           variants={fadeIn}
-          className={`bg-gradient-to-r ${note.gradientFrom} ${note.gradientTo} ${note.darkGradientFrom} ${note.darkGradientTo} text-white p-6 md:p-8 rounded-xl mb-6 md:mb-8 shadow-lg`}
+          className={`bg-gradient-to-r ${course.modules[moduleId - 1]?.gradientFrom || course.gradientFrom} ${course.modules[moduleId - 1]?.gradientTo || course.gradientTo} ${course.modules[moduleId - 1]?.darkGradientFrom || course.darkGradientFrom} ${course.modules[moduleId - 1]?.darkGradientTo || course.darkGradientTo} text-white p-6 md:p-8 rounded-xl mb-6 md:mb-8 shadow-lg`}
         >
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">{note.title}</h1>
           <p className="text-base md:text-lg mt-2 text-white/80">Module {moduleId}</p>
@@ -279,4 +279,4 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
       </div>
     </div>
   );
-} 
+}
