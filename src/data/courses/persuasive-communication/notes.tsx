@@ -42,20 +42,16 @@ Logos appeals to the audience's reason and logic. It answers the question: "Why 
 ## Persuasion in Different Contexts
 
 ### Professional Settings
-\`\`\`
-1. Presentations and pitches
-2. Negotiations and sales
-3. Leadership communication
-4. Email and written communication
-\`\`\`
+- Presentations and pitches
+- Negotiations and sales
+- Leadership communication
+- Email and written communication
 
 ### Academic Settings
-\`\`\`
-1. Research presentations
-2. Academic writing
-3. Classroom discussions
-4. Grant proposals
-\`\`\`
+- Research presentations
+- Academic writing
+- Classroom discussions
+- Grant proposals
 
 ![Academic presentation setting](https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=1000)
 
@@ -119,14 +115,12 @@ People value what's rare or limited in availability.
 4. **Action**: Provide a clear, specific call to action
 
 ### Message Structure
-\`\`\`
-1. Strong opening (hook or thesis)
-2. Context and background
-3. Main arguments with supporting evidence
-4. Addressing counterarguments
-5. Reinforcing main message
-6. Compelling conclusion with call to action
-\`\`\`
+- Strong opening (hook or thesis)
+- Context and background
+- Main arguments with supporting evidence
+- Addressing counterarguments
+- Reinforcing main message
+- Compelling conclusion with call to action
 
 ## Analyzing Your Audience
 
@@ -399,72 +393,58 @@ A strong ending reinforces your message and motivates action.
 ### Written Communication
 
 **Formal reports and proposals:**
-\`\`\`
-1. Executive summary
-2. Introduction and background
-3. Methodology
-4. Findings/Analysis
-5. Recommendations
-6. Implementation plan
-7. Conclusion
-8. Appendices
-\`\`\`
+- Executive summary
+- Introduction and background
+- Methodology
+- Findings/Analysis
+- Recommendations
+- Implementation plan
+- Conclusion
+- Appendices
 
 **Persuasive emails:**
-\`\`\`
-1. Clear, specific subject line
-2. Brief, personalized greeting
-3. Concise purpose statement
-4. 2-3 key points with supporting evidence
-5. Specific request or call to action
-6. Professional closing
-\`\`\`
+- Clear, specific subject line
+- Brief, personalized greeting
+- Concise purpose statement
+- 2-3 key points with supporting evidence
+- Specific request or call to action
+- Professional closing
 
 ### Oral Presentations
 
 **Formal presentations:**
-\`\`\`
-1. Attention-grabbing introduction (30-60 seconds)
-2. Preview of main points
-3. Main content (organized in 3-5 key sections)
-4. Visual aids to reinforce key points
-5. Interactive elements (questions, activities)
-6. Summary of main points
-7. Compelling conclusion with call to action
-\`\`\`
-
-![Professional presentation with slides](https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&q=80&w=1000)
+- Attention-grabbing introduction (30-60 seconds)
+- Preview of main points
+- Main content (organized in 3-5 key sections)
+- Visual aids to reinforce key points
+- Interactive elements (questions, activities)
+- Summary of main points
+- Compelling conclusion with call to action
 
 **Impromptu speaking:**
-\`\`\`
-1. Acknowledge the question/topic
-2. State your position
-3. Provide one main reason or example
-4. Briefly elaborate
-5. Restate your position
-\`\`\`
+- Acknowledge the question/topic
+- State your position
+- Provide one main reason or example
+- Briefly elaborate
+- Restate your position
 
 ### Digital and Social Media
 
 **Blog posts:**
-\`\`\`
-1. Engaging headline
-2. Hook in first paragraph
-3. Scannable subheadings
-4. Short paragraphs with one main idea each
-5. Visual elements (images, infographics)
-6. Interactive elements (polls, questions)
-7. Clear call to action
-\`\`\`
+- Engaging headline
+- Hook in first paragraph
+- Scannable subheadings
+- Short paragraphs with one main idea each
+- Visual elements (images, infographics)
+- Interactive elements (polls, questions)
+- Clear call to action
 
 **Social media posts:**
-\`\`\`
-1. Attention-grabbing first line
-2. Concise, value-focused message
-3. Relevant hashtags
-4. Strong visual element
-5. Clear call to action
-\`\`\`
+- Attention-grabbing first line
+- Concise, value-focused message
+- Relevant hashtags
+- Strong visual element
+- Clear call to action
 
 ## Delivery Techniques for Maximum Impact
 

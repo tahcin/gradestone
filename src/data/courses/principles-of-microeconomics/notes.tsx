@@ -25,12 +25,10 @@ At the heart of microeconomics is the concept of scarcity—the fundamental econ
 The value of the next best alternative that must be foregone when making a choice.
 
 **Example:**
-\`\`\`
 If you spend $15,000 on a car, the opportunity cost might be:
 - A year of college tuition
 - A down payment on a house
 - An investment that could grow over time
-\`\`\`
 
 ### Marginal Analysis
 Decision-making based on comparing the additional benefits with the additional costs of an action.

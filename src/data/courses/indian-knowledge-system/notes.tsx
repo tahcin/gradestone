@@ -56,17 +56,17 @@ Indian knowledge systems typically embrace a holistic worldview that:
 ## Major Domains of Indian Knowledge Systems
 
 ### Philosophy and Metaphysics
-\`\`\`
-Major philosophical schools:
-1. Vedanta (Advaita, Dvaita, Vishishtadvaita)
-2. Samkhya
-3. Yoga
-4. Nyaya
-5. Vaisheshika
-6. Mimamsa
-7. Buddhist philosophical traditions
-8. Jain philosophical traditions
-\`\`\`
+
+Major philosophical schools include:
+- Vedanta (Advaita, Dvaita, Vishishtadvaita)
+- Samkhya
+- Yoga
+- Nyaya
+- Vaisheshika
+- Mimamsa
+- Buddhist philosophical traditions
+- Jain philosophical traditions
+
 
 Key concepts include:
 - **Consciousness and reality**: Theories about the nature of existence
