@@ -75,10 +75,9 @@ Persuasion becomes manipulation when:
 How you present information significantly impacts how it's received. Framing involves highlighting certain aspects of a message while downplaying others.
 
 **Example:**
-\`\`\`
-Negative frame: "Without this insurance, you risk losing everything."
-Positive frame: "With this insurance, you can protect everything you've worked for."
-\`\`\`
+
+-Negative frame: "Without this insurance, you risk losing everything."
+-Positive frame: "With this insurance, you can protect everything you've worked for."
 
 ### Social Proof
 People tend to follow what others do, especially in uncertain situations.
@@ -330,19 +329,19 @@ The first moments of your message are critical for capturing audience interest.
 Early in your message, articulate your main point or objective.
 
 **Examples:**
-\`\`\`
-"Today, I will demonstrate why investing in employee wellness programs increases productivity and reduces costs."
 
-"This proposal outlines a three-phase approach to reducing our carbon footprint while improving operational efficiency."
-\`\`\`
+-"Today, I will demonstrate why investing in employee wellness programs increases productivity and reduces costs."
+
+-"This proposal outlines a three-phase approach to reducing our carbon footprint while improving operational efficiency."
+
 
 ### 3. Preview of Main Points
 Provide a roadmap that outlines the structure of your message.
 
 **Example:**
-\`\`\`
-"I'll first explain the current challenges we face, then present three potential solutions,and finally recommend the most effective approach based on our specific needs."
-\`\`\`
+
+-"I'll first explain the current challenges we face, then present three potential solutions,and finally recommend the most effective approach based on our specific needs."
+
 
 ![Speaker presenting to an audience](https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?auto=format&fit=crop&q=80&w=1000)
 

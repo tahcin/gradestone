@@ -355,9 +355,9 @@ When both curves shift, the effect on equilibrium price and quantity depends on 
 Price elasticity of demand measures the responsiveness of quantity demanded to changes in price.
 
 **Formula:**
-\`\`\`
+
 Price Elasticity of Demand = (% Change in Quantity Demanded) / (% Change in Price)
-\`\`\`
+
 
 ### Interpreting Elasticity Values
 
@@ -400,9 +400,9 @@ Price Elasticity of Demand = (% Change in Quantity Demanded) / (% Change in Pric
 Price elasticity of supply measures the responsiveness of quantity supplied to changes in price.
 
 **Formula:**
-\`\`\`
+
 Price Elasticity of Supply = (% Change in Quantity Supplied) / (% Change in Price)
-\`\`\`
+
 
 ### Determinants of Price Elasticity of Supply
 
@@ -429,9 +429,9 @@ Price Elasticity of Supply = (% Change in Quantity Supplied) / (% Change in Pric
 Measures the responsiveness of demand to changes in consumer income.
 
 **Formula:**
-\`\`\`
+
 Income Elasticity = (% Change in Quantity Demanded) / (% Change in Income)
-\`\`\`
+
 
 **Interpretation:**
 - Positive: Normal goods
@@ -443,9 +443,9 @@ Income Elasticity = (% Change in Quantity Demanded) / (% Change in Income)
 Measures the responsiveness of demand for one good to changes in the price of another good.
 
 **Formula:**
-\`\`\`
+
 Cross-Price Elasticity = (% Change in Quantity Demanded of Good A) / (% Change in Price of Good B)
-\`\`\`
+
 
 **Interpretation:**
 - Positive: Substitutes
@@ -523,13 +523,13 @@ Utility refers to the satisfaction or benefit a consumer derives from consuming 
 As a consumer increases consumption of a good, the marginal utility derived from each additional unit typically decreases.
 
 **Example:**
-\`\`\`
+
 Utility from slices of pizza:
 1st slice: 10 utils (marginal utility = 10)
 2nd slice: 18 utils (marginal utility = 8)
 3rd slice: 24 utils (marginal utility = 6)
 4th slice: 28 utils (marginal utility = 4)
-\`\`\`
+
 
 ![Diminishing marginal utility graph](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000)
 
@@ -539,7 +539,7 @@ A rational consumer allocates their limited budget to maximize total utility.
 **Utility-maximizing rule:**
 The consumer should allocate spending so that the last dollar spent on each good yields the same marginal utility.
 
-\`\`\`
+
 For any two goods X and Y:
 MUx/Px = MUy/Py
 
@@ -548,7 +548,7 @@ MUx = Marginal utility of good X
 Px = Price of good X
 MUy = Marginal utility of good Y
 Py = Price of good Y
-\`\`\`
+
 
 ## Indifference Curves and Budget Constraints
 
@@ -565,14 +565,14 @@ An indifference curve shows all combinations of two goods that give the consumer
 The rate at which a consumer is willing to substitute one good for another while maintaining the same level of utility.
 
 **Formula:**
-\`\`\`
+
 MRS = -ΔY/ΔX (along an indifference curve)
-\`\`\`
+
 
 **Economic interpretation:**
-\`\`\`
+
 MRS = MUx/MUy
-\`\`\`
+
 
 ![Indifference curves with different MRS](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000)
 
@@ -580,9 +580,9 @@ MRS = MUx/MUy
 The budget constraint shows all combinations of goods that a consumer can afford given their income and the prices of goods.
 
 **Formula:**
-\`\`\`
+
 Px × X + Py × Y = Income
-\`\`\`
+
 
 **Properties:**
 - **Downward sloping**: Slope equals -Px/Py (price ratio)
@@ -593,9 +593,9 @@ Px × X + Py × Y = Income
 The optimal consumption bundle occurs where the budget constraint is tangent to the highest attainable indifference curve.
 
 **Condition for equilibrium:**
-\`\`\`
+
 MRS = Px/Py
-\`\`\`
+
 
 This is equivalent to the utility-maximizing rule: MUx/Px = MUy/Py
 
@@ -651,14 +651,14 @@ Consumer surplus is the difference between what consumers are willing to pay for
 - Area below the demand curve and above the market price
 
 **Formula (for linear demand):**
-\`\`\`
+
 Consumer Surplus = (1/2) × (Pmax - P) × Q
 
 Where:
 Pmax = Maximum price consumers are willing to pay
 P = Market price
 Q = Quantity purchased at market price
-\`\`\`
+
 
 ![Consumer surplus diagram](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000)
 
