@@ -8,6 +8,19 @@
     -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
   }
 
+  /* Prevent zoom on input focus for iOS */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  textarea {
+    @apply text-base;
+    font-size: 16px;
+  }
+
   /* Theme transition class for smooth dark/light mode switching */
   html.theme-transition,
   html.theme-transition *,
@@ -277,4 +290,4 @@ body {
     padding-right: env(safe-area-inset-right);
     padding-bottom: env(safe-area-inset-bottom);
   }
-} 
+}
