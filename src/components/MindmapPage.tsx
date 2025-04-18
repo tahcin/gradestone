@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '@/utils/animations';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import rehypeHighlight from 'rehype-highlight';
 import ChatBot from './ChatBot';
 
 interface MindmapPageProps {
@@ -44,7 +43,6 @@ export default function MindmapPage({ course, mindmap, moduleId, courseId, test 
           <div className="mindmap-content">
             <Markdown
               remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeHighlight]}
               components={{
                 h1: ({node, ...props}) => {
                   const id = props.children?.toString().toLowerCase().replace(/\s+/g, '-');
