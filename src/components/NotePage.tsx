@@ -6,7 +6,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/utils/animations';
 import Markdown from 'react-markdown';
-import rehypeHighlight from 'rehype-highlight';
 import remarkGfm from 'remark-gfm';
 import 'highlight.js/styles/atom-one-dark.css';
 
@@ -191,7 +190,6 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
             <div className="note-content">
               <Markdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeHighlight]}
                 components={{
                   h1: ({node, ...props}) => {
                     const id = props.children?.toString().toLowerCase().replace(/\s+/g, '-');
