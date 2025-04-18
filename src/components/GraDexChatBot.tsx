@@ -54,22 +54,23 @@ export default function GraDexChatBot() {
 
   return (
     <motion.div 
-      className="flex flex-col h-[calc(100vh-16rem)] w-full bg-white dark:bg-[#1f2937] rounded-xl shadow-xl overflow-hidden"
+      className="flex flex-col h-[calc(100vh-8rem)] sm:h-[calc(100vh-16rem)] w-full bg-white dark:bg-[#1f2937] rounded-xl shadow-xl overflow-hidden"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
     >
-      <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-500 to-indigo-600">
-        <h2 className="text-lg font-semibold text-white">Chat with GraDex</h2>
+      <div className="flex items-center justify-between p-3 sm:p-4 border-b border-gray-200 dark:border-gray-700 bg-gradient-to-r from-blue-500 to-indigo-600">
+        <h2 className="text-base sm:text-lg font-semibold text-white">Chat with GraDex</h2>
       </div>
-      <div className="flex-1 overflow-y-auto p-4 space-y-6 h-full bg-white dark:bg-[#1f2937]" ref={chatContainerRef}>
+      <div className="flex-1 overflow-y-auto p-3 sm:p-4 space-y-4 sm:space-y-6 h-full bg-white dark:bg-[#1f2937]" ref={chatContainerRef}>
         {messages.length === 0 ? (
           <div className="flex flex-col items-center justify-center h-full space-y-4">
-            <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
               </svg>
             </div>
-            <p className="text-lg text-gray-600 dark:text-gray-300 text-center">Ask me anything about your courses!</p>
+            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 text-center">Ask me anything about your courses!</p>
           </div>
         ) : (
           messages.map((message, index) => (
@@ -78,15 +79,16 @@ export default function GraDexChatBot() {
               className={`flex ${message.isUser ? 'justify-end' : 'justify-start'} items-end space-x-2`}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.2 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+              layout
             >
               {!message.isUser && (
-                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-white text-sm font-medium">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-white text-xs sm:text-sm font-medium">
                   AI
                 </div>
               )}
               <div 
-                className={`max-w-[80%] rounded-2xl p-4 ${message.isUser 
+                className={`max-w-[85%] rounded-2xl p-3 sm:p-4 ${message.isUser 
                   ? 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-br-none' 
                   : 'bg-blue-500 text-white rounded-bl-none'}`}
               >
@@ -139,8 +141,8 @@ export default function GraDexChatBot() {
           </div>
         )}
       </div>
-      <form onSubmit={handleSubmit} className="p-4 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-[#1f2937]">
-        <div className="flex gap-2">
+      <form onSubmit={handleSubmit} className="p-3 sm:p-4 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-[#1f2937]">
+        <div className="flex gap-2 items-center">
           <input
             type="text"
             value={inputMessage}
