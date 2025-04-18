@@ -7,12 +7,12 @@ import { ThemeProvider } from '../components/ThemeProvider';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata = {
-  title: 'AceLMS - Modern Learning Management System',
+  title: 'Gradestone - Modern Learning Management System',
   description: 'A sleek and modern LMS portal for online education',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'AceLMS'
+    title: 'Gradestone'
   }
 };
 

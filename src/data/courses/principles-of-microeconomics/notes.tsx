@@ -1,5 +1,5 @@
 // Notes data for the Principles of Microeconomics course
-export const principlesOfMicroeconomicsNotes = {
+export const principlesOfMicroeconomicsNotes: { [key: string]: { title: string; content: string } } = {
   // Module 1, Lesson 1
   '1-1': {
     title: 'Introduction to Microeconomics',

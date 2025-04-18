@@ -56,7 +56,7 @@ export default function AboutPage() {
             variants={slideUp}
             className="max-w-3xl mx-auto text-center"
           >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-lg">About AceLMS</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-lg">About Gradestone</h1>
             <p className="text-lg sm:text-xl mb-6 sm:mb-8 drop-shadow">
               Transforming education through technology and innovation
             </p>
@@ -71,6 +71,7 @@ export default function AboutPage() {
         variants={fadeIn}
         className="py-16 sm:py-24 bg-white dark:bg-gray-800"
       >
+        
         <div className="container-custom px-4 sm:px-6">
           <motion.div 
             variants={staggerContainer}
@@ -79,10 +80,10 @@ export default function AboutPage() {
             <motion.div variants={slideUp}>
               <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Our Story</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                AceLMS was founded in 2020 with a simple mission: to make high-quality education accessible to everyone, everywhere. What started as a small project has grown into a comprehensive learning platform serving thousands of students worldwide.
+                Gradestone was founded in 2020 with a simple mission: to make high-quality education accessible to everyone, everywhere. What started as a small project has grown into a comprehensive learning platform serving thousands of students worldwide.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                Our founder, a former educator, recognized the limitations of traditional educational methods and envisioned a platform that would break down barriers to learning. With this vision in mind, AceLMS was born.
+                Our founder, a former educator, recognized the limitations of traditional educational methods and envisioned a platform that would break down barriers to learning. With this vision in mind, Gradestone was born.
               </p>
               <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">
                 Today, we continue to innovate and expand our offerings, working closely with industry experts to create courses that are not only informative but also engaging and practical.
@@ -290,7 +291,7 @@ export default function AboutPage() {
         variants={fadeIn}
         className="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 text-white dark:from-indigo-800 dark:via-purple-800 dark:to-indigo-900 py-16 sm:py-24 overflow-hidden"
       >
-        <ParticleBackground className="opacity-30" />
+        <ParticleBackground className="opacity-50" />
         <motion.div 
           variants={slideUp}
           className="container-custom px-4 sm:px-6 text-center relative z-10"
@@ -308,4 +309,4 @@ export default function AboutPage() {
       </motion.section>
     </div>
   );
-} 
+}

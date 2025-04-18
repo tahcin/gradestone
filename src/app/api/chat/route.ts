@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     Try to keep it concise. 
     Have your previous responses in mind when answering a new question from the user as it might be related.
     If you are asked any word meanings, you can answer them.
-    If you are asked about anything non academic, Respond with "I am designed to answer questions related to the module content only. Padhle Bro :)"`;
+    If you are asked about anything non academic, Respond with "This chat is for questions related to this modules content only. If you are asking questions related to any other course or module, please do so in the relevant module chat or the assistant. If its something irrelevant, Padhle Bro :)"`;
 
     // Start a chat session
     const chat = model.startChat({

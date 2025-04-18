@@ -93,7 +93,7 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="flex items-center z-10 py-2">
-              <div className="text-xl sm:text-2xl font-bold text-primary dark:text-white">AceLMS</div>
+              <div className="text-xl sm:text-2xl font-bold text-primary dark:text-white">Gradestone</div>
             </Link>
           </motion.div>
 
@@ -117,6 +117,12 @@ const Navbar = () => {
                   className={isActive('/courses') ? activeLinkClass : inactiveLinkClass}
                 >
                 Courses
+              </Link>
+                <Link 
+                  href="/gradex" 
+                  className={isActive('/gradex') ? activeLinkClass : inactiveLinkClass}
+                >
+                GraDex
               </Link>
                 <Link 
                   href="/about" 
@@ -302,6 +308,15 @@ const Navbar = () => {
                   </motion.div>
                   <motion.div variants={slideInLeft}>
                     <Link
+                      href="/gradex"
+                    className={isActive('/gradex') ? activeMobileLinkClass : inactiveMobileLinkClass}
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      GraDex
+                    </Link>
+                  </motion.div>
+                  <motion.div variants={slideInLeft}>
+                    <Link
                       href="/about"
                     className={isActive('/about') ? activeMobileLinkClass : inactiveMobileLinkClass}
                       onClick={() => setIsMenuOpen(false)}
@@ -314,7 +329,7 @@ const Navbar = () => {
                 {/* Mobile footer menu */}
                 <div className="mt-auto border-t border-gray-200 dark:border-gray-700 py-4 px-4">
                   <div className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                    &copy; {new Date().getFullYear()} AceLMS
+                    &copy; {new Date().getFullYear()} Gradestone
                   </div>
                   
                   <div className="flex space-x-5">
@@ -346,4 +361,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar; 
+export default Navbar;

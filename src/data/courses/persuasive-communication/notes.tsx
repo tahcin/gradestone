@@ -1,5 +1,5 @@
 // Notes data for the Persuasive Communication course
-export const persuasiveCommunicationNotes = {
+export const persuasiveCommunicationNotes: { [key: string]: { title: string; content: string } } = {
   // Module 1, Lesson 1
   '1-1': {
     title: 'Fundamentals of Persuasion',

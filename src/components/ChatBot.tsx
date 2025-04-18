@@ -73,7 +73,7 @@ export default function ChatBot({ noteContent, iconColor }: ChatBotProps) {
             className="absolute bottom-16 right-0 w-96 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 overflow-hidden"
           >
             <div className="p-4 border-b border-gray-100 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-900">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">AceAI</h3>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">GraDex</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">Ask me anything about this module</p>
             </div>
 

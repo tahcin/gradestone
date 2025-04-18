@@ -1,96 +1,125 @@
 'use client';
 
-import React, { useCallback } from 'react';
-import Particles from 'react-tsparticles';
-import { loadSlim } from 'tsparticles-slim';
-import type { Engine } from 'tsparticles-engine';
+import React, { useEffect, useRef } from 'react';
+
+interface Particle {
+  x: number;
+  y: number;
+  radius: number;
+  vx: number;
+  vy: number;
+  opacity: number;
+  color: string;
+}
 
 interface ParticleBackgroundProps {
   className?: string;
 }
 
-const ParticleBackground: React.FC<ParticleBackgroundProps> = ({ className }) => {
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadSlim(engine);
+export default function ParticleBackground({ className = '' }: ParticleBackgroundProps) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    let animationFrameId: number;
+    let particles: Particle[] = [];
+
+    const resizeCanvas = () => {
+      const parent = canvas.parentElement;
+      if (!parent) return;
+
+      canvas.width = parent.offsetWidth;
+      canvas.height = parent.offsetHeight;
+    };
+
+    const createParticles = () => {
+      particles = [];
+      const numberOfParticles = Math.floor((canvas.width * canvas.height) / 8500); // Increased density by reducing divisor
+      const colors = ['#8b5cf6', '#6366f1', '#a855f7', '#c4b5fd'];
+      
+      for (let i = 0; i < numberOfParticles; i++) {
+        particles.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          radius: Math.random() * 4 + 1,
+          vx: (Math.random() - 0.5) * 0.5,
+          vy: (Math.random() - 0.5) * 0.5,
+          opacity: Math.random() * 0.3 + 0.4,
+          color: colors[Math.floor(Math.random() * colors.length)]
+        });
+      }
+    };
+
+    const drawParticles = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#ffffff';
+
+      particles.forEach((particle) => {
+        ctx.beginPath();
+        ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
+        ctx.globalAlpha = particle.opacity;
+        ctx.fillStyle = particle.color;
+        ctx.fill();
+
+        // Update position
+        particle.x += particle.vx;
+        particle.y += particle.vy;
+
+        // Bounce off edges
+        if (particle.x < 0 || particle.x > canvas.width) particle.vx *= -1;
+        if (particle.y < 0 || particle.y > canvas.height) particle.vy *= -1;
+      });
+
+      // Draw connections
+      particles.forEach((particle, i) => {
+        particles.slice(i + 1).forEach(otherParticle => {
+          const dx = particle.x - otherParticle.x;
+          const dy = particle.y - otherParticle.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < 190) { // Reduced connection range
+            ctx.beginPath();
+            ctx.strokeStyle = '#c4b5fd';
+            ctx.globalAlpha = (1 - distance / 190) * 0.4;
+            ctx.lineWidth = 1;
+            ctx.moveTo(particle.x, particle.y);
+            ctx.lineTo(otherParticle.x, otherParticle.y);
+            ctx.stroke();
+          }
+        });
+      });
+
+      animationFrameId = requestAnimationFrame(drawParticles);
+    };
+
+    // Initialize
+    resizeCanvas();
+    createParticles();
+    drawParticles();
+
+    // Handle resize
+    window.addEventListener('resize', () => {
+      resizeCanvas();
+      createParticles();
+    });
+
+    // Cleanup
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+      window.removeEventListener('resize', resizeCanvas);
+    };
   }, []);
 
   return (
-    <div className={`absolute inset-0 z-0 ${className}`}>
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={{
-          background: {
-            color: {
-              value: 'transparent',
-            },
-          },
-          fpsLimit: 60,
-          interactivity: {
-            events: {
-              onClick: {
-                enable: true,
-                mode: 'push',
-              },
-              onHover: {
-                enable: true,
-                mode: 'repulse',
-              },
-              resize: true,
-            },
-            modes: {
-              push: {
-                quantity: 4,
-              },
-              repulse: {
-                distance: 100,
-                duration: 0.4,
-              },
-            },
-          },
-          particles: {
-            color: {
-              value: ["#8b5cf6", "#6366f1", "#a855f7", "#c4b5fd"],
-            },
-            links: {
-              color: "#c4b5fd",
-              distance: 150,
-              enable: true,
-              opacity: 0.4,
-              width: 1,
-            },
-            move: {
-              direction: "none",
-              enable: true,
-              outModes: {
-                default: "bounce",
-              },
-              random: true,
-              speed: 1.5,
-              straight: false,
-            },
-            number: {
-              density: {
-                enable: true,
-                area: 1000,
-              },
-              value: 100,
-            },
-            opacity: {
-              value: 0.7,
-            },
-            shape: {
-              type: "circle",
-            },
-            size: {
-              value: { min: 1, max: 4 },
-            },
-          },
-          detectRetina: true,
-        }}
-      />
-    </div>
+    <canvas
+      ref={canvasRef}
+      className={`absolute inset-0 ${className}`}
+      style={{ pointerEvents: 'none' }}
+    />
   );
-};
-
-export default ParticleBackground; 
+}

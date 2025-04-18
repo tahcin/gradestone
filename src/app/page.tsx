@@ -6,6 +6,7 @@ import { fadeIn, slideUp, staggerContainer } from '../utils/animations';
 import { useEffect, useRef } from 'react';
 import ParticleBackground from '@/components/ParticleBackground';
 
+
 export default function Home() {
   // Animation controls for each section
   const heroControls = useAnimationControls();
@@ -72,7 +73,7 @@ export default function Home() {
                 Transform Your Learning Experience
               </h1>
               <p className="text-base md:text-lg mb-6 md:mb-8 max-w-xl mx-0 text-gray-100 dark:text-gray-200 drop-shadow">
-                AceLMS provides a modern learning platform with interactive courses,
+                Gradestone provides a modern learning platform with interactive courses,
                 quizzes, and personalized learning paths to help you achieve your goals.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-start">
@@ -118,15 +119,17 @@ export default function Home() {
       </motion.section>
 
       {/* Features Section */}
+      
       <motion.section 
         initial="hidden"
         animate={featuresControls}
         variants={fadeIn}
         className="section-padding bg-white dark:bg-gray-800"
       >
+        
         <div className="container-custom">
           <motion.div variants={slideUp} className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">Why Choose AceLMS?</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">Why Choose Gradestone?</h2>
             <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Our platform is designed to provide the best learning experience
               with a focus on engagement and results.
@@ -383,7 +386,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300 text-sm relative z-10">
-                "The courses on AceLMS are incredibly well-structured and easy to follow.
+                "The courses on Gradestone are incredibly well-structured and easy to follow.
                 I went from knowing nothing about web development to building my own websites in just a few months."
               </p>
               <div className="absolute -bottom-2 right-3 text-indigo-500 dark:text-indigo-400 text-4xl rotate-180">"</div>
@@ -419,13 +422,14 @@ export default function Home() {
         initial="hidden"
         animate={ctaControls}
         variants={fadeIn}
-        className="section-padding bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 text-white dark:from-indigo-800 dark:via-purple-800 dark:to-indigo-900"
+        className="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 text-white dark:from-indigo-800 dark:via-purple-800 dark:to-indigo-900 py-16 sm:py-24 overflow-hidden"
       >
+        <ParticleBackground className="opacity-50" />
         <motion.div variants={slideUp} className="container-custom text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Start Learning?</h2>
             <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 text-gray-100">
-              Join thousands of students already learning on AceLMS. Get access to our full library of courses.
+              Join thousands of students already learning on Gradestone. Get access to our full library of courses.
             </p>
             <Link 
               href="/courses" 

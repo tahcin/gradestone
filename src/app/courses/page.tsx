@@ -6,6 +6,8 @@ import { fadeIn, slideUp, staggerContainer } from '../../utils/animations';
 import { useEffect, useState } from 'react';
 import { courses, getCourseById } from '@/data/courses/index';
 import { getInitialsExcludingCommonWords } from '@/utils/textUtils';
+import ParticleBackground from '@/components/ParticleBackground';
+
 
 // Get unique terms for filtering
 const terms = Array.from(new Set(courses.map(course => course.term)));
@@ -68,6 +70,7 @@ export default function CoursesPage() {
         <div className="absolute bottom-1/3 right-1/4 w-40 h-40 rounded-full bg-purple-500/10 blur-xl"></div>
         <div className="absolute top-1/2 right-1/3 w-24 h-24 rounded-lg bg-indigo-500/10 blur-xl rotate-12"></div>
         
+        <ParticleBackground className="opacity-50" />
         <motion.div 
           variants={slideUp}
           className="container-custom text-center relative z-10"

@@ -22,7 +22,7 @@ const Footer = () => {
           className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
         >
           <motion.div variants={slideUp} className="col-span-2 sm:col-span-2 lg:col-span-1">
-            <h3 className="text-xl font-bold mb-3 sm:mb-4">AceLMS</h3>
+            <h3 className="text-xl font-bold mb-3 sm:mb-4">Gradestone</h3>
             <p className="text-gray-300 text-sm sm:text-base mb-6 sm:mb-0">
               Empowering education through technology. Join our platform and elevate your learning journey.
             </p>
@@ -130,7 +130,7 @@ const Footer = () => {
           className="border-t border-gray-700 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center"
         >
           <p className="text-gray-400 text-sm text-center sm:text-left mb-4 sm:mb-0">
-            &copy; {new Date().getFullYear()} AceLMS. All rights reserved.
+            &copy; {new Date().getFullYear()} Gradestone. All rights reserved.
           </p>
           <div className="flex space-x-4 text-sm text-gray-400">
             <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
@@ -143,4 +143,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;

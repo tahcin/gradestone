@@ -103,34 +103,22 @@ export default function CourseDetailPage({ course, courseBasic, courseId }: Cour
                         className="px-6 py-4 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800"
                       >
                         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-                          {module.lessons.map((lesson: any) => (
+                          {/* Notes Section */}
+                          {module.lessons.filter((lesson: any) => lesson.type === 'note').map((lesson: any) => (
                             <li key={lesson.id} className="py-4">
                               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                                 <div className="flex items-start">
-                                  <div className={`rounded-md p-2 ${lesson.type === 'note' ? 'bg-cyan-100 dark:bg-cyan-900/30' : 'bg-indigo-100 dark:bg-indigo-900/30'} mr-4 flex-shrink-0`} aria-hidden="true">
-                                    {lesson.type === 'note' ? (
+                                  <div className="rounded-md p-2 bg-cyan-100 dark:bg-cyan-900/30 mr-4 flex-shrink-0" aria-hidden="true">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
-                                        className={`h-6 w-6 ${course.iconColor}`}
+                                      className={`h-6 w-6 ${course.iconColor}`}
                                       viewBox="0 0 20 20"
                                       fill="currentColor"
-                                        aria-hidden="true"
+                                      aria-hidden="true"
                                     >
-                                        <path d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z" />
-                                        <path d="M3 8a2 2 0 012-2h2a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
+                                      <path d="M9 2a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V6.414A2 2 0 0016.414 5L14 2.586A2 2 0 0012.586 2H9z" />
+                                      <path d="M3 8a2 2 0 012-2h2a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z" />
                                     </svg>
-                                  ) : (
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                        className={`h-6 w-6 ${course.iconColor}`}
-                                      viewBox="0 0 20 20"
-                                      fill="currentColor"
-                                        aria-hidden="true"
-                                    >
-                                      <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                                        <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
-                                    </svg>
-                                  )}
                                   </div>
                                   <div className="min-w-0 flex-1">
                                     <h4 className="font-semibold text-base truncate">{lesson.title}</h4>
@@ -138,32 +126,95 @@ export default function CourseDetailPage({ course, courseBasic, courseId }: Cour
                                   </div>
                                 </div>
                                 <div className="flex items-center ml-auto">
-                                  {lesson.type === 'test' && (
-                                    <div className="flex items-center mr-4">
-                                      <span className="text-sm font-medium text-gray-600 dark:text-gray-400 mr-2">{lesson.questions} Questions</span>
-                                      <div className="h-2 w-2 rounded-full bg-gray-400 dark:bg-gray-600" aria-hidden="true"></div>
-                                    </div>
-                                  )}
                                   <Link 
-                                    href={`/courses/${courseId}/modules/${module.id}/${lesson.type}s/${lesson.id}`}
+                                    href={`/courses/${courseId}/modules/${module.id}/notes/${lesson.id}`}
                                     className={`${course.accentColor} ${course.accentHoverColor} text-white px-4 py-2 rounded-md font-medium transition-colors flex items-center justify-center w-40 space-x-2`}
-                                    aria-label={`${lesson.type === 'note' ? 'View notes' : 'Take test'} for ${lesson.title}`}
+                                    aria-label={`View notes for ${lesson.title}`}
                                   >
-                                    {lesson.type === 'note' ? (
-                                      <>
-                                        <span>View Notes</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                          <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
-                                        </svg>
-                                      </>
-                                    ) : (
-                                      <>
-                                        <span>Take Test</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                                        </svg>
-                                      </>
-                                    )}
+                                    <span>View Notes</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                      <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
+                                    </svg>
+                                  </Link>
+                                </div>
+                              </div>
+                            </li>
+                          ))}
+
+                          {/* Mindmap Section */}
+                          {module.lessons.filter((lesson: any) => lesson.type === 'mindmap').map((lesson: any) => (
+                            <li key={lesson.id} className="py-4">
+                              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                <div className="flex items-start">
+                                  <div className="rounded-md p-2 bg-emerald-100 dark:bg-emerald-900/30 mr-4 flex-shrink-0" aria-hidden="true">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      className={`h-6 w-6 ${course.iconColor}`}
+                                      viewBox="0 0 20 20"
+                                      fill="currentColor"
+                                      aria-hidden="true"
+                                    >
+                                      <path d="M9 9a2 2 0 114 0 2 2 0 01-4 0z" />
+                                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a4 4 0 00-3.446 6.032l-2.261 2.26a1 1 0 101.414 1.415l2.261-2.261A4 4 0 1011 5z" clipRule="evenodd" />
+                                    </svg>
+                                  </div>
+                                  <div className="min-w-0 flex-1">
+                                    <h4 className="font-semibold text-base truncate">{lesson.title}</h4>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 line-clamp-2">{lesson.description}</p>
+                                  </div>
+                                </div>
+                                <div className="flex items-center ml-auto">
+                                  <Link 
+                                    href={`/courses/${courseId}/modules/${module.id}/mindmaps/${lesson.id}`}
+                                    className={`${course.accentColor} ${course.accentHoverColor} text-white px-4 py-2 rounded-md font-medium transition-colors flex items-center justify-center w-40 space-x-2`}
+                                    aria-label={`View mindmap for ${lesson.title}`}
+                                  >
+                                    <span>View Mindmap</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                      <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd" />
+                                    </svg>
+                                  </Link>
+                                </div>
+                              </div>
+                            </li>
+                          ))}
+
+                          {/* Test Section */}
+                          {module.lessons.filter((lesson: any) => lesson.type === 'test').map((lesson: any) => (
+                            <li key={lesson.id} className="py-4">
+                              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                                <div className="flex items-start">
+                                  <div className="rounded-md p-2 bg-indigo-100 dark:bg-indigo-900/30 mr-4 flex-shrink-0" aria-hidden="true">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      className={`h-6 w-6 ${course.iconColor}`}
+                                      viewBox="0 0 20 20"
+                                      fill="currentColor"
+                                      aria-hidden="true"
+                                    >
+                                      <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+                                      <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
+                                    </svg>
+                                  </div>
+                                  <div className="min-w-0 flex-1">
+                                    <h4 className="font-semibold text-base truncate">{lesson.title}</h4>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 line-clamp-2">{lesson.description}</p>
+                                  </div>
+                                </div>
+                                <div className="flex items-center ml-auto">
+                                  <div className="flex items-center mr-4">
+                                    <span className="text-sm font-medium text-gray-600 dark:text-gray-400 mr-2">{lesson.questions} Questions</span>
+                                    <div className="h-2 w-2 rounded-full bg-gray-400 dark:bg-gray-600" aria-hidden="true"></div>
+                                  </div>
+                                  <Link 
+                                    href={`/courses/${courseId}/modules/${module.id}/tests/${lesson.id}`}
+                                    className={`${course.accentColor} ${course.accentHoverColor} text-white px-4 py-2 rounded-md font-medium transition-colors flex items-center justify-center w-40 space-x-2`}
+                                    aria-label={`Take test for ${lesson.title}`}
+                                  >
+                                    <span>Take Test</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                                    </svg>
                                   </Link>
                                 </div>
                               </div>
@@ -181,4 +232,4 @@ export default function CourseDetailPage({ course, courseBasic, courseId }: Cour
       </div>
     </div>
   );
-} 
+}

@@ -39,12 +39,15 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach(entry => {
-            if (entry.isIntersecting && entry.target.id) {
+            if (entry.isIntersecting) {
               setActiveHeading(entry.target.id);
             }
           });
         },
-        { rootMargin: '-100px 0px -80% 0px' }
+        { 
+          rootMargin: '-20% 0px -60% 0px',
+          threshold: [0, 0.25, 0.5, 0.75, 1]
+        }
       );
       
       headings.forEach(heading => observer.observe(heading));
@@ -65,8 +68,38 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
           variants={fadeIn}
           className={`bg-gradient-to-r ${course.modules[moduleId - 1]?.gradientFrom || course.gradientFrom} ${course.modules[moduleId - 1]?.gradientTo || course.gradientTo} ${course.modules[moduleId - 1]?.darkGradientFrom || course.darkGradientFrom} ${course.modules[moduleId - 1]?.darkGradientTo || course.darkGradientTo} text-white p-6 md:p-8 rounded-xl mb-6 md:mb-8 shadow-lg`}
         >
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">{note.title}</h1>
-          <p className="text-base md:text-lg mt-2 text-white/80">Module {moduleId}</p>
+          <div className="text-base md:text-lg mb-2 text-white/90 font-medium">{course.title}</div>
+          {/* Use flex-col on small screens, flex-row on sm and up */}
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
+            {/* Add margin-bottom on small screens */}
+            <div className="mb-4 sm:mb-0">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight">{note.title}</h1>
+              <p className="text-base md:text-lg mt-2 text-white/80">Module {moduleId}</p>
+            </div>
+            <Link 
+              href={`/courses/${courseId}/modules/${moduleId}/mindmaps/3`}
+              className="w-full sm:w-auto inline-flex items-center justify-center sm:justify-start gap-2 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-md font-medium transition-colors"
+            >
+              View Mindmap
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 128 128" fill="currentColor" xmlSpace="preserve">
+                <path d="M62 0h4v7.66h-4zM52.167 1.294l1.983 7.398-3.864 1.036-1.983-7.399zM39.139 6.126l3.828 6.633-3.464 2-3.829-6.633zM27.808 14.162l5.416 5.418-2.829 2.828-5.416-5.418zM18.937 24.86l6.633 3.83-2 3.463-6.633-3.83zM13.144 37.485l7.399 1.982-1.035 3.864-7.399-1.981zM10.813 51.185h7.659v4h-7.659zM109.527 51.189h7.66v4h-7.66zM114.86 37.488l1.036 3.865-7.395 1.981-1.035-3.865zM109.06 24.862l2 3.464-6.633 3.829-2-3.464zM100.197 14.17l2.83 2.828-5.414 5.418-2.83-2.828zM88.864 6.124l3.464 1.999-3.826 6.633-3.465-1.998zM75.835 1.299l3.863 1.034-1.98 7.398-3.863-1.034z"/>
+                <g>
+                  <path d="M83.13 108.244H44.123l-1.996-1.866c-.221-3.283-.915-7.772-2.968-10.509C23.88 76.207 23.452 57.417 23.452 57.233h4c0 .17.405 17.574 14.887 36.208 2.25 3 3.213 7.25 3.613 10.803h35.36c.419-3.551 1.401-7.8 3.643-10.778 14.507-18.682 14.912-36.063 14.912-36.233h4c0 .184-.428 18.951-15.734 38.663-2.046 2.718-2.767 7.21-3.007 10.495l-1.996 1.853z"/>
+                  <path d="M38.817 104.695h49.685v4H38.817zM38.817 114.348h49.685v4H38.817zM46.436 124h34.447v4H46.436z"/>
+                  <path d="M42.582 107.209h4v9.164h-4zM53.562 39.61h-4a4.735 4.735 0 0 0-4.729-4.729h-6.549v-4h6.549c4.813 0 8.729 3.916 8.729 8.729z"/>
+                  <path d="M61.703 105.549h-4V32.632c0-4.463-3.631-8.095-8.093-8.095-4.464 0-8.096 3.631-8.096 8.095h-4c0-6.669 5.426-12.095 12.096-12.095 6.668 0 12.093 5.426 12.093 12.095v72.917z"/>
+                  <path d="M38.284 48.365c-4.814 0-8.73-3.916-8.73-8.728 0-4.814 3.916-8.731 8.73-8.731h1.409v4h-1.409a4.736 4.736 0 0 0-4.73 4.731 4.734 4.734 0 0 0 4.73 4.728v4z"/>
+                  <path d="M27.369 53.822h-4c0-5.315 4.323-9.639 9.638-9.639h3.276v4h-3.276a5.644 5.644 0 0 0-5.638 5.639zM49.453 48.032H46.61a5.281 5.281 0 0 1-5.274-5.276v-3.021h4v3.021c0 .704.571 1.276 1.274 1.276h2.843v4zM77.757 39.608h-4c0-4.812 3.916-8.727 8.729-8.727h6.548v4h-6.548a4.733 4.733 0 0 0-4.729 4.727z"/>
+                  <path d="M69.613 105.547h-4V32.632c0-6.669 5.426-12.095 12.095-12.095 6.67 0 12.097 5.426 12.097 12.095h-4c0-4.463-3.632-8.095-8.097-8.095-4.464 0-8.095 3.631-8.095 8.095v72.915z"/>
+                  <path d="M89.034 48.365v-4a4.736 4.736 0 0 0 4.731-4.729 4.736 4.736 0 0 0-4.731-4.729h-1.409v-4h1.409c4.814 0 8.731 3.916 8.731 8.729.001 4.813-3.916 8.729-8.731 8.729z"/>
+                  <path d="M103.95 53.82h-4a5.645 5.645 0 0 0-5.64-5.637h-3.274v-4h3.274c5.316 0 9.64 4.323 9.64 9.637z"/>
+                  <g><path d="M80.709 48.032h-2.843v-4h2.843c.702 0 1.273-.573 1.273-1.276v-3.021h4v3.021a5.28 5.28 0 0 1-5.273 5.276z"/></g>
+                  <g><path d="M24.815 57.735h33.924v4H24.815z"/></g>
+                  <g><path d="M70.047 57.735h33.139v4H70.047z"/></g>
+                </g>
+              </svg>
+            </Link>
+          </div>
         </motion.div>
         
         {/* Note Content with TOC */}
