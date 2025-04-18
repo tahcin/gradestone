@@ -98,11 +98,8 @@ export default function GraDexPage() {
               </div>
             </motion.div>
             
-            <motion.div variants={slideUp} className="lg:col-span-3 bg-gray-50 dark:bg-gray-700 rounded-xl shadow-lg overflow-hidden">
-              <div className="p-6">
-                
-                <GraDexChatBot />
-              </div>
+            <motion.div variants={slideUp} className="lg:col-span-3">
+              <GraDexChatBot />
             </motion.div>
           </motion.div>
         </div>

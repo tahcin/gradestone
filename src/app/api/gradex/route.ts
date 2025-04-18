@@ -120,7 +120,7 @@ export async function POST(request: Request) {
     const response = await result.response;
     let text = response.text();
 
-    // Post-process to ensure references are in a separate section with spacing
+    // Post-process to handle references section
     if (typeof text === 'string') {
       // Try to split at 'References:' (case-insensitive, with/without colon)
       const refMatch = text.match(/\n?\s*References?:/i);
@@ -130,8 +130,8 @@ export async function POST(request: Request) {
         const refs = text.slice(idx).replace(/^\n+/, '').trim();
         text = `${main}\n\n---\n\n${refs}`;
       } else {
-        // If no references section, just add extra spacing at the end
-        text = `${text.trim()}\n\n---\n\nReferences: (none provided)`;
+        // If no references section, just trim the text
+        text = text.trim();
       }
     }
 
