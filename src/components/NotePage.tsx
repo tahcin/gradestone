@@ -467,7 +467,7 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
             className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 relative transition-all duration-150 ease-out"
             style={{ width: `${scrollProgress}%` }}
           >
-            <div className="absolute right-0 bottom-4 bg-purple-500 text-white text-xs px-2 py-1 rounded transform -translate-x-3/3 opacity-40">
+            <div className="absolute right-0 bottom-4 bg-purple-500 text-white text-xs px-2 py-1 rounded transform -translate-x-3/3 opacity-60">
               {Math.round(scrollProgress)}%
             </div>
           </div>

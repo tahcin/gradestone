@@ -7,6 +7,14 @@
   html {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent; /* Remove tap highlight on mobile */
+    -webkit-overflow-scrolling: touch; /* Enable momentum scrolling on iOS */
+  }
+
+  /* Fix for iOS same-page linking */
+  @supports (-webkit-touch-callout: none) {
+    :target {
+      scroll-margin-top: 80px;
+    }
   }
 
   /* Prevent zoom on input focus for iOS */
@@ -270,6 +278,12 @@ body {
   img {
     max-width: 100%;
     height: auto;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
   }
   
   /* Better scroll experience on mobile */
@@ -287,8 +301,11 @@ body {
     /* Add scroll margin for headings to prevent navbar overlap */
     h1, h2, h3, h4, h5, h6,
     [id] {
-      scroll-margin-top: 5rem;
-      scroll-padding-top: 5rem;
+      scroll-margin-top: 80px;
+      scroll-padding-top: 80px;
+      /* Additional iOS-specific adjustments */
+      -webkit-scroll-margin-top: 80px;
+      -webkit-scroll-padding-top: 80px;
     }
   }
   
