@@ -43,9 +43,12 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
       const elementPosition = elementRect - bodyRect;
       const offsetPosition = elementPosition - offset;
 
+      // Detect iOS (basic detection, consider a more robust library if needed)
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
+
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: isIOS ? 'auto' : 'smooth' // Use 'auto' (instant) for iOS
       });
 
       
