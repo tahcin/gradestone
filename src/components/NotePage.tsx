@@ -359,11 +359,11 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                 rehypePlugins={[rehypeKatex]} // Add rehypeKatex here
                 components={{
                   h1: ({node, ...props}) => {
-                    const id = props.children?.toString().toLowerCase().replace(/\s+/g, '-');
+                    const id = (props.children?.toString() || '').toLowerCase().replace(/\s+/g, '-');
                     return <h1 id={id} className="text-2xl sm:text-3xl font-bold mt-10 mb-6 pb-2 border-b border-gray-200 dark:border-gray-700" {...props} />;
                   },
                   h2: ({node, ...props}) => {
-                    const id = props.children?.toString().toLowerCase().replace(/\s+/g, '-');
+                    const id = (props.children?.toString() || '').toLowerCase().replace(/\s+/g, '-');
                     return (
                       <h2 id={id} className="group flex items-center text-xl sm:text-2xl font-bold mt-8 mb-4" {...props}>
                         <a
@@ -382,7 +382,7 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                     );
                   },
                   h3: ({node, ...props}) => {
-                    const id = props.children?.toString().toLowerCase().replace(/\s+/g, '-');
+                    const id = (props.children?.toString() || '').toLowerCase().replace(/\s+/g, '-');
                     return <h3 id={id} className="text-lg sm:text-xl font-semibold mt-6 mb-3" {...props} />;
                   },
                   p: ({node, ...props}) => <p className="mb-4 leading-relaxed text-gray-800 dark:text-gray-200" {...props} />,
