@@ -32,6 +32,31 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
   const noteContentRef = useRef<HTMLDivElement>(null);
   const progressBarRef = useRef<HTMLDivElement>(null);
 
+  // Function to handle smooth scrolling for TOC links
+  const handleTocClick = (event: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    event.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      const offset = 80; // 5rem = 80px, adjust if needed based on sticky header height
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+
+      // Optionally close mobile TOC if open
+      const detailsElement = event.currentTarget.closest('details');
+      if (detailsElement && detailsElement.open && window.innerWidth < 1024) {
+        detailsElement.open = false;
+        setTocOpen(false);
+      }
+    }
+  };
+
   // Effect for scroll progress calculation with requestAnimationFrame for smoother updates
   useEffect(() => {
     let rafId: number;
@@ -261,9 +286,10 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                   <ul className="space-y-2.5">
                     {tableOfContents.map((item) => (
                       <li key={item.id} style={{ paddingLeft: `${(item.level - 1) * 0.75}rem` }}>
-                        <a 
-                          href={`#${item.id}`}
-                          className={`block text-sm py-1 transition-colors rounded px-2 ${
+                        <a
+                          href={`#${item.id}`} // Keep href for semantics/fallback
+                          onClick={(e) => handleTocClick(e, item.id)}
+                          className={`block text-sm py-1 transition-colors rounded px-2 cursor-pointer ${
                             activeHeading === item.id
                               ? `bg-${course.iconColor}/10 text-${course.iconColor} font-medium`
                               : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/30'
@@ -307,9 +333,10 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                     <ul className="space-y-2 border-l-2 border-gray-200 dark:border-gray-700">
                       {tableOfContents.map((item) => (
                         <li key={item.id} style={{ marginLeft: `${(item.level - 1) * 0.75}rem` }}>
-                          <a 
-                            href={`#${item.id}`}
-                            className={`block text-sm py-1 pl-3 border-l-2 -ml-0.5 transition-colors ${
+                          <a
+                            href={`#${item.id}`} // Keep href for semantics/fallback
+                            onClick={(e) => handleTocClick(e, item.id)}
+                            className={`block text-sm py-1 pl-3 border-l-2 -ml-0.5 transition-colors cursor-pointer ${
                               activeHeading === item.id
                                 ? `border-${course.iconColor} text-${course.iconColor} font-medium`
                                 : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
@@ -339,7 +366,11 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                     const id = props.children?.toString().toLowerCase().replace(/\s+/g, '-');
                     return (
                       <h2 id={id} className="group flex items-center text-xl sm:text-2xl font-bold mt-8 mb-4" {...props}>
-                        <a href={`#${id}`} className="invisible group-hover:visible absolute -ml-6 pr-2">
+                        <a
+                          href={`#${id}`} // Keep href for semantics/fallback
+                          onClick={(e) => handleTocClick(e, id)}
+                          className="invisible group-hover:visible absolute -ml-6 pr-2 cursor-pointer"
+                        >
                           <span className={`text-${course.iconColor} opacity-70 hover:opacity-100 transition`}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                               <path fillRule="evenodd" d="M9.243 3.03a1 1 0 01.727 1.213L9.53 6h2.94l.56-2.243a1 1 0 111.94.486L14.53 6H17a1 1 0 110 2h-2.97l-1 4H15a1 1 0 110 2h-2.47l-.56 2.242a1 1 0 11-1.94-.485L10.47 14H7.53l-.56 2.242a1 1 0 11-1.94-.485L5.47 14H3a1 1 0 110-2h2.97l1-4H5a1 1 0 110-2h2.47l.56-2.243a1 1 0 011.213-.727zM9.03 8l-1 4h2.938l1-4H9.031z" clipRule="evenodd" />
@@ -393,8 +424,7 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                       <img 
                         {...props} 
                         className="w-full h-auto object-cover" 
-                        alt={props.alt || 'Course image'} 
-                        loading="lazy"
+                        alt={props.alt || 'Course image'}
                       />
                       {props.alt && (
                         <div className="bg-white dark:bg-gray-800 p-3 border-t border-gray-100 dark:border-gray-700">
