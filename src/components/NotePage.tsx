@@ -265,6 +265,47 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
         
         {/* Note Content with TOC */}
         <div className="lg:flex lg:gap-8">
+          {/* Table of Contents (Mobile - Separate Section) */}
+          {tableOfContents.length > 0 && (
+            <div className="lg:hidden mb-6">
+              <div className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg p-4 border border-gray-200 dark:border-gray-700">
+                <details className="group" onToggle={(e) => setTocOpen((e.target as HTMLDetailsElement).open)}>
+                  <summary className="list-none flex justify-between items-center cursor-pointer">
+                    <h3 className="text-base font-medium flex items-center text-gray-900 dark:text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-gray-500 dark:text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
+                      </svg>
+                      Contents
+                    </h3>
+                    <span className="transition group-open:rotate-180">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <nav className="mt-4 pl-1 max-h-[50vh] overflow-y-auto">
+                    <ul className="space-y-2 border-l-2 border-gray-200 dark:border-gray-700">
+                      {tableOfContents.map((item) => (
+                        <li key={item.id} style={{ marginLeft: `${(item.level - 1) * 0.75}rem` }}>
+                          <a
+                            href={`#${item.id}`}
+                            onClick={(e) => handleTocClick(e, item.id)}
+                            className={`block text-sm py-1 pl-3 border-l-2 -ml-0.5 transition-colors cursor-pointer ${
+                              activeHeading === item.id
+                                ? `border-${course.iconColor} text-${course.iconColor} font-medium`
+                                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
+                            }`}
+                          >
+                            {item.text}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </nav>
+                </details>
+              </div>
+            </div>
+          )}
           {/* Table of Contents (Desktop) */}
           {tableOfContents.length > 0 && (
             <motion.div 
@@ -285,7 +326,7 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
                     {tableOfContents.map((item) => (
                       <li key={item.id} style={{ paddingLeft: `${(item.level - 1) * 0.75}rem` }}>
                         <a
-                          href={`#${item.id}`} // Keep href for semantics/fallback
+                          href={`#${item.id}`}
                           onClick={(e) => handleTocClick(e, item.id)}
                           className={`block text-sm py-1 transition-colors rounded px-2 cursor-pointer ${
                             activeHeading === item.id
@@ -302,7 +343,6 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
               </div>
             </motion.div>
           )}
-          
           {/* Main Content */}
           <motion.div 
             initial="hidden"
@@ -310,46 +350,6 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
             variants={fadeIn}
             className={`card prose prose-lg dark:prose-invert ${tableOfContents.length > 0 ? 'lg:w-3/4' : 'w-full'} max-w-none prose-headings:scroll-mt-20 bg-white dark:bg-gray-800 rounded-xl shadow-sm p-5 sm:p-6 md:p-8 border border-gray-100 dark:border-gray-700`}
           >
-            {/* Mobile Table of Contents */}
-            {tableOfContents.length > 0 && (
-              <div className={`lg:hidden bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg p-4 mb-6 border border-gray-200 dark:border-gray-700 ${tocOpen ? 'sticky top-20 z-30 shadow-md' : ''}`}>
-                <details className="group" onToggle={(e) => setTocOpen((e.target as HTMLDetailsElement).open)}>
-                  <summary className="list-none flex justify-between items-center cursor-pointer">
-                    <h3 className="text-base font-medium flex items-center text-gray-900 dark:text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-gray-500 dark:text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
-                      </svg>
-                      Contents
-                    </h3>
-                    <span className="transition group-open:rotate-180">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                      </svg>
-                    </span>
-                  </summary>
-                  <nav className="mt-4 pl-1 max-h-[50vh] overflow-y-auto">
-                    <ul className="space-y-2 border-l-2 border-gray-200 dark:border-gray-700">
-                      {tableOfContents.map((item) => (
-                        <li key={item.id} style={{ marginLeft: `${(item.level - 1) * 0.75}rem` }}>
-                          <a
-                            href={`#${item.id}`} // Keep href for semantics/fallback
-                            onClick={(e) => handleTocClick(e, item.id)}
-                            className={`block text-sm py-1 pl-3 border-l-2 -ml-0.5 transition-colors cursor-pointer ${
-                              activeHeading === item.id
-                                ? `border-${course.iconColor} text-${course.iconColor} font-medium`
-                                : 'border-transparent text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-600'
-                            }`}
-                          >
-                            {item.text}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </nav>
-                </details>
-              </div>
-            )}
-            
             {/* Markdown Content with Enhanced Styling */}
             <div className="note-content">
               <Markdown
