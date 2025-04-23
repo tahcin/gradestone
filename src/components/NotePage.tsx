@@ -37,43 +37,18 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
     event.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      // Close mobile TOC immediately if open
-      const detailsElement = event.currentTarget.closest('details');
-      if (detailsElement && detailsElement.open && window.innerWidth < 1024) {
-        detailsElement.open = false;
-        setTocOpen(false);
-      }
+      const offset = 80; // 5rem = 80px, adjust if needed based on sticky header height
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
 
-      // Use setTimeout to allow layout to settle, especially on mobile
-      setTimeout(() => {
-        // Recalculate navbar height just before scrolling
-        const navbarElement = document.getElementById('main-navbar');
-        const navbarHeight = navbarElement ? navbarElement.offsetHeight : 0;
-        const buffer = 10; // Add a small buffer for spacing
-        const offset = navbarHeight + buffer;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
 
-        const elementRect = element.getBoundingClientRect();
-        const absoluteElementTop = elementRect.top + window.scrollY;
-        const offsetPosition = absoluteElementTop - offset;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-
-        // Fallback/Alternative using scrollIntoView if scrollTo is still problematic
-        // element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        // Consider adjusting scroll position manually after scrollIntoView if needed
-        // const checkScroll = () => {
-        //   const currentScroll = window.scrollY;
-        //   const targetScroll = offsetPosition;
-        //   if (Math.abs(currentScroll - targetScroll) > 5) { // If not close enough
-        //      window.scrollTo({ top: targetScroll, behavior: 'auto' }); // Force scroll
-        //   }
-        // }
-        // setTimeout(checkScroll, 300); // Check after smooth scroll attempt
-
-      }, 50); // 50ms delay
+      
     }
   };
 

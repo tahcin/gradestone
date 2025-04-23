@@ -77,7 +77,6 @@ const Navbar = () => {
   return (
     <>
     <motion.nav
-        id="main-navbar" // Added ID here
         initial="visible"
       animate="visible"
       variants={fadeIn}
