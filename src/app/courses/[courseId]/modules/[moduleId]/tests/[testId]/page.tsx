@@ -4,6 +4,10 @@ import { getCourseDetailsById } from '@/data/courses/courseDetails';
 import { getTest as getIKSTest } from '@/data/courses/indian-knowledge-system/tests';
 import { getTest as getPCTest } from '@/data/courses/persuasive-communication/tests';
 import { getTest as getMicroeconomicsTest } from '@/data/courses/principles-of-microeconomics/tests';
+import { getTest as getbseTest } from '@/data/courses/bse/tests';
+import { getTest as getasbTest } from '@/data/courses/asb/tests';
+
+
 
 // Import the client component directly
 import TestPage from '@/components/TestPage';
@@ -41,6 +45,14 @@ export default function TestServerPage({ params }: {
     case 'principles-of-microeconomics':
       testData = getMicroeconomicsTest(moduleId, testId);
       break;
+    case 'bse':
+      testData = getbseTest(moduleId, testId);
+      break;
+    case 'asb':
+      testData = getasbTest(moduleId, testId);
+      break;
+
+    
     default:
       testData = null;
   }

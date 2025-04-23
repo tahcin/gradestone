@@ -1,13 +1,17 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import ChatBot from './ChatBot';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { fadeIn } from '@/utils/animations';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math'; // Add this import
+import rehypeKatex from 'rehype-katex'; // Add this import
+
 import 'highlight.js/styles/atom-one-dark.css';
+import 'katex/dist/katex.min.css'; // Add this import
 
 interface NotePageProps {
   course: any;
@@ -22,7 +26,59 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
   const [tableOfContents, setTableOfContents] = useState<{id: string, text: string, level: number}[]>([]);
   const [activeHeading, setActiveHeading] = useState('');
   const [tocOpen, setTocOpen] = useState(false);
-  
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const [isFooterVisible, setIsFooterVisible] = useState(false);
+  const [footerHeight, setFooterHeight] = useState(0);
+  const noteContentRef = useRef<HTMLDivElement>(null);
+  const progressBarRef = useRef<HTMLDivElement>(null);
+
+  // Effect for scroll progress calculation with requestAnimationFrame for smoother updates
+  useEffect(() => {
+    let rafId: number;
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      if (rafId) {
+        return;
+      }
+
+      rafId = requestAnimationFrame(() => {
+        const scrollTop = window.scrollY;
+        const footer = document.getElementById('page-footer');
+        if (!footer) return;
+
+        const footerTop = footer.getBoundingClientRect().top + window.scrollY;
+        const winHeight = window.innerHeight;
+        const scrollableHeight = footerTop - winHeight;
+
+        if (scrollableHeight <= 0) {
+          setScrollProgress(0);
+          rafId = 0;
+          return;
+        }
+
+        // Smooth out progress calculation with interpolation
+        const targetProgress = (scrollTop / scrollableHeight) * 100;
+        const currentProgress = (lastScrollY / scrollableHeight) * 100;
+        const smoothProgress = currentProgress + (targetProgress - currentProgress) * 0.3;
+
+        setScrollProgress(Math.min(100, Math.max(0, smoothProgress)));
+        lastScrollY = scrollTop;
+        rafId = 0;
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // Initial calculation
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (rafId) {
+        cancelAnimationFrame(rafId);
+      }
+    };
+  }, []);
+
   // Extract headings for TOC
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -56,6 +112,89 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
       };
     }
   }, [note.content]);
+
+  // Effect for scroll progress calculation with requestAnimationFrame for smoother updates
+  useEffect(() => {
+    let rafId: number;
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      if (rafId) {
+        return;
+      }
+
+      rafId = requestAnimationFrame(() => {
+        const scrollTop = window.scrollY;
+        const footer = document.getElementById('page-footer');
+        if (!footer) return;
+
+        const footerTop = footer.getBoundingClientRect().top + window.scrollY;
+        const winHeight = window.innerHeight;
+        const scrollableHeight = footerTop - winHeight;
+
+        if (scrollableHeight <= 0) {
+          setScrollProgress(0);
+          rafId = 0;
+          return;
+        }
+
+        // Smooth out progress calculation with interpolation
+        const targetProgress = (scrollTop / scrollableHeight) * 100;
+        const currentProgress = (lastScrollY / scrollableHeight) * 100;
+        const smoothProgress = currentProgress + (targetProgress - currentProgress) * 0.3;
+
+        setScrollProgress(Math.min(100, Math.max(0, smoothProgress)));
+        lastScrollY = scrollTop;
+        rafId = 0;
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // Initial calculation
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (rafId) {
+        cancelAnimationFrame(rafId);
+      }
+    };
+  }, []); // Remove dependency as we're not using isFooterVisible anymore
+
+  // Effect for footer visibility detection
+  useEffect(() => {
+    const footerElement = document.getElementById('page-footer');
+    const progressBarElement = progressBarRef.current;
+    if (!footerElement || !progressBarElement) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsFooterVisible(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          setFooterHeight(footerElement.offsetHeight); // Get actual footer height
+        } else {
+          setFooterHeight(0);
+        }
+      },
+      {
+        rootMargin: `0px 0px -${progressBarElement.offsetHeight}px 0px`,
+        threshold: 0
+      }
+    );
+
+    observer.observe(footerElement);
+
+    // Initial check in case footer is already visible on load
+    const rect = footerElement.getBoundingClientRect();
+    const isInitiallyVisible = rect.top < window.innerHeight && rect.bottom >= progressBarElement.offsetHeight;
+    setIsFooterVisible(isInitiallyVisible);
+    if (isInitiallyVisible) {
+      setFooterHeight(footerElement.offsetHeight);
+    }
+
+    return () => {
+      observer.unobserve(footerElement);
+    };
+  }, [progressBarRef.current]); // Dependency on progressBarRef.current ensures re-run if it changes
   
   return (
     <div className="min-h-screen py-6 sm:py-8 md:py-12 bg-gray-50 dark:bg-gray-900">
@@ -189,7 +328,8 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
             {/* Markdown Content with Enhanced Styling */}
             <div className="note-content">
               <Markdown
-                remarkPlugins={[remarkGfm]}
+                remarkPlugins={[remarkGfm, remarkMath]} // Add remarkMath here
+                rehypePlugins={[rehypeKatex]} // Add rehypeKatex here
                 components={{
                   h1: ({node, ...props}) => {
                     const id = props.children?.toString().toLowerCase().replace(/\s+/g, '-');
@@ -312,6 +452,27 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
           </motion.div>
         </div>
       </div>
+
+      {/* Scroll Progress Bar */}
+      {scrollProgress > 0 && (
+        <div 
+          ref={progressBarRef}
+          className="fixed bottom-0 left-0 w-full h-1 bg-gray-200 dark:bg-gray-700 z-50"
+          style={{
+            transform: `translateY(${isFooterVisible ? footerHeight : 0}px)`,
+            transition: 'transform 0.3s ease-in-out'
+          }}
+        >
+          <div
+            className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 relative transition-all duration-150 ease-out"
+            style={{ width: `${scrollProgress}%` }}
+          >
+            <div className="absolute right-0 bottom-4 bg-purple-500 text-white text-xs px-2 py-1 rounded transform -translate-x-3/3 opacity-40">
+              {Math.round(scrollProgress)}%
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

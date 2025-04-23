@@ -52,6 +52,18 @@ async function gatherWebsiteContent() {
               if (principlesOfMicroeconomicsNotes[noteKey]) {
                 noteContent = principlesOfMicroeconomicsNotes[noteKey];
               }
+            } else if (course.id === 'bse') {
+              const {bseNotes } = await import('@/data/courses/bse/notes');
+              const noteKey = `${module.id}-${lesson.id}`;
+              if (bseNotes[noteKey]) {
+                noteContent = bseNotes[noteKey];
+              }
+            } else if (course.id === 'asb') {
+              const {asbNotes } = await import('@/data/courses/asb/notes');
+              const noteKey = `${module.id}-${lesson.id}`;
+              if (asbNotes[noteKey]) {
+                noteContent = asbNotes[noteKey];
+              }
             }
           } catch (e) {}
           if (noteContent) {
@@ -93,7 +105,7 @@ export async function POST(request: Request) {
        - First section: Your main answer using markdown formatting
        - Second section: Start with "References:" and write the course and module used
     2. If the question is about content available on the Gradestone website, answer based on that content and list the sources under the References section (e.g., "- Persuasive Communication - Module 1").
-    3. If you are asked about anything non academic or irrelevant to Gradesrone, Respond with "Grades aint going up this way. Padhle Bro :)"
+    3. If you are asked about anything non academic or irrelevant to Gradestone, Respond with "Grades aint going up this way. Padhle Bro :)"
     4. Keep your answers informative.
     5. Respond to greetings by introducing yourself.
     6. Always maintain a helpful, educational tone.

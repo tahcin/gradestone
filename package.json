@@ -13,22 +13,29 @@
   "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
+    "@radix-ui/react-avatar": "^1.1.6",
+    "@radix-ui/react-slot": "^1.2.0",
     "@types/marked": "^5.0.2",
     "@types/mdast": "^4.0.4",
     "@types/node": "^20.5.0",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
+    "clsx": "^2.1.1",
     "framer-motion": "^12.6.5",
+    "katex": "^0.16.22",
     "marked": "^15.0.8",
     "next": "^15.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-markdown": "^8.0.7",
+    "react-markdown": "^9.0.1",
     "react-tsparticles": "^2.12.2",
     "reactflow": "^11.11.4",
     "rehype-highlight": "^7.0.2",
+    "rehype-katex": "^7.0.1",
     "rehype-raw": "^7.0.0",
-    "remark-gfm": "^3.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-math": "^6.0.0",
+    "tailwind-merge": "^3.2.0",
     "tsparticles-slim": "^2.12.0",
     "typescript": "^5.1.6",
     "unified": "^11.0.5",
@@ -36,8 +43,8 @@
   },
   "devDependencies": {
     "@types/mermaid": "^9.1.0",
-    "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.28",
-    "tailwindcss": "^3.3.3"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
   }
 }

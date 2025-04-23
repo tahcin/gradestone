@@ -1,217 +1,172 @@
 // Course details - extended information for course detail pages
 export const courseDetails = {
-  'web-development': {
-    title: 'Modern Web Development',
-    description: 'Learn the latest technologies in web development including React, Node.js, and more.',
-    overview: 'This comprehensive course covers everything you need to know to become a professional web developer. Starting with the fundamentals of HTML, CSS, and JavaScript, you will progress to learning modern frameworks and tools used in the industry today. By the end of this course, you will be able to build full-stack web applications using React and Node.js.',
-    category: 'Development',
+  'bse': {
+    title: 'Business Statistics for Entrepreneurs',
+    description: 'Embark on an exciting journey into the world of Statistics—a powerful tool that drives decision-making across countless fields. ',
+    overview: 'This Business Statistics for Entrepreneurs course aims to equip you with the knowledge, practice, and confidence to apply statistical methods for making informed business decisions based on data and facts rather than relying solely on intuition. The course will guide you through summarizing and analyzing data, making inferences relevant to your decisions, and quantifying the risk associated with those decisions given the limitations of data. The goal is to provide you with the knowledge, practice, and the confidence in the use and the application of various statistical methods for business decision making.',
     level: 'Year 1',
-    duration: '12 weeks',
-    instructor: 'Alex Johnson',
-    instructorBio: 'Alex is a senior web developer with over 10 years of experience in building web applications for major tech companies.',
-    gradientFrom: 'from-blue-500',
-    gradientTo: 'to-indigo-600',
-    darkGradientFrom: 'dark:from-blue-600',
-    darkGradientTo: 'dark:to-indigo-700',
-    iconColor: 'text-blue-500',
-    accentColor: 'bg-indigo-600',
-    accentHoverColor: 'hover:bg-indigo-700',
+    gradientFrom: 'from-lime-500',
+    gradientTo: 'to-teal-600',
+    darkGradientFrom: 'dark:from-lime-600',
+    darkGradientTo: 'dark:to-teal-700',
+    iconColor: 'text-lime-500',
+    accentColor: 'bg-lime-600',
+    accentHoverColor: 'hover:bg-lime-700',
     modules: [
       {
         id: 1,
-        title: 'HTML & CSS Fundamentals',
+        title: 'Descriptive statistics',
         lessons: [
-          { 
-            id: 1, 
-            title: 'HTML & CSS Notes', 
+          {
+            id: 1,
+            title: 'Introduction to Descriptive Statistics',
             type: 'note',
-            description: 'Comprehensive notes covering HTML structure, elements, attributes, CSS selectors, and box model.'
+            description: 'Understanding data types, measures of central tendency (mean, median, mode), and measures of dispersion (variance, standard deviation, range).'
           },
-          { 
-            id: 2, 
-            title: 'HTML & CSS Assessment', 
-            type: 'test', 
+          {
+            id: 2,
+            title: 'Descriptive Statistics Test',
+            type: 'test',
             questions: 10,
-            description: 'Test your understanding of HTML and CSS fundamentals with practical exercises.'
+            description: 'Test your knowledge on calculating and interpreting basic descriptive statistics.'
           },
         ],
       },
       {
         id: 2,
-        title: 'JavaScript Essentials',
+        title: 'Random Variables and Discrete Probability Distributions',
         lessons: [
-          { 
-            id: 1, 
-            title: 'JavaScript Notes', 
+          {
+            id: 1,
+            title: 'Understanding Random Variables and Probability',
             type: 'note',
-            description: 'Detailed notes on JavaScript syntax, variables, functions, DOM manipulation, and event handling.'
+            description: 'Introduction to random variables, probability concepts, expected value, variance, and common discrete distributions (Binomial, Poisson).'
           },
-          { 
-            id: 2, 
-            title: 'JavaScript Assessment', 
-            type: 'test', 
-            questions: 12,
-            description: 'Practical exercises to test your JavaScript skills with real-world scenarios.'
+          {
+            id: 2,
+            title: 'Discrete Probability Test',
+            type: 'test',
+            questions: 10,
+            description: 'Assess your understanding of discrete random variables and their probability distributions.'
           },
         ],
       },
       {
         id: 3,
-        title: 'React Fundamentals',
+        title: 'Continuous Probability Distributions',
         lessons: [
-          { 
-            id: 1, 
-            title: 'React Notes', 
+          {
+            id: 1,
+            title: 'Exploring Continuous Distributions',
             type: 'note',
-            description: 'Comprehensive guide to React, including components, props, state, hooks, and component lifecycle.'
+            description: 'Learn about continuous random variables, probability density functions, and key distributions like the Normal (Gaussian) and Exponential distributions.'
           },
-          { 
-            id: 2, 
-            title: 'React Assessment', 
-            type: 'test', 
-            questions: 15,
-            description: 'Build a small React application to demonstrate your understanding of React concepts.'
+          {
+            id: 2,
+            title: 'Continuous Probability Test',
+            type: 'test',
+            questions: 10,
+            description: 'Test your knowledge on continuous probability distributions, particularly the Normal distribution.'
           },
         ],
       },
-    ],
+      {
+        id: 4,
+        title: 'Sampling and Sampling Distributions',
+        lessons: [
+          {
+            id: 1,
+            title: 'Principles of Sampling',
+            type: 'note',
+            description: 'Understand different sampling methods, the concept of sampling error, and the Central Limit Theorem.'
+          },
+          {
+            id: 2,
+            title: 'Sampling Distributions Test',
+            type: 'test',
+            questions: 10,
+            description: 'Check your understanding of sampling techniques and the properties of sampling distributions.'
+          },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Statistical Inference',
+        lessons: [
+          {
+            id: 1,
+            title: 'Confidence Intervals and Hypothesis Testing',
+            type: 'note',
+            description: 'Learn how to estimate population parameters using confidence intervals and test hypotheses about population means and proportions.'
+          },
+          {
+            id: 2,
+            title: 'Statistical Inference Test',
+            type: 'test',
+            questions: 10,
+            description: 'Test your ability to construct confidence intervals and perform basic hypothesis tests.'
+          },
+        ],
+      },
+      {
+        id: 6,
+        title: 'Association Between Random Variables and Simple Linear Regression',
+        lessons: [
+          {
+            id: 1,
+            title: 'Correlation and Simple Regression',
+            type: 'note',
+            description: 'Explore covariance, correlation, and the fundamentals of simple linear regression analysis (fitting a line, R-squared).'
+          },
+          {
+            id: 2,
+            title: 'Simple Regression Test',
+            type: 'test',
+            questions: 10,
+            description: 'Assess your understanding of correlation and the components of a simple linear regression model.'
+          },
+        ],
+      },
+      {
+        id: 7,
+        title: 'Multiple Linear Regression I',
+        lessons: [
+          {
+            id: 1,
+            title: 'Introduction to Multiple Regression',
+            type: 'note',
+            description: 'Extend simple linear regression to include multiple predictors, understand model assumptions, and interpret coefficients.'
+          },
+          {
+            id: 2,
+            title: 'Multiple Regression Basics Test',
+            type: 'test',
+            questions: 10,
+            description: 'Test your knowledge on setting up and interpreting basic multiple regression models.'
+          },
+        ],
+      },
+      {
+        id: 8,
+        title: 'Multiple Linear Regression II',
+        lessons: [
+          {
+            id: 1,
+            title: 'Advanced Multiple Regression Topics',
+            type: 'note',
+            description: 'Covering model diagnostics, multicollinearity, interaction terms, and variable selection techniques in multiple regression.'
+          },
+          {
+            id: 2,
+            title: 'Advanced Multiple Regression Test',
+            type: 'test',
+            questions: 10,
+            description: 'Assess your understanding of diagnosing issues and refining multiple regression models.'
+          },
+        ],
+      },
+    ]
   },
-  
-  'data-science': {
-    title: 'Data Science Fundamentals',
-    description: 'Master the basics of data science, machine learning, and data visualization.',
-    overview: 'This comprehensive course introduces you to the world of data science using Python. You will learn the essential Python libraries including NumPy, Pandas, and Matplotlib, and understand how to manipulate, analyze, and visualize data. By the end of this course, you will be able to build your own data analysis projects and prepare for more advanced topics in machine learning.',
-    category: 'Data Science',
-    level: 'Year 1',
-    duration: '10 weeks',
-    instructor: 'Sarah Chen',
-    instructorBio: 'Sarah is a data scientist with experience in both academia and industry, specializing in statistical analysis and machine learning applications.',
-    gradientFrom: 'from-cyan-500',
-    gradientTo: 'to-blue-500',
-    darkGradientFrom: 'dark:from-cyan-600',
-    darkGradientTo: 'dark:to-blue-600',
-    iconColor: 'text-cyan-500',
-    accentColor: 'bg-cyan-600',
-    accentHoverColor: 'hover:bg-cyan-700',
-    modules: [
-      {
-        id: 1,
-        title: 'Python Fundamentals',
-        lessons: [
-          { 
-            id: 1, 
-            title: 'Python Fundamentals', 
-            type: 'note',
-            description: 'Essential Python concepts for data science including variables, data types, control flow, and libraries.'
-          },
-          { 
-            id: 2, 
-            title: 'Python Fundamentals Assessment', 
-            type: 'test', 
-            questions: 10,
-            description: 'Test your understanding of Python basics and its application in data science.'
-          },
-        ],
-      },
-      {
-        id: 2,
-        title: 'Data Analysis',
-        lessons: [
-          { 
-            id: 1, 
-            title: 'Data Analysis with Pandas', 
-            type: 'note',
-            description: 'Learn how to use Pandas for data manipulation, cleaning, and analysis with practical examples.'
-          },
-          { 
-            id: 2, 
-            title: 'Pandas and Data Analysis Assessment', 
-            type: 'test', 
-            questions: 10,
-            description: 'Test your knowledge of data manipulation and analysis with Pandas.'
-          },
-        ],
-      },
-    ],
-  },
-  
-  'blockchain-development': {
-    title: 'Blockchain Development',
-    description: 'Learn blockchain concepts, smart contracts, and build decentralized applications.',
-    overview: 'This comprehensive course will take you from blockchain fundamentals to building decentralized applications (dApps) on Ethereum. You\'ll learn about blockchain architecture, consensus mechanisms, cryptography, and smart contract development using Solidity. By the end of this course, you\'ll be able to design, deploy, and interact with smart contracts, and build frontend interfaces for blockchain applications.',
-    category: 'Development',
-    level: 'Year 1',
-    duration: '10 weeks',
-    instructor: 'Elena Chen',
-    instructorBio: 'Elena is a blockchain developer and consultant with expertise in Ethereum, Solidity, and Web3 development. She has worked with major DeFi protocols and helped multiple startups launch their blockchain products.',
-    gradientFrom: 'from-amber-500',
-    gradientTo: 'to-orange-600',
-    darkGradientFrom: 'dark:from-amber-600',
-    darkGradientTo: 'dark:to-orange-700',
-    iconColor: 'text-amber-500',
-    accentColor: 'bg-orange-600',
-    accentHoverColor: 'hover:bg-orange-700',
-    modules: [
-      {
-        id: 1,
-        title: 'Blockchain Fundamentals',
-        lessons: [
-          { 
-            id: 1, 
-            title: 'Introduction to Blockchain', 
-            type: 'note',
-            description: 'Learn the core concepts of blockchain technology, including distributed ledgers, consensus mechanisms, and cryptography.'
-          },
-          { 
-            id: 2, 
-            title: 'Blockchain Fundamentals Assessment', 
-            type: 'test', 
-            questions: 10,
-            description: 'Test your understanding of blockchain concepts and architecture.'
-          },
-        ],
-      },
-      {
-        id: 2,
-        title: 'Ethereum and Smart Contracts',
-        lessons: [
-          { 
-            id: 1, 
-            title: 'Smart Contracts and Ethereum', 
-            type: 'note',
-            description: 'Explore Ethereum, the EVM, and learn how to write and deploy smart contracts using Solidity.'
-          },
-          { 
-            id: 2, 
-            title: 'Smart Contracts and Ethereum Assessment', 
-            type: 'test', 
-            questions: 10,
-            description: 'Test your knowledge of Ethereum and smart contract development.'
-          },
-        ],
-      },
-      {
-        id: 3,
-        title: 'Building dApps',
-        lessons: [
-          { 
-            id: 1, 
-            title: 'Decentralized Applications', 
-            type: 'note',
-            description: 'Learn to build frontend interfaces for your smart contracts and create complete decentralized applications.'
-          },
-          { 
-            id: 2, 
-            title: 'dApp Development Assessment', 
-            type: 'test', 
-            questions: 8,
-            description: 'Demonstrate your understanding of dApp architecture and implementation.'
-          },
-        ],
-      },
-    ],
-  },
-  
   'persuasive-communication': {
     title: 'Persuasive Communication',
     description: 'Develop effective persuasion techniques and communication skills for professional and academic settings.',
@@ -293,11 +248,7 @@ export const courseDetails = {
     title: 'Indian Knowledge System',
     description: 'Explore the rich heritage of Indian knowledge traditions, philosophies, and their modern applications.',
     overview: 'This course offers a comprehensive exploration of India\'s ancient knowledge systems and their relevance in the contemporary world. From Vedic mathematics to Ayurveda, from philosophical traditions to architectural principles, you will discover the depth and breadth of Indian intellectual heritage. The course emphasizes both theoretical understanding and practical applications of these knowledge systems in solving modern challenges.',
-    category: 'Humanities',
     level: 'Year 1',
-    duration: '10 weeks',
-    instructor: 'Prof. Rajesh Sharma',
-    instructorBio: 'Prof. Sharma is a renowned scholar of Indian philosophy and knowledge systems with over 20 years of teaching experience. He has authored several books on the subject and has been instrumental in integrating traditional knowledge with modern education systems.',
     gradientFrom: 'from-red-500',
     gradientTo: 'to-orange-500',
     darkGradientFrom: 'dark:from-red-600',
@@ -308,61 +259,250 @@ export const courseDetails = {
     modules: [
       {
         id: 1,
-        title: 'Philosophical Foundations',
+        title: 'Introduction to Indian Knowledge System and Vedic Corpus',
+        lessons: [
+          {
+            id: 1,
+            title: 'Overview of the Vedic Corpus and IKS Basics',
+            type: 'note',
+            description: 'Understand IKS definition, relevance, perceptions, examples, unique features, and Vedic Corpus basics and history.'
+          },
+          {
+            id: 2,
+            title: 'Introduction to IKS Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Test your foundational understanding of IKS concepts, relevance, unique features, and the structure of the Vedic corpus.'
+          }
+        ]
+      },
+      {
+        id: 2,
+        title: 'The Philosophical Systems and Core Values',
+        lessons: [
+          {
+            id: 1,
+            title: 'Philosophical Schools, Upanishads, and Core Values',
+            type: 'note',
+            description: 'Explore philosophical components, Upanishads, and foundational values like Dharma, Rta, Satya, and Purusharthas.'
+          },
+          {
+            id: 2,
+            title: 'Philosophy and Values Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Assess your understanding of the philosophical schools, core values, and key texts like the Upanishads.'
+          }
+        ]
+      },
+      {
+        id: 3,
+        title: 'Linguistics and Oral Tradition',
+        lessons: [
+          {
+            id: 1,
+            title: 'Linguistic Vedangas and Oral Transmission',
+            type: 'note',
+            description: 'Study linguistic Vedangas (Shiksha, Vyakarana, Nirukta, Chandas) and their role in preserving oral transmission accuracy.'
+          },
+          {
+            id: 2,
+            title: 'Linguistics Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Test your knowledge of the linguistic Vedangas and the significance of oral tradition and meter in IKS.'
+          }
+        ]
+      },
+      {
+        id: 4,
+        title: 'Wisdom Preservation and Interpretation Techniques',
+        lessons: [
+          {
+            id: 1,
+            title: 'Historical Context, Encoding, and Interpretation Methods',
+            type: 'note',
+            description: 'Examine IKS historical periods, encoding techniques (math in verses, binary, mnemonics), and multi-dimensional text interpretation.'
+          },
+          {
+            id: 2,
+            title: 'Wisdom and Interpretation Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Analyze the historical context and evaluate the techniques used to encode, preserve, and interpret knowledge in IKS.'
+          }
+        ]
+      },
+      {
+        id: 5,
+        title: 'Number System, Mathematics and Astronomy',
+        lessons: [
+          {
+            id: 1,
+            title: 'Mathematics, Astronomy, and Related Techniques',
+            type: 'note',
+            description: 'Study contributions in math and astronomy, related encoding techniques, and practical applications (Jyotisha).'
+          },
+          {
+            id: 2,
+            title: 'Math and Astronomy Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Apply ancient mathematical and astronomical concepts and evaluate their significance and methods.'
+          }
+        ]
+      },
+      {
+        id: 6,
+        title: 'Engineering & Technology',
+        lessons: [
+          {
+            id: 1,
+            title: 'Metallurgy, Engineering Principles, and Logistics',
+            type: 'note',
+            description: 'Examine achievements in metallurgy, engineering principles in construction (material science, acoustics), and complex logistics.'
+          },
+          {
+            id: 2,
+            title: 'Engineering and Technology Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Evaluate the technological and engineering feats of ancient Indian civilization as presented in the text.'
+          }
+        ]
+      },
+      {
+        id: 7,
+        title: 'Architecture and Town Planning in Ancient India',
+        lessons: [
+          {
+            id: 1,
+            title: 'Architectural Principles, Examples, and Town Planning',
+            type: 'note',
+            description: 'Study architectural principles, iconic examples (temples, altars), and concepts and evidence of ancient town planning.'
+          },
+          {
+            id: 2,
+            title: 'Architecture and Town Planning Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Analyze the principles and examples of ancient Indian architecture and town planning.'
+          }
+        ]
+      },
+      {
+        id: 8,
+        title: 'Health, Wellness and Life Practices',
+        lessons: [
+          {
+            id: 1,
+            title: 'Medicine, Daily Practices, and Holistic Wellness',
+            type: 'note',
+            description: 'Learn about ancient medicine (Ayurveda), role of IKS in daily life and rituals, and the holistic concept of wellness.'
+          },
+          {
+            id: 2,
+            title: 'Health, Wellness, and Life Prac. Assessment',
+            type: 'test',
+            questions: 10,
+            description: 'Test your knowledge of ancient Indian medical systems, daily practices, and concepts of holistic wellness.'
+          }
+        ]
+      }
+    ]
+  },
+
+  'asb': {
+    title: 'Advanced Statistics for Business',
+    description: 'Introduction to advanced statistical techniques that are vital for decision-making in management and entrepreneurship.',
+    overview: 'This Advanced Statistics for Business course aims to equip you with the ability to recognize and utilize various statistical models and their solutions. You will learn to translate practical business challenges into statistical frameworks. A key focus is on applying these models across diverse business domains to address real-world issues, while also evaluating their effectiveness and limitations. Furthermore, you will understand and implement different regression techniques for relevant business scenarios. Finally, you will apply various non-parametric statistical methods to real-life datasets.',
+    level: 'Year 1',
+    gradientFrom: 'from-gray-500',
+    gradientTo: 'to-blue-600',
+    darkGradientFrom: 'dark:from-gray-600',
+    darkGradientTo: 'dark:to-blue-700',
+    iconColor: 'text-gray-500',
+    accentColor: 'bg-gray-600',
+    accentHoverColor: 'hover:bg-gray-700',
+    modules: [
+      {
+        id: 1,
+        title: 'Non-Parametric Methods',
         lessons: [
           { 
             id: 1, 
-            title: 'Indian Philosophical Systems', 
+            title: 'Introduction to Non-Parametric Statistics', 
             type: 'note',
-            description: 'Explore the six major schools of Indian philosophy (Shad Darshana) and their fundamental principles.'
+            description: 'Learn about distribution-free methods, their advantages, and applications in business. Covers sign test, Wilcoxon tests, and Mann-Whitney U test.'
           },
           { 
             id: 2, 
-            title: 'Philosophy Assessment', 
+            title: 'Non-Parametric Methods Assessment', 
             type: 'test', 
             questions: 10,
-            description: 'Test your understanding of Indian philosophical concepts and their interconnections.'
+            description: 'Test your understanding of non-parametric statistical methods and their applications in real business scenarios.'
           },
         ],
       },
       {
         id: 2,
-        title: 'Scientific Traditions',
+        title: 'Advanced Regression Methods',
         lessons: [
           { 
             id: 1, 
-            title: 'Mathematics and Astronomy', 
+            title: 'Advanced Regression Techniques', 
             type: 'note',
-            description: 'Learn about Vedic mathematics, ancient Indian astronomical knowledge, and their contributions to global scientific development.'
+            description: 'Explore logistic regression, polynomial regression, and time series analysis. Learn model selection, validation, and diagnostic techniques.'
           },
           { 
             id: 2, 
-            title: 'Scientific Traditions Assessment', 
+            title: 'Advanced Regression Analysis Test', 
             type: 'test', 
-            questions: 8,
-            description: 'Apply ancient mathematical techniques and evaluate astronomical concepts from Indian traditions.'
+            questions: 10,
+            description: 'Apply advanced regression techniques to complex business problems and interpret the results.'
           },
         ],
       },
       {
         id: 3,
-        title: 'Modern Applications',
+        title: 'Predictive Analysis',
         lessons: [
           { 
             id: 1, 
-            title: 'Contemporary Relevance', 
+            title: 'Business Forecasting and Prediction', 
             type: 'note',
-            description: 'Discover how Indian knowledge systems are being applied in fields like sustainable development, health, and education today.'
+            description: 'Master predictive modeling techniques, including time series forecasting, machine learning applications, and model evaluation methods.'
           },
           { 
             id: 2, 
-            title: 'Applications Assessment', 
+            title: 'Predictive Analysis Assessment', 
             type: 'test', 
             questions: 10,
-            description: 'Analyze case studies of successful integration of traditional knowledge in modern contexts.'
+            description: 'Demonstrate your ability to build and evaluate predictive models using real business data.'
           },
         ],
       },
+      {
+        id: 4,
+        title: 'Statistical Methods in Quality Management',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Statistical Quality Control', 
+            type: 'note',
+            description: 'Study control charts, process capability analysis, acceptance sampling, and Six Sigma methodology for quality improvement.'
+          },
+          { 
+            id: 2, 
+            title: 'Quality Management Statistics Test', 
+            type: 'test', 
+            questions: 10,
+            description: 'Apply statistical quality control methods to analyze and improve business processes.'
+          },
+        ],
+      },
+      
+      // Add more modules as needed
     ],
   },
   
@@ -603,11 +743,7 @@ export const courseDetails = {
     title: 'Course Title',
     description: 'Course description',
     overview: 'Extended course overview',
-    category: 'Category',
     level: 'Year 1',
-    duration: 'Duration',
-    instructor: 'Instructor Name',
-    instructorBio: 'Instructor biography',
     gradientFrom: 'from-color-500',
     gradientTo: 'to-color-600',
     darkGradientFrom: 'dark:from-color-600',

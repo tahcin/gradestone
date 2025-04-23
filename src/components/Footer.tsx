@@ -3,10 +3,13 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { fadeIn, slideUp, staggerContainer } from '../utils/animations';
+import { useTheme } from './ThemeProvider';
 
 const Footer = () => {
+  const { theme } = useTheme();
   return (
     <motion.footer 
+      id="page-footer" // Add an ID here
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
@@ -22,9 +25,15 @@ const Footer = () => {
           className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
         >
           <motion.div variants={slideUp} className="col-span-2 sm:col-span-2 lg:col-span-1">
-            <h3 className="text-xl font-bold mb-3 sm:mb-4">Gradestone</h3>
+            <div className="mb-3 sm:mb-4">
+              <img
+                src={theme === 'dark' ? '/images/Logo/gradestonenight.png' : '/images/Logo/Gradestonenight.png'}
+                alt="Gradestone Logo"
+                className="h-6 sm:h-8 w-auto"
+              />
+            </div>
             <p className="text-gray-300 text-sm sm:text-base mb-6 sm:mb-0">
-              Empowering education through technology. Join our platform and elevate your learning journey.
+              Learn smart. Boost your grades!
             </p>
           </motion.div>
           <motion.div variants={slideUp}>

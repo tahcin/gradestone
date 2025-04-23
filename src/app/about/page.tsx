@@ -292,17 +292,21 @@ export default function AboutPage() {
         className="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 text-white dark:from-indigo-800 dark:via-purple-800 dark:to-indigo-900 py-16 sm:py-24 overflow-hidden"
       >
         <ParticleBackground className="opacity-50" />
-        <motion.div 
-          variants={slideUp}
-          className="container-custom px-4 sm:px-6 text-center relative z-10"
-        >
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 drop-shadow-lg">Join Our Learning Community</h2>
-          <p className="text-lg sm:text-xl mb-6 sm:mb-8 max-w-3xl mx-auto drop-shadow">
-            Be part of a growing community of learners and start your educational journey today.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/courses" className="btn bg-white text-primary hover:bg-gray-100 dark:bg-gray-100 dark:hover:bg-gray-200 px-8 py-3 text-base sm:text-lg rounded-lg font-medium shadow-lg whitespace-nowrap">
-              Explore Courses
+        <motion.div variants={slideUp} className="container-custom text-center">
+          <div className="max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Join the Gradestone Community!</h2>
+            <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 text-gray-100">
+            Whether you're stuck on a concept or just looking for motivation, the Gradestone community is here for you.
+            </p>
+            <Link 
+              href="https://chat.whatsapp.com/DpUJ2d7WEs11WmWQNU5PAu"
+              className="inline-flex items-center space-x-2 bg-white text-indigo-700 hover:bg-gray-100 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-colors shadow-lg text-sm sm:text-base w-auto whitespace-nowrap max-w-[200px] mx-auto"
+              target="_blank"
+            >
+              <span>Join Now!</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
             </Link>
           </div>
         </motion.div>

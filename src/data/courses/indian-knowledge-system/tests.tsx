@@ -2,116 +2,116 @@
 export const indianKnowledgeSystemTests = {
   // Module 1, Lesson 2
   '1-2': {
-    title: 'Indian Knowledge Systems Assessment',
+    title: 'Introduction to IKS Assessment',
     description: 'Test your understanding of Indian knowledge traditions and their historical context.',
     questions: [
       {
         id: 1,
-        question: 'Which of the following texts is considered the oldest among Indian knowledge sources?',
+        question: 'According to the text, what does IKS primarily refer to?',
         options: [
-          'Arthashastra',
-          'Upanishads',
-          'Vedas',
-          'Natya Shastra'
+          'Ancient Indian religious rituals',
+          'A collection of mythological stories',
+          'The collective intellectual achievement of the Indian civilization over millenia',
+          'Techniques for chanting mantras'
         ],
         correctAnswer: 2
       },
       {
         id: 2,
-        question: 'The holistic approach in Indian knowledge systems is characterized by:',
+        question: 'According to the text, which of these is a common perception people have about IKS?',
         options: [
-          'Focusing exclusively on spiritual development',
-          'Recognizing interconnections between different domains of knowledge',
-          'Rejecting practical applications in favor of theory',
-          'Emphasizing individual knowledge over collective wisdom'
+          'It is easily accessible and well-documented',
+          'It is a matter of blind faith',
+          'It is actively used in modern science',
+          'It focuses only on practical benefits'
         ],
         correctAnswer: 1
       },
       {
         id: 3,
-        question: 'Which mathematical contribution from ancient India had the most significant global impact?',
+        question: 'The Neem and Turmeric patent cases in the text illustrate the need for IKS today primarily in terms of:',
         options: [
-          'Pythagorean theorem',
-          'Decimal place value system with zero',
-          'Geometric construction methods',
-          'Calculation of pi'
+          'Developing new pharmaceuticals',
+          'Protecting traditional knowledge through demonstrating prior art',
+          'Promoting Indian culture internationally',
+          'Generating economic revenue from ancient practices'
         ],
         correctAnswer: 1
       },
       {
         id: 4,
-        question: 'The concept of "dharma" in Indian knowledge systems primarily refers to:',
+        question: 'The Delhi Iron Pillar is presented in the text as an example demonstrating Indian civilization\'s achievement in:',
         options: [
-          'Religious rituals and ceremonies',
-          'Meditation techniques',
-          'Righteousness, duty, and ethical conduct',
-          'Social status and hierarchy'
+          'Advanced acoustics',
+          'Complex logistics and transport',
+          'Sustainable practices',
+          'Metallurgical excellence'
         ],
-        correctAnswer: 2
+        correctAnswer: 3
       },
       {
         id: 5,
-        question: 'Which of the following is NOT one of the major philosophical schools (darshanas) of Indian tradition?',
+        question: 'Which of the following is listed in the text as one of the six components of the Caturdasa Vidyasthana, classifying the Sanatana Dharma Corpus?',
         options: [
-          'Nyaya',
-          'Vaisheshika',
-          'Tantra',
-          'Samkhya'
+          'Agamas',
+          'Tantras',
+          'Vedangas',
+          'Ayurveda'
         ],
         correctAnswer: 2
       },
       {
         id: 6,
-        question: 'The guru-shishya parampara (teacher-student tradition) in Indian knowledge systems emphasizes:',
+        question: 'What is highlighted in the text as a unique feature of the Indian Knowledge System regarding knowledge transmission, despite being primarily oral?',
         options: [
-          'Learning exclusively from written texts',
-          'Experiential learning and direct transmission of knowledge',
-          'Memorization without practical application',
-          'Independent study without guidance'
+          'Its sole reliance on written texts for preservation',
+          'Its static nature, preventing any reinterpretation',
+          'Its extraordinary accuracy and fidelity through oral methods',
+          'Its dependence on external validation for truth'
         ],
-        correctAnswer: 1
+        correctAnswer: 2
       },
       {
         id: 7,
-        question: 'Which period saw significant developments in Indian mathematics with contributions from scholars like Aryabhata and Bhaskara?',
+        question: 'Pingala\'s Chandas Shastra is cited in the text as an early example demonstrating the use of:',
         options: [
-          'Vedic Period (1500-500 BCE)',
-          'Ancient Period (500 BCE-500 CE)',
-          'Medieval Period (500-1500 CE)',
-          'Colonial Period (1500-1947 CE)'
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 8,
-        question: 'The contemporary relevance of Indian Knowledge Systems is best demonstrated by:',
-        options: [
-          'Their historical significance only',
-          'Their integration with modern science and global adoption of practices like yoga',
-          'Their preservation in museums and archives',
-          'Their use exclusively in traditional cultural contexts'
+          'Complex geometric theorems',
+          'Binary logic through Ganas (Laghu and Guru)',
+          'Advanced calculus precursors',
+          'Detailed astronomical calculations'
         ],
         correctAnswer: 1
       },
       {
-        id: 9,
-        question: 'Which of the following best describes the relationship between theory and practice in Indian knowledge traditions?',
+        id: 8,
+        question: 'In the structure of a Vedic Yajna, the priest primarily associated with reciting hymns from the Rigveda is the:',
         options: [
-          'Theory is considered more important than practice',
-          'Practice is valued over theoretical understanding',
-          'Theory and practice are integrated with emphasis on application',
-          'Theory and practice are kept entirely separate'
+          'Adhvaryu',
+          'Udgatr',
+          'Brahma',
+          'Hotr'
         ],
-        correctAnswer: 2
+        correctAnswer: 3
+      },
+      {
+        id: 9,
+        question: 'Which division of the Vedas, mentioned in the text as deeply philosophical, explores questions about the Self and Brahman?',
+        options: [
+          'Brahmanas',
+          'Aranyakas',
+          'Samhitas (Mantras)',
+          'Upanishads'
+        ],
+        correctAnswer: 3
       },
       {
         id: 10,
-        question: 'A major challenge in studying Indian Knowledge Systems today is:',
+        question: 'According to the text, the six Vedangas are auxiliary disciplines essential for what purpose?',
         options: [
-          'Their complete irrelevance to modern problems',
-          'The disruption of knowledge transmission due to colonization',
-          'The absence of any written documentation',
-          'Their simplicity compared to modern knowledge systems'
+          'To compose new Vedic hymns',
+          'To facilitate the correct understanding and application of the Vedas',
+          'To translate Vedic texts into regional languages',
+          'To record the history of the Vedic period'
         ],
         correctAnswer: 1
       }
@@ -120,184 +120,279 @@ export const indianKnowledgeSystemTests = {
   
   // Module 2, Lesson 2
   '2-2': {
-    title: 'Vedic Mathematics Assessment',
-    description: 'Test your understanding of Vedic mathematical techniques and their applications.',
+    title: 'Philosophy and Values Assessment',
+    description: 'Assess knowledge of Indian philosophical systems, core concepts, and values.',
     questions: [
       {
         id: 1,
-        question: 'Who is credited with the modern systematization of Vedic Mathematics?',
+        question: 'In the Indian tradition, what is philosophy primarily known as, derived from the Sanskrit root "Drish" (to see)?',
         options: [
-          'Aryabhata',
-          'Brahmagupta',
-          'Bharati Krishna Tirthaji',
-          'Srinivasa Ramanujan'
+          'Jnana',
+          'Tattva',
+          'Darshana',
+          'Yoga'
         ],
         correctAnswer: 2
       },
       {
         id: 2,
-        question: 'How many sutras (aphorisms) are there in the Vedic Mathematics system as organized by Bharati Krishna Tirthaji?',
+        question: 'According to the text, the ultimate goal of philosophy is to:',
         options: [
-          '10',
-          '16',
-          '18',
-          '24'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 3,
-        question: 'The Vedic Mathematics sutra "Ekadhikena Purvena" translates to:',
-        options: [
-          'All from 9 and the last from 10',
-          'By one more than the previous one',
-          'Vertically and crosswise',
-          'Transpose and adjust'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 4,
-        question: 'Using Vedic Mathematics, what is the square of 25?',
-        options: [
-          '525',
-          '625',
-          '725',
-          '825'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 5,
-        question: 'Which Vedic Mathematics sutra is particularly useful for multiplication of numbers close to bases like 100?',
-        options: [
-          'Ekadhikena Purvena',
-          'Nikhilam Navatashcaramam Dashatah',
-          'Urdhva-Tiryagbyham',
-          'Paravartya Yojayet'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 6,
-        question: 'The primary educational advantage of Vedic Mathematics is:',
-        options: [
-          'It requires more steps than conventional methods',
-          'It works only for specific types of calculations',
-          'It provides faster calculation methods with fewer steps',
-          'It relies entirely on memorization'
+          'Understand the nature of God',
+          'Acquire material wealth',
+          'Maximize happiness and minimize grief',
+          'Master religious rituals'
         ],
         correctAnswer: 2
       },
       {
-        id: 7,
-        question: 'Using the Nikhilam method, what is 98 × 97?',
+        id: 3,
+        question: 'Which of the following is NOT listed as one of the three core elements of Indian Philosophy focused on the quest for ultimate happiness?',
         options: [
-          '9406',
-          '9506',
-          '9606',
-          '9706'
+          'Jiva (Self)',
+          'Jagat (World)',
+          'Ishvara (Divine Entity)',
+          'Karma (Action)'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 4,
+        question: 'The transmission of Indian philosophy primarily relied on:',
+        options: [
+          'Written scriptures alone',
+          'Textbooks and standardized tests',
+          'Oral tradition through Guru-Shishya Parampara',
+          'Public debates without guidance'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: 'Which of the following common beliefs is shared across various Indian Darshanas, as mentioned in the text?',
+        options: [
+          'Belief in a single creator God',
+          'Rejection of the concept of rebirth',
+          'The cycle of birth and death (Samsara)',
+          'That everything is pre-determined (No Free Will)'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: 'The two major classifications of Indian Philosophy are:',
+        options: [
+          'Theistic and Atheistic',
+          'Astika (Vedic) and Nastika (Non-Vedic)',
+          'Practical and Theoretical',
+          'Dualistic and Non-dualistic'
         ],
         correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: 'In Sankhya philosophy, the two fundamental principles explaining the world and self are:',
+        options: [
+          'Dharma and Karma',
+          'Jiva and Ishvara',
+          'Sattva and Rajas',
+          'Prakriti (Material Cause) and Purusha (Final Cause)'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 8,
+        question: 'According to the text, what is the traditional purpose of Yoga as systematized by Patanjali?',
+        options: [
+          'To improve physical fitness',
+          'To reduce stress and anxiety',
+          'To attain self-realization and liberation (Moksha)',
+          'To prepare the body for rituals'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: 'Vaisheshika philosophy is known for introducing which concept regarding the fundamental constituents of the material world?',
+        options: [
+          'The concept of Maya (Illusion)',
+          'The theory of Tri-Gunas (Three Qualities)',
+          'The concept of Paramanu (Atoms)',
+          'The principle of Cosmic Order (Rita)'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: 'The three sacred texts that form the foundation of all schools of Vedanta, collectively known as Prasthanatraya, are:',
+        options: [
+          'Rigveda, Samaveda, Yajurveda',
+          'Ramayana, Mahabharata, Bhagavad Gita',
+          'Upanishads, Brahma-Sutras, Bhagavad Gita',
+          'Mimamsa Sutras, Yoga Sutras, Nyaya Sutras'
+        ],
+        correctAnswer: 2
       }
     ]
   },
   
   // Module 3, Lesson 2
   '3-2': {
-    title: 'Ayurveda Principles Assessment',
-    description: 'Test your understanding of Ayurvedic concepts and their applications to health and wellness.',
+    title: 'Assessment of Panini\'s Linguistics and Sanskrit Grammar Concepts',
+    description: 'Test your understanding of key concepts related to Panini\'s contributions to linguistics and the structure of Sanskrit grammar.',
     questions: [
       {
         id: 1,
-        question: 'The three doshas in Ayurveda are:',
+        question: 'Who was Panini, known for his groundbreaking work in linguistics?',
         options: [
-          'Sattva, Rajas, Tamas',
-          'Vata, Pitta, Kapha',
-          'Agni, Soma, Marut',
-          'Rasa, Rakta, Mamsa'
+          'A philosopher',
+          'A grammarian',
+          'A mathematician',
+          'An astronomer'
         ],
         correctAnswer: 1
       },
       {
         id: 2,
-        question: 'According to Ayurveda, which of the following is NOT one of the five elements (Panchamahabhuta)?',
+        question: 'How many rules (Sutras) are primarily contained in Panini\'s Ashtadhyayi?',
         options: [
-          'Earth (Prithvi)',
-          'Water (Jala)',
-          'Metal (Dhatu)',
-          'Space (Akasha)'
+          'Around 1,000',
+          'Exactly 3,983',
+          'More than 5,000',
+          'A variable number'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
-        question: 'The Ayurvedic concept of "Agni" primarily refers to:',
+        question: 'Panini\'s approach to defining Sanskrit grammar is described in the text as primarily:',
         options: [
-          'Body temperature regulation',
-          'Digestive and metabolic processes',
-          'Inflammatory responses',
-          'The element of fire in nature'
+          'Inventing completely new linguistic rules',
+          'Reverse-engineering the language\'s natural patterns',
+          'Compiling existing folklore about language',
+          'Focusing only on vocabulary lists'
         ],
         correctAnswer: 1
       },
       {
         id: 4,
-        question: 'Which ancient text is considered the foundational treatise on surgery in Ayurveda?',
+        question: 'In the ancient Indian knowledge system, the systematic study of sound and phonetics is known as:',
         options: [
-          'Charaka Samhita',
-          'Sushruta Samhita',
-          'Ashtanga Hridaya',
-          'Bhava Prakasha'
+          'Vyakarana',
+          'Chandas',
+          'Nirukta',
+          'Shiksha'
         ],
-        correctAnswer: 1
+        correctAnswer: 3
       },
       {
         id: 5,
-        question: 'The Ayurvedic practice of Dinacharya refers to:',
+        question: 'According to the text\'s classification of vowels, a sound sustained for three beats is called:',
         options: [
-          'Seasonal routines',
-          'Daily routines',
-          'Dietary guidelines',
-          'Detoxification procedures'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 6,
-        question: 'Which dosha is primarily associated with movement, circulation, and the nervous system?',
-        options: [
-          'Vata',
-          'Pitta',
-          'Kapha',
-          'Sama'
-        ],
-        correctAnswer: 0
-      },
-      {
-        id: 7,
-        question: 'Panchakarma in Ayurveda refers to:',
-        options: [
-          'Five types of foods',
-          'Five diagnostic methods',
-          'Five detoxification procedures',
-          'Five medicinal preparations'
+          'Hrasva',
+          'Dirgha',
+          'Pluta',
+          'Udatta'
         ],
         correctAnswer: 2
       },
       {
-        id: 8,
-        question: 'The concept of "Ojas" in Ayurveda represents:',
+        id: 6,
+        question: 'How many Maheshwara-sutras form the backbone of Panini\'s Sanskrit grammar?',
         options: [
-          'Waste products in the body',
-          'Vital energy that provides immunity and strength',
-          'Digestive enzymes',
-          'Toxins that cause disease'
+          '8',
+          '14',
+          '32',
+          '3,983'
         ],
         correctAnswer: 1
+      },
+      {
+        id: 7,
+        question: 'In Panini\'s system, what does the mnemonic \'ac\' represent?',
+        options: [
+          'All consonants',
+          'All vowels',
+          'Aspirated consonants',
+          'Third letters of consonant groups'
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 8,
+        question: 'The process in Sanskrit grammar for creating compound words from multiple nouns is specifically referred to as:',
+        options: [
+          'Sandhi',
+          'Karaka',
+          'Samasa',
+          'Pratyaya'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: 'The text compares Panini\'s rule-based system for deriving valid Sanskrit words to the functioning of a:',
+        options: [
+          'Poetic meter',
+          'Manual dictionary',
+          'Computational engine/algorithm',
+          'Historical chronicle'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: 'The Karaka system in Sanskrit plays a crucial role in:',
+        options: [
+          'Enforcing strict word order',
+          'Determining verb conjugations based on time',
+          'Linking words to the action of the verb to clarify their roles',
+          'Classifying sounds based on production'
+        ],
+        correctAnswer: 2
       }
     ]
+  },
+  // Module 4, Lesson 2
+  '4-2': {
+    title: 'Vedic Astronomy Assessment',
+    description: 'Test your understanding of Vedic astronomical concepts and their applications.',
+    questions: [
+      
+    ]
+  },
+  // Module 5, Lesson 2
+  '5-2': {
+    title: 'Vedic Literature Assessment',
+    description: 'Test your understanding of Vedic literature and its historical significance.',
+    questions: [
+
+    ]
+  },
+  // Module 6, Lesson 2
+  '6-2': {
+    title: 'Vedic Mythology Assessment',
+    description: 'Test your understanding of Vedic mythology and its historical significance.',
+    questions: [
+
+    ]
+  },
+  // Module 7, Lesson 2
+  '7-2': {
+    title: 'Vedic Mythology Assessment',
+    description: 'Test your understanding of Vedic mythology and its historical significance.',
+    questions: [
+
+    ]
+  },
+  '8-2': {
+    title: 'Vedic Mythology Assessment',
+    description: 'Test your understanding of Vedic mythology and its historical significance.',
+    questions: [
+
+    ]
   }
+
 };
 
 // Function to get a specific test by module and lesson ID

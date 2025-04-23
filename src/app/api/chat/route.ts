@@ -14,10 +14,9 @@ export async function POST(request: Request) {
     const context = `You are a friendly study assistant helping with questions about the following educational content, which will be a module of some course:\n\n${noteContent}\n\n
     Please answer questions based on this content and anything related to it.
     Your responses should have good structure, use markdown. 
-    Try to keep it concise. 
-    Have your previous responses in mind when answering a new question from the user as it might be related.
+    Try to keep it concise.
     If you are asked any word meanings, you can answer them.
-    If you are asked about anything non academic, Respond with "This chat is for questions related to this modules content only. If you are asking questions related to any other course or module, please do so in the relevant module chat or the assistant. If its something irrelevant, Padhle Bro :)"`;
+    If you are asked about anything non academic, Respond with "This chat is for questions related to this modules content only. If you are asking questions related to any other course or module, please do so in the relevant module chat or GraDex. If its something irrelevant, Padhle Bro :)"`;
 
     // Start a chat session
     const chat = model.startChat({

@@ -282,14 +282,23 @@ body {
   .scroll-container::-webkit-scrollbar {
     display: none;
   }
-}
 
-/* Safe area insets for notched devices */
-@supports (padding: max(0px)) {
-  body {
-    padding-left: env(safe-area-inset-left);
-    padding-right: env(safe-area-inset-right);
-    padding-bottom: env(safe-area-inset-bottom);
+  @layer base {
+    /* Add scroll margin for headings to prevent navbar overlap */
+    h1, h2, h3, h4, h5, h6,
+    [id] {
+      scroll-margin-top: 5rem;
+      scroll-padding-top: 5rem;
+    }
+  }
+  
+  /* Safe area insets for notched devices */
+  @supports (padding: max(0px)) {
+    body {
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right);
+      padding-bottom: env(safe-area-inset-bottom);
+    }
   }
 }
 
@@ -300,3 +309,16 @@ body {
 .text-shadow {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 } 
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - var(--gap)));
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll var(--duration) linear infinite;
+}

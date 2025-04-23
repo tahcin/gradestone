@@ -93,7 +93,11 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="flex items-center z-10 py-2">
-              <div className="text-xl sm:text-2xl font-bold text-primary dark:text-white">Gradestone</div>
+              <img
+                src={theme === 'dark' ? '/images/Logo/gradestonenight.png' : '/images/Logo/Gradestoneday.png'}
+                alt="Gradestone Logo"
+                className="h-6 sm:h-8 w-auto"
+              />
             </Link>
           </motion.div>
 

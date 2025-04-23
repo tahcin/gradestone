@@ -5,6 +5,7 @@ import { motion, useAnimationControls } from 'framer-motion';
 import { fadeIn, slideUp, staggerContainer } from '../utils/animations';
 import { useEffect, useRef } from 'react';
 import ParticleBackground from '@/components/ParticleBackground';
+import { TestimonialsSection } from '@/components/ui/testimonials-section';
 
 
 export default function Home() {
@@ -60,7 +61,7 @@ export default function Home() {
         initial="hidden"
         animate={heroControls}
         variants={fadeIn}
-        className="relative bg-gradient-to-br from-indigo-700 via-purple-700 to-indigo-800 text-white dark:from-indigo-900 dark:via-purple-900 dark:to-indigo-950 section-padding pt-12 sm:pt-16 overflow-hidden h-screen sm:h-auto min-h-[500px] sm:min-h-0 flex sm:block items-center"
+        className="relative bg-gradient-to-br from-indigo-700 via-purple-700 to-indigo-800 text-white dark:from-indigo-900 dark:via-purple-900 dark:to-indigo-950 section-padding pt-12 sm:pt-16 overflow-hidden h-[calc(100vh-48px)] sm:h-auto min-h-[500px] sm:min-h-0 flex sm:block items-center"
       >
         <ParticleBackground className="opacity-50" />
         <div className="container-custom relative z-10">
@@ -70,11 +71,10 @@ export default function Home() {
           >
             <motion.div variants={slideUp} className="text-left text-shadow pl-2 md:pl-0">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 md:mb-6 leading-tight drop-shadow-lg">
-                Transform Your Learning Experience
+              Smart Study Companion for BBA DBE
               </h1>
               <p className="text-base md:text-lg mb-6 md:mb-8 max-w-xl mx-0 text-gray-100 dark:text-gray-200 drop-shadow">
-                Gradestone provides a modern learning platform with interactive courses,
-                quizzes, and personalized learning paths to help you achieve your goals.
+              Gradestone offers curated notes, quizzes, and mindmaps for the BBA DBE curriculum — Powered by GraDex AI to personalize and simplify your learning experience.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-start">
                 <Link 
@@ -94,21 +94,39 @@ export default function Home() {
                   <div className="absolute top-1/2 right-1/3 w-16 h-16 rounded-lg bg-purple-400/30 backdrop-blur-sm rotate-12"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
-                      <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        className="h-16 w-16 text-white/80 mx-auto mb-2" 
-                        fill="none" 
-                        viewBox="0 0 24 24" 
-                        stroke="currentColor"
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 48 48"  // Adjusted viewBox based on coordinates (~0-44 range)
+                        fill="currentColor" // Inherits color from text-white/80
+                        stroke="currentColor" // Added stroke as many elements look like outlines/lines
+                        stroke-width="2.2" // A common default stroke width, adjust if needed
+                        className="h-16 w-16 text-white/80 mx-auto mb-2" // Your specified classes
                       >
-                        <path 
-                          strokeLinecap="round" 
-                          strokeLinejoin="round" 
-                          strokeWidth={1.5} 
-                          d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" 
-                        />
+                        <g fill="none"> {/* Wrap in a group with fill=none if paths/lines should primarily use stroke */}
+                          <path d="M17.30639,11.25243a5.29412,5.29412,0,1,0-10.58824,0,5.23707,5.23707,0,0,0,.584,2.37007A5.27955,5.27955,0,0,0,8.8358,23.95831"></path>
+                          <path d="M3.58191,21.56266a7.00047,7.00047,0,1,0,11.32225,6.78321V28"></path>
+                          <path d="M8.43086,42.32855A6.21606,6.21606,0,0,1,5.108,36.82494a6.14985,6.14985,0,0,1,.68573-2.78316"></path>
+                          <path d="M19,16a5,5,0,0,1-5,5"></path>
+                            <g> {/* This inner group might have had specific styles, keeping it for structure */}
+                              <polyline points="19 16.01 30.5 16.01 32.521 13.99"></polyline>
+                              <polyline points="25.5 20.01 31.5 20.01 33.521 17.99 39 17.99"></polyline>
+                              <polyline points="24.917 31.99 30.5 31.99 32.521 34.01"></polyline>
+                              <polyline points="24.917 27.99 31.5 27.99 33.521 30.01 39 30.01"></polyline>
+                              <path d="M39,38.01018H31.52094l-1.52061-2.02061-4.95867.00011v6.05209a5,5,0,0,1-10,0"></path>
+                            </g>
+                          <path d="M17.04167,4.13392a4.05277,4.05277,0,0,1,8,.91833V12.01l4.45868.00013L31.521,9.98956H39"></path>
+                          <line x1="36" x2="25.04167" y1="24" y2="24"></line>
+                          {/* Circles might need fill="currentColor" if they should be solid */}
+                          <circle fill="currentColor" cx="11" cy="20" r="1"></circle>
+                          <circle fill="currentColor" cx="11.79167" cy="43.5" r="1"></circle>
+                          <circle cx="41.47922" cy="10" r="2"></circle>
+                          <circle cx="41.47922" cy="18" r="2"></circle>
+                          <circle cx="41.47922" cy="30" r="2"></circle>
+                          <circle cx="41.47922" cy="38" r="2"></circle>
+                        </g> {/* Closing the fill="none" group */}
                       </svg>
-                      <div className="text-lg font-bold text-white">Interactive Learning</div>
+  
+                      <div className="text-lg font-bold text-white">Your Learning Co-Pilot</div>
                     </div>
                   </div>
                 </div>
@@ -131,8 +149,7 @@ export default function Home() {
           <motion.div variants={slideUp} className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">Why Choose Gradestone?</h2>
             <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Our platform is designed to provide the best learning experience
-              with a focus on engagement and results.
+            Designed to boost your grades with AI features and High Quality resources.
             </p>
           </motion.div>
 
@@ -161,10 +178,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2">Comprehensive Courses</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2">All-in-One Resource Hub</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm">
-                Our courses are created by industry experts and cover everything
-                you need to master a subject from beginning to advanced topics.
+              Access structured notes, interactive quizzes, and mindmaps tailored for your courses.
               </p>
             </motion.div>
 
@@ -189,10 +205,9 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2">Interactive Learning</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2">AI-Powered Study Assistant</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm">
-                Engage with interactive quizzes, assignments, and projects that
-                reinforce your learning and help you apply what you've learned.
+              Get real-time help, personalized guidance, and smart search powered by our in-house AI - GradDex - trained on all Gradestone content.
               </p>
             </motion.div>
 
@@ -219,8 +234,7 @@ export default function Home() {
               </div>
               <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2">Community Support</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm">
-                Join a community of learners and instructors who are passionate
-                about education and are ready to help you succeed.
+              Learn alongside a supportive community of peers, mentors, and tools designed to help you excel.
               </p>
             </motion.div>
           </motion.div>
@@ -228,7 +242,12 @@ export default function Home() {
       </motion.section>
 
       {/* Popular Courses Section */}
-      <motion.section 
+      
+
+      
+
+      {/* Course Section */}
+      <motion.section
         initial="hidden"
         animate={coursesControls}
         variants={fadeIn}
@@ -236,9 +255,9 @@ export default function Home() {
       >
         <div className="container-custom">
           <motion.div variants={slideUp} className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">Popular Courses</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">Get Started</h2>
             <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Explore our most popular courses and start your learning journey today.
+            Start strong with courses that we think you would need help with.
             </p>
           </motion.div>
 
@@ -356,65 +375,39 @@ export default function Home() {
         initial="hidden"
         animate={testimonialsControls}
         variants={fadeIn}
-        className="section-padding bg-white dark:bg-gray-800"
+        className="bg-gray-50 dark:bg-gray-900"
       >
-        <div className="container-custom">
-          <motion.div variants={slideUp} className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4">What Our Students Say</h2>
-            <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We've helped thousands of students reach their goals. Here's what some of them have to say.
-            </p>
-          </motion.div>
-
-          <motion.div 
-            variants={staggerContainer}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-6"
-          >
-            {/* Testimonial 1 */}
-            <motion.div 
-              variants={slideUp}
-              className="card hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200 relative"
-            >
-              <div className="absolute -top-3 left-3 text-indigo-500 dark:text-indigo-400 text-4xl">"</div>
-              <div className="flex items-center mb-4 mt-2">
-                <div className="rounded-full bg-indigo-100 dark:bg-indigo-900/40 w-12 h-12 flex items-center justify-center mr-3">
-                  <span className="text-indigo-600 dark:text-indigo-400 font-semibold">JD</span>
-                </div>
-                <div>
-                  <h4 className="font-bold text-gray-900 dark:text-white">John Doe</h4>
-                  <p className="text-gray-500 dark:text-gray-400 text-xs">Web Development Student</p>
-                </div>
-              </div>
-              <p className="text-gray-600 dark:text-gray-300 text-sm relative z-10">
-                "The courses on Gradestone are incredibly well-structured and easy to follow.
-                I went from knowing nothing about web development to building my own websites in just a few months."
-              </p>
-              <div className="absolute -bottom-2 right-3 text-indigo-500 dark:text-indigo-400 text-4xl rotate-180">"</div>
-            </motion.div>
-
-            {/* Testimonial 2 */}
-            <motion.div 
-              variants={slideUp}
-              className="card hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200 relative"
-            >
-              <div className="absolute -top-3 left-3 text-cyan-500 dark:text-cyan-400 text-4xl">"</div>
-              <div className="flex items-center mb-4 mt-2">
-                <div className="rounded-full bg-cyan-100 dark:bg-cyan-900/40 w-12 h-12 flex items-center justify-center mr-3">
-                  <span className="text-cyan-600 dark:text-cyan-400 font-semibold">JS</span>
-                </div>
-                <div>
-                  <h4 className="font-bold text-gray-900 dark:text-white">Jane Smith</h4>
-                  <p className="text-gray-500 dark:text-gray-400 text-xs">Data Science Student</p>
-                </div>
-              </div>
-              <p className="text-gray-600 dark:text-gray-300 text-sm relative z-10">
-                "The data science course exceeded my expectations. The instructor was knowledgeable and provided
-                practical examples that helped me understand complex concepts. Highly recommended!"
-              </p>
-              <div className="absolute -bottom-2 right-3 text-cyan-500 dark:text-cyan-400 text-4xl rotate-180">"</div>
-            </motion.div>
-          </motion.div>
-        </div>
+        <TestimonialsSection 
+          title="What Our Students Say"
+          description="Join thousands of BBA DBE students who are already excelling in their courses with Gradestone"
+          testimonials={[
+            {
+              author: {
+                name: "Priya Sharma",
+                handle: "@priya_bba",
+                avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face"
+              },
+              text: "Gradestone's study materials and AI assistance helped me ace my Persuasive Communication course. The mindmaps are incredibly helpful!"
+            },
+            {
+              author: {
+                name: "Rahul Patel",
+                handle: "@rahul_dbe",
+                avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+              },
+              text: "The IKS course materials are comprehensive and well-structured. GraDex AI's explanations make complex concepts easy to understand."
+            },
+            {
+              author: {
+                name: "Ananya Singh",
+                handle: "@ananya_s",
+                avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
+              },
+              text: "The interactive quizzes and personalized feedback have significantly improved my understanding of Microeconomics principles."
+            },
+            
+          ]}
+        />
       </motion.section>
 
       {/* CTA Section */}
@@ -427,15 +420,16 @@ export default function Home() {
         <ParticleBackground className="opacity-50" />
         <motion.div variants={slideUp} className="container-custom text-center">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Ready to Start Learning?</h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Join the Gradestone Community!</h2>
             <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 text-gray-100">
-              Join thousands of students already learning on Gradestone. Get access to our full library of courses.
+            Whether you're stuck on a concept or just looking for motivation, the Gradestone community is here for you.
             </p>
             <Link 
-              href="/courses" 
+              href="https://chat.whatsapp.com/DpUJ2d7WEs11WmWQNU5PAu"
               className="inline-flex items-center space-x-2 bg-white text-indigo-700 hover:bg-gray-100 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-colors shadow-lg text-sm sm:text-base w-auto whitespace-nowrap max-w-[200px] mx-auto"
+              target="_blank"
             >
-              <span>Explore Courses</span>
+              <span>Join Now!</span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>

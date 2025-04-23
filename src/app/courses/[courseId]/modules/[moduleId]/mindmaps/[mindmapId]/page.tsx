@@ -4,6 +4,10 @@ import { getCourseDetailsById } from '@/data/courses/courseDetails';
 import { getMindmap as getPCMindmap } from '@/data/courses/persuasive-communication/mindmaps';
 import { getMindmap as getIKSMindmap } from '@/data/courses/indian-knowledge-system/mindmaps';
 import { getMindmap as getMicroeconomicsMindmap } from '@/data/courses/principles-of-microeconomics/mindmaps';
+import { getMindmap as getbseMindmap } from '@/data/courses/bse/mindmaps';
+import { getMindmap as getasbMindmap } from '@/data/courses/asb/mindmaps';
+
+
 
 // Import the client component directly
 import MindmapPage from '@/components/MindmapPage';
@@ -40,6 +44,14 @@ export default function MindmapServerPage({ params }: {
     case 'principles-of-microeconomics':
       mindmap = getMicroeconomicsMindmap(moduleId, mindmapId);
       break;
+    case 'bse':
+      mindmap = getbseMindmap(moduleId, mindmapId);
+      break;
+    case 'asb':
+      mindmap = getasbMindmap(moduleId, mindmapId);
+      break;
+
+    
     default:
       mindmap = null;
   }
