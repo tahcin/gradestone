@@ -37,7 +37,12 @@ export default function NotePage({ course, note, moduleId, courseId, test }: Not
     event.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      const offset = 80; // 5rem = 80px, adjust if needed based on sticky header height
+      // Dynamically get the navbar height
+      const navbarElement = document.getElementById('main-navbar');
+      const navbarHeight = navbarElement ? navbarElement.offsetHeight : 0;
+      const buffer = 10; // Add a small buffer for spacing
+      const offset = navbarHeight + buffer;
+
       const bodyRect = document.body.getBoundingClientRect().top;
       const elementRect = element.getBoundingClientRect().top;
       const elementPosition = elementRect - bodyRect;
