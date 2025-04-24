@@ -7,6 +7,7 @@ import { getMindmap as getMicroeconomicsMindmap } from '@/data/courses/principle
 import { getMindmap as getbseMindmap } from '@/data/courses/bse/mindmaps';
 import { getMindmap as getasbMindmap } from '@/data/courses/asb/mindmaps';
 import { getMindmap as getfobc2Mindmap } from '@/data/courses/fobc2/mindmaps';
+import { getMindmap as getebmMindmap } from '@/data/courses/ebm/mindmaps';
 
 
 
@@ -54,6 +55,9 @@ export default function MindmapServerPage({ params }: {
       break;
     case 'fobc2':
       mindmap = getfobc2Mindmap(moduleId, mindmapId);
+      break;
+    case 'ebm':
+      mindmap = getebmMindmap(moduleId, mindmapId);
       break;
 
     

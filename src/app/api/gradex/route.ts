@@ -64,6 +64,18 @@ async function gatherWebsiteContent() {
               if (asbNotes[noteKey]) {
                 noteContent = asbNotes[noteKey];
               }
+            } else if (course.id === 'ebm') {
+              const {ebmNotes } = await import('@/data/courses/ebm/notes');
+              const noteKey = `${module.id}-${lesson.id}`;
+              if (ebmNotes[noteKey]) {
+                noteContent = ebmNotes[noteKey];
+              }
+            } else if (course.id === 'fobc2') {
+              const {fobc2Notes } = await import('@/data/courses/fobc2/notes');
+              const noteKey = `${module.id}-${lesson.id}`;
+              if (fobc2Notes[noteKey]) {
+                noteContent = fobc2Notes[noteKey];
+              }
             }
           } catch (e) {}
           if (noteContent) {

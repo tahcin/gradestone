@@ -7,6 +7,7 @@ import { getNote as getMicroeconomicsNote } from '@/data/courses/principles-of-m
 import { getNote as getbseNote } from '@/data/courses/bse/notes';
 import { getNote as getasbNote } from '@/data/courses/asb/notes';
 import { getNote as getfobc2Note } from '@/data/courses/fobc2/notes';
+import { getNote as getebmNote } from '@/data/courses/ebm/notes';
 
 
 
@@ -53,6 +54,9 @@ export default function NoteServerPage({ params }: {
     break;
     case 'fobc2':
       note = getfobc2Note(moduleId, noteId);
+    break;
+    case 'ebm':
+      note = getebmNote(moduleId, noteId);
     break;
     
     default:

@@ -7,6 +7,7 @@ import { getTest as getMicroeconomicsTest } from '@/data/courses/principles-of-m
 import { getTest as getbseTest } from '@/data/courses/bse/tests';
 import { getTest as getasbTest } from '@/data/courses/asb/tests';
 import { getTest as getfobc2Test } from '@/data/courses/fobc2/tests';
+import { getTest as getebmTest } from '@/data/courses/ebm/tests';
 
 
 
@@ -54,6 +55,9 @@ export default function TestServerPage({ params }: {
       break;
     case 'fobc2':
       testData = getfobc2Test(moduleId, testId);
+      break;
+    case 'ebm':
+      testData = getebmTest(moduleId, testId);
       break;
 
     

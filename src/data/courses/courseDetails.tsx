@@ -688,7 +688,7 @@ export const courseDetails = {
   'ebm': {
     title: 'Evolution of Business and Market',
     description: 'Study the historical development of business practices, market structures, and economic systems.',
-    category: 'Business',
+    overview: 'This course explores the evolution of business practices and market structures from ancient times to the modern era, highlighting key economic systems and their impact on society.',
     level: 'Year 1',
     gradientFrom: 'from-yellow-500',
     gradientTo: 'to-amber-600',
