@@ -169,13 +169,9 @@ export const courseDetails = {
   },
   'persuasive-communication': {
     title: 'Persuasive Communication',
-    description: 'Develop effective persuasion techniques and communication skills for professional and academic settings.',
-    overview: 'This comprehensive course teaches you the art and science of persuasive communication. You will learn how to craft compelling messages, understand your audience, and deliver presentations that inspire action. Through practical exercises and real-world case studies, you will develop the skills needed to influence others ethically and effectively in various professional and academic contexts.',
-    category: 'Communication',
+    description: ' Principles, techniques, and skills necessary to communicate persuasively in various business contexts.',
+    overview: 'The Persuasive Communication course aims to equip students with precision and persuasion in communication for career and life success. This foundation course, led by IIM Bangalore alumnus Rakesh Godhwani, uses videos and his textbook "What to Say, When to Shut Up" to help students overcome speaking inhibitions, understand and influence audiences, and structure spoken messages using the AEIOUXE framework. The course is divided into four modules covering the introduction to persuasive communication and confidence-building, audience analysis and message structuring, the AEIOUXE framework, and creating effective presentation slides. Upon completion, students will be able to create and evaluate presentations, analyze audience needs, and understand key concepts of persuasive communication.',
     level: 'Year 1',
-    duration: '8 weeks',
-    instructor: 'Dr. Maya Patel',
-    instructorBio: 'Dr. Patel is a communication expert with over 15 years of experience in corporate training and academia. She has published numerous articles on persuasion techniques and has consulted for Fortune 500 companies on improving their communication strategies.',
     gradientFrom: 'from-purple-500',
     gradientTo: 'to-pink-600',
     darkGradientFrom: 'dark:from-purple-600',
@@ -186,7 +182,7 @@ export const courseDetails = {
     modules: [
       {
         id: 1,
-        title: 'Principles of Persuasion',
+        title: 'Introduction to Persuasive Communication and its Applications',
         lessons: [
           { 
             id: 1, 
@@ -205,42 +201,61 @@ export const courseDetails = {
       },
       {
         id: 2,
-        title: 'Audience Analysis',
+        title: 'Analysing your audience and structuring an effective message',
         lessons: [
           { 
             id: 1, 
-            title: 'Understanding Your Audience', 
+            title: 'Audience Analysis Techniques', 
             type: 'note',
-            description: 'Learn techniques for analyzing your audience and tailoring your message to their needs, values, and expectations.'
+            description: 'Learn how to analyze your audience to tailor your message for maximum impact.'
           },
           { 
             id: 2, 
-            title: 'Audience Analysis Assessment', 
+            title: 'Message Structuring Assessment', 
             type: 'test', 
-            questions: 8,
-            description: 'Apply audience analysis techniques to various communication scenarios.'
+            questions: 10,
+            description: 'Evaluate your ability to structure messages effectively based on audience analysis.'
           },
         ],
       },
       {
         id: 3,
-        title: 'Crafting Persuasive Messages',
+        title: 'Adding Persuasive Elements to Make the Message Powerful and Impactful',
         lessons: [
           { 
             id: 1, 
-            title: 'Message Structure and Delivery', 
+            title: 'Incorporating Persuasive Techniques', 
             type: 'note',
-            description: 'Learn how to structure persuasive messages and deliver them effectively across different mediums.'
+            description: 'Explore techniques to enhance the persuasiveness of your message, including storytelling and rhetorical devices.'
           },
           { 
             id: 2, 
-            title: 'Message Crafting Assessment', 
+            title: 'Persuasive Elements Assessment', 
             type: 'test', 
-            questions: 12,
-            description: 'Create and evaluate persuasive messages for different contexts and audiences.'
+            questions: 10,
+            description: 'Test your ability to incorporate persuasive elements into your communication.'
           },
         ],
       },
+      {
+        id: 4,
+        title: 'Slides to complement the presentation and putting it all together',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Designing Effective Presentation Slides', 
+            type: 'note',
+            description: 'Learn how to create slides that complement your presentation and enhance audience engagement.'
+          },
+          { 
+            id: 2, 
+            title: 'Presentation Integration Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Assess your skills in integrating slides with spoken content for a cohesive presentation.'
+          },
+        ],
+      },  
     ],
   },
   
@@ -510,11 +525,7 @@ export const courseDetails = {
     title: 'Principles of Microeconomics',
     description: 'Understand fundamental microeconomic concepts, market structures, and decision-making processes.',
     overview: 'This course introduces you to the fundamental principles of microeconomics, focusing on how individuals and businesses make decisions in a world of scarcity. You will learn about supply and demand, market structures, consumer behavior, and the role of government in the economy. Through real-world examples and case studies, you will develop analytical skills to understand economic issues and evaluate policy options.',
-    category: 'Economics',
     level: 'Year 1',
-    duration: '12 weeks',
-    instructor: 'Dr. Arun Kapoor',
-    instructorBio: 'Dr. Kapoor is an economist with expertise in microeconomic theory and its applications. He has worked with policy think tanks and has extensive experience teaching economics to undergraduate students, making complex concepts accessible and engaging.',
     gradientFrom: 'from-green-500',
     gradientTo: 'to-teal-600',
     darkGradientFrom: 'dark:from-green-600',
@@ -583,15 +594,11 @@ export const courseDetails = {
     ],
   },
   
-  'foundation-of-business-communication-ii': {
+  'fobc2': {
     title: 'Foundation of Business Communication 2',
     description: 'Build advanced business communication skills for effective professional interactions and presentations.',
-    overview: 'Building on the fundamentals of business communication, this course focuses on advanced communication strategies for complex business environments. You will develop skills in crafting persuasive business proposals, managing crisis communication, facilitating effective meetings, and delivering impactful presentations. The course emphasizes practical applications through case studies, role-playing, and real-world projects.',
-    category: 'Business',
+    overview: 'The Foundations of Business Communication-2 is a course designed for first-year IIM Bangalore Digital Business and Entrepreneurship students that aims to enhance their understanding of effective written and interpersonal communication. Building upon FoBC-1, this course focuses on clarity, structure, and professionalism in business contexts, emphasizing advanced writing techniques, structured business correspondence, and essential interpersonal skills. Upon completion, students will develop clarity and confidence in using English across various professional settings, gain familiarity with key grammatical rules and writing conventions to enhance communication impact, and learn to craft tailored, clear, concise, and persuasive messages while also being able to develop structured written content and adapt their communication style.',
     level: 'Year 1',
-    duration: '10 weeks',
-    instructor: 'Prof. Neha Gupta',
-    instructorBio: 'Prof. Gupta brings 15 years of corporate communication experience to the classroom. She has worked as a communication consultant for multinational corporations and specializes in helping professionals overcome communication barriers in diverse business settings.',
     gradientFrom: 'from-blue-500',
     gradientTo: 'to-indigo-600',
     darkGradientFrom: 'dark:from-blue-600',
@@ -602,140 +609,175 @@ export const courseDetails = {
     modules: [
       {
         id: 1,
-        title: 'Advanced Written Communication',
+        title: 'Essentials of Business Communication',
         lessons: [
           { 
             id: 1, 
-            title: 'Business Proposals and Reports', 
+            title: 'Effective Communication Strategies', 
             type: 'note',
-            description: 'Learn techniques for writing persuasive business proposals, comprehensive reports, and effective business cases.'
+            description: 'Learn the essential strategies for effective communication in business settings, including clarity and conciseness.'
           },
           { 
             id: 2, 
-            title: 'Written Communication Assessment', 
+            title: 'Communication Skills Assessment', 
             type: 'test', 
             questions: 10,
-            description: 'Apply advanced writing techniques to create professional business documents.'
+            description: 'Test your understanding of essential communication strategies and skills.'
           },
         ],
       },
       {
         id: 2,
-        title: 'Presentation Skills',
+        title: 'Fundamentals of Business Writing',
         lessons: [
           { 
             id: 1, 
-            title: 'Impactful Business Presentations', 
+            title: 'Advanced Writing Techniques', 
             type: 'note',
-            description: 'Develop skills for designing and delivering compelling presentations that achieve business objectives.'
+            description: 'Explore advanced writing techniques for crafting professional business documents.'
+          },
+          { 
+            id: 2, 
+            title: 'Business Writing Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Evaluate your ability to apply advanced writing techniques in business contexts.'
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Interpersonal Communication',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Building Interpersonal Skills', 
+            type: 'note',
+            description: 'Develop interpersonal skills for effective communication and relationship building in business environments.'
+          },
+          { 
+            id: 2, 
+            title: 'Interpersonal Skills Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Assess your interpersonal communication skills through practical scenarios.'
+          },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Business Presentations',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Crafting Impactful Presentations', 
+            type: 'note',
+            description: 'Learn how to design and deliver impactful business presentations that engage and persuade audiences.'
           },
           { 
             id: 2, 
             title: 'Presentation Skills Assessment', 
             type: 'test', 
-            questions: 8,
-            description: 'Create and evaluate business presentations for different audiences and purposes.'
-          },
-        ],
-      },
-      {
-        id: 3,
-        title: 'Cross-Cultural Communication',
-        lessons: [
-          { 
-            id: 1, 
-            title: 'Navigating Cultural Differences', 
-            type: 'note',
-            description: 'Learn strategies for effective communication across cultural boundaries in global business environments.'
-          },
-          { 
-            id: 2, 
-            title: 'Cross-Cultural Communication Assessment', 
-            type: 'test', 
             questions: 10,
-            description: 'Apply cultural intelligence to resolve communication challenges in diverse business scenarios.'
+            description: 'Test your ability to create and deliver effective business presentations.'
           },
         ],
       },
     ],
   },
-  
-  'evolution-of-business-and-market': {
+  'ebm': {
     title: 'Evolution of Business and Market',
     description: 'Study the historical development of business practices, market structures, and economic systems.',
-    overview: 'This course traces the evolution of business and markets from ancient trading systems to modern global economies. You will explore how economic, technological, and social forces have shaped business practices and market structures throughout history. The course provides insights into the development of capitalism, the industrial revolution, the rise of corporations, and the emergence of digital economies, offering valuable context for understanding contemporary business challenges.',
     category: 'Business',
     level: 'Year 1',
-    duration: '10 weeks',
-    instructor: 'Dr. Vikram Mehta',
-    instructorBio: 'Dr. Mehta is an economic historian specializing in the development of business institutions. His research focuses on the intersection of technology, society, and business evolution, and he has published extensively on the transformation of markets across different historical periods.',
     gradientFrom: 'from-yellow-500',
     gradientTo: 'to-amber-600',
     darkGradientFrom: 'dark:from-yellow-600',
     darkGradientTo: 'dark:to-amber-700',
     iconColor: 'text-yellow-500',
-    accentColor: 'bg-amber-600',
-    accentHoverColor: 'hover:bg-amber-700',
+    accentColor: 'bg-yellow-600',
+    accentHoverColor: 'hover:bg-yellow-700',
     modules: [
       {
         id: 1,
-        title: 'Pre-Industrial Business',
+        title: 'Onset of Business',
         lessons: [
           { 
             id: 1, 
-            title: 'Ancient and Medieval Commerce', 
+            title: 'Early Trade and Commerce', 
             type: 'note',
-            description: 'Explore trading systems, guilds, and commercial practices from ancient civilizations through the Middle Ages.'
+            description: 'Explore the origins of trade and commerce in ancient civilizations and their impact on societal development.'
           },
           { 
             id: 2, 
-            title: 'Pre-Industrial Era Assessment', 
+            title: 'Early Business Practices Assessment', 
             type: 'test', 
             questions: 10,
-            description: 'Analyze the economic and social factors that influenced early business development.'
+            description: 'Assess your understanding of early business practices and their influence on modern commerce.'
           },
         ],
       },
       {
         id: 2,
-        title: 'Industrial Revolution and Capitalism',
+        title: 'Transformation of Business',
         lessons: [
           { 
             id: 1, 
-            title: 'Rise of Modern Business', 
+            title: 'Industrialization and Market Evolution', 
             type: 'note',
-            description: 'Understand how industrialization transformed business practices, labor relations, and market structures.'
+            description: 'Understand the transformation of business practices during the industrial revolution and the emergence of new market structures.'
           },
           { 
             id: 2, 
-            title: 'Industrial Era Assessment', 
+            title: 'Business Transformation Assessment', 
             type: 'test', 
-            questions: 12,
-            description: 'Evaluate the impact of technological innovations on business evolution during the industrial age.'
+            questions: 10,
+            description: 'Evaluate the impact of industrialization on business evolution and market dynamics.'
           },
         ],
       },
       {
         id: 3,
-        title: 'Modern Global Economy',
+        title: 'Social Structure',
         lessons: [
           { 
             id: 1, 
-            title: 'Digital Transformation', 
+            title: 'Business and Society', 
             type: 'note',
-            description: 'Examine how information technology, globalization, and new business models are reshaping markets and competition.'
+            description: 'Analyze the relationship between business practices and social structures throughout history.'
           },
           { 
             id: 2, 
-            title: 'Contemporary Markets Assessment', 
+            title: 'Social Structure Assessment', 
             type: 'test', 
             questions: 10,
-            description: 'Analyze current trends in business evolution and predict future developments in market structures.'
+            description: 'Test your knowledge of how business practices have influenced and been influenced by social structures.'
+          },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Forces Shaping Markets',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Economic Forces and Market Dynamics', 
+            type: 'note',
+            description: 'Examine the economic forces that have shaped market dynamics and business strategies over time.'
+          },
+          { 
+            id: 2, 
+            title: 'Market Forces Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Analyze the role of economic forces in shaping business strategies and market structures.'
           },
         ],
       },
     ],
   },
+
+
   
   // Template for adding a new course
   /* 

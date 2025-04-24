@@ -158,7 +158,7 @@ export const courses: Course[] = [
     textColor: 'text-green-600 dark:text-green-400'
   },
   {
-    id: 'foundation-of-business-communication-ii',
+    id: 'fobc2',
     title: 'Foundation of Business Communication 2',
     description: 'Build advanced business communication skills for effective professional interactions and presentations.',
     category: 'Business',
@@ -178,7 +178,7 @@ export const courses: Course[] = [
     textColor: 'text-blue-600 dark:text-blue-400'
   },
   {
-    id: 'evolution-of-business-and-market',
+    id: 'ebm',
     title: 'Evolution of Business and Market',
     description: 'Study the historical development of business practices, market structures, and economic systems.',
     category: 'Business',

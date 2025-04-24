@@ -6,6 +6,8 @@ import { getMindmap as getIKSMindmap } from '@/data/courses/indian-knowledge-sys
 import { getMindmap as getMicroeconomicsMindmap } from '@/data/courses/principles-of-microeconomics/mindmaps';
 import { getMindmap as getbseMindmap } from '@/data/courses/bse/mindmaps';
 import { getMindmap as getasbMindmap } from '@/data/courses/asb/mindmaps';
+import { getMindmap as getfobc2Mindmap } from '@/data/courses/fobc2/mindmaps';
+
 
 
 
@@ -49,6 +51,9 @@ export default function MindmapServerPage({ params }: {
       break;
     case 'asb':
       mindmap = getasbMindmap(moduleId, mindmapId);
+      break;
+    case 'fobc2':
+      mindmap = getfobc2Mindmap(moduleId, mindmapId);
       break;
 
     

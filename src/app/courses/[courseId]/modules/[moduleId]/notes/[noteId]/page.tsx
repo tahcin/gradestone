@@ -6,6 +6,9 @@ import { getNote as getIKSNote } from '@/data/courses/indian-knowledge-system/no
 import { getNote as getMicroeconomicsNote } from '@/data/courses/principles-of-microeconomics/notes';
 import { getNote as getbseNote } from '@/data/courses/bse/notes';
 import { getNote as getasbNote } from '@/data/courses/asb/notes';
+import { getNote as getfobc2Note } from '@/data/courses/fobc2/notes';
+
+
 
 // Import the client component directly
 import NotePage from '@/components/NotePage';
@@ -47,6 +50,9 @@ export default function NoteServerPage({ params }: {
     break;
     case 'asb':
       note = getasbNote(moduleId, noteId);
+    break;
+    case 'fobc2':
+      note = getfobc2Note(moduleId, noteId);
     break;
     
     default:

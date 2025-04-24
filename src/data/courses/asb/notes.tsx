@@ -21,10 +21,10 @@ export const asbNotes: { [key: string]: { title: string; content: string } } = {
 
 # Chi-Square Test of Independence
 
-## Definition
+## Chi-Square Test of Independence - Definition
 A non-parametric method used to determine if a statistically significant association exists between two categorical variables.
 
-## Key Insights
+## Chi-Square Test of Independence - Key Insights
 *   Tests the null hypothesis (H0) that the two variables are independent against the alternative hypothesis (H1) that they are dependent.
 *   Compares observed frequencies (from sample data in a contingency table) with expected frequencies (calculated assuming independence).
 *   The test statistic quantifies the discrepancy between observed and expected counts.
@@ -32,12 +32,12 @@ A non-parametric method used to determine if a statistically significant associa
 *   Continuous variables must be discretized (grouped into categories) before applying this test.
 *   Independence implies that the occurrence of one variable's category does not influence the probability of the other variable's category occurring.
 
-## Examples
+## Chi-Square Test of Independence - Examples
 *   Examining if airline ticket class (economic, business, first) is associated with travel type (domestic, international).
 *   Assessing if salary distributions differ significantly across various company departments.
 *   Testing if employee satisfaction level is independent of categorized average monthly hours worked.
 
-## Formula
+## Chi-Square Test of Independence - Formula
 *   **Chi-Square Statistic (χ²):**
     ∑ [(Oᵢⱼ - Eᵢⱼ)² / Eᵢⱼ]
     *   Oᵢⱼ = Observed frequency in cell (row i, column j)
@@ -49,22 +49,22 @@ A non-parametric method used to determine if a statistically significant associa
 
 # Goodness of Fit Test
 
-## Definition
+## Goodness of Fit Test - Definition
 A statistical test to assess how well observed sample data fits a hypothesized theoretical probability distribution (e.g., uniform, Poisson, normal).
 
-## Key Insights
+## Goodness of Fit Test - Key Insights
 *   Compares the observed frequency distribution from the sample against the expected frequency distribution derived from the hypothesized theoretical distribution (H0).
 *   The alternative hypothesis (H1) states the data does not follow the specified distribution.
 *   Requires grouping continuous data into intervals/categories to obtain observed frequencies for comparison.
 *   Expected frequencies are calculated based on the probability of each category under the assumed distribution.
 *   Uses a chi-square test statistic to measure the discrepancy between observed and expected frequencies.
 
-## Examples
+## Goodness of Fit Test - Examples
 *   Testing if employee satisfaction scores are uniformly distributed between 0 and 1.
 *   Determining if the number of projects assigned per employee follows a Poisson distribution.
 *   Validating if historical sales data conforms to a specific distribution to inform forecasting models.
 
-## Formula
+## Goodness of Fit Test - Formula
 *   **Chi-Square Statistic (χ²):**
     ∑ [(Observed Frequency - Expected Frequency)² / Expected Frequency]
     *(Summation is across all categories/intervals)*
@@ -73,12 +73,12 @@ A statistical test to assess how well observed sample data fits a hypothesized t
 
 # Wilcoxon Signed Rank Test
 
-## Definition
+## Wilcoxon Signed Rank Test - Definition
 A non-parametric test used for one-sample or paired two-sample scenarios to assess hypotheses about the median.
 *   **One-Sample:** Tests if the sample median differs significantly from a specific hypothesized median value.
 *   **Paired Two-Sample:** Tests if the median of the differences between paired observations is significantly different from zero.
 
-## Key Insights
+## Wilcoxon Signed Rank Test - Key Insights
 *   Does not assume data follows a normal distribution; suitable for non-normal data or small sample sizes.
 *   Based on ranking the absolute values of the differences (observation vs. hypothesized median, or paired differences).
 *   Uses the signs (+/-) of the original differences, applied to the ranks.
@@ -335,80 +335,83 @@ Predictive analysis provides methodologies to forecast future outcomes by levera
 
 
 # Hypothesis Testing
-## Definition
+
+## Hypothesis Testing - Definition
 A statistical procedure used to evaluate claims or hypotheses about a population or process based on sample data. In quality management, it often tests whether a product or process meets specified standards.
-## Key Insights
+
+## Hypothesis Testing - Key Insights
 *   Helps make objective decisions about product/process quality (e.g., accept/reject batch).
 *   Requires understanding and balancing the risks of:
     *   **Type I Error:** Incorrectly rejecting a true hypothesis (e.g., rejecting a good batch).
     *   **Type II Error:** Incorrectly failing to reject a false hypothesis (e.g., accepting a defective batch).
 *   Both error types have potential financial and reputational consequences.
-## Examples
+
+## Hypothesis Testing - Examples
 *   A manufacturer testing if the mean tensile strength of a material meets the minimum required specification.
 *   Verifying if a process change has significantly reduced the defect rate.
 
 
 
 # Regression Analysis
-## Definition
+## Regression Analysis - Definition
 A set of statistical processes for estimating the relationships between a dependent variable (output/outcome) and one or more independent variables (inputs/factors).
-## Key Insights
+## Regression Analysis - Key Insights
 *   Identifies and quantifies how changes in input factors affect process outputs or product quality characteristics.
 *   Enables prediction of future outcomes based on input variable values.
 *   Facilitates process optimization by understanding key influential factors.
 *   **Logistic Regression:** A specific type used when the dependent variable is categorical (e.g., pass/fail, defective/non-defective).
-## Examples
+## Regression Analysis - Examples
 *   Modeling how furnace temperature and curing time affect the hardness of a material.
 *   Predicting the likelihood of a product passing inspection based on sensor readings during production.
-## Formula (Conceptual)
+## Regression Analysis - Formula (Conceptual)
 *   Represents the relationship mathematically, often as an equation predicting the dependent variable based on coefficients multiplied by independent variables (e.g., \`Output ≈ β₀ + β₁ * Input₁ + β₂ * Input₂ + ...\`).
 
 
 
 # Statistical Process Control (SPC) and Control Charts
-## Definition
+## SPC and Control Charts - Definition
 A method of quality control which employs statistical methods to monitor and control a process, ensuring it operates at its full potential to produce conforming product. Control charts are the primary tool.
-## Key Insights
+## SPC and Control Charts - Key Insights
 *   **Control Charts:** Graphical displays of process data over time plotted against statistically derived limits.
 *   Key components: **Central Line (CL)** (process average), **Upper Control Limit (UCL)**, and **Lower Control Limit (LCL)** (bounds for expected variation).
 *   Distinguishes between:
     *   **Common Cause Variation:** Natural, inherent process variability (system is stable).
     *   **Special Cause Variation:** Unexpected variability due to specific identifiable causes (system is unstable, requires action). Points outside limits or non-random patterns signal special causes.
-## Examples
+## SPC and Control Charts - Examples
 *   **X-bar and R Charts:** Monitor the average (X-bar) and range (R) of a continuous variable (e.g., part dimension, fill volume).
 *   **P Chart:** Monitors the proportion of defective items in samples of varying sizes (e.g., percentage of non-conforming units per batch).
 *   **NP Chart:** Monitors the number of defective items when the sample size is constant (e.g., count of errors per inspected form).
-## Comparisons
+## SPC and Control Charts - Comparisons
 *   Different chart types are selected based on the type of data being monitored (continuous/variable vs. discrete/attribute) and the sampling strategy.
-## Formula (Conceptual)
+## SPC and Control Charts - Formula (Conceptual)
 *   Control limits (UCL/LCL) are typically calculated based on the process average and its variability (e.g., \`CL ± 3 * Standard Deviations\`).
 
 
 
 # Decision Trees for Quality Control
-## Definition
+## Decision Trees for Quality Control - Definition
 A flowchart-like structure used as a predictive model or decision support tool, where each internal node represents a test on an attribute, each branch represents the outcome of the test, and each leaf node represents a decision or classification.
-## Key Insights
+## Decision Trees for Quality Control - Key Insights
 *   Provides a structured, visual approach for making sequential decisions (e.g., approve, reject, re-inspect) based on observed data like defect rates.
 *   Decision criteria (thresholds) are often established using historical data, statistical analysis (e.g., percentile approach), or cost-benefit analysis.
 *   Can be used to automate classification decisions for new batches or items.
-## Examples
+## Decision Trees for Quality Control - Examples
 *   A system deciding whether to accept a shipment based first on defect rate, then potentially on defect severity if the rate exceeds a primary threshold.
 
 
 
 # Design of Experiments (DOE)
-## Definition
+## Design of Experiments (DOE) - Definition
 A systematic methodology to structure inquiries and analyze the effect of varying multiple input factors (independent variables) simultaneously on an output (dependent variable).
-## Key Insights
+## Design of Experiments (DOE) - Key Insights
 *   Identifies which factors significantly impact process outcomes and quantifies their effects, including interactions between factors.
 *   Enables process optimization by finding the best combination of factor settings.
 *   More efficient and informative than changing one factor at a time or using trial-and-error.
 *   Leads to improved quality, reduced costs, and increased process understanding.
-## Examples
+## Design of Experiments (DOE) - Examples
 *   Optimizing a chemical reaction yield by simultaneously varying temperature, pressure, and catalyst concentration according to a planned experimental design.
 *   Improving the print quality of a machine by testing different settings for speed, ink flow, and substrate type.
-## Comparisons
+## Design of Experiments (DOE) - Comparisons
 *   Superior to informal or "one-factor-at-a-time" (OFAT) experimentation, which can miss interactions and be less efficient.
 
 
