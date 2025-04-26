@@ -103,7 +103,7 @@ export default function ContactPage() {
             >
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_honey" style={{ display: 'none' }} />
-              <input type="hidden" name="_next" value="www.gradestone.in/thank-you" />
+              <input type="hidden" name="_next" value="https://www.gradestone.in/thank-you" />
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
