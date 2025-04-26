@@ -20,7 +20,7 @@ export const metadata = {
     url: 'https://gradestone.in',
     siteName: 'Gradestone',
     title: 'Gradestone - Your grades set in stone',
-    description: 'Transform your academic performance with Gradestones intelligent learning platform. Access personalized study tools, interactive courses, and expert guidance to achieve better grades.',
+    description: 'Transform your academic performance with Gradestones intelligent learning platform. Access personalized content and boost your grades.',
     images: [{
       url: '/images/Logo/banner.png',
       width: 1200,
@@ -60,7 +60,7 @@ export default function RootLayout({
       <head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <link rel="icon" href="/images/Logo/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/images/Logo/favicon.ico" type="image/x-icon" sizes="any" />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-T76TLEB8KH"></script>
         <script>
@@ -71,7 +71,7 @@ export default function RootLayout({
             gtag('config', 'G-T76TLEB8KH');
           `}
         </script>
-        
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

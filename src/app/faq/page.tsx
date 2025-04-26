@@ -65,24 +65,24 @@ export default function FAQPage() {
 
   const faqItems = [
     {
-      question: 'What is shadcnblocks?',
-      answer: 'Shadcnblocks is a collection of beautifully designed, accessible, and customizable UI components built with Tailwind CSS and inspired by the ShadCN design system. It provides ready-to-use blocks that help developers create modern web interfaces quickly and efficiently.'
+      question: 'What is Gradestone?',
+      answer: 'Gradestone is an innovative educational platform designed to make high-quality notes and resources accessible to everyone. We offer comprehensive course notes, interactive learning tools, and personalized support to help you boost your grades.'
     },
     {
-      question: 'How do I install shadcnblocks?',
-      answer: 'You can install shadcnblocks using npm or yarn. Simply run "npm install shadcnblocks" or "yarn add shadcnblocks" in your project directory. Then, import the components you need and start using them in your application.'
+      question: 'Is Gradestone free to use?',
+      answer: 'Yes, Gradestone is completely free to use! While we accept voluntary support to help maintain and improve the platform, all our educational content and features are available at no cost for now.'
     },
     {
-      question: 'Is shadcnblocks free to use?',
-      answer: 'Yes, shadcnblocks is completely free and open-source. You can use it in both personal and commercial projects without any licensing fees. We believe in making high-quality UI components accessible to everyone.'
+      question: 'What is GraDex and how can it help me?',
+      answer: 'GraDex is our intelligent learning assistant that provides personalized support for your studies. It can help you understand course materials, answer questions about specific topics, and provide detailed explanations with references to course content. GraDex makes learning more interactive and efficient.'
     },
     {
-      question: 'Can I customize the blocks?',
-      answer: 'Absolutely! All components are built with customization in mind. You can modify colors, spacing, typography, and other properties using Tailwind CSS classes. The components also accept custom props for additional flexibility.'
+      question: 'What types of courses does Gradestone offer?',
+      answer: 'Gradestone offers a wide range of academic courses and study materials. Our content is carefully curated to align with educational standards and includes comprehensive study materials, practice questions, and interactive learning resources to enhance your understanding. We currently only offer resources for the BBA DBE Program, but we plan on expanding to other programs in the future.'
     },
     {
-      question: 'Do you offer support?',
-      answer: 'Yes, we provide support through our community channels. You can ask questions on our GitHub discussions, join our Discord server, or reach out to our support team directly. Were committed to helping you succeed with shadcnblocks.'
+      question: 'How can I get help if I have questions?',
+      answer: 'We offer multiple ways to get support: You can use our GraDex AI assistant for immediate help with course content, reach out to our community of learners, or contact our support team directly through the contact page. We are committed to helping you succeed in your learning journey.'
     }
   ];
 
