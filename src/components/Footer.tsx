@@ -83,6 +83,7 @@ const Footer = () => {
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
                 href="http://linkedin.com/company/gradestone-in/" 
+                target="_blank"
                 className="text-gray-300 hover:text-white p-2.5 rounded-full hover:bg-gray-800 transition-colors flex items-center justify-center" 
                 aria-label="LinkedIn"
               >
@@ -99,7 +100,8 @@ const Footer = () => {
               <motion.a 
                 whileHover={{ y: -5, scale: 1.1 }}
                 transition={{ duration: 0.2 }}
-                href="https://chat.whatsapp.com/DpUJ2d7WEs11WmWQNU5PA" 
+                href="https://chat.whatsapp.com/DpUJ2d7WEs11WmWQNU5PAu" 
+                target="_blank"
                 className="text-gray-300 hover:text-white p-2.5 rounded-full hover:bg-gray-800 transition-colors flex items-center justify-center"
                 aria-label="WhatsApp"
               >

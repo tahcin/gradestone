@@ -7,8 +7,33 @@ import { ThemeProvider } from '../components/ThemeProvider';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata = {
-  title: 'Gradestone - Modern Learning Management System',
-  description: 'A sleek and modern LMS portal for online education',
+  title: 'Gradestone - Your grades set in stone',
+  description: 'Transform your academic performance with Gradestones intelligent learning platform. Access personalized study tools, interactive courses, and expert guidance to achieve better grades.',
+  keywords: 'grade improvement, smart learning, academic performance, study tools, personalized learning, online tutoring, educational platform, student success, interactive learning, exam preparation',
+  authors: [{ name: 'Tahcin Sarwar' }],
+  creator: 'Gradestone Team',
+  publisher: 'Gradestone',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://gradestone.in',
+    siteName: 'Gradestone',
+    title: 'Gradestone - Your grades set in stone',
+    description: 'Transform your academic performance with Gradestones intelligent learning platform. Access personalized study tools, interactive courses, and expert guidance to achieve better grades.',
+    images: [{
+      url: '/images/Logo/banner.png',
+      width: 1200,
+      height: 630,
+      alt: 'Gradestone Logo'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Gradestone - Your grades set in stone',
+    description: 'Transform your academic performance with Gradestones intelligent learning platform. Access personalized study tools and resources.',
+    images: ['/images/Logo/banner.png']
+  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
@@ -35,11 +60,27 @@ export default function RootLayout({
       <head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <link rel="icon" href="/images/Logo/favicon.ico" type="image/x-icon" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            "name": "Gradestone",
+            "description": "Transform your academic performance with Gradestones intelligent learning platform. Access personalized study tools and resources.",
+            "url": "https://gradestone.in",
+            "logo": "https://gradestone.in/images/Logo/gs.png",
+            "sameAs": [
+              "https://www.linkedin.com/company/gradestone-in/"
+            ]
+          })}
+        </script>
       </head>
-      <body className={`${inter.className} min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 pb-safe`}>
+      <body className={`${inter.className} min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 pb-safe`} itemScope itemType="https://schema.org/WebPage">
         <ThemeProvider>
-          <Navbar />
-          <main className="flex-grow w-full">{children}</main>
+          <header>
+            <Navbar />
+          </header>
+          <main className="flex-grow w-full" itemProp="mainContentOfPage">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
