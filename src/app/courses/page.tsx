@@ -75,9 +75,9 @@ export default function CoursesPage() {
           variants={slideUp}
           className="container-custom text-center relative z-10"
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">Explore Our Courses</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-lg">Explore Courses</h1>
           <p className="text-lg text-gray-100 dark:text-gray-200 max-w-3xl mx-auto drop-shadow">
-            Browse through our comprehensive collection of courses designed to help you master new skills.
+            Browse through our comprehensive collection of resources for BBA DBE courses.
           </p>
         </motion.div>
       </div>

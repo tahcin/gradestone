@@ -58,7 +58,7 @@ export default function AboutPage() {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-lg">About Gradestone</h1>
             <p className="text-lg sm:text-xl mb-6 sm:mb-8 drop-shadow">
-              Transforming education through technology and innovation
+              One-stop solution for all your academic needs.
             </p>
           </motion.div>
         </div>
@@ -78,16 +78,12 @@ export default function AboutPage() {
             className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center"
           >
             <motion.div variants={slideUp}>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Our Story</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Making Study Resources Smarter.</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                Gradestone was founded in 2020 with a simple mission: to make high-quality education accessible to everyone, everywhere. What started as a small project has grown into a comprehensive learning platform serving thousands of students worldwide.
-              </p>
+              At Gradestone, our mission is simple — to make study resources more accessible, engaging, and actually helpful. We’ve all been there: exams looming, zero preparation, and notes scattered across endless folders, often more confusing than clarifying. That’s exactly where Gradestone steps in — your one-stop platform for notes, quizzes, and AI-driven support.              </p>
               <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                Our founder, a former educator, recognized the limitations of traditional educational methods and envisioned a platform that would break down barriers to learning. With this vision in mind, Gradestone was born.
-              </p>
-              <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">
-                Today, we continue to innovate and expand our offerings, working closely with industry experts to create courses that are not only informative but also engaging and practical.
-              </p>
+               That’s exactly where Gradestone steps in — your one-stop platform for notes, quizzes, and AI-driven support.We could go on about our curated resources, but the real game-changer is GraDex — our AI-powered study assistant, trained on all Gradestone content. Stuck on a concept? Need help planning your study schedule? Want a quick summary? Just ask GraDex and get instant, reliable answers. No more scrambling for help — with GraDex, you have a personal tutor by your side, 24/7.              </p>
+              
             </motion.div>
             <motion.div 
               variants={slideUp}
@@ -134,7 +130,7 @@ export default function AboutPage() {
           >
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Our Mission</h2>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300">
-              To empower individuals through accessible, high-quality education that prepares them for success in a rapidly changing world.
+            To transform the way you prepare, learn, and get good grades — by providing seamless access to organized resources, smart tools, and instant AI support when it’s needed the most.
             </p>
           </motion.div>
 
@@ -158,9 +154,9 @@ export default function AboutPage() {
                   />
                 </svg>
               </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Accessibility</h3>
+              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Clarity</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">
-                We believe education should be accessible to everyone, regardless of their background or circumstances.
+              We eliminate the clutter. No more endless PDFs or confusing notes — just streamlined, well-structured resources designed for real learning.
               </p>
             </motion.div>
 
@@ -176,10 +172,9 @@ export default function AboutPage() {
                   <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                 </svg>
               </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Community</h3>
+              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Support</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">
-                Learning is a social experience. We foster a supportive community where students can connect and grow together.
-              </p>
+              Learning doesn’t have to be a solo journey. With the Gradestone community and GraDex, you have a constant companion ready to guide, explain, and support you — anytime.</p>
             </motion.div>
 
             {/* Value 3 */}
@@ -200,7 +195,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">Innovation</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">
-                We continuously innovate to provide the best learning experience, leveraging technology to enhance education.
+              Pushing the boundaries by integrating AI into everyday learning. From personalized study paths to instant concept explanations, we make studying smarter, not harder.
               </p>
             </motion.div>
           </motion.div>
@@ -235,7 +230,7 @@ export default function AboutPage() {
             {/* Team cards */}
             {[
               { name: 'Tahcin Sarwar', role: 'Product Management', image: '/images/team/photo.png', link: 'https://www.linkedin.com/in/tahcinsarwar/' },
-              { name: 'Priyanshi Sharma', role: 'Community Management', image: '/images/team/priyanshi.png', link: ''},
+              { name: 'Priyanshi Sharma', role: 'Community Management', image: '/images/team/priyanshi2.png', link: ''},
               { name: 'Kusum Lata', role: 'Content Curation', image: '/images/team/kusum.png', link: '' },
               { name: 'Saswat Sahoo', role: 'Content Curation', image: '/images/team/saswat.png', link: '' },
               { name: 'Samarth Saran', role: 'Marketing', image: '/images/team/samarth.png', link: '' },
@@ -291,7 +286,7 @@ export default function AboutPage() {
           <div className="max-w-2xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-gray-900 dark:text-white">Support Gradestone</h2>
             <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 text-gray-600 dark:text-gray-300">
-              Gradestone is offered completely free. If you find it helpful, consider supporting us to keep the platform running and improving.
+              Gradestone is completely free. If you find it helpful, consider supporting us to keep the platform running and improving.
             </p>
             <a 
               href="upi://pay?pa=tahcin49-1@oksbi&pn=Gradestone"

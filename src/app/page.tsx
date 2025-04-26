@@ -419,28 +419,29 @@ export default function Home() {
           testimonials={[
             {
               author: {
-                name: "Priya Sharma",
-                handle: "@priya_bba",
-                avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face"
+                name: "Sachin Mittal",
+                handle: "BBA DBE Learner",
+                avatar: "/images/Testimonials/sachin.jpg"
               },
-              text: "Gradestone's study materials and AI assistance helped me ace my Persuasive Communication course. The mindmaps are incredibly helpful!"
+              text: "This is fantastic! The layout makes finding notes a breeze! GraDex is super accurate as well. Huge thanks to you all, this has already become my go-to study hack."
             },
             {
               author: {
-                name: "Rahul Patel",
-                handle: "@rahul_dbe",
-                avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+                name: "Yana Sundli",
+                handle: "Learning Pod Leader",
+                avatar: "/images/Testimonials/yana.jpg"
               },
-              text: "The IKS course materials are comprehensive and well-structured. GraDex AI's explanations make complex concepts easy to understand."
+              text: "Most of us were struggling with tough Statistics topics, but their notes and practice tests are making everything so much simpler.🤩 Plus, the clean design, fast loading and easy navigation is making the whole experience even better!"
             },
             {
               author: {
-                name: "Ananya Singh",
-                handle: "@ananya_s",
-                avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
+                name: "Falak Daga",
+                handle: "Zonal Representative",
+                avatar: "/images/Testimonials/falak.jpg"
               },
-              text: "The interactive quizzes and personalized feedback have significantly improved my understanding of Microeconomics principles."
+              text: "The notes are well-organized and straight to the point, and the tests after each module really help me check my understanding. It’s going to be of huge help, especially during exam time! GREAT WORK INDEED ✨"
             },
+            
             
           ]}
         />
