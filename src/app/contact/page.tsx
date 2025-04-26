@@ -217,7 +217,7 @@ export default function ContactPage() {
               Gradestone is offered completely free. If you find it helpful, consider supporting us to keep the platform running and improving.
             </p>
             <a 
-              href="https://gpay.app.goo.gl/pay-QR8QQXVXWM"
+              href="upi://pay?pa=tahcin49-1@oksbi&pn=Gradestone "
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-indigo-600 text-white hover:bg-indigo-700 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-colors shadow-lg text-sm sm:text-base w-auto whitespace-nowrap max-w-[200px] mx-auto"
