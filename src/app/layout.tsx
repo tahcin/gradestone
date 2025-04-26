@@ -60,7 +60,7 @@ export default function RootLayout({
       <head>
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <link rel="icon" href="/images/Logo/favicon.ico" type="image/x-icon" sizes="any" />
+        <link rel="icon" href="/images/Logo/favicon.ico" type="image/x-icon" />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-T76TLEB8KH"></script>
         <script>
