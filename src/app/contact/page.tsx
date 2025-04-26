@@ -101,6 +101,10 @@ export default function ContactPage() {
               method="POST"
               className="space-y-8 bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg"
             >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_honey" style={{ display: 'none' }} />
+              <input type="hidden" name="_next" value="www.gradestone.in/thank-you" />
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <label htmlFor="firstName" className="block text-base font-medium text-gray-700 dark:text-gray-300 mb-2">
