@@ -80,9 +80,9 @@ export default function AboutPage() {
             <motion.div variants={slideUp}>
               <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Making Study Resources Smarter.</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-              At Gradestone, our mission is simple — to make study resources more accessible, engaging, and actually helpful. We’ve all been there: exams looming, zero preparation, and notes scattered across endless folders, often more confusing than clarifying. That’s exactly where Gradestone steps in — your one-stop platform for notes, quizzes, and AI-driven support.              </p>
+              At Gradestone, our mission is simple — to make study resources more accessible, engaging, and actually helpful. We’ve all been there: exams looming, zero preparation, and notes scattered across endless folders, often more confusing than clarifying. </p>
               <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-               That’s exactly where Gradestone steps in — your one-stop platform for notes, quizzes, and AI-driven support.We could go on about our curated resources, but the real game-changer is GraDex — our AI-powered study assistant, trained on all Gradestone content. Stuck on a concept? Need help planning your study schedule? Want a quick summary? Just ask GraDex and get instant, reliable answers. No more scrambling for help — with GraDex, you have a personal tutor by your side, 24/7.              </p>
+              That’s exactly where Gradestone steps in — your one-stop platform for notes, quizzes, and AI-driven support. We could go on about our curated resources, but the real game-changer is GraDex — our AI-powered study assistant, trained on all Gradestone content. Stuck on a concept? Need help planning your study schedule? Want a quick summary? Just ask GraDex and get instant, reliable answers. No more scrambling for help — with GraDex, you have a personal tutor by your side, 24/7.              </p>
               
             </motion.div>
             <motion.div 
