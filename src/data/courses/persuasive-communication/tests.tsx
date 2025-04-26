@@ -14,7 +14,7 @@ export const persuasiveCommunicationTests = {
           'To convince the audience, effect change, or gain agreement on an objective.',
           'To test the audience\'s knowledge with difficult questions.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -25,7 +25,7 @@ export const persuasiveCommunicationTests = {
           'Understanding and analyzing the target audience.',
           'Practicing the delivery repeatedly.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -36,7 +36,7 @@ export const persuasiveCommunicationTests = {
           'The clarity, logic, and strength of the verbal message and arguments.',
           'The speaker\'s level of confidence and stage presence.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -47,7 +47,7 @@ export const persuasiveCommunicationTests = {
           'Glossophobia',
           'Claustrophobia'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -58,7 +58,7 @@ export const persuasiveCommunicationTests = {
           'The detailed content of the slides',
           'Hand gestures and posture'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -69,7 +69,7 @@ export const persuasiveCommunicationTests = {
           'Ensuring delivery is authentic and consistent with the speaker\'s natural style.',
           'Avoiding eye contact to manage nervousness.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -80,7 +80,7 @@ export const persuasiveCommunicationTests = {
           'By focusing on executing posture, eye contact, facial expression, and clear speech initiation simultaneously.',
           'By displaying complex data charts right away.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -91,7 +91,7 @@ export const persuasiveCommunicationTests = {
           'Blame the questioner for asking something too difficult.',
           'Honestly acknowledge the limitation and offer to follow up if possible.'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 9,
@@ -102,7 +102,7 @@ export const persuasiveCommunicationTests = {
           'Prioritizing clarity and intelligibility over accent elimination.',
           'Using complex vocabulary to compensate.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -113,7 +113,7 @@ export const persuasiveCommunicationTests = {
           'Assuming shared knowledge and failing to analyze the audience adequately.',
           'Dressing too formally for the occasion.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
 
@@ -132,7 +132,7 @@ export const persuasiveCommunicationTests = {
           'Introduction, Evidence, Summary',
           'Context, Data, Recommendation'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -143,7 +143,7 @@ export const persuasiveCommunicationTests = {
           'To tailor the content, language, and examples for effectiveness',
           'To ensure the message is entertaining'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -154,7 +154,7 @@ export const persuasiveCommunicationTests = {
           '50%',
           '70%'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 4,
@@ -165,7 +165,7 @@ export const persuasiveCommunicationTests = {
           'Scripting',
           'BERC framework application'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -176,7 +176,7 @@ export const persuasiveCommunicationTests = {
           'It eliminates the need for audience analysis',
           'It automatically ensures brevity'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -187,7 +187,7 @@ export const persuasiveCommunicationTests = {
           'Relevance',
           'Recommendation'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -198,7 +198,7 @@ export const persuasiveCommunicationTests = {
           'Around 120 words per minute',
           'Around 150 words per minute'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -209,7 +209,7 @@ export const persuasiveCommunicationTests = {
           'Applying the BERC framework',
           'Ensuring all content is relevant'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -220,7 +220,7 @@ export const persuasiveCommunicationTests = {
           'The stated objective of the message',
           'The speaker\'s credibility'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -231,7 +231,7 @@ export const persuasiveCommunicationTests = {
           'Relevance',
           'Clarity'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       }
 
     ]
@@ -249,7 +249,7 @@ export const persuasiveCommunicationTests = {
           'To influence the audience beliefs and actions',
           'To confuse the audience with complex arguments'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -260,7 +260,7 @@ export const persuasiveCommunicationTests = {
           'Ethos',
           'Examples'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 3,
@@ -271,7 +271,7 @@ export const persuasiveCommunicationTests = {
           'What\'s in it for me?',
           'Who are you?'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 4,
@@ -282,7 +282,7 @@ export const persuasiveCommunicationTests = {
           'Logos',
           'Kairos'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -293,7 +293,7 @@ export const persuasiveCommunicationTests = {
           'Pathos',
           'AEIOUXE'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -304,7 +304,7 @@ export const persuasiveCommunicationTests = {
           'Pathos',
           'Objective'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -315,7 +315,7 @@ export const persuasiveCommunicationTests = {
           'Opening',
           'Throughout the entire message'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -326,7 +326,7 @@ export const persuasiveCommunicationTests = {
           'U-factor (Audience Benefit)',
           'Extra E (Emotions)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -337,7 +337,7 @@ export const persuasiveCommunicationTests = {
           'Editing ruthlessly for clarity, conciseness, and flow',
           'Practicing non-verbal cues and delivery'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -348,7 +348,7 @@ export const persuasiveCommunicationTests = {
           'O (Objective)',
           'U (U-factor)'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       }
 
     ]
@@ -366,7 +366,7 @@ export const persuasiveCommunicationTests = {
           'To support the speaker\'s message and enhance audience comprehension',
           'To display complex data that cannot be explained verbally'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -377,7 +377,7 @@ export const persuasiveCommunicationTests = {
           'Simultaneously with script writing',
           'As the very first step of presentation preparation'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -388,7 +388,7 @@ export const persuasiveCommunicationTests = {
           'Document Slide',
           'Pitch Deck Slide'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -399,7 +399,7 @@ export const persuasiveCommunicationTests = {
           'Prioritizing clarity and simplicity',
           'Including excessive text on each slide'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -410,7 +410,7 @@ export const persuasiveCommunicationTests = {
           'Ensuring greater simplicity and using large, readable fonts',
           'Focusing primarily on text rather than visuals'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -421,7 +421,7 @@ export const persuasiveCommunicationTests = {
           'The use of specific color psychology',
           'Software features like spell check'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -432,7 +432,7 @@ export const persuasiveCommunicationTests = {
           'To present a concise overview of a business plan, typically to investors',
           'To serve as a long-form narrative story'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -443,7 +443,7 @@ export const persuasiveCommunicationTests = {
           'Storyboarding',
           'Template selection'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -454,7 +454,7 @@ export const persuasiveCommunicationTests = {
           'They are only suitable for technical topics',
           'They typically use smaller font sizes'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 10,
@@ -465,7 +465,7 @@ export const persuasiveCommunicationTests = {
           'Enhance, not distract from, the primary message',
           'Make the presentation appear longer than it is'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]

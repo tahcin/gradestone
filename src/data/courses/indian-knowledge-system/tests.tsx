@@ -14,7 +14,7 @@ export const indianKnowledgeSystemTests = {
           'Right vision and the means to attain it',
           'The process of memorizing Vedic texts'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -25,7 +25,7 @@ export const indianKnowledgeSystemTests = {
           'Ashwagandha tonic',
           'Banyan bark extract'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -36,7 +36,7 @@ export const indianKnowledgeSystemTests = {
           'A five-metal alloy used in idol making',
           'A classification of Vedic hymns'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -47,7 +47,7 @@ export const indianKnowledgeSystemTests = {
           'Chandas',
           'Shiksha'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 5,
@@ -58,7 +58,7 @@ export const indianKnowledgeSystemTests = {
           'Jnana-Kanda',
           'Bhakti-Kanda'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -69,7 +69,7 @@ export const indianKnowledgeSystemTests = {
           'Panini',
           'Pingala'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -80,7 +80,7 @@ export const indianKnowledgeSystemTests = {
           'Upanishads and Aranyakas',
           'Nyaya and Mimamsa'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -91,7 +91,7 @@ export const indianKnowledgeSystemTests = {
           'Sulba Sutra',
           'Ashtadhyayi'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -102,7 +102,7 @@ export const indianKnowledgeSystemTests = {
           'Jyotisha',
           'Nirukta'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -113,7 +113,7 @@ export const indianKnowledgeSystemTests = {
           'As an innovation principle (creative destruction)',
           'As a theory of karma cycle'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }    
     ]
   },
@@ -132,7 +132,7 @@ export const indianKnowledgeSystemTests = {
           'Vedanta',
           'Sankhya'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -143,7 +143,7 @@ export const indianKnowledgeSystemTests = {
           'Atheism',
           'Bhakti'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -154,7 +154,7 @@ export const indianKnowledgeSystemTests = {
           'Yoga',
           'Vaisheshika'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 4,
@@ -165,7 +165,7 @@ export const indianKnowledgeSystemTests = {
           'Sankhya',
           'Vedanta'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -176,7 +176,7 @@ export const indianKnowledgeSystemTests = {
           'Calming mental modifications to achieve self-realization',
           'Improving physical strength'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -187,7 +187,7 @@ export const indianKnowledgeSystemTests = {
           'Inherence or inseparable relation',
           'A category of consciousness'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -198,7 +198,7 @@ export const indianKnowledgeSystemTests = {
           'Pranayama',
           'Yama'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 8,
@@ -209,7 +209,7 @@ export const indianKnowledgeSystemTests = {
           'Advaita rejects Moksha',
           'Vishishtadvaita does not believe in reincarnation'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -220,7 +220,7 @@ export const indianKnowledgeSystemTests = {
           'Right Faith, Right Knowledge, Right Conduct',
           'Yama, Niyama, Dhyana'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -231,7 +231,7 @@ export const indianKnowledgeSystemTests = {
           'A mental process',
           'A physical substance that sticks to the soul'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       }
     
     ]
@@ -251,7 +251,7 @@ export const indianKnowledgeSystemTests = {
           'Panini',
           'Patanjali'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -262,7 +262,7 @@ export const indianKnowledgeSystemTests = {
           'Varttika',
           'Paniniya Shiksha'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -273,7 +273,7 @@ export const indianKnowledgeSystemTests = {
           'Shiksha',
           'Nirukta'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -284,7 +284,7 @@ export const indianKnowledgeSystemTests = {
           'Grammatical letter groups',
           'Philosophical doctrines'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -295,7 +295,7 @@ export const indianKnowledgeSystemTests = {
           'Samasa',
           'Sandhi'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -306,7 +306,7 @@ export const indianKnowledgeSystemTests = {
           'Classifies consonants',
           'Converts nouns to verbs'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -317,7 +317,7 @@ export const indianKnowledgeSystemTests = {
           'It follows an algorithmic and rule-based structure',
           'It is simple and unstructured'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -328,7 +328,7 @@ export const indianKnowledgeSystemTests = {
           'Instrumental',
           'Locative'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -339,7 +339,7 @@ export const indianKnowledgeSystemTests = {
           'Karta',
           'Sampradana'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -350,7 +350,7 @@ export const indianKnowledgeSystemTests = {
           'By deriving from different dhatus (verbal roots)',
           'By using slang and idioms'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
     
     ]
@@ -369,7 +369,7 @@ export const indianKnowledgeSystemTests = {
           'Encyclopedic cultural manuals containing stories, rituals, and ethics',
           'Political treatises'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -380,7 +380,7 @@ export const indianKnowledgeSystemTests = {
           'Creation, Incarnation, Meditation, Salvation, Festivals',
           'Stories, Ethics, Politics, History, Dharma'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -391,7 +391,7 @@ export const indianKnowledgeSystemTests = {
           'Pramatha',
           'Padartha'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -402,7 +402,7 @@ export const indianKnowledgeSystemTests = {
           'Inherence or inseparable relation',
           'Universal categorization'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -413,7 +413,7 @@ export const indianKnowledgeSystemTests = {
           'Manas (Mind)',
           'Dik (Direction)'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -424,7 +424,7 @@ export const indianKnowledgeSystemTests = {
           'Samanya',
           'Dravya'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -435,7 +435,7 @@ export const indianKnowledgeSystemTests = {
           'Upamana',
           'Shabda'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -446,7 +446,7 @@ export const indianKnowledgeSystemTests = {
           'A blend of deductive and inductive logic',
           'Speculative hypothesis only'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -457,7 +457,7 @@ export const indianKnowledgeSystemTests = {
           '“Sound is non-eternal because it lacks eternality”',
           '“Planet has atmosphere because it has water”'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 10,
@@ -468,7 +468,7 @@ export const indianKnowledgeSystemTests = {
           'Adhikarana-Siddhanta',
           'Abhyupagama-Siddhanta'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       }
      
     ]
@@ -487,7 +487,7 @@ export const indianKnowledgeSystemTests = {
           'Zero and Place Value',
           'Bhuta Samkhya'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -498,7 +498,7 @@ export const indianKnowledgeSystemTests = {
           'Pingala',
           'Madhava of Sangamagrama'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 3,
@@ -509,7 +509,7 @@ export const indianKnowledgeSystemTests = {
           'Designing geometric altars',
           'Sanskrit pronunciation'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -520,7 +520,7 @@ export const indianKnowledgeSystemTests = {
           'Chandas Shastra by Pingala',
           'Sulba Sutras'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -531,7 +531,7 @@ export const indianKnowledgeSystemTests = {
           'Digamsa-Yantra',
           'Sanku'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -542,7 +542,7 @@ export const indianKnowledgeSystemTests = {
           'Surya Siddhanta',
           'Chandaḥśāstra'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 7,
@@ -553,7 +553,7 @@ export const indianKnowledgeSystemTests = {
           'Uddisṭa',
           'Nasta'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 8,
@@ -564,7 +564,7 @@ export const indianKnowledgeSystemTests = {
           'Adhika Masa',
           'Sankhya Algorithm'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -575,7 +575,7 @@ export const indianKnowledgeSystemTests = {
           'Bhaskaracharya II',
           'Sripati'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 10,
@@ -586,7 +586,7 @@ export const indianKnowledgeSystemTests = {
           'Sanku',
           'Dhi-Yantra'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
     
     ]
@@ -605,7 +605,7 @@ export const indianKnowledgeSystemTests = {
           'Maharaja Ishwari Prasad Narayan Singh',
           'Mahendra Verman'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -616,7 +616,7 @@ export const indianKnowledgeSystemTests = {
           'Lunar phases',
           'Longitude of planets'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -627,7 +627,7 @@ export const indianKnowledgeSystemTests = {
           'Brihat Samhita',
           'Manasara'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -638,7 +638,7 @@ export const indianKnowledgeSystemTests = {
           'Carbon Steel',
           'Soft Magnetic Iron'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -649,7 +649,7 @@ export const indianKnowledgeSystemTests = {
           'Niravi',
           'Kanta'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 6,
@@ -660,7 +660,7 @@ export const indianKnowledgeSystemTests = {
           '210 feet',
           '250 feet'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -671,7 +671,7 @@ export const indianKnowledgeSystemTests = {
           'Manusmriti',
           'Arthashastra'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 8,
@@ -682,7 +682,7 @@ export const indianKnowledgeSystemTests = {
           'Khetri',
           'Chamba'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -693,7 +693,7 @@ export const indianKnowledgeSystemTests = {
           'Color varnish',
           'Wall primer'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 10,
@@ -704,7 +704,7 @@ export const indianKnowledgeSystemTests = {
           'Arthashastra',
           'Samarangana Sutradhara'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
     
     ]
@@ -723,7 +723,7 @@ export const indianKnowledgeSystemTests = {
           'Valmiki',
           'Kalidasa'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -734,7 +734,7 @@ export const indianKnowledgeSystemTests = {
           'Fortified capital city',
           'Sacred text'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -745,7 +745,7 @@ export const indianKnowledgeSystemTests = {
           'Vastu Purusha Mandala',
           'Danda Chakra'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -756,7 +756,7 @@ export const indianKnowledgeSystemTests = {
           'Karmukha',
           'Dandaka'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -767,7 +767,7 @@ export const indianKnowledgeSystemTests = {
           'Ministerial council',
           'Territory'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -778,7 +778,7 @@ export const indianKnowledgeSystemTests = {
           'Executive officer or minister',
           'Trade inspector'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -789,7 +789,7 @@ export const indianKnowledgeSystemTests = {
           'Sun Temple, Konark',
           'Jagannath Temple, Puri'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -800,7 +800,7 @@ export const indianKnowledgeSystemTests = {
           'Law, justice, and military enforcement',
           'Religious conversion'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -811,7 +811,7 @@ export const indianKnowledgeSystemTests = {
           'Sculpture, Fishing, Dance',
           'Irrigation, Astrology, Politics'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 10,
@@ -822,7 +822,7 @@ export const indianKnowledgeSystemTests = {
           'Yana',
           'Asana'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
     
     ]
@@ -840,7 +840,7 @@ export const indianKnowledgeSystemTests = {
           'Peace, Education, Family, Fame',
           'Knowledge, Career, Stability, Freedom'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -851,7 +851,7 @@ export const indianKnowledgeSystemTests = {
           'Vata, Pitta, Kapha',
           'Tejas, Ojas, Prana'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -862,7 +862,7 @@ export const indianKnowledgeSystemTests = {
           'Proper digestion, nutrient absorption, and overall health',
           'Excessive weight gain'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -873,7 +873,7 @@ export const indianKnowledgeSystemTests = {
           'Manomaya Kosha',
           'Anandamaya Kosha'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 5,
@@ -884,7 +884,7 @@ export const indianKnowledgeSystemTests = {
           'Sattva',
           'Ahankara'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -895,7 +895,7 @@ export const indianKnowledgeSystemTests = {
           'Samana',
           'Vyana'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -906,7 +906,7 @@ export const indianKnowledgeSystemTests = {
           'Swapna',
           'Turiya'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 8,
@@ -917,7 +917,7 @@ export const indianKnowledgeSystemTests = {
           'Manomaya Kosha',
           'Annamaya Kosha'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -928,7 +928,7 @@ export const indianKnowledgeSystemTests = {
           'Shravana',
           'Vairagya'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 10,
@@ -939,7 +939,7 @@ export const indianKnowledgeSystemTests = {
           'The subconscious programming of the brain',
           'Emotional intelligence and mental health'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
     
     ]

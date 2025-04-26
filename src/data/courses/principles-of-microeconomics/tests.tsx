@@ -14,7 +14,7 @@ export const principlesOfMicroeconomicsTests = {
           'Scarcity',
           'Opportunity Cost'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -25,7 +25,7 @@ export const principlesOfMicroeconomicsTests = {
           'Normative Economics',
           'Microeconomics'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 3,
@@ -36,7 +36,7 @@ export const principlesOfMicroeconomicsTests = {
           'Sunk cost',
           'Variable cost'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -47,7 +47,7 @@ export const principlesOfMicroeconomicsTests = {
           'Rs. 2500',
           'The enjoyment of the picnic'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -58,7 +58,7 @@ export const principlesOfMicroeconomicsTests = {
           'Marginal benefit is greater than or equal to marginal cost',
           'Marginal cost is zero'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -69,7 +69,7 @@ export const principlesOfMicroeconomicsTests = {
           'Scarcity',
           'Productivity'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -80,7 +80,7 @@ export const principlesOfMicroeconomicsTests = {
           'A decrease in quantity demanded',
           'An increase in demand (shift right)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -91,7 +91,7 @@ export const principlesOfMicroeconomicsTests = {
           'There would be a movement downwards along the curve',
           'There would be no change'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -102,7 +102,7 @@ export const principlesOfMicroeconomicsTests = {
           'An expectation by suppliers of higher coffee prices in the future',
           'An increase in the number of coffee producers'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -113,7 +113,7 @@ export const principlesOfMicroeconomicsTests = {
           'Monopolistic Competition',
           'Perfectly Competitive Market'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       }
 
     ]
@@ -133,7 +133,7 @@ export const principlesOfMicroeconomicsTests = {
           'Quantity demanded equals quantity supplied',
           'Total surplus is minimized'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -144,7 +144,7 @@ export const principlesOfMicroeconomicsTests = {
           'Income and quantity demanded are negatively related',
           'Price and quantity supplied are negatively related'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -155,7 +155,7 @@ export const principlesOfMicroeconomicsTests = {
           'The difference between a buyer\'s willingness to pay and the amount actually paid',
           'The total value buyers place on a good'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -166,7 +166,7 @@ export const principlesOfMicroeconomicsTests = {
           'The total cost incurred by sellers in producing a good',
           'The difference between buyers\' willingness to pay and sellers\' costs'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -177,7 +177,7 @@ export const principlesOfMicroeconomicsTests = {
           'Results in zero deadweight loss',
           'Maximizes total surplus (Consumer Surplus + Producer Surplus)'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 6,
@@ -188,7 +188,7 @@ export const principlesOfMicroeconomicsTests = {
           'The responsiveness of one variable to a change in another variable',
           'The fairness of resource distribution'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -199,7 +199,7 @@ export const principlesOfMicroeconomicsTests = {
           'Total revenue will remain unchanged',
           'Total revenue will become zero'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 8,
@@ -210,7 +210,7 @@ export const principlesOfMicroeconomicsTests = {
           'The way the burden of a tax is shared between buyers and sellers',
           'The deadweight loss created by a tax'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -221,7 +221,7 @@ export const principlesOfMicroeconomicsTests = {
           'An increase in the quantity supplied',
           'The market price to rise to equilibrium'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 10,
@@ -232,7 +232,7 @@ export const principlesOfMicroeconomicsTests = {
           'Increased demand for the good',
           'The market price falling below the floor'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
 
     ]
@@ -252,7 +252,7 @@ export const principlesOfMicroeconomicsTests = {
           'Minimizing total cost',
           'Maximizing social impact'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -263,7 +263,7 @@ export const principlesOfMicroeconomicsTests = {
           'Implicit costs (opportunity costs)',
           'Variable costs only'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -274,7 +274,7 @@ export const principlesOfMicroeconomicsTests = {
           'Average fixed cost curve slopes upward',
           'Marginal cost curve slopes upward'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 4,
@@ -285,7 +285,7 @@ export const principlesOfMicroeconomicsTests = {
           'Average Total Cost (ATC)',
           'Average Fixed Cost (AFC)'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 5,
@@ -296,7 +296,7 @@ export const principlesOfMicroeconomicsTests = {
           'Both the Average Total Cost (ATC) and Average Variable Cost (AVC) curves',
           'The Average Fixed Cost (AFC) curve'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -307,7 +307,7 @@ export const principlesOfMicroeconomicsTests = {
           'Quantity setter',
           'Market leader'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -318,7 +318,7 @@ export const principlesOfMicroeconomicsTests = {
           'Marginal Revenue equals Marginal Cost (MR = MC)',
           'Price equals Average Variable Cost'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -329,7 +329,7 @@ export const principlesOfMicroeconomicsTests = {
           'Shut down if Price < Average Variable Cost (P < AVC)',
           'Shut down if Economic Profit is negative'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -340,7 +340,7 @@ export const principlesOfMicroeconomicsTests = {
           'Exit if Marginal Cost > Marginal Revenue (MC > MR)',
           'Exit if Accounting Profit is zero'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 10,
@@ -351,7 +351,7 @@ export const principlesOfMicroeconomicsTests = {
           'Firms operate at their efficient scale (P = minimum ATC)',
           'New firms are rapidly entering the market'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ],
@@ -369,7 +369,7 @@ export const principlesOfMicroeconomicsTests = {
             'Many firms selling identical products.',
             'A few large firms dominating the market.'
           ],
-          correctAnswer: 2
+          correctAnswer: 1
         },
         {
           id: 2,
@@ -380,7 +380,7 @@ export const principlesOfMicroeconomicsTests = {
             'Marginal Revenue equals Marginal Cost (MR = MC).',
             'Price equals Average Total Cost (P = ATC).'
           ],
-          correctAnswer: 3
+          correctAnswer: 2
         },
         {
           id: 3,
@@ -391,7 +391,7 @@ export const principlesOfMicroeconomicsTests = {
             'P is always greater than MR.',
             'P is equal to MR only at the profit-maximizing output.'
           ],
-          correctAnswer: 3
+          correctAnswer: 2
         },
         {
           id: 4,
@@ -402,7 +402,7 @@ export const principlesOfMicroeconomicsTests = {
             'Average total costs declining continuously over the relevant range of market demand.',
             'Aggressive advertising campaigns eliminating competitors.'
           ],
-          correctAnswer: 3
+          correctAnswer: 2
         },
         {
           id: 5,
@@ -413,7 +413,7 @@ export const principlesOfMicroeconomicsTests = {
             'Copyright',
             'Subsidy'
           ],
-          correctAnswer: 3
+          correctAnswer: 2
         },
         {
           id: 6,
@@ -424,7 +424,7 @@ export const principlesOfMicroeconomicsTests = {
             'A higher price and a lower quantity.',
             'A higher price and a higher quantity.'
           ],
-          correctAnswer: 3
+          correctAnswer: 2
         },
         {
           id: 7,
@@ -435,7 +435,7 @@ export const principlesOfMicroeconomicsTests = {
             'The reduction in total surplus (consumer + producer) compared to a perfectly competitive outcome.',
             'The portion of consumer surplus transferred to the monopolist as profit.'
           ],
-          correctAnswer: 3
+          correctAnswer: 2
         },
         {
           id: 8,
@@ -446,7 +446,7 @@ export const principlesOfMicroeconomicsTests = {
             'Charging different prices for the same good to different buyers based on willingness to pay.',
             'Lowering prices uniformly to increase market share.'
           ],
-          correctAnswer: 3
+          correctAnswer: 2
         },
         {
           id: 9,
@@ -457,7 +457,7 @@ export const principlesOfMicroeconomicsTests = {
             'The firm must have constant marginal costs.',
             'The firm must operate in a perfectly competitive market.'
           ],
-          correctAnswer: 2
+          correctAnswer: 1
         },
         {
           id: 10,
@@ -468,7 +468,7 @@ export const principlesOfMicroeconomicsTests = {
             'To increase total output significantly beyond the competitive level.',
             'To capture more consumer surplus and increase their total profits.'
           ],
-          correctAnswer: 4
+          correctAnswer: 3
         }
       ]
     }

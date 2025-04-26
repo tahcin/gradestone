@@ -43,7 +43,6 @@ export default function TestServerPage({ params }: {
     case 'persuasive-communication':
       testData = getPCTest(moduleId, testId);
       break;
-      break;
     case 'principles-of-microeconomics':
       testData = getMicroeconomicsTest(moduleId, testId);
       break;

@@ -13,7 +13,7 @@ export const asbTests = {
           'Non-parametric tests are only suitable for large sample sizes.',
           'Parametric tests are used for categorical data, while non-parametric tests are for continuous data.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -24,7 +24,7 @@ export const asbTests = {
           'The relative position or ranks of the data points.',
           'The assumption of a normal distribution.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -35,7 +35,7 @@ export const asbTests = {
           'To assess if a statistically significant association exists between two categorical variables.',
           'To compare the means of two independent groups.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -46,7 +46,7 @@ export const asbTests = {
           'Observed frequencies and Expected frequencies.',
           'Sample frequencies and Population frequencies.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -57,7 +57,7 @@ export const asbTests = {
           'Goodness of Fit Test',
           'Parametric T-test'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -68,7 +68,7 @@ export const asbTests = {
           'It must be converted to ranks.',
           'It can be used directly without modification.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -79,7 +79,7 @@ export const asbTests = {
           'The standard deviation',
           'The median'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 8,
@@ -90,7 +90,7 @@ export const asbTests = {
           'The means and standard deviations of the groups.',
           'Contingency table totals.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -101,7 +101,7 @@ export const asbTests = {
           'When the assumptions of parametric tests (like normality) are violated.',
           'When working exclusively with very large sample sizes.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -112,7 +112,7 @@ export const asbTests = {
           'The two categorical variables are independent.',
           'The median difference between paired observations is zero.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]
@@ -130,7 +130,7 @@ export const asbTests = {
           'Because they require less computational power',
           'To strictly model data with normally distributed errors'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -141,7 +141,7 @@ export const asbTests = {
           'When two or more predictor variables are highly correlated with each other',
           'When the relationship between predictors and the outcome is non-linear'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -152,7 +152,7 @@ export const asbTests = {
           'Polynomial Regression',
           'Stepwise Selection'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -163,7 +163,7 @@ export const asbTests = {
           'Binary (e.g., 0/1, yes/no)',
           'A count of events'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -174,7 +174,7 @@ export const asbTests = {
           'Comparing the means of two groups using dummy variables',
           'Predicting binary outcomes based on log odds'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -185,7 +185,7 @@ export const asbTests = {
           'Forward Selection',
           'Coefficient Significance Assessment'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -196,7 +196,7 @@ export const asbTests = {
           'Adding the single best predictor variable',
           'Removing variables based on their correlation with the dependent variable'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 8,
@@ -207,7 +207,7 @@ export const asbTests = {
           'By using a binary dummy variable (0/1) representing group membership',
           'It cannot be used; a t-test is always required'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -218,7 +218,7 @@ export const asbTests = {
           'That the effect of one predictor variable on the outcome depends on the level of another predictor',
           'That the residuals of the model are not normally distributed'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -229,7 +229,7 @@ export const asbTests = {
           'To address non-linearity in relationships or non-normality/heteroscedasticity in residuals',
           'To convert a continuous dependent variable into a binary one'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]
@@ -247,7 +247,7 @@ export const asbTests = {
           'To understand the root cause of why something happened in the past',
           'To visualize data patterns without making future predictions'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -258,7 +258,7 @@ export const asbTests = {
           'The data type (continuous/categorical) and presence of time-dependent structures',
           'The experience level of the analyst and the project budget'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -269,7 +269,7 @@ export const asbTests = {
           'Seasonality',
           'Cross-validation'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -280,7 +280,7 @@ export const asbTests = {
           'Naive Method',
           'Confusion Matrix Analysis'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -291,7 +291,7 @@ export const asbTests = {
           'Accuracy, Precision, Recall, F1 Score',
           'Autocorrelation Function (ACF), Partial Autocorrelation Function (PACF)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -302,7 +302,7 @@ export const asbTests = {
           'Drift Method',
           'Naive Method'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 7,
@@ -313,7 +313,7 @@ export const asbTests = {
           'A linear combination of past values of the time series itself',
           'Only the seasonal component of the series'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -324,7 +324,7 @@ export const asbTests = {
           'The correlation of the time series with lagged versions of itself',
           'The strength of repeating patterns over fixed periods'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -335,7 +335,7 @@ export const asbTests = {
           'It ignores the temporal order, potentially training on future data to predict the past.',
           'It only works for linear regression models.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -346,7 +346,7 @@ export const asbTests = {
           'The proportion of variance in the dependent variable predictable from the independent variables',
           'The square root of the mean squared error'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]
@@ -364,7 +364,7 @@ export const asbTests = {
           'To eliminate the need for customer feedback mechanisms',
           'To solely focus on marketing and sales strategies'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -375,7 +375,7 @@ export const asbTests = {
           'Design of Experiments (DOE)',
           'Statistical Process Control (SPC)'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 3,
@@ -386,7 +386,7 @@ export const asbTests = {
           'Incorrectly rejecting a true hypothesis (e.g., rejecting a good batch)',
           'Correctly rejecting a batch that fails standards'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -397,7 +397,7 @@ export const asbTests = {
           'P Charts',
           'Hypothesis Testing'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -408,7 +408,7 @@ export const asbTests = {
           'To design experiments for process optimization',
           'To predict the exact number of defects in the next batch'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -419,7 +419,7 @@ export const asbTests = {
           'Common Cause Variation',
           'Predictable Error Variation'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -430,7 +430,7 @@ export const asbTests = {
           'Decision Tree',
           'Design of Experiments Plan'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -441,7 +441,7 @@ export const asbTests = {
           'To test specific hypotheses about population means',
           'To create visual maps for decision making based on simple thresholds'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -452,7 +452,7 @@ export const asbTests = {
           'P Chart',
           'NP Chart'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 10,
@@ -463,7 +463,7 @@ export const asbTests = {
           'Logistic Regression',
           'Stepwise Regression'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]

@@ -13,7 +13,7 @@ export const ebmTests = {
           'Barter system',
           'Contractual exchange'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -24,7 +24,7 @@ export const ebmTests = {
           'Government enforcement',
           'Fixed pricing systems'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -35,7 +35,7 @@ export const ebmTests = {
           'Barter exchange',
           'Contractual exchange'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 4,
@@ -46,7 +46,7 @@ export const ebmTests = {
           'Repeat transactions',
           'Hierarchical authority'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -57,7 +57,7 @@ export const ebmTests = {
           'Exchange involving a dominant party enforcing compliance',
           'Exchange through guild collaboration'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -68,7 +68,7 @@ export const ebmTests = {
           'Limited innovation due to restricted networks',
           'Excessive reliance on legal contracts'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -79,7 +79,7 @@ export const ebmTests = {
           'Ronald Burt',
           'Raghuram Rajan'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -90,7 +90,7 @@ export const ebmTests = {
           'Gossip and manipulation can distort reputations',
           'There is too much competition'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -101,7 +101,7 @@ export const ebmTests = {
           'They prefer working in government jobs',
           'They are not interested in entrepreneurship'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 10,
@@ -112,7 +112,7 @@ export const ebmTests = {
           'They became monopolistic and stifled growth',
           'Collapse of trade routes'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
     
     ]
@@ -130,7 +130,7 @@ export const ebmTests = {
           'Contractual exchange',
           'Power-based exchange'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -141,7 +141,7 @@ export const ebmTests = {
           'It increases efficiency and expands opportunities',
           'It reduces the need for legal systems'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -152,7 +152,7 @@ export const ebmTests = {
           'Risk of fraud or poor quality',
           'Over-regulation'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -163,7 +163,7 @@ export const ebmTests = {
           'Collapse of European cities',
           'Introduction of feudal systems'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -174,7 +174,7 @@ export const ebmTests = {
           'London',
           'Berlin'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 6,
@@ -185,7 +185,7 @@ export const ebmTests = {
           'They certify and legitimize trade agreements',
           'They issue business licenses'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -196,7 +196,7 @@ export const ebmTests = {
           'Both are necessary to build trust in stranger-based trade',
           'They only apply to rural economies'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -207,7 +207,7 @@ export const ebmTests = {
           'They operated only under religious law',
           'They reduced transparency'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -218,7 +218,7 @@ export const ebmTests = {
           'Legal guilds',
           'Cash-based trade'
         ],
-        correctAnswer: 1
+        correctAnswer: 0
       },
       {
         id: 10,
@@ -229,7 +229,7 @@ export const ebmTests = {
           'Decline in startup culture',
           'Rise of professional management in companies'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
     
     ]
@@ -247,7 +247,7 @@ export const ebmTests = {
           'Stagnant income due to population pressure on resources',
           'Decline in human population'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -258,7 +258,7 @@ export const ebmTests = {
           'Boom-Bust Cycle',
           'Hockey Stick Growth'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 3,
@@ -269,7 +269,7 @@ export const ebmTests = {
           'Complete personal attention',
           'Wider knowledge transmission'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -280,7 +280,7 @@ export const ebmTests = {
           'Strangers always cooperate naturally',
           'Institutions alone are sufficient for market success'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -291,7 +291,7 @@ export const ebmTests = {
           'A higher power or institution to enforce rules',
           'Absolute freedom of choice'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -302,7 +302,7 @@ export const ebmTests = {
           'Only elites can run fair markets',
           'Capitalism requires feudal structures'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -313,7 +313,7 @@ export const ebmTests = {
           'Third-party enforcement mechanisms',
           'Lack of formal records'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -324,7 +324,7 @@ export const ebmTests = {
           'Social exclusion and licensing barriers',
           'Access to credit for all groups'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -335,7 +335,7 @@ export const ebmTests = {
           'Higher reliance on enforcement',
           'Increased business transparency'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -346,7 +346,7 @@ export const ebmTests = {
           'Civic Norms Campaign',
           'Contractual Enforcement Act'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
     
     ]
@@ -364,7 +364,7 @@ export const ebmTests = {
           'Investment, Trade, Technology',
           'Rules, Rewards, Reform'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -375,7 +375,7 @@ export const ebmTests = {
           'Resistance by elites and weak institutions',
           'Everyone prefers relational exchange'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -386,7 +386,7 @@ export const ebmTests = {
           'Markets grow faster than plants',
           'Markets are less important than agriculture'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -397,7 +397,7 @@ export const ebmTests = {
           'Markets do not require intervention',
           'Government should avoid regulating markets'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -408,7 +408,7 @@ export const ebmTests = {
           'Pro-business supports existing firms; pro-market fosters open competition',
           'They are exactly the same'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -419,7 +419,7 @@ export const ebmTests = {
           'Provides free advertisements to companies',
           'Protects monopolies'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -430,7 +430,7 @@ export const ebmTests = {
           'Customary Law',
           'Common Law'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 8,
@@ -441,7 +441,7 @@ export const ebmTests = {
           'Too many cities in one state',
           'No universities in urban areas'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -452,7 +452,7 @@ export const ebmTests = {
           'They involve clans, caste, and ethnic customs',
           'They operate only in urban economies'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -463,7 +463,7 @@ export const ebmTests = {
           'Strong caste networks',
           'Zero foreign investment'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
     
     ]

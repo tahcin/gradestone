@@ -13,7 +13,7 @@ export const bseTests = {
           'To determine the cause-and-effect relationship between variables.',
           'To calculate the probability of future outcomes based on past data.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -24,7 +24,7 @@ export const bseTests = {
           'One qualitative (Ratio) and one quantitative (Interval) variable.',
           'One quantitative (Nominal) and one qualitative (Ordinal) variable.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -35,7 +35,7 @@ export const bseTests = {
           'Interval',
           'Ratio'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -46,7 +46,7 @@ export const bseTests = {
           'Scatter Plot',
           'Histogram'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 5,
@@ -57,7 +57,7 @@ export const bseTests = {
           'Mode',
           'Range'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -68,7 +68,7 @@ export const bseTests = {
           'The spread of the middle 50% of the data (Q3 - Q1).',
           'The most frequently occurring value in the dataset.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -79,7 +79,7 @@ export const bseTests = {
           'Min, Mean, Median, Standard Deviation, Max',
           'Q1, Q2, Q3, IQR, Range'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 8,
@@ -90,7 +90,7 @@ export const bseTests = {
           'Probability',
           'Event'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -101,7 +101,7 @@ export const bseTests = {
           'Measure how many standard deviations an observation is away from the mean.',
           'Visualize the relationship between two categorical variables.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -112,7 +112,7 @@ export const bseTests = {
           'Cross-Sectional Data',
           'Experimental Data'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]
@@ -130,7 +130,7 @@ export const bseTests = {
           'A function mapping outcomes of a random phenomenon to numerical values',
           'The average outcome of an experiment'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -141,7 +141,7 @@ export const bseTests = {
           'PMF gives P(X=x), CDF gives P(X≤x)',
           'PMF sums to 1, CDF sums to infinity'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -152,7 +152,7 @@ export const bseTests = {
           'Measure of spread or dispersion',
           'Maximum possible value'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -163,7 +163,7 @@ export const bseTests = {
           'Normal',
           'Bernoulli'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 5,
@@ -174,7 +174,7 @@ export const bseTests = {
           'The number of successes in n independent Bernoulli trials with success probability p',
           'The probability of a single success in n trials'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -185,7 +185,7 @@ export const bseTests = {
           'Poisson',
           'Geometric'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -196,7 +196,7 @@ export const bseTests = {
           'p(1-p)',
           'np(1-p)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -207,7 +207,7 @@ export const bseTests = {
           'Its mean is np and variance is npq',
           'It only applies to experiments with a fixed number of trials'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 9,
@@ -218,7 +218,7 @@ export const bseTests = {
           'Binomial(n, p)',
           'Normal(np, np(1-p))'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -229,7 +229,7 @@ export const bseTests = {
           'Poisson(λ=5)',
           'Uniform(0, 5)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]
@@ -247,7 +247,7 @@ export const bseTests = {
           'Continuous variables have a finite number of possible outcomes.',
           'Discrete distributions are always bell-shaped.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -258,7 +258,7 @@ export const bseTests = {
           'The probability that the variable falls within that interval.',
           'The cumulative probability up to the second point.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -269,7 +269,7 @@ export const bseTests = {
           'Uniform Distribution',
           't-Distribution'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -280,7 +280,7 @@ export const bseTests = {
           'The distribution of sample means from any population.',
           'Errors in measurement that are symmetrically distributed.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 5,
@@ -291,7 +291,7 @@ export const bseTests = {
           '1 / λ',
           'sqrt(1 / λ)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -302,7 +302,7 @@ export const bseTests = {
           'Exponential Distribution',
           'Normal Distribution'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 7,
@@ -313,7 +313,7 @@ export const bseTests = {
           'Mean = 0, Standard Deviation = unknown',
           'Mean = μ, Standard Deviation = σ'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 8,
@@ -324,7 +324,7 @@ export const bseTests = {
           'When n * p ≥ 5 and n * (1 - p) ≥ 5',
           'When the sample size equals the population size'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -335,7 +335,7 @@ export const bseTests = {
           'Performing Goodness-of-Fit tests or tests of independence.',
           'Modeling the time between random events.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -346,7 +346,7 @@ export const bseTests = {
           'When the population standard deviation is known.',
           'For hypothesis testing with small sample sizes and unknown population standard deviation.'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       }
 
     ]
@@ -364,7 +364,7 @@ export const bseTests = {
           'To use sample data to draw conclusions about a larger population',
           'To calculate population parameters directly without sampling'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -375,7 +375,7 @@ export const bseTests = {
           'A parameter is a fixed characteristic of the population (e.g., μ), while a statistic is calculated from a sample and varies (e.g., x̄)',
           'A parameter estimates a statistic'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -386,7 +386,7 @@ export const bseTests = {
           'Stratified Sampling',
           'Convenience Sampling'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 4,
@@ -397,7 +397,7 @@ export const bseTests = {
           'The probability distribution of a sample statistic (like the mean) calculated from all possible samples of a given size',
           'A list of all elements included in the sampling frame'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -408,7 +408,7 @@ export const bseTests = {
           'The standard error of the mean is always equal to the population standard deviation',
           'Sampling error can be completely eliminated with a large enough sample size'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 6,
@@ -419,7 +419,7 @@ export const bseTests = {
           'Sufficient',
           'Unbiased'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 7,
@@ -430,7 +430,7 @@ export const bseTests = {
           'σ / √n',
           'μ / √n'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -441,7 +441,7 @@ export const bseTests = {
           'Non-sampling Error',
           'Consistency Error'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -452,7 +452,7 @@ export const bseTests = {
           'Consistency',
           'Sufficiency'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -463,7 +463,7 @@ export const bseTests = {
           'It transforms sampling error into non-sampling error',
           'It decreases sampling error'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       }
 
     ]
@@ -481,7 +481,7 @@ export const bseTests = {
           'To use sample data to draw conclusions about unknown population characteristics.',
           'To collect large amounts of data from the entire population.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -492,7 +492,7 @@ export const bseTests = {
           'A range of values derived from sample data likely to contain the true population parameter.',
           'The probability of making a Type I error in hypothesis testing.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -503,7 +503,7 @@ export const bseTests = {
           'It has no effect on the interval width.',
           'It only affects the center of the interval, not the width.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -514,7 +514,7 @@ export const bseTests = {
           'A statement about a population parameter assumed true initially, representing the status quo.',
           'The range of possible values for the test statistic.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -525,7 +525,7 @@ export const bseTests = {
           'The confidence level associated with the test.',
           'The maximum acceptable probability of incorrectly rejecting a true null hypothesis (Type I error).'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 6,
@@ -536,7 +536,7 @@ export const bseTests = {
           'If p-value = α, the test is inconclusive.',
           'If p-value ≤ α, fail to reject H₀.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 7,
@@ -547,7 +547,7 @@ export const bseTests = {
           'Population proportion (p)',
           'Sample size (n)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -558,7 +558,7 @@ export const bseTests = {
           'We are 95% confident that the true average spending for all customers lies between $50 and $70.',
           'The sample mean is $60 with a 5% margin of error.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -569,7 +569,7 @@ export const bseTests = {
           'H₀: σ² ≥ 15, H<0xE2><0x82><0x90>: σ² < 15',
           'H₀: σ² ≤ 15, H<0xE2><0x82><0x90>: σ² > 15'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 10,
@@ -580,7 +580,7 @@ export const bseTests = {
           'Sample Size ± Point Estimate',
           'Margin of Error ± Standard Deviation'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
 
     ]
@@ -598,7 +598,7 @@ export const bseTests = {
           'Only covariance can indicate a positive relationship.',
           'Correlation must be positive, while covariance can be positive or negative.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -609,7 +609,7 @@ export const bseTests = {
           'The estimated value of y predicted by the sample regression line.',
           'The average value of the dependent variable y on the true population regression line for a given x.'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 3,
@@ -620,7 +620,7 @@ export const bseTests = {
           'Minimizing the absolute value of the residuals.',
           'Ensuring the correlation coefficient is exactly 1 or -1.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -631,7 +631,7 @@ export const bseTests = {
           'To assess whether the observed linear relationship in the sample is statistically meaningful or likely due to chance.',
           'To check if the residuals are normally distributed.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -642,7 +642,7 @@ export const bseTests = {
           'Validating the underlying assumptions of the regression model, such as constant variance and independence of errors.',
           'Determining the total sum of squares (SST).'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -653,7 +653,7 @@ export const bseTests = {
           'A random scatter of points horizontally banded around zero with no discernible pattern.',
           'All points lying perfectly on the zero line.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -664,7 +664,7 @@ export const bseTests = {
           'The proportion of the total variance in the dependent variable (y) that is explained by the linear model with the independent variable (x).',
           'The average difference between observed and predicted values.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -675,7 +675,7 @@ export const bseTests = {
           'SST = SSR * SSE',
           'SST = SSR + SSE'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 9,
@@ -686,7 +686,7 @@ export const bseTests = {
           'The average value of the dependent variable.',
           'The correlation between the independent and dependent variables.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 10,
@@ -697,7 +697,7 @@ export const bseTests = {
           'There is statistically significant evidence of a linear relationship between the independent variable (x) and the dependent variable (y).',
           'The R-square value is equal to 1.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]
@@ -715,7 +715,7 @@ export const bseTests = {
           'MLR can only be used for prediction, not understanding variable contributions',
           'MLR does not require residual analysis'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 2,
@@ -726,7 +726,7 @@ export const bseTests = {
           'The change in ŷ for a one-unit increase in x₁, holding x₂ constant',
           'The correlation between x₁ and ŷ'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 3,
@@ -737,7 +737,7 @@ export const bseTests = {
           'To ensure all residuals are positive',
           'To maximize the Variance Inflation Factor (VIF)'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 4,
@@ -748,7 +748,7 @@ export const bseTests = {
           'Residual analysis plots',
           'The F-test'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 5,
@@ -759,7 +759,7 @@ export const bseTests = {
           'The variable `xᵢ` makes a significant contribution to predicting the dependent variable, controlling for other variables in the model',
           'R-squared is greater than 0.5'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -770,7 +770,7 @@ export const bseTests = {
           'The proportion of the variance in the dependent variable explained by the independent variables',
           'Whether the error terms are normally distributed'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -781,7 +781,7 @@ export const bseTests = {
           'Validating the assumptions of the linear regression model (e.g., linearity, constant variance)',
           'Measuring the degree of multicollinearity'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 8,
@@ -792,7 +792,7 @@ export const bseTests = {
           'Two or more independent variables in the model are highly correlated with each other',
           'The R-squared value is close to zero'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -803,7 +803,7 @@ export const bseTests = {
           'To quantify the severity of multicollinearity associated with that predictor',
           'To determine the R-squared value'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -814,7 +814,7 @@ export const bseTests = {
           'Estimates of individual regression coefficients become unstable and difficult to interpret reliably',
           'Residual plots show perfect random scatter'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       }
 
     ]
@@ -832,7 +832,7 @@ export const bseTests = {
           '3',
           '2'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 2,
@@ -843,7 +843,7 @@ export const bseTests = {
           'The category represented by the dummy variable with the coefficient closest to zero.',
           'The category that is excluded from the analysis.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       },
       {
         id: 3,
@@ -854,7 +854,7 @@ export const bseTests = {
           'The average sales during holidays.',
           'The average difference in Sales between a holiday and a non-holiday, holding Advertising constant.'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 4,
@@ -865,7 +865,7 @@ export const bseTests = {
           'To model situations where the effect of one independent variable on the dependent variable depends on the value of another independent variable.',
           'To automatically select the baseline category for dummy variables.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 5,
@@ -876,7 +876,7 @@ export const bseTests = {
           'b₁ + b₃',
           'b₃'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 6,
@@ -887,7 +887,7 @@ export const bseTests = {
           '120 (50 + 5*10 + 10*1 + 2*10*1)',
           '130 (50 + 10*10 + 10*1 + 2*10*1)'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 7,
@@ -898,7 +898,7 @@ export const bseTests = {
           'The relationship between Experience and the outcome is the same for all genders.',
           'The effect of Experience on the outcome differs depending on Gender.'
         ],
-        correctAnswer: 4
+        correctAnswer: 3
       },
       {
         id: 8,
@@ -909,7 +909,7 @@ export const bseTests = {
           'Dummy Variable',
           'Residual Variable'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 9,
@@ -920,7 +920,7 @@ export const bseTests = {
           'By multiplying two or more independent variables together.',
           'By assigning ranks based on the values of an independent variable.'
         ],
-        correctAnswer: 3
+        correctAnswer: 2
       },
       {
         id: 10,
@@ -931,7 +931,7 @@ export const bseTests = {
           'Any flat with zero area.',
           'The average price difference due to location.'
         ],
-        correctAnswer: 2
+        correctAnswer: 1
       }
 
     ]
