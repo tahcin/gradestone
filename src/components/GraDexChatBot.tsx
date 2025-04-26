@@ -1,6 +1,9 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 
 type Message = {
   content: string;
@@ -102,6 +105,8 @@ export default function GraDexChatBot() {
               >
                 <div className="prose dark:prose-invert max-w-none break-words custom-markdown text-sm sm:text-base">
                   <ReactMarkdown
+                    remarkPlugins={[remarkMath]}
+                    rehypePlugins={[rehypeKatex]}
                     components={{
                       h1: ({node, ...props}) => <h1 className="mt-3 mb-1 sm:mt-4 sm:mb-2 text-lg sm:text-xl" {...props} />, 
                       h2: ({node, ...props}) => <h2 className="mt-3 mb-1 sm:mt-4 sm:mb-2 text-base sm:text-lg" {...props} />, 

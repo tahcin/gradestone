@@ -536,58 +536,77 @@ export const courseDetails = {
     modules: [
       {
         id: 1,
-        title: 'Basic Economic Concepts',
+        title: 'Forces of Demand and Supply',
         lessons: [
           { 
             id: 1, 
-            title: 'Scarcity and Choice', 
+            title: 'Understanding Scarcity and Choice', 
             type: 'note',
-            description: 'Understand the fundamental economic problem of scarcity and how it leads to the need for choice and opportunity cost.'
+            description: 'Delve into the fundamental economic problem of scarcity and how it necessitates choice and opportunity cost.'
           },
           { 
             id: 2, 
-            title: 'Economic Concepts Assessment', 
+            title: 'Assessment on Economic Concepts', 
             type: 'test', 
             questions: 10,
-            description: 'Test your understanding of basic economic principles through problem-solving exercises.'
+            description: 'Evaluate your understanding of scarcity, choice, and basic economic principles through problem-solving exercises.'
           },
         ],
       },
       {
         id: 2,
-        title: 'Supply and Demand',
+        title: 'Equilibrium in a Competitive Market',
         lessons: [
           { 
             id: 1, 
-            title: 'Market Equilibrium', 
+            title: 'Exploring Market Equilibrium', 
             type: 'note',
-            description: 'Learn how supply and demand interact to determine prices and quantities in competitive markets.'
+            description: 'Understand how supply and demand interact to establish prices and quantities in competitive markets.'
           },
           { 
             id: 2, 
-            title: 'Supply and Demand Assessment', 
+            title: 'Equilibrium Analysis Assessment', 
             type: 'test', 
             questions: 12,
-            description: 'Apply supply and demand analysis to predict market outcomes under different scenarios.'
+            description: 'Apply supply and demand analysis to predict market outcomes under various scenarios.'
           },
         ],
       },
       {
         id: 3,
-        title: 'Market Structures',
+        title: 'Behaviour of a Firm in a Perfectly Competitive Market',
         lessons: [
           { 
             id: 1, 
-            title: 'Competition and Market Power', 
+            title: 'Firm Behavior and Market Power', 
             type: 'note',
-            description: 'Explore different market structures from perfect competition to monopoly and their implications for efficiency.'
+            description: 'Investigate different market structures from perfect competition to monopoly and their efficiency implications.'
           },
           { 
             id: 2, 
-            title: 'Market Structures Assessment', 
+            title: 'Firm Behavior Assessment', 
             type: 'test', 
             questions: 10,
-            description: 'Analyze firm behavior and market outcomes under different competitive conditions.'
+            description: 'Analyze firm behavior and market outcomes in different competitive conditions.'
+          },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Monopoly',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Understanding Monopoly and Market Power', 
+            type: 'note',
+            description: 'Examine the characteristics of monopoly and its implications for market efficiency.'
+          },
+          { 
+            id: 2, 
+            title: 'Monopoly Market Structures Assessment', 
+            type: 'test', 
+            questions: 10,
+            description: 'Evaluate firm behavior and market outcomes in monopoly conditions.'
           },
         ],
       },
@@ -771,6 +790,36 @@ export const courseDetails = {
             type: 'test', 
             questions: 10,
             description: 'Analyze the role of economic forces in shaping business strategies and market structures.'
+          },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Podcasts',
+        lessons: [
+          { 
+            id: 1, 
+            title: 'Podcast 1', 
+            type: 'note',
+            description: 'What If Dara Shikoh Had Defeated Aurangzeb? – An Alternate History Reflection'
+          },
+          { 
+            id: 2, 
+            title: 'Podcast 2', 
+            type: 'note',
+            description: 'Exploring Alternate Realities, Experiential Living, and the Power of Will '
+          },
+          { 
+            id: 3, 
+            title: 'Podcast 3', 
+            type: 'note',
+            description: 'The Evolution and Forms of Business Exchange '
+          },
+          { 
+            id: 4, 
+            title: 'Podcast 4', 
+            type: 'note',
+            description: 'The Evolution from Guilds to Global Markets – A Transformation in Europe`s Economy'
           },
         ],
       },

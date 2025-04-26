@@ -52,7 +52,7 @@ export default function GraDexPage() {
             variants={slideUp}
             className="max-w-3xl mx-auto text-center"
           >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-lg">GraDex Assistant</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 drop-shadow-lg">GraDex</h1>
             <p className="text-lg sm:text-xl mb-6 sm:mb-8 drop-shadow">
               Your intelligent learning companion with access to all Gradestone content
             </p>

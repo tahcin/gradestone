@@ -3,118 +3,118 @@ export const indianKnowledgeSystemTests = {
   // Module 1, Lesson 2
   '1-2': {
     title: 'Introduction to IKS Assessment',
-    description: 'Test your understanding of Indian knowledge traditions and their historical context.',
+    description: 'Test your foundational understanding of IKS concepts, relevance, unique features, and the structure of the Vedic corpus.',
     questions: [
       {
-        id: 1,
-        question: 'According to the text, what does IKS primarily refer to?',
-        options: [
-          'Ancient Indian religious rituals',
-          'A collection of mythological stories',
-          'The collective intellectual achievement of the Indian civilization over millenia',
-          'Techniques for chanting mantras'
-        ],
-        correctAnswer: 2
-      },
-      {
         id: 2,
-        question: 'According to the text, which of these is a common perception people have about IKS?',
+        question: 'In the context of Indian Knowledge Systems, what does "Darshana" primarily refer to?',
         options: [
-          'It is easily accessible and well-documented',
-          'It is a matter of blind faith',
-          'It is actively used in modern science',
-          'It focuses only on practical benefits'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 3,
-        question: 'The Neem and Turmeric patent cases in the text illustrate the need for IKS today primarily in terms of:',
-        options: [
-          'Developing new pharmaceuticals',
-          'Protecting traditional knowledge through demonstrating prior art',
-          'Promoting Indian culture internationally',
-          'Generating economic revenue from ancient practices'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 4,
-        question: 'The Delhi Iron Pillar is presented in the text as an example demonstrating Indian civilization\'s achievement in:',
-        options: [
-          'Advanced acoustics',
-          'Complex logistics and transport',
-          'Sustainable practices',
-          'Metallurgical excellence'
+          'A legal code of conduct',
+          'A ritual of worship',
+          'Right vision and the means to attain it',
+          'The process of memorizing Vedic texts'
         ],
         correctAnswer: 3
       },
       {
-        id: 5,
-        question: 'Which of the following is listed in the text as one of the six components of the Caturdasa Vidyasthana, classifying the Sanatana Dharma Corpus?',
+        id: 2,
+        question: 'Which real-life example led to revoking a U.S. patent due to prior Indian knowledge?',
         options: [
-          'Agamas',
-          'Tantras',
-          'Vedangas',
-          'Ayurveda'
+          'Tulsi tea patent',
+          'Neem as pesticide',
+          'Ashwagandha tonic',
+          'Banyan bark extract'
         ],
         correctAnswer: 2
       },
       {
-        id: 6,
-        question: 'What is highlighted in the text as a unique feature of the Indian Knowledge System regarding knowledge transmission, despite being primarily oral?',
+        id: 3,
+        question: 'What is Panchaloha?',
         options: [
-          'Its sole reliance on written texts for preservation',
-          'Its static nature, preventing any reinterpretation',
-          'Its extraordinary accuracy and fidelity through oral methods',
-          'Its dependence on external validation for truth'
+          'A five-headed deity in Hinduism',
+          'An ancient Ayurvedic formulation',
+          'A five-metal alloy used in idol making',
+          'A classification of Vedic hymns'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 4,
+        question: 'Which Vedanga deals with pronunciation and phonetics?',
+        options: [
+          'Vyakarana',
+          'Nirukta',
+          'Chandas',
+          'Shiksha'
+        ],
+        correctAnswer: 4
+      },
+      {
+        id: 5,
+        question: 'Which Vedic division focuses on philosophical inquiry and metaphysical reflections?',
+        options: [
+          'Karma-Kanda',
+          'Upasana-Kanda',
+          'Jnana-Kanda',
+          'Bhakti-Kanda'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 6,
+        question: 'Which ancient scholar developed a symbolic number system called Bhuta Sankhya?',
+        options: [
+          'Aryabhata',
+          'Madhava of Sangamagrama',
+          'Panini',
+          'Pingala'
         ],
         correctAnswer: 2
       },
       {
         id: 7,
-        question: 'Pingala\'s Chandas Shastra is cited in the text as an early example demonstrating the use of:',
+        question: 'Which of the following was NOT part of the Caturdasa Vidyasthana classification?',
         options: [
-          'Complex geometric theorems',
-          'Binary logic through Ganas (Laghu and Guru)',
-          'Advanced calculus precursors',
-          'Detailed astronomical calculations'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 8,
-        question: 'In the structure of a Vedic Yajna, the priest primarily associated with reciting hymns from the Rigveda is the:',
-        options: [
-          'Adhvaryu',
-          'Udgatr',
-          'Brahma',
-          'Hotr'
+          'Vedas and Vedangas',
+          'Puranas and Itihasas',
+          'Upanishads and Aranyakas',
+          'Nyaya and Mimamsa'
         ],
         correctAnswer: 3
       },
       {
-        id: 9,
-        question: 'Which division of the Vedas, mentioned in the text as deeply philosophical, explores questions about the Self and Brahman?',
+        id: 8,
+        question: 'Which text is known for early binary logic using poetic meters?',
         options: [
-          'Brahmanas',
-          'Aranyakas',
-          'Samhitas (Mantras)',
-          'Upanishads'
+          'Brahmasphutasiddhanta',
+          'Chandas Shastra',
+          'Sulba Sutra',
+          'Ashtadhyayi'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: 'Which Vedanga assists in fixing correct ritual times based on celestial movements?',
+        options: [
+          'Kalpa',
+          'Chandas',
+          'Jyotisha',
+          'Nirukta'
         ],
         correctAnswer: 3
       },
       {
         id: 10,
-        question: 'According to the text, the six Vedangas are auxiliary disciplines essential for what purpose?',
+        question: 'How does the Bhagavad Gita’s “changing old clothes” shloka relate to modern ideas?',
         options: [
-          'To compose new Vedic hymns',
-          'To facilitate the correct understanding and application of the Vedas',
-          'To translate Vedic texts into regional languages',
-          'To record the history of the Vedic period'
+          'As a symbol of wealth transition',
+          'As a metaphor for rebirth',
+          'As an innovation principle (creative destruction)',
+          'As a theory of karma cycle'
         ],
-        correctAnswer: 1
-      }
+        correctAnswer: 3
+      }    
     ]
   },
   
@@ -125,271 +125,823 @@ export const indianKnowledgeSystemTests = {
     questions: [
       {
         id: 1,
-        question: 'In the Indian tradition, what is philosophy primarily known as, derived from the Sanskrit root "Drish" (to see)?',
+        question: 'What is the Indian term for philosophy that means “right vision”?',
         options: [
-          'Jnana',
-          'Tattva',
+          'Anviksiki',
           'Darshana',
-          'Yoga'
+          'Vedanta',
+          'Sankhya'
         ],
         correctAnswer: 2
       },
       {
         id: 2,
-        question: 'According to the text, the ultimate goal of philosophy is to:',
+        question: 'Which concept is common across all Darshanas?',
         options: [
-          'Understand the nature of God',
-          'Acquire material wealth',
-          'Maximize happiness and minimize grief',
-          'Master religious rituals'
+          'Ritual Worship',
+          'Moksha, Karma, and Samsara',
+          'Atheism',
+          'Bhakti'
         ],
         correctAnswer: 2
       },
       {
         id: 3,
-        question: 'Which of the following is NOT listed as one of the three core elements of Indian Philosophy focused on the quest for ultimate happiness?',
+        question: 'Which Darshana emphasizes logical investigation and critical thinking?',
         options: [
-          'Jiva (Self)',
-          'Jagat (World)',
-          'Ishvara (Divine Entity)',
-          'Karma (Action)'
-        ],
-        correctAnswer: 3
-      },
-      {
-        id: 4,
-        question: 'The transmission of Indian philosophy primarily relied on:',
-        options: [
-          'Written scriptures alone',
-          'Textbooks and standardized tests',
-          'Oral tradition through Guru-Shishya Parampara',
-          'Public debates without guidance'
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 5,
-        question: 'Which of the following common beliefs is shared across various Indian Darshanas, as mentioned in the text?',
-        options: [
-          'Belief in a single creator God',
-          'Rejection of the concept of rebirth',
-          'The cycle of birth and death (Samsara)',
-          'That everything is pre-determined (No Free Will)'
-        ],
-        correctAnswer: 2
-      },
-      {
-        id: 6,
-        question: 'The two major classifications of Indian Philosophy are:',
-        options: [
-          'Theistic and Atheistic',
-          'Astika (Vedic) and Nastika (Non-Vedic)',
-          'Practical and Theoretical',
-          'Dualistic and Non-dualistic'
+          'Anviksiki',
+          'Sankhya',
+          'Yoga',
+          'Vaisheshika'
         ],
         correctAnswer: 1
       },
       {
-        id: 7,
-        question: 'In Sankhya philosophy, the two fundamental principles explaining the world and self are:',
+        id: 4,
+        question: 'Which philosophical school introduced the theory of Tri-Gunas?',
         options: [
-          'Dharma and Karma',
-          'Jiva and Ishvara',
-          'Sattva and Rajas',
-          'Prakriti (Material Cause) and Purusha (Final Cause)'
+          'Yoga',
+          'Nyaya',
+          'Sankhya',
+          'Vedanta'
         ],
         correctAnswer: 3
       },
       {
-        id: 8,
-        question: 'According to the text, what is the traditional purpose of Yoga as systematized by Patanjali?',
+        id: 5,
+        question: 'According to Patanjali, what is the goal of Yoga?',
         options: [
-          'To improve physical fitness',
-          'To reduce stress and anxiety',
-          'To attain self-realization and liberation (Moksha)',
-          'To prepare the body for rituals'
+          'Performing rituals',
+          'Controlling breath',
+          'Calming mental modifications to achieve self-realization',
+          'Improving physical strength'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 6,
+        question: 'What is Samavaya in Vaisheshika philosophy?',
+        options: [
+          'A form of karma',
+          'A unique individual trait',
+          'Inherence or inseparable relation',
+          'A category of consciousness'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 7,
+        question: 'Which of the following is NOT part of the Eightfold Path of Yoga?',
+        options: [
+          'Samadhi',
+          'Tanmatra',
+          'Pranayama',
+          'Yama'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 8,
+        question: 'What is the foundational difference between Advaita and Vishishtadvaita Vedanta?',
+        options: [
+          'Only Vishishtadvaita accepts Vedas',
+          'Advaita believes in Nirguna Brahman, Vishishtadvaita in Saguna Brahman',
+          'Advaita rejects Moksha',
+          'Vishishtadvaita does not believe in reincarnation'
         ],
         correctAnswer: 2
       },
       {
         id: 9,
-        question: 'Vaisheshika philosophy is known for introducing which concept regarding the fundamental constituents of the material world?',
+        question: 'What are the “Three Jewels” (Ratnatraya) in Jain philosophy?',
         options: [
-          'The concept of Maya (Illusion)',
-          'The theory of Tri-Gunas (Three Qualities)',
-          'The concept of Paramanu (Atoms)',
-          'The principle of Cosmic Order (Rita)'
+          'Ahimsa, Anekantavada, Samadhi',
+          'Darshana, Yoga, Karma',
+          'Right Faith, Right Knowledge, Right Conduct',
+          'Yama, Niyama, Dhyana'
         ],
-        correctAnswer: 2
+        correctAnswer: 3
       },
       {
         id: 10,
-        question: 'The three sacred texts that form the foundation of all schools of Vedanta, collectively known as Prasthanatraya, are:',
+        question: 'In Jain metaphysics, what is karma considered to be?',
         options: [
-          'Rigveda, Samaveda, Yajurveda',
-          'Ramayana, Mahabharata, Bhagavad Gita',
-          'Upanishads, Brahma-Sutras, Bhagavad Gita',
-          'Mimamsa Sutras, Yoga Sutras, Nyaya Sutras'
+          'An illusion',
+          'A spiritual memory',
+          'A mental process',
+          'A physical substance that sticks to the soul'
         ],
-        correctAnswer: 2
+        correctAnswer: 4
       }
+    
     ]
   },
   
   // Module 3, Lesson 2
   '3-2': {
-    title: 'Assessment of Panini\'s Linguistics and Sanskrit Grammar Concepts',
-    description: 'Test your understanding of key concepts related to Panini\'s contributions to linguistics and the structure of Sanskrit grammar.',
+    title: 'Linguistics Assessment',
+    description: 'Test your knowledge of the linguistic Vedangas and the significance of oral tradition and meter in IKS.',
     questions: [
       {
         id: 1,
-        question: 'Who was Panini, known for his groundbreaking work in linguistics?',
+        question: 'Who is credited with creating the most systematic grammar of Sanskrit?',
         options: [
-          'A philosopher',
-          'A grammarian',
-          'A mathematician',
-          'An astronomer'
+          'Katyayana',
+          'Bhartrihari',
+          'Panini',
+          'Patanjali'
         ],
-        correctAnswer: 1
+        correctAnswer: 3
       },
       {
         id: 2,
-        question: 'How many rules (Sutras) are primarily contained in Panini\'s Ashtadhyayi?',
+        question: 'What is the name of Panini’s grammatical masterpiece?',
         options: [
-          'Around 1,000',
-          'Exactly 3,983',
-          'More than 5,000',
-          'A variable number'
+          'Mahabhashya',
+          'Ashtadhyayi',
+          'Varttika',
+          'Paniniya Shiksha'
         ],
-        correctAnswer: 1
+        correctAnswer: 2
       },
       {
         id: 3,
-        question: 'Panini\'s approach to defining Sanskrit grammar is described in the text as primarily:',
-        options: [
-          'Inventing completely new linguistic rules',
-          'Reverse-engineering the language\'s natural patterns',
-          'Compiling existing folklore about language',
-          'Focusing only on vocabulary lists'
-        ],
-        correctAnswer: 1
-      },
-      {
-        id: 4,
-        question: 'In the ancient Indian knowledge system, the systematic study of sound and phonetics is known as:',
+        question: 'Which of the following Vedangas deals specifically with phonetics?',
         options: [
           'Vyakarana',
           'Chandas',
-          'Nirukta',
-          'Shiksha'
+          'Shiksha',
+          'Nirukta'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 4,
+        question: 'What does the Maheshwara Sutras help organize?',
+        options: [
+          'Yogic postures',
+          'Pronunciation guides',
+          'Grammatical letter groups',
+          'Philosophical doctrines'
         ],
         correctAnswer: 3
       },
       {
         id: 5,
-        question: 'According to the text\'s classification of vowels, a sound sustained for three beats is called:',
+        question: 'What is the process of forming compound words in Sanskrit called?',
         options: [
-          'Hrasva',
-          'Dirgha',
-          'Pluta',
-          'Udatta'
+          'Kriya',
+          'Karaka',
+          'Samasa',
+          'Sandhi'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 6,
+        question: 'In Panini’s grammar, what does the rule “iko yan-aci” achieve?',
+        options: [
+          'Defines sentence order',
+          'Transforms vowels with semi-vowels in Sandhi',
+          'Classifies consonants',
+          'Converts nouns to verbs'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 7,
+        question: 'What makes Sanskrit highly suitable for computational linguistics?',
+        options: [
+          'It is the oldest language',
+          'It uses emojis and symbols',
+          'It follows an algorithmic and rule-based structure',
+          'It is simple and unstructured'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 8,
+        question: 'In the transformation of “Rama” to “Rāmeṇa”, which grammatical case is applied?',
+        options: [
+          'Nominative',
+          'Accusative',
+          'Instrumental',
+          'Locative'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 9,
+        question: 'What is the term for the “doer” of an action in the Karaka system?',
+        options: [
+          'Karma',
+          'Karana',
+          'Karta',
+          'Sampradana'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 10,
+        question: 'How does Sanskrit generate multiple synonyms for a single word like “fire”?',
+        options: [
+          'By borrowing from other languages',
+          'By random word generation',
+          'By deriving from different dhatus (verbal roots)',
+          'By using slang and idioms'
+        ],
+        correctAnswer: 3
+      }
+    
+    ]
+  },
+  // Module 4, Lesson 2
+  '4-2': {
+    title: 'Wisdom and Interpretation Assessment',
+    description: 'Analyze the historical context and evaluate the techniques used to encode, preserve, and interpret knowledge in IKS.',
+    questions: [
+      {
+        id: 1,
+        question: 'What are the Puranas best described as?',
+        options: [
+          'Scientific texts on astronomy',
+          'Religious biographies',
+          'Encyclopedic cultural manuals containing stories, rituals, and ethics',
+          'Political treatises'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 2,
+        question: 'What are the five features (Panchalakshana) required for a Mahapurana?',
+        options: [
+          'Rituals, hymns, mantras, offerings, and dances',
+          'Sarga, Pratisarga, Vamsha, Manvantara, Vamsanucharita',
+          'Creation, Incarnation, Meditation, Salvation, Festivals',
+          'Stories, Ethics, Politics, History, Dharma'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: 'Which term refers to the “object of knowledge” in Indian epistemology?',
+        options: [
+          'Pramana',
+          'Prameya',
+          'Pramatha',
+          'Padartha'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: 'What is Samavaya in Vaisheshika philosophy?',
+        options: [
+          'Motion or movement',
+          'The quality of substances',
+          'Inherence or inseparable relation',
+          'Universal categorization'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 5,
+        question: 'Which of the following is NOT one of the nine Dravyas (substances)?',
+        options: [
+          'Kala (Time)',
+          'Vritti (Disposition)',
+          'Manas (Mind)',
+          'Dik (Direction)'
         ],
         correctAnswer: 2
       },
       {
         id: 6,
-        question: 'How many Maheshwara-sutras form the backbone of Panini\'s Sanskrit grammar?',
+        question: 'What is the term for “universals” that help us identify categories like “watchness”?',
         options: [
-          '8',
-          '14',
-          '32',
-          '3,983'
+          'Guna',
+          'Vishesha',
+          'Samanya',
+          'Dravya'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 7,
+        question: 'Which Pramana refers to knowledge gained by comparing the unknown with the known?',
+        options: [
+          'Anumana',
+          'Pratyaksha',
+          'Upamana',
+          'Shabda'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 8,
+        question: 'What type of reasoning does the Nyaya school primarily use?',
+        options: [
+          'Deductive only',
+          'Inductive only',
+          'A blend of deductive and inductive logic',
+          'Speculative hypothesis only'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 9,
+        question: 'Which of the following is an example of the fallacy “Viruddha” in Nyaya?',
+        options: [
+          '“X is a metal because it doesn’t conduct electricity”',
+          '“X is a bird because it flies”',
+          '“Sound is non-eternal because it lacks eternality”',
+          '“Planet has atmosphere because it has water”'
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: 'What type of Siddhanta is assumed for the sake of inquiry and exploration?',
+        options: [
+          'Pratitantra-Siddhanta',
+          'Sarvatantra-Siddhanta',
+          'Adhikarana-Siddhanta',
+          'Abhyupagama-Siddhanta'
+        ],
+        correctAnswer: 4
+      }
+     
+    ]
+  },
+  // Module 5, Lesson 2
+  '5-2': {
+    title: 'Math and Astronomy Assessment',
+    description: 'Apply ancient mathematical and astronomical concepts and evaluate their significance and methods.',
+    questions: [
+      {
+        id: 1,
+        question: 'What foundational Indian concept made the decimal system possible?',
+        options: [
+          'Magic squares',
+          'Geometry',
+          'Zero and Place Value',
+          'Bhuta Samkhya'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 2,
+        question: 'Which ancient Indian mathematician approximated π up to 11 decimal places?',
+        options: [
+          'Aryabhata',
+          'Bhaskaracharya',
+          'Pingala',
+          'Madhava of Sangamagrama'
+        ],
+        correctAnswer: 4
+      },
+      {
+        id: 3,
+        question: 'What is the Katapayadi system used for?',
+        options: [
+          'Predicting eclipses',
+          'Encoding numbers using consonants',
+          'Designing geometric altars',
+          'Sanskrit pronunciation'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: 'What Indian system anticipated binary encoding and computational logic?',
+        options: [
+          'Jyotpatti',
+          'Bhuta Samkhya',
+          'Chandas Shastra by Pingala',
+          'Sulba Sutras'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 5,
+        question: 'Which astronomical instrument measures azimuth in traditional Indian systems?',
+        options: [
+          'Bhitti-Yantra',
+          'Chakra-Yantra',
+          'Digamsa-Yantra',
+          'Sanku'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 6,
+        question: 'Which ancient Indian text contains a structured 2-line verse encoding R-sine values?',
+        options: [
+          'Aryabhatiya',
+          'Lilavati',
+          'Surya Siddhanta',
+          'Chandaḥśāstra'
         ],
         correctAnswer: 1
       },
       {
         id: 7,
-        question: 'In Panini\'s system, what does the mnemonic \'ac\' represent?',
+        question: 'What ancient algorithm was used to compute row positions of binary patterns?',
         options: [
-          'All consonants',
-          'All vowels',
-          'Aspirated consonants',
-          'Third letters of consonant groups'
+          'Lagākriyā',
+          'Adhvayoga',
+          'Uddisṭa',
+          'Nasta'
         ],
-        correctAnswer: 1
+        correctAnswer: 4
       },
       {
         id: 8,
-        question: 'The process in Sanskrit grammar for creating compound words from multiple nouns is specifically referred to as:',
+        question: 'Which technique was used to reconcile solar and lunar calendars in ancient India?',
         options: [
-          'Sandhi',
-          'Karaka',
-          'Samasa',
-          'Pratyaya'
+          'Shravana Year Correction',
+          'Yuga Cycle',
+          'Adhika Masa',
+          'Sankhya Algorithm'
         ],
-        correctAnswer: 2
+        correctAnswer: 3
       },
       {
         id: 9,
-        question: 'The text compares Panini\'s rule-based system for deriving valid Sanskrit words to the functioning of a:',
+        question: 'Which Indian scholar used sine difference methods similar to modern finite difference?',
         options: [
-          'Poetic meter',
-          'Manual dictionary',
-          'Computational engine/algorithm',
-          'Historical chronicle'
+          'Varahamihira',
+          'Aryabhata',
+          'Bhaskaracharya II',
+          'Sripati'
         ],
         correctAnswer: 2
       },
       {
         id: 10,
-        question: 'The Karaka system in Sanskrit plays a crucial role in:',
+        question: 'Which instrument from Siddhanta Shiromani is used to model celestial spheres?',
         options: [
-          'Enforcing strict word order',
-          'Determining verb conjugations based on time',
-          'Linking words to the action of the verb to clarify their roles',
-          'Classifying sounds based on production'
+          'Cakra-Yantra',
+          'Gola-Yantra',
+          'Sanku',
+          'Dhi-Yantra'
         ],
         correctAnswer: 2
       }
-    ]
-  },
-  // Module 4, Lesson 2
-  '4-2': {
-    title: 'Vedic Astronomy Assessment',
-    description: 'Test your understanding of Vedic astronomical concepts and their applications.',
-    questions: [
-      
-    ]
-  },
-  // Module 5, Lesson 2
-  '5-2': {
-    title: 'Vedic Literature Assessment',
-    description: 'Test your understanding of Vedic literature and its historical significance.',
-    questions: [
-
+    
     ]
   },
   // Module 6, Lesson 2
   '6-2': {
-    title: 'Vedic Mythology Assessment',
-    description: 'Test your understanding of Vedic mythology and its historical significance.',
+    title: 'Engineering & Technology Assessment',
+    description: 'Evaluate the technological and engineering feats of ancient Indian civilization as presented in the text.',
     questions: [
-
+      {
+        id: 1,
+        question: 'Which Indian king gifted astronomical instruments to the Prince of Wales in 1875?',
+        options: [
+          'Raja Raja Chola',
+          'King Shiladitya',
+          'Maharaja Ishwari Prasad Narayan Singh',
+          'Mahendra Verman'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 2,
+        question: 'What does the Sanku (Gnomon) instrument help measure?',
+        options: [
+          'Altitude of the sun',
+          'Time, direction, and latitude',
+          'Lunar phases',
+          'Longitude of planets'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 3,
+        question: 'Which ancient text explains the downward drift distillation technique for zinc extraction?',
+        options: [
+          'Arthashastra',
+          'Rasa-Ratna-Samuccaya',
+          'Brihat Samhita',
+          'Manasara'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 4,
+        question: 'Which metal alloy is known for its corrosion resistance in structures like the Delhi Iron Pillar?',
+        options: [
+          'Cast Iron',
+          'Wootz Steel',
+          'Carbon Steel',
+          'Soft Magnetic Iron'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 5,
+        question: 'Which classification in Yuktikalpataru is considered 10 billion times better than base-grade iron?',
+        options: [
+          'Pandi',
+          'Vajra',
+          'Niravi',
+          'Kanta'
+        ],
+        correctAnswer: 4
+      },
+      {
+        id: 6,
+        question: 'The Brihadeeshwara Temple’s granite dome was placed at a height of:',
+        options: [
+          '150 feet',
+          '180 feet',
+          '210 feet',
+          '250 feet'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 7,
+        question: 'Which surgical text details 101 blunt and 20 sharp instruments used in ancient Indian surgery?',
+        options: [
+          'Charaka Samhita',
+          'Sushruta Samhita',
+          'Manusmriti',
+          'Arthashastra'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 8,
+        question: 'Which Indian city had underground zinc distillation furnaces rediscovered in the 1980s?',
+        options: [
+          'Singhbhum',
+          'Zawar',
+          'Khetri',
+          'Chamba'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 9,
+        question: 'What painting base was made using ingredients like brick powder, honey, and bale pulp?',
+        options: [
+          'Vajralepa',
+          'Kunkuma paste',
+          'Color varnish',
+          'Wall primer'
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: 'Which classical Indian text describes ship types like Samyatya-nava and Pravahana?',
+        options: [
+          'Rasaratna Samuccaya',
+          'Yukti Kalpataru',
+          'Arthashastra',
+          'Samarangana Sutradhara'
+        ],
+        correctAnswer: 3
+      }
+    
     ]
   },
   // Module 7, Lesson 2
   '7-2': {
-    title: 'Vedic Mythology Assessment',
-    description: 'Test your understanding of Vedic mythology and its historical significance.',
+    title: 'Architecture and Town Planning Assessment',
+    description: 'Analyze the principles and examples of ancient Indian architecture and town planning.',
     questions: [
-
+      {
+        id: 1,
+        question: 'Who authored the Arthashastra, a foundational text on governance and administration?',
+        options: [
+          'Panini',
+          'Chanakya (Kautilya)',
+          'Valmiki',
+          'Kalidasa'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 2,
+        question: 'What does the term "Durga" refer to in the context of ancient Indian governance?',
+        options: [
+          'Goddess of power',
+          'Temple sanctum',
+          'Fortified capital city',
+          'Sacred text'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 3,
+        question: 'Which architectural plan is used in Indian temple design and represents land as a living entity?',
+        options: [
+          'Chaturmukha Plan',
+          'Rajamarga Mandala',
+          'Vastu Purusha Mandala',
+          'Danda Chakra'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 4,
+        question: 'Which city planning layout type is bow-shaped and suited for coastal towns?',
+        options: [
+          'Sarvatobhadra',
+          'Prastara',
+          'Karmukha',
+          'Dandaka'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 5,
+        question: 'In the Sapta Prakriti model of governance, what does "Kosha" refer to?',
+        options: [
+          'Fortified capital',
+          'Treasury and economic resources',
+          'Ministerial council',
+          'Territory'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 6,
+        question: 'What is the function of the "Amatya" in Kautilya’s administrative system?',
+        options: [
+          'Royal priest',
+          'Chief engineer',
+          'Executive officer or minister',
+          'Trade inspector'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 7,
+        question: 'Which temple is known for its 24 wheels functioning as accurate sundials?',
+        options: [
+          'Kailasa Temple, Ellora',
+          'Brihadeeshwara Temple',
+          'Sun Temple, Konark',
+          'Jagannath Temple, Puri'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 8,
+        question: 'What is "Danda" primarily responsible for in Kautilya’s system?',
+        options: [
+          'Temple rituals',
+          'Construction planning',
+          'Law, justice, and military enforcement',
+          'Religious conversion'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 9,
+        question: 'Which economic activities form the backbone of Kosha according to Arthashastra?',
+        options: [
+          'Agriculture, Cattle rearing, Trade',
+          'Mining, Music, Art',
+          'Sculpture, Fishing, Dance',
+          'Irrigation, Astrology, Politics'
+        ],
+        correctAnswer: 1
+      },
+      {
+        id: 10,
+        question: 'According to Kautilya’s foreign policy, which strategy involves making peace with one king while fighting another?',
+        options: [
+          'Sandhi',
+          'Dvaitibhava',
+          'Yana',
+          'Asana'
+        ],
+        correctAnswer: 2
+      }
+    
     ]
   },
   '8-2': {
-    title: 'Vedic Mythology Assessment',
+    title: 'Health, Wellness, and Life Prac. Assessment',
     description: 'Test your understanding of Vedic mythology and its historical significance.',
     questions: [
-
+      {
+        id: 1,
+        question: 'According to Ayurveda, health is the foundation for achieving which life goals?',
+        options: [
+          'Success, Power, Wealth, Status',
+          'Dharma, Artha, Kama, Moksha',
+          'Peace, Education, Family, Fame',
+          'Knowledge, Career, Stability, Freedom'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 2,
+        question: 'Which three doshas form the basis of Ayurvedic health principles?',
+        options: [
+          'Kapha, Rasa, Rakta',
+          'Agni, Vayu, Shukra',
+          'Vata, Pitta, Kapha',
+          'Tejas, Ojas, Prana'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 3,
+        question: 'What does balanced Agni result in?',
+        options: [
+          'Rapid digestion and hunger',
+          'Low energy and dry skin',
+          'Proper digestion, nutrient absorption, and overall health',
+          'Excessive weight gain'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 4,
+        question: 'Which is considered the most subtle of the five koshas in Vedantic philosophy?',
+        options: [
+          'Pranamaya Kosha',
+          'Annamaya Kosha',
+          'Manomaya Kosha',
+          'Anandamaya Kosha'
+        ],
+        correctAnswer: 4
+      },
+      {
+        id: 5,
+        question: 'Which guna is associated with knowledge, harmony, and spiritual clarity?',
+        options: [
+          'Rajas',
+          'Tamas',
+          'Sattva',
+          'Ahankara'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 6,
+        question: 'Which Prana governs digestion and assimilation according to Ayurveda?',
+        options: [
+          'Udana',
+          'Apana',
+          'Samana',
+          'Vyana'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 7,
+        question: 'What is the fourth state of consciousness called in Indian psychology?',
+        options: [
+          'Jagrat',
+          'Sushupti',
+          'Swapna',
+          'Turiya'
+        ],
+        correctAnswer: 4
+      },
+      {
+        id: 8,
+        question: 'In the Pancha Kosha model, which layer is responsible for thoughts and emotions?',
+        options: [
+          'Vijnanamaya Kosha',
+          'Pranamaya Kosha',
+          'Manomaya Kosha',
+          'Annamaya Kosha'
+        ],
+        correctAnswer: 3
+      },
+      {
+        id: 9,
+        question: 'Which of the following is a method of gaining self-knowledge through deep reflection and meditation?',
+        options: [
+          'Manana',
+          'Nididhyasana',
+          'Shravana',
+          'Vairagya'
+        ],
+        correctAnswer: 2
+      },
+      {
+        id: 10,
+        question: 'What does the Indian concept of consciousness (Chit) ultimately point to?',
+        options: [
+          'The body’s energetic systems',
+          'Witnessing awareness beyond mind and body',
+          'The subconscious programming of the brain',
+          'Emotional intelligence and mental health'
+        ],
+        correctAnswer: 2
+      }
+    
     ]
   }
 

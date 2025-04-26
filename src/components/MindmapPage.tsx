@@ -8,6 +8,7 @@ import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import ChatBot from './ChatBot';
 
+
 interface MindmapPageProps {
   course: any;
   mindmap: any;
@@ -98,9 +99,25 @@ export default function MindmapPage({ course, mindmap, moduleId, courseId, test 
                 blockquote: ({node, ...props}) => (
                   <blockquote className="border-l-4 border-blue-300 dark:border-blue-700 pl-4 italic text-gray-700 dark:text-gray-300 my-6 bg-blue-50 dark:bg-blue-900/20 py-2 rounded-r-lg" {...props} />
                 ),
-                a: ({node, ...props}) => (
-                  <a className={`text-${course.iconColor} hover:underline transition-colors font-medium`} {...props} />
-                ),
+                a: ({node, ...props}) => {
+                  const href = props.href || '';
+                  if (href.endsWith('.pdf')) {
+                    return (
+                      <div className="my-8">
+                        <iframe
+                          src={href}
+                          title="PDF Viewer"
+                          className="w-full h-[600px] rounded-lg border border-gray-200 dark:border-gray-700 shadow-lg"
+                          allow="autoplay"
+                        />
+                        <div className="mt-2 text-center">
+                          <a href={href} target="_blank" rel="noopener noreferrer" className={`text-${course.iconColor} underline font-medium`}>Open PDF in new tab</a>
+                        </div>
+                      </div>
+                    );
+                  }
+                  return <a className={`text-${course.iconColor} hover:underline transition-colors font-medium`} {...props} />;
+                },
                 img: ({node, ...props}) => (
                   <div className="my-8 overflow-hidden rounded-lg shadow-lg">
                     <img 

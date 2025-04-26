@@ -49,7 +49,7 @@ export default function CourseDetailPage({ course, courseBasic, courseId }: Cour
         >
           {/* Course Overview */}
           <motion.div variants={slideUp} className="lg:col-span-1">
-            <div className="card hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200 h-full">
+            <div className="card hover:backdrop-blur-sm transition-all duration-200 h-full">
               <h3 className="text-xl font-bold mb-4">Course Overview</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6 text-sm">{course.overview}</p>
               <h4 className="font-bold text-lg mb-2">What You'll Learn</h4>

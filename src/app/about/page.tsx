@@ -214,100 +214,96 @@ export default function AboutPage() {
         variants={fadeIn}
         className="py-16 sm:py-24 bg-white dark:bg-gray-800 relative overflow-hidden"
       >
-        {/* Background decorative elements */}
-        <div className="absolute top-0 left-0 w-64 h-64 bg-indigo-100 dark:bg-indigo-900/20 rounded-full -translate-x-1/2 -translate-y-1/2 opacity-70"></div>
-        <div className="absolute bottom-0 right-0 w-80 h-80 bg-purple-100 dark:bg-purple-900/20 rounded-full translate-x-1/3 translate-y-1/3 opacity-70"></div>
+        {/* Dotted background pattern */}
+        <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#374151_1px,transparent_1px)] [background-size:16px_16px] opacity-50"></div>
         
         <div className="container-custom px-4 sm:px-6 relative z-10">
           <motion.div 
             variants={slideUp}
-            className="text-center mb-10 sm:mb-16"
+            className="text-center mb-12 sm:mb-16"
           >
-            <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Meet Our Team</h2>
-            <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Our dedicated team of educators, technologists, and visionaries working together to transform education.
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Team</h2>
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+              Meet the people hard at work behind the scenes <br/>that make Gradestone possible.
             </p>
           </motion.div>
 
           <motion.div 
             variants={staggerContainer}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
           >
-            {/* Team Member 1 */}
-            <motion.div variants={slideUp} className="card text-center p-6 bg-gradient-to-br from-white to-indigo-50 dark:from-gray-800 dark:to-indigo-900/20 hover:shadow-lg transition-all duration-300">
-              <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-indigo-400 to-purple-500 dark:from-indigo-600 dark:to-purple-700 rounded-full mx-auto mb-4 sm:mb-6 flex items-center justify-center shadow-lg">
-                <span className="text-xl sm:text-2xl font-bold text-white">JD</span>
-              </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-1">John Doe</h3>
-              <p className="text-primary font-medium mb-2 sm:mb-3 text-sm sm:text-base">Founder & CEO</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                Former educator with a passion for making learning accessible to everyone.
-              </p>
-            </motion.div>
-
-            {/* Team Member 2 */}
-            <motion.div variants={slideUp} className="card text-center p-6 bg-gradient-to-br from-white to-cyan-50 dark:from-gray-800 dark:to-cyan-900/20 hover:shadow-lg transition-all duration-300">
-              <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-cyan-400 to-blue-500 dark:from-cyan-600 dark:to-blue-700 rounded-full mx-auto mb-4 sm:mb-6 flex items-center justify-center shadow-lg">
-                <span className="text-xl sm:text-2xl font-bold text-white">JS</span>
-              </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-1">Jane Smith</h3>
-              <p className="text-primary font-medium mb-2 sm:mb-3 text-sm sm:text-base">Chief Learning Officer</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                Expert in instructional design with 15+ years experience in education.
-              </p>
-            </motion.div>
-
-            {/* Team Member 3 */}
-            <motion.div variants={slideUp} className="card text-center p-6 bg-gradient-to-br from-white to-blue-50 dark:from-gray-800 dark:to-blue-900/20 hover:shadow-lg transition-all duration-300">
-              <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-blue-400 to-indigo-500 dark:from-blue-600 dark:to-indigo-700 rounded-full mx-auto mb-4 sm:mb-6 flex items-center justify-center shadow-lg">
-                <span className="text-xl sm:text-2xl font-bold text-white">RJ</span>
-              </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-1">Robert Johnson</h3>
-              <p className="text-primary font-medium mb-2 sm:mb-3 text-sm sm:text-base">CTO</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                Tech visionary focused on creating intuitive and powerful learning platforms.
-              </p>
-            </motion.div>
-
-            {/* Team Member 4 */}
-            <motion.div variants={slideUp} className="card text-center p-6 bg-gradient-to-br from-white to-purple-50 dark:from-gray-800 dark:to-purple-900/20 hover:shadow-lg transition-all duration-300">
-              <div className="w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-purple-400 to-pink-500 dark:from-purple-600 dark:to-pink-700 rounded-full mx-auto mb-4 sm:mb-6 flex items-center justify-center shadow-lg">
-                <span className="text-xl sm:text-2xl font-bold text-white">MP</span>
-              </div>
-              <h3 className="text-lg sm:text-xl font-bold mb-1">Maria Perez</h3>
-              <p className="text-primary font-medium mb-2 sm:mb-3 text-sm sm:text-base">Head of Content</p>
-              <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base">
-                Oversees course development and ensures the highest quality educational content.
-              </p>
-            </motion.div>
+            {/* Team cards */}
+            {[
+              { name: 'Tahcin Sarwar', role: 'Product Management', image: '/images/team/photo.png', link: 'https://www.linkedin.com/in/tahcinsarwar/' },
+              { name: 'Priyanshi Sharma', role: 'Community Management', image: '/images/team/priyanshi.png', link: ''},
+              { name: 'Kusum Lata', role: 'Content Curation', image: '/images/team/kusum.png', link: '' },
+              { name: 'Saswat Sahoo', role: 'Content Curation', image: '/images/team/saswat.png', link: '' },
+              { name: 'Samarth Saran', role: 'Marketing', image: '/images/team/samarth.png', link: '' },
+              { name: 'Samlan Ramung', role: 'Marketing', image: '/images/team/samlan.png', link: '' },
+              { name: 'Mayuresh Shet', role: 'Graphic Design', image: '/images/team/mayuresh.png', link: '' },
+            ].map((member, index) => (
+              <Link href={member.link} key={index} target="_blank">
+              <motion.div 
+                key={index}
+                variants={slideUp}
+                className="group relative bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden"
+              >
+                {/* Profile image */}
+                <div className="aspect-square w-full overflow-hidden">
+                  <img 
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  
+                </div>
+                
+                <div className="p-4">
+                  <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                    {member.name}
+                  </h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
+                    {member.role}
+                  </p>
+                  
+                  {/* Hover arrow */}
+                  <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 transition-all duration-300">
+                    <svg className="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </div>
+              </motion.div>
+              </Link>
+            ))}
           </motion.div>
         </div>
       </motion.section>
 
-      {/* CTA Section */}
+      {/* Support Us Section */}
       <motion.section 
         initial="hidden"
         animate={ctaControls}
         variants={fadeIn}
-        className="relative bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 text-white dark:from-indigo-800 dark:via-purple-800 dark:to-indigo-900 py-16 sm:py-24 overflow-hidden"
+        className="py-16 sm:py-24 bg-gray-50 dark:bg-gray-900"
       >
-        <ParticleBackground className="opacity-50" />
         <motion.div variants={slideUp} className="container-custom text-center">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Join the Gradestone Community!</h2>
-            <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 text-gray-100">
-            Whether you're stuck on a concept or just looking for motivation, the Gradestone community is here for you.
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-gray-900 dark:text-white">Support Gradestone</h2>
+            <p className="text-sm sm:text-base md:text-lg mb-6 md:mb-8 text-gray-600 dark:text-gray-300">
+              Gradestone is offered completely free. If you find it helpful, consider supporting us to keep the platform running and improving.
             </p>
-            <Link 
-              href="https://chat.whatsapp.com/DpUJ2d7WEs11WmWQNU5PAu"
-              className="inline-flex items-center space-x-2 bg-white text-indigo-700 hover:bg-gray-100 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-colors shadow-lg text-sm sm:text-base w-auto whitespace-nowrap max-w-[200px] mx-auto"
+            <a 
+              href="https://gpay.app.goo.gl/pay-QR8QQXVXWM"
               target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 bg-indigo-600 text-white hover:bg-indigo-700 px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-colors shadow-lg text-sm sm:text-base w-auto whitespace-nowrap max-w-[200px] mx-auto"
             >
-              <span>Join Now!</span>
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
               </svg>
-            </Link>
+              <span>Support Us</span>
+            </a>
           </div>
         </motion.div>
       </motion.section>

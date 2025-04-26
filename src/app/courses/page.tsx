@@ -95,7 +95,8 @@ export default function CoursesPage() {
           >
             <motion.button 
               variants={slideUp}
-              className={`px-4 py-2 rounded-full transition-colors ${selectedYear === 'All Years' ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'}`}
+              type="button" // Explicitly set type
+              className={`px-4 py-2 rounded-full transition-colors ${selectedYear === 'All Years' ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'} cursor-pointer`} // Added cursor-pointer
               onClick={() => setSelectedYear('All Years')}
             >
               All Years
@@ -104,7 +105,8 @@ export default function CoursesPage() {
               <motion.button 
                 key={year} 
                 variants={slideUp}
-                className={`px-4 py-2 rounded-full transition-colors ${selectedYear === year ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'}`}
+                type="button" // Explicitly set type
+                className={`px-4 py-2 rounded-full transition-colors ${selectedYear === year ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'} cursor-pointer`} // Added cursor-pointer
                 onClick={() => setSelectedYear(year)}
               >
                 {year}
@@ -125,7 +127,8 @@ export default function CoursesPage() {
           >
             <motion.button 
               variants={slideUp}
-              className={`px-4 py-2 rounded-full transition-colors ${selectedTerm === 'All Terms' ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'}`}
+              type="button" // Explicitly set type
+              className={`px-4 py-2 rounded-full transition-colors ${selectedTerm === 'All Terms' ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'} cursor-pointer`} // Added cursor-pointer
               onClick={() => setSelectedTerm('All Terms')}
             >
               All Terms
@@ -134,7 +137,8 @@ export default function CoursesPage() {
               <motion.button 
                 key={term} 
                 variants={slideUp}
-                className={`px-4 py-2 rounded-full transition-colors ${selectedTerm === term ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'}`}
+                type="button" // Explicitly set type
+                className={`px-4 py-2 rounded-full transition-colors ${selectedTerm === term ? 'bg-indigo-600 text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-800 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-200'} cursor-pointer`} // Added cursor-pointer
                 onClick={() => setSelectedTerm(term)}
               >
                 {term}
@@ -155,7 +159,7 @@ export default function CoursesPage() {
               <motion.div 
                 key={course.id}
                 variants={slideUp} 
-                className="card overflow-hidden hover:bg-gray-50/90 dark:hover:bg-gray-700/90 hover:backdrop-blur-sm transition-all duration-200"
+                className="card overflow-hidden hover:backdrop-blur transition-all duration-200"
               >
                 <div className={`relative h-48 sm:h-40 bg-gradient-to-r ${course.gradientFrom} ${course.gradientTo} ${course.darkGradientFrom} ${course.darkGradientTo} mb-4 rounded-lg overflow-hidden`}>
                   <div className="absolute inset-0 flex items-center justify-center bg-black/10">

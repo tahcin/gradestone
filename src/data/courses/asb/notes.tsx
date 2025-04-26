@@ -45,6 +45,7 @@ A non-parametric method used to determine if a statistically significant associa
 *   **Expected Frequency (Eᵢⱼ):**
     (Row i Total * Column j Total) / Grand Total
 
+![](/images/ASB/Module1/1.png)
 
 
 # Goodness of Fit Test
@@ -69,6 +70,7 @@ A statistical test to assess how well observed sample data fits a hypothesized t
     ∑ [(Observed Frequency - Expected Frequency)² / Expected Frequency]
     *(Summation is across all categories/intervals)*
 
+![](/images/ASB/Module1/2.png)
 
 
 # Wilcoxon Signed Rank Test
@@ -98,12 +100,14 @@ A non-parametric test used for one-sample or paired two-sample scenarios to asse
 *   **Z-Score:** Z = (W+ - μ(W+)) / Standard Error(W+)
     *(Note: The specific formula for Standard Error(W+) depends on ties and is derived from the properties of ranks, but its detailed calculation was not provided in the source summary.)*
 
+![](/images/ASB/Module1/3.png)
 
 
 # Conclusion
 
 Parametric and non-parametric tests offer distinct approaches to hypothesis testing, differentiated primarily by their assumptions regarding data distribution. While parametric tests estimate population parameters assuming specific distributions, non-parametric methods like the Chi-Square tests (for independence and goodness of fit) and the Wilcoxon Signed Rank test provide robust, distribution-free alternatives. These non-parametric techniques are particularly valuable for analyzing categorical data, assessing distributional fit, or comparing medians when parametric assumptions are untenable, offering flexible tools for data analysis in diverse real-world scenarios.
 
+![](/images/ASB/Module1/4.png)
 
     `
 },
@@ -156,6 +160,7 @@ Parametric and non-parametric tests offer distinct approaches to hypothesis test
 *   **Definition:** Non-parametric supervised learning methods that can be used for both classification and regression.
 *   **Key Insights:** Partition the feature space into a set of rectangles and fit a simple model (like a constant) in each one.
 
+![](/images/ASB/Module2/1.png)
 
 
 # Variable Selection
@@ -180,6 +185,7 @@ Parametric and non-parametric tests offer distinct approaches to hypothesis test
 *   **Definition:** A simpler approach where a single model with all potential predictors is fitted.
 *   **Key Insights:** Examines the p-values of the coefficients. Predictors with non-significant p-values (typically > 0.05 or another chosen alpha level) are considered less important and may be excluded. Interpretation relies on the remaining significant variables.
 
+![](/images/ASB/Module2/2.png)
 
 
 # Applications and Advanced Considerations
@@ -207,11 +213,14 @@ Parametric and non-parametric tests offer distinct approaches to hypothesis test
 *   **Key Insights:** Assessing model fit and reliability involves checking assumptions (e.g., linearity, independence, normality, equal variance of errors) and using evaluation metrics. Techniques like cross-validation help assess how well the model generalizes to new data.
 *   **Examples:** Checking normality of price distribution using histograms (Bangalore case study). Comparing different models (e.g., with/without transformations or interactions) using cross-validation.
 
+![](/images/ASB/Module2/3.png)
 
 
 # Conclusion
 
 Advanced regression methods provide a powerful toolkit for analyzing complex data structures beyond the scope of simple linear models. Techniques like polynomial and logistic regression address non-linear relationships and binary outcomes, while regularization methods manage multicollinearity and overfitting. Effective variable selection ensures model parsimony and interpretability. Understanding transformations, interaction effects, and robust model evaluation techniques like cross-validation are crucial for building reliable predictive models that drive informed decision-making in various practical applications.
+
+![](/images/ASB/Module2/4.png)
 
     `
 },
@@ -263,6 +272,7 @@ Advanced regression methods provide a powerful toolkit for analyzing complex dat
     *   **AUC-ROC Curve:** Area Under the Curve plotting True Positive Rate vs. False Positive Rate, measuring discriminative ability.
     *   **Quadratic Score (Brier Score):** Measures accuracy of probabilistic predictions. Formula: $\\frac{1}{n}\\sum_{i=1}^{n}(Predicted Probability_i - Actual Outcome_i)^2$ (where Actual Outcome is 0 or 1).
 
+![](/images/ASB/Module3/1.png)
 
 
 # Time Series Forecasting Methods
@@ -292,6 +302,7 @@ Advanced regression methods provide a powerful toolkit for analyzing complex dat
 *   **Key Insights:** Directly models the autocorrelation structure. The 'order' (p) indicates how many lagged values are used. High autocorrelation at a specific lag suggests that lag might be important in an AR model (e.g., lag 1 for AR(1)).
 *   **Formula (AR(p) Model Structure):** $Y_t = c + \\phi_1 Y_{t-1} + \\phi_2 Y_{t-2} + ... + \\phi_p Y_{t-p} + \\epsilon_t$ (where $Y_t$ is the value at time t, $Y_{t-k}$ are lagged values, $\\phi$ are coefficients, c is a constant, and $\\epsilon_t$ is error).
 
+![](/images/ASB/Module3/2.png)
 
 
 # Model Evaluation in Forecasting
@@ -305,12 +316,14 @@ Advanced regression methods provide a powerful toolkit for analyzing complex dat
 *   **Key Insights:** Standard k-fold cross-validation is usually inappropriate as it ignores the temporal order. Time series cross-validation typically involves using an initial part of the series for training and a subsequent part for testing, mimicking real-world forecasting where predictions are made for the future based on the past.
 *   **Examples:** Training on data from Year 1-3, testing on Year 4. Using metrics like RMSE on the test set to compare model performance.
 
+![](/images/ASB/Module3/3.png)
 
 
 # Conclusion
 
 Predictive analysis provides methodologies to forecast future outcomes by leveraging historical data patterns. The approach varies based on data characteristics, with distinct techniques for continuous (e.g., linear regression) and categorical (e.g., logistic regression) variables. Time series data requires specialized methods (e.g., simple methods, AR models) that account for temporal dependencies like trend, seasonality, and autocorrelation. Rigorous evaluation using appropriate metrics and time-sensitive cross-validation is paramount to ensure the chosen forecasting model is accurate and reliable for decision-making.
 
+![](/images/ASB/Module3/4.png)
 
 
     `
@@ -350,6 +363,7 @@ A statistical procedure used to evaluate claims or hypotheses about a population
 *   A manufacturer testing if the mean tensile strength of a material meets the minimum required specification.
 *   Verifying if a process change has significantly reduced the defect rate.
 
+![](/images/ASB/Module4/1.png)
 
 
 # Regression Analysis
@@ -366,6 +380,7 @@ A set of statistical processes for estimating the relationships between a depend
 ## Regression Analysis - Formula (Conceptual)
 *   Represents the relationship mathematically, often as an equation predicting the dependent variable based on coefficients multiplied by independent variables (e.g., \`Output ≈ β₀ + β₁ * Input₁ + β₂ * Input₂ + ...\`).
 
+![](/images/ASB/Module4/2.png)
 
 
 # Statistical Process Control (SPC) and Control Charts
@@ -386,6 +401,7 @@ A method of quality control which employs statistical methods to monitor and con
 ## SPC and Control Charts - Formula (Conceptual)
 *   Control limits (UCL/LCL) are typically calculated based on the process average and its variability (e.g., \`CL ± 3 * Standard Deviations\`).
 
+![](/images/ASB/Module4/3.png)
 
 
 # Decision Trees for Quality Control
@@ -398,6 +414,7 @@ A flowchart-like structure used as a predictive model or decision support tool, 
 ## Decision Trees for Quality Control - Examples
 *   A system deciding whether to accept a shipment based first on defect rate, then potentially on defect severity if the rate exceeds a primary threshold.
 
+![](/images/ASB/Module4/4.png)
 
 
 # Design of Experiments (DOE)
@@ -414,12 +431,14 @@ A systematic methodology to structure inquiries and analyze the effect of varyin
 ## Design of Experiments (DOE) - Comparisons
 *   Superior to informal or "one-factor-at-a-time" (OFAT) experimentation, which can miss interactions and be less efficient.
 
+![](/images/ASB/Module4/5.png)
 
 
 # Conclusion
 
 Statistical methods form an integrated framework for robust quality management. Hypothesis testing validates adherence to standards, while regression analysis elucidates factor-impact relationships for prediction and optimization. SPC, via control charts, provides continuous process monitoring for stability, decision trees offer structured classification rules, and DOE enables systematic process improvement by efficiently exploring factor effects. Together, these tools empower organizations with data-driven insights for enhancing consistency, efficiency, and overall product/service quality.
 
+![](/images/ASB/Module4/6.png)
 
 
 

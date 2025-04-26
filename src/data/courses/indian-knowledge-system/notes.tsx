@@ -528,7 +528,6 @@ The six auxiliary disciplines essential for understanding and applying the Vedas
     title: 'Philosophical Schools, Upanishads, and Core Values',
     content:`
 # The Philosophical System
-Saturday, 29 March 2025 9:18 AM
 
 ## What is Philosophy?
 *   **Philosophy** is a discipline that seeks to answer fundamental questions about life, existence, and happiness.
@@ -574,7 +573,7 @@ Saturday, 29 March 2025 9:18 AM
 *Paths to Understanding Philosophy*
 *Paths to Maximizing Happiness*
 
-*(Diagram illustrating paths from Fundamental Questions, Religious Path, Legal Path to Avoid Sin/Pain/Chaos, Constitution/Maintain Order, leading ultimately to Maximize Happiness)*
+![](/images/IKS/Module2/1.png)
 
 ---
 
@@ -592,7 +591,7 @@ Saturday, 29 March 2025 9:18 AM
 
 ## Three Core Elements of Indian Philosophy
 
-*(Diagram showing three intersecting circles labeled Ishvara, Jiva, and Jagat, with "Indian Philosophy" at the intersection)*
+![](/images/IKS/Module2/2.png)
 
 *   **Ishvara**: Symbolizes the divine or cosmic regulating force.
 *   **Jiva**: Represents the individual self and consciousness.
@@ -620,7 +619,7 @@ Saturday, 29 March 2025 9:18 AM
     *   People naturally look outward for answers
     *   But true seekers turn inward to find ultimate bliss
 
-*(Flowchart Diagram: Seeking Happiness -> Examining the World (Jagat) -> Understanding the Divine (Ishvara) -> Turning Inward (Jiva/Self))*
+![](/images/IKS/Module2/3.png)
 
 ---
 
@@ -662,7 +661,7 @@ Saturday, 29 March 2025 9:18 AM
     *   ✔ **Moksha** (Liberation): The ultimate goal—freedom from the cycle of rebirth
     *   ✔ **Free Will**: Not everything is pre-determined—one's actions shape their future
 
-    *(Diagram illustrating the cycle of Samsara: Accumulation of Karma -> Actions -> Birth -> Death -> Liberation (Moksha) -> Knowledge + Right Action -> KEEP RIGHT)*
+![](/images/IKS/Module2/4.png)
 
 3.  **The Indian Tradition of Healthy Debate**
     *   Philosophical discussions were not dismissive or demeaning
@@ -689,7 +688,7 @@ Indian philosophy is divided into two broad categories:
 *   **Astika ≠ Belief in God** (Example: *Mimamsa* does not believe in *Ishvara*)
 *   **Nastika ≠ Atheism** (Example: *Jainism* & *Buddhism* have their own concepts of divinity)
 
-*(Diagram showing "Indian Philosophy Schools" branching into "Vedic Schools (Astika)" and "Non-Vedic Schools (Nastika)", listing schools under each)*
+![](/images/IKS/Module2/5.png)
 
 ---
 
@@ -725,7 +724,7 @@ Indian philosophy is divided into two broad categories:
 | Nyaya & Vaisheshika | Valid Knowledge & Reality     | Finding truth through logic and epistemology      |
 | Mimamsa & Vedanta | Vedic Scriptures                | Seeking answers directly from the Vedas           |
 
-*(Diagram: Overview of Vedic Darshanas, showing schools around a central point)*
+![](/images/IKS/Module2/7.png)
 
 ---
 
@@ -817,7 +816,7 @@ To explain the world efficiently, Vaisheshika categorizes all entities into **se
 6.  **Samavaya (Inherence)** – The relationship between an entity and its qualities (e.g., blackness in a black remote).
 7.  **Abhava (Absence)** - Non-existence, like saying "No brown cow walks here."
 
-*(Diagram: Vaisheshika Categories illustrating the seven categories)*
+![](/images/IKS/Module2/6.png)
 
 ### Theory of Atoms (Paramanu)
 Vaisheshika introduced the **concept of paramanu (atoms)**, considering them the smallest indivisible particles forming matter. Unlike modern atoms, Vaisheshika atoms are distinct from each other. For example, no two Earth atoms (*Prithvi Paramanu*) are identical. These atoms combine to create the material world.
@@ -831,7 +830,7 @@ In essence, Vaisheshika is a **realist and pluralistic** philosophy that explain
 ## Understanding Purva Mimamsa & Vedanta
 Both are **Vedic Darshanas (philosophical schools)** but differ in their focus and approach.
 
-*(Diagram showing Philosophical Schools branching into Purva Mimamsa and Vedanta, listing key concepts like Moksha, Karma Kanda, Jnana Kanda, Acceptance of Ishvara, Paths to Moksha)*
+![](/images/IKS/Module2/8.png)
 
 ## Delving Deeper into Purva Mimamsa
 *   **Mimamsa** means critical investigation or reflection → It studies & interprets Vedic rituals & scriptures.
@@ -1000,7 +999,7 @@ Advaita Vedanta, expounded by *Adi Shankaracharya*, boldly declares: "*Jiva* and
 - Ancient texts like **Rigveda Pratishakhya** and **Taittiriya Pratishakhya** laid down the phonetic rules.
 - Panini incorporated phonetic principles in **Ashtadhyayi** and wrote a separate work called **Paniniya Shiksha**.
 
-[Diagram showing the anatomy of the oral cavity and vocal tract including Nasal Cavity, Palate, Oral Cavity, Lips, Tongue, Jaw, Pharynx, Epiglottis, Larynx opening into pharynx, Larynx, Esophagus]
+![](/images/IKS/Module3/1.png)
 
 ### 3. Sound Production and Classification
 - Sound production originates from six locations in the oral cavity:
@@ -1053,7 +1052,7 @@ Similarly, for other verbal roots:
 - **Pat (Reading)** → Patathi, Pathan, Pathitva, Patitum, etc.
 - **Gam/Gacch (Going)** → Gacchati, Gacchan, Gatva, Gantum, etc.
 
-[Flowchart illustrating the transformation of the verbal root 'kru' to different forms like Karoti, Kurvan, Karta, Krtva, Karotu, Kartavyam, Kartum, Krtam.]
+![](/images/IKS/Module3/2.png)
 
 ---
 ### Systematic Word Formation in Sanskrit
@@ -1239,7 +1238,7 @@ S3 = S2 + w3
 ...
 Sn = Sn-1 + wn
 
-[Flowchart illustrating Sanskrit Compound Word Formation: Purva-Pada (First Word) + Uttara-Pada (Next Word) -> New Compound Word]
+![](/images/IKS/Module3/3.png)
 
 ### Example with Multiple Words
 ***Words to be Combined:***
@@ -1262,7 +1261,7 @@ Dipa (Lamp)
 | 3    | नानाछिद्रघटोदर (Nanachidraghataudara)   | स्थित (Sthita) | नानाछिद्रघटोदरस्थित (Nanachidraghataudarasthita) |
 | 4    | नानाछिद्रघटोदरस्थित (Nanachidraghataudarasthita) | दीप (Dipa)   | नानाछिद्रघटोदरस्थितदीप (Nanachidraghataudarasthitadipa) |
 
-[Continuation of the Recursive Logic flowchart for Samasa formation: Start -> Get Noun Roots -> Set Purva-Pada=w1 -> Loop i=2 to n -> Set Uttara-Pada=wi -> Combine -> Update Purva-Pada -> Repeat -> Final Sn -> Attach suffixes -> End.]
+![](/images/IKS/Module3/4.png)
 
 ---
 
@@ -1297,7 +1296,7 @@ The rule-based approach in Sanskrit can be represented as an algorithm:
 8. Output the Final Valid Word
 9. Repeat Until No More Rules Apply
 
-[Flowchart illustrating Panini's Rule-Based Algorithm: Start -> Read Inputs -> i=0 -> i=i+1 -> Is i > 3983? (Yes/No) -> Read sutra "i" -> Is the sutra applicable? (Yes/No) -> Perform relevant operation (Yes, then i=0) / Move to next rule (No) -> Loop back to i=i+1 or check i > 3983? -> If i > 3983 is Yes, Print the Final result, Stop.]
+![](/images/IKS/Module3/5.png)
 
 ---
 
@@ -1341,7 +1340,7 @@ In Sanskrit, you can rearrange words freely without changing the meaning. Why? B
 5. **Source (Apadana)** – From where? (Office)
 6. **Location/Time (Adhikarana)** – Where or when? (Morning)
 
-[Circular diagram illustrating the 6 Karakas: Location/Time, Doer, Object, Instrument, Receiver, Source.]
+![](/images/IKS/Module3/6.png)
 
 ---
 
@@ -1501,6 +1500,9 @@ The Bhagavata Purana narrates in detail how a human develops in the womb. Surpri
 *   **5th-6th month**: Hunger & thirst sensation starts
 *   **6th month**: Movement in the abdomen becomes noticeable (kicks)
 
+![](/images/IKS/Module4/1.png)
+
+
 
 **Padma Purana goes deeper:**
 *   400 bones, 500 muscles
@@ -1563,7 +1565,8 @@ Covered in Chapter 21 of Brahmanda Purana:
 *   Widely translated: **~40+ versions** across languages (e.g., Tamil, Oriya, Telugu)
 *   Cultural spread: Found across **SE Asia** (e.g., Indonesia, Thailand)
 
-*(Note: The visual mind map from the original document is represented by the points above)*
+![](/images/IKS/Module4/2.png)
+
 
 
 
@@ -1586,7 +1589,7 @@ Covered in Chapter 21 of Brahmanda Purana:
     *   **Sabha Parva**: Dice game
     *   **Santi & Anusasana**: Governance, economics, social order in ancient India
 
-*(Note: The visual mind map from the original document is represented by the points above)*
+![](/images/IKS/Module4/3.png)
 
 ---
 
@@ -2397,7 +2400,6 @@ The Nyaya method can map onto modern research:
 4.  Unique naming system for **large numbers**
 5.  Creative methods to **represent numbers**
 
-*(Diagram summary: The five contributions graphically represented - Concept of Zero, Place Value System, Decimal System, Large Number Naming, Number Representation)*
 
 ---
 
@@ -2562,26 +2564,7 @@ A unique, poetic way to encode numbers in ancient India
 | 8     | Elephant, Serpent (mythically 8 support the Earth)    |
 | 9     | Nanda (as a symbolic name), Nava (9)                  |
 
-**(Partial List of Representations from page 5):**
-
-| Number | Represented by                                        |
-| :----- | :---------------------------------------------------- |
-| 0      | Śūnya, Pūrṇa, Kha                                     |
-| 1      | Ādi, Candra, Prithivī, Eka                            |
-| 2      | Aśvin, Pairs Of Limbs, Ayana, Dvandva, Dvi             |
-| 3      | Rāma, Guṇa, Loka, Kāla, Agni, Trinetra                 |
-| 4      | Veda, Śruti, Yuga, Āśrama, Varṇa, Samudra, Kṛta       |
-| 5      | Bhūta, Śāstra, Bāṇa, Pāṇḍava, Indriya                |
-| 6      | Anga, Ṛtu, Darśana, Ṣaṇmukha, Ṣaṭ                     |
-| 7      | Ṛṣi, Adri, Svara, Dhātu, Chandas                      |
-| 8      | Vasu, Bhujaṅga, Siddhi, Dik, Kuñjara, Nāga            |
-| 9      | Gṛha, Aṅka, Nanda                                     |
-| 10     | Dik, Aṅgulī, Avatāra, Rāvaṇaśira                     |
-| 11     | Rudra                                                 |
-| 12     | Āditya, Rāśi                                          |
-| 13     | Viśva, Kāma                                           |
-| 14     | Manu                                                  |
-| 15     | Tithi, Dina                                           |
+![](/images/IKS/Module5/1.png)
 
 **Examples of Bhuta Samkhya in Action:**
 
@@ -2605,6 +2588,8 @@ A unique, poetic way to encode numbers in ancient India
     *   Second line: *Nava Nikharva* = 9 × 10¹¹
     *   This gives: π ≈ 2,827,433,388,233 / (9 × 10¹¹)
     *   π ≈ **3.141592653...**, accurate to **11 decimal places!**
+![](/images/IKS/Module5/2.png)
+    
 
 ---
 
@@ -2623,6 +2608,9 @@ A phonetic alphabet-to-numeral coding system unique to ancient India
 *   If multiple consonants are joined (*samyuktakshara*), only the **last consonant** before the vowel is counted.
 *   Read digits from **right to left**.
 *   **Standalone consonants** (without vowels, e.g., final 'm') are **ignored**.
+
+![](/images/IKS/Module5/3.png)
+
 
 **Consonant-to-Digit Mapping Table:**
 
@@ -2681,6 +2669,9 @@ A phonetic alphabet-to-numeral coding system unique to ancient India
 ---
 
 ### Units of Length
+
+![](/images/IKS/Module5/4.png)
+
 
 *   Estimated: 1 Paramāņu (length) ≈ **2.88 × 10⁻⁷ mm**
 *   **Hierarchy of Length Units** (Measurements scale exponentially, often by factors of 7)
@@ -2923,6 +2914,9 @@ A phonetic alphabet-to-numeral coding system unique to ancient India
 *   This necessitates knowledge of **π (pi)** and methods to **square the circle**, an advanced geometric problem.
 
 ### Ritual Geometry in Practice (Falcon Altar)
+
+![](/images/IKS/Module5/5.png)
+
 
 *   Vedic sacrificial altars were designed in over **70 distinct geometric shapes** (e.g., Tortoise, Falcon (Syena), Chariot Wheel).
 *   The **Falcon-shaped altar (Syena Citi)** has five key components: Head, Body, Tail, Two Wings.
@@ -3650,7 +3644,12 @@ India's metalworking history is rich, dating back to the **Indus Valley Civiliza
 *   Mould broken off
 *   Bronze casting
 
+
+![](/images/IKS/Module6/1.png)
+
+
 ---
+
 
 ## Timeline of Major Achievements
 
@@ -3742,13 +3741,8 @@ These sites show evidence of advanced mining:
 5.  **Dry in sun**
 6.  Use **downward drift distillation** to extract zinc metal
 
-### [Diagram: Zinc Smelting Steps]
-*   Smelt Zinc Sulphide Ore
-*   Roast Ore to Form Zinc Oxide
-*   Mix with Charcoal and Flux
-*   Shape into Pellets
-*   Dry in Sun
-*   Extract Zinc Metal
+![Steps in Zinc Smelting](/images/IKS/Module6/2.png)
+
 
 ---
 
@@ -3799,7 +3793,7 @@ These sites show evidence of advanced mining:
 | Gujarat                  | 2nd CE           | Female figure w/ flower container      |
 | Various sites (5th–15th CE) | –                | Idols (Buddha, Ambika, Manjushri, Kala Bhairava) |
 
-### [Image Description: Copper statue of Buddha discovered at Sultangunj]
+![](/images/IKS/Module6/3.png)
 
 ---
 
@@ -3835,7 +3829,7 @@ These sites show evidence of advanced mining:
 *   **Ashokan pillars** carved from single stone.
 *   Requires **high-carbon steel tools** (chisels, saws).
 
-### [Image Description: A Sample Set of Tools Designed by Suśruta Using Fe-C alloy, showing various sharp and blunt surgical instruments.]
+![](/images/IKS/Module6/4.png)
 
 ---
 
@@ -4132,7 +4126,7 @@ This process has been documented in several ancient texts:
     *   **Ashokan inscriptions** mention stepwells along roads for travelers
     *   Described in **Aparajita-Prccha** (Gujarat text on art & architecture)
 
-### [Image Description: A large ancient stepwell structure with multiple levels and steps leading down to the water source.]
+![](/images/IKS/Module6/5.png)
 
 ---
 
@@ -4191,7 +4185,7 @@ This process has been documented in several ancient texts:
     *   Used **leaf to measure** the damaged nose.
     *   Took **skin from the cheek/forehead** and reattached with proper tubes to retain shape and airflow.
 
-### [Image Description: Ancient Indian surgical instruments (Yantras) as depicted in texts like Sushruta Samhita. Includes: 1. Anguli yantra, 2. Arsho yantra, 3. Ashmaryaharna yantra, 4. Basti yantra, 5. Bhringamukha yantra, 6. Darvyakritishalaka, 7. Garbhashanku yantra, 8. Jalodar yantra, 9. Kakamukha yantra, 10. Kankamukha yantra, 11. Muchuti yantra, 12. Nadi yantra, 13. Rikshamukha yantra, 14. Sadansha yantra, and Vasti Yantra.]
+![](/images/IKS/Module6/6.png)
 
 ---
 
@@ -4303,8 +4297,8 @@ This process has been documented in several ancient texts:
     *   **Area Demarcation:** Distinct commercial and non-commercial zones.
     *   **Infrastructure:** Planned layout with **3 central Royal Roads** and **12 city gates**.
 
-    **(Schematic Diagram: Kautilya's plan for the fortified city)**
-    *   *The diagram illustrates a zoned city layout with specific gates (Brahma, Senapati, Indra, Yama) and designated areas for different Varnas (Brahmanas, Kshatriyas, Vaishyas, Shudras), royalty (Royal Residence, Temples), administration (Treasury, Audit office, Warehouses), essential services (Healthcare, Stables, Workshops, Armory), commerce (Jewelers, Metal Workers, Guilds, Merchants, Restaurants), and social spaces (Liquor, Musicians, Courtesans).*
+![](/images/IKS/Module7/1.png)
+
 
 *   **What is Town Planning?**
     *   The efficient use of available land for human settlement.
@@ -4388,8 +4382,8 @@ Vastu involves a holistic process encompassing eight key aspects:
 7.  **Vastu (Materials):** Knowledge about building materials and their processing.
 8.  **Alankarana (Decor & Renovation):** Covers interior and exterior aesthetics, decoration, and repairs.
 
-**(Diagram: The Eight Limbs of Vastu-Shastra)**
-*   *A circular diagram illustrating the interconnectedness of the eight limbs: Yajamana, Sthapatyam, Shilpi, Bhumi, Vastoshpati, Padavinyasa, Vastu, and Alankarana.*
+![](/images/IKS/Module7/2.png)
+
 
 ---
 
@@ -4476,8 +4470,9 @@ A traditional construction project involved a team of specialized artisans:
 *   Features **musical pillars** that produce distinct notes ("sa, re, ga...").
 *   Has withstood numerous **earthquakes**, remaining erect for over 1000 years.
 *   *(Contrast: Leaning Tower of Pisa started tilting during its 12th C construction).*
-    **(Diagram: Brihadeeshwara Temple Details)**
-    *   *Shows the temple profile alongside key facts: Time (~1000 years), Material (Granite), Design (16x16 Padma-garbha-mandala).*
+
+![](/images/IKS/Module7/3.png)
+
 
 ### 2. Sun Temple, Konark (Odisha)
 *   Built c. 1250 CE, dedicated to the Sun God (Surya).
@@ -4486,8 +4481,9 @@ A traditional construction project involved a team of specialized artisans:
 *   Depicts **7 horses** pulling the chariot (symbolic).
 *   Incorporated **advanced astronomy knowledge:** The first sunlight allegedly reflected off a diamond placed on the deity's crown.
 *   The original main **Vimana** was reportedly **229 feet high** but collapsed in 1837.
-    **(Diagram: Konark Wheel & Details)**
-    *   *Shows a detailed image of a Konark wheel with key info: Timing (~1250 CE), Design (Chariot), Symbolism (24 wheels ~ 24 pakshas/fortnights, 12 ft diameter, function as sundials).*
+
+![](/images/IKS/Module7/4.png)
+
 
 ### 3. Kailasa Temple, Ellora (Maharashtra)
 *   One of the **largest monolithic rock-cut** temples globally.
@@ -4496,8 +4492,9 @@ A traditional construction project involved a team of specialized artisans:
 *   Measures **32 meters high**; the excavation involved removing vast amounts of rock using three main trenches.
 *   Features a **three-story Vimana**, an octagonal dome, and a mandapa with 16 pillars.
 *   Recognized by **UNESCO** for its striking proportions, bold sculptures, and beautiful cave paintings in the Rang Mahal (Sabha Mandapa).
-    **(Diagram: Kailasa Temple & Structure)**
-    *   *Shows the rock-cut temple complex with notes on its unique structure: Three-storey vimāna (tower) and Octagonal dome.*
+
+![](/images/IKS/Module7/5.png)
+
 
 ---
 
@@ -4554,8 +4551,8 @@ A traditional construction project involved a team of specialized artisans:
 *   **What is Arthashastra?**
     *   **"Artha"** signifies material well-being, encompassing more than just wealth.
     *   Deals with: **Managing resources, protecting the earth, ensuring society's welfare.**
-    *   **Structure:** Books 1-5 (Internal administration), Books 6-13 (State relations with neighbours), Books 14-15 (Miscellaneous topics).
-
+    ![](/images/IKS/Module7/6.png)
+    
 ---
 
 ## Raja Dharma & Governance Principles
@@ -4603,6 +4600,10 @@ A traditional construction project involved a team of specialized artisans:
 
 *   **Context:** Assumes a **monarchy**, focuses on **practical governance**. Defined in Book 6, Chapter 1 as the core administrative elements.
 *   **Verse:** *swami-amatya-janapada-durga-kosha-danda-mitrani-prakritaya*
+
+![](/images/IKS/Module7/7.png)
+
+
 *   **The 7 Elements:**
 
     | Sanskrit Term | Meaning            | Role                                                     |
@@ -4649,6 +4650,8 @@ A traditional construction project involved a team of specialized artisans:
     *   Native of the land (implies loyalty, understanding).
     *   Healthy, noble birth, trained in Shastras.
     *   Wise, brave, quick decision-maker, truthful, strong character.
+    ![](/images/IKS/Module7/8.png)
+    
 *   **King's Daily Routine:** Highly structured 24-hour schedule (6 AM - 6 AM):
     *   *6-7:30 AM:* Review defense & finance reports.
     *   *7:30-9 AM:* Meet the public.
@@ -4683,6 +4686,9 @@ A traditional construction project involved a team of specialized artisans:
 
 *   **Core Idea:** The **people and land** are the ultimate source of power. The countryside is the **backbone of the economy** (agriculture, trade, resources).
 *   **Key Elements:** Diverse land zones (forests, mines, rivers, irrigation), established trade routes/road networks, creation of new settlements encouraged (inhabited by natives or immigrants for growth), strategic placement of **forts** at frontier zones (one per cardinal direction).
+
+![](/images/IKS/Module7/9.png)
+
 *   **Administrative Hierarchy (Decentralized System):**
 
     | Unit        | Scope        | Modern Equivalent   |
@@ -4691,7 +4697,9 @@ A traditional construction project involved a team of specialized artisans:
     | Karvatika   | 200 villages | District HQ         |
     | Dronamukha  | 400 villages | Division HQ         |
     | Sthaniya    | 800 villages | Regional HQ         |
-    *(Goal: Efficient administration, local governance, decision-making.)*
+*(Goal: Efficient administration, local governance, decision-making.)*
+![](/images/IKS/Module7/10.png)
+
 
 ### (4) Durga (Fortified Capital City)
 
@@ -4700,6 +4708,8 @@ A traditional construction project involved a team of specialized artisans:
     *   **Layout:** 12 gates (2 per cardinal direction + mid-points). Zoned residential areas (Kings, Temples, Varnas). Dedicated areas (Markets, military, admin). Cremation/burial sites outside city. Good road planning & access control.
     *   **Moats and Walls:** 3 concentric moats (natural/artificial, filled with lotuses/crocodiles). Ramparts with thorny bushes. Parapet walls (18-36 ft high). Escape paths, soldier walkways, secret exit doors.
     *   **Visual Structure:** Top view = 3 ring-like moats. Side view = moats deeper/wider outwardly. Heavily fortified to impede enemy advance.
+
+![](/images/IKS/Module7/11.png)
 
 ### (5) Kosha (Treasury / Economic Strength)
 
@@ -4738,6 +4748,9 @@ A traditional construction project involved a team of specialized artisans:
 *   **Why Kosha is Crucial:** Kautilya states, *"A strong treasury is more important than the army"*. Army depends on treasury; financial weakness leads to collapse of defense/diplomacy.
 
 ### (6) Danda (Army / Justice / Power of Coercion)
+
+![](/images/IKS/Module7/12.png)
+
 
 *   **Meaning:** Represents the state's power to enforce and protect. Includes: Law and order, Security (internal/external), Justice administration, Military force.
 *   **Function:** Both the **sword** (enforcement) and the **shield** (protection) of the state. Protects people, enforces discipline.
@@ -4780,6 +4793,8 @@ A traditional construction project involved a team of specialized artisans:
     | 3. Division     | **Bheda**     | Creating dissent among enemy ranks             |
     | 4. Force        | **Danda**     | Use of military power or coercion              |
     *(Use Sama/Dana for weak opponents; Bheda/Danda for strong ones.)*
+![](/images/IKS/Module7/13.png)
+
 *   **Geopolitical Vision: Rajamandala Theory:**
     *   A model of concentric circles of states around a central kingdom (Vijigishu - the would-be conqueror).
     *   Key idea: **Enemy's enemy is a friend.**
@@ -4942,11 +4957,13 @@ A traditional construction project involved a team of specialized artisans:
 *   In 1948, WHO expanded its definition to include **mental well-being**.
 *   Ayurveda has *always* embraced a holistic approach, integrating both **physical and psychological** well-being in its definition, predating the modern WHO definition significantly.
 
+
+
 ---
 
 ## Doshas: The Functional Energies
 
-**(Diagram: Tri-dosas showing Vata from Air/Space, Pitta from Fire(Agni)/Water, Kapha from Water/Earth)**
+![](/images/IKS/Module8/1.png)
 
 *   **What Are Doshas?**
     *   Meaning: "That which can spoil, refute, or perish." They are the **functional energies** governing bodily processes.
@@ -5024,7 +5041,7 @@ A traditional construction project involved a team of specialized artisans:
     *   **Shukra** is the final Dhatu.
     *   Its refinement contributes to the formation of **Ojas**, the vital essence conferring immunity, strength, vitality, and longevity.
     *   Traditional Ayurveda emphasizes **Brahmacharya** (conservation of reproductive energy/Shukra) to build Ojas and maintain health, believing excessive loss leads to weakness.
-**(Diagram: Illustrating the transformation of food through Agni into the seven Dhatus, culminating in Shukra/Ojas)**
+![](/images/IKS/Module8/2.png)
 
 *   **Effects of Imbalance in Dhatus:** Leads to various health problems.
     *   **Rasa (Plasma):**
@@ -5184,6 +5201,8 @@ A simple, effective lifestyle for health maintenance:
     *   **Multiplicity of Views:** Recognizes diverse perspectives (e.g., acceptance/non-acceptance of Atman). Allows flexibility in choosing paths.
     *   **Inner and Outer Worlds:** Acknowledges objective reality (outer world, studied via Pramanas like perception, inference) and subjective reality (inner world, explored via **intuitive, meditative, contemplative** experiences).
 
+![](/images/IKS/Module8/3.png)
+
 ---
 
 ## Key Concepts of Tri-Guna Theory in Indian Psychology:
@@ -5215,47 +5234,73 @@ A simple, effective lifestyle for health maintenance:
         *   *Mental discipline (Meditation, self-control)*
     *   **Sattvic Practices:** Brahmacharya (self-restraint), Tapas (austerity), Svadhyaya (self-study) increase Sattva. Sattvic diet/lifestyle support growth, but overall transformation is needed.
 
-**(Diagram: The Complex Nature of the Individual showing interaction between Self, Subtle Body components (Pranas, Buddhi, Chitta, Manas, Ahamkara, Sensory/Action Organs) and Gross Body (5 Bhutas) with the World (Stimulus/Response))**
+![](/images/IKS/Module8/4.png)
 
 ---
 
 ## Indian Psychology's Holistic View of Human Nature
 
-*   **Not Just the Physical Body:** Sees humans as more than physical entities. Experience combines:
-    *   **Gross (Sthula) Body** (Physical)
-    *   **Subtle (Sukshma) Body** (Non-physical faculties)
-    *   **Conscious Self (Atman)**
-*   **Framework from Sankhya (Evolution of the Human System):**
-    **1. Gross Body (Sthula Sharira):**
-        *   Composed of Pancha Mahabhutas (5 great elements).
-        *   Includes bones, skin, muscles, organs, physical instruments (eyes, ears, hands).
-        *   These are instruments, not the cognizers/actors themselves.
-    **2. Subtle Body (Sukshma Sharira):**
-        *   Contains non-physical faculties for perception/action. Composed of:
-            *   **Five Sense Organs (Jnanendriyas):** Subtle faculties of sight, hearing, smell, taste, touch (distinct from physical organs).
-            *   **Five Motor Organs (Karmendriyas):** Subtle faculties of speech, handling, locomotion, excretion, reproduction.
-            *   **Antahkarana (Inner Instrument):**
-                *   **Manas (Mind):** Central processor, receives sensory input, sends motor output.
-                *   **Chitta (Memory):** Stores impressions, past knowledge, source of recognition.
-                *   **Ahankara (Ego):** Claims ownership ("I am doing," "I am seeing").
-                *   **Buddhi (Intellect):** Discriminates, decides, provides determinate knowledge.
-    **3. Vital Forces - The Five Pranas:**
-        *   Not physical air, but **vital energies** supporting bodily functions:
-            *   **Prana:** Governs respiration.
-            *   **Apana:** Governs excretion, downward movements.
-            *   **Vyana:** Governs circulation.
-            *   **Udana:** Governs speech, upward movements.
-            *   **Samana:** Governs digestion and assimilation.
-        **(Diagram: Five Pranas with their functions)**
+### **Not Just the Physical Body**
+Sees humans as more than physical entities. Experience combines:
 
-*   **Example: Seeing a Curtain:**
-    1.  Stimulus (curtain) from external world.
-    2.  Gross Eye receives stimulus → Subtle Sense of Sight perceives.
-    3.  Information goes to Manas (Mind).
-    4.  Manas consults Chitta (Memory) → "I've seen this before, it's a curtain."
-    5.  Ahankara (Ego) claims → "I am seeing it."
-    6.  Buddhi (Intellect) confirms → "Yes, this is a curtain."
-    7.  If action needed, Manas sends command to Motor Organs → Hand moves curtain.
+- **Gross (Sthula) Body** — Physical  
+- **Subtle (Sukshma) Body** — Non-physical faculties  
+- **Conscious Self (Atman)**
+
+
+### **Framework from Sankhya (Evolution of the Human System)**
+
+#### **1. Gross Body (Sthula Sharira)**
+- Composed of **Pancha Mahabhutas** (5 great elements)
+- Includes bones, skin, muscles, organs, physical instruments (eyes, ears, hands)
+- These are **instruments**, not the cognizers/actors themselves
+
+
+#### **2. Subtle Body (Sukshma Sharira)**
+Contains non-physical faculties for perception/action. Composed of:
+
+- **Five Sense Organs (Jnanendriyas)**  
+  Subtle faculties of:
+  - Sight
+  - Hearing
+  - Smell
+  - Taste
+  - Touch  
+
+- **Five Motor Organs (Karmendriyas)**  
+  Subtle faculties of:
+  - Speech
+  - Handling
+  - Locomotion
+  - Excretion
+  - Reproduction  
+
+- **Antahkarana (Inner Instrument):**
+  - **Manas (Mind):** Central processor, receives sensory input, sends motor output
+  - **Chitta (Memory):** Stores impressions, past knowledge, source of recognition
+  - **Ahankara (Ego):** Claims ownership ("I am doing," "I am seeing")
+  - **Buddhi (Intellect):** Discriminates, decides, provides determinate knowledge
+
+
+#### **3. Vital Forces — The Five Pranas**
+Not physical air, but **vital energies** supporting bodily functions:
+
+- **Prana:** Governs respiration  
+- **Apana:** Governs excretion, downward movements  
+- **Vyana:** Governs circulation  
+- **Udana:** Governs speech, upward movements  
+- **Samana:** Governs digestion and assimilation  
+
+![](/images/IKS/Module8/5.png)
+
+### Example: Seeing a Curtain:
+1.  Stimulus (curtain) from external world.
+2.  Gross Eye receives stimulus → Subtle Sense of Sight perceives.
+3.  Information goes to Manas (Mind).
+4.  Manas consults Chitta (Memory) → "I've seen this before, it's a curtain."
+5.  Ahankara (Ego) claims → "I am seeing it."
+6.  Buddhi (Intellect) confirms → "Yes, this is a curtain."
+7.  If action needed, Manas sends command to Motor Organs → Hand moves curtain.
 
 ---
 
@@ -5304,31 +5349,44 @@ A simple, effective lifestyle for health maintenance:
 
 ---
 
-## Consciousness through Four Avasthas (States of Consciousness):
+## **Consciousness through Four Avasthas (States of Consciousness)**
 
-*   **Purpose:** Analyzing different states of experience to realize the true Self (Consciousness) which underlies them all. We directly experience three; the fourth is the witness.
-    **1. Jagrat Avastha – Waking State:**
-        *   Experience the **external world** via gross (sensory input) and subtle bodies (processing).
-        *   Consciousness present but distracted by external stimuli.
-        *   Result: Distorted experience of Self; identification with the outer world.
-    **2. Swapna Avastha – Dream State:**
-        *   Gross body inactive (asleep).
-        *   **Subtle body (mind) active**, creates a mental world. No external stimuli; experiences manufactured internally.
-        *   Consciousness experienced vaguely through illogical dream content.
-        *   Closer to Self than waking (less external distraction), but still contains mental objects/distortions.
-    **3. Sushupti Avastha – Deep Sleep State:**
-        *   Both gross and subtle bodies inactive.
-        *   No dreams, thoughts, or awareness of external/internal world.
-        *   **Consciousness still exists** (evidenced by waking to one's name, retrospective awareness "I slept well").
-        *   Experience of Self is **pure and undisturbed**, but lacks active awareness during the state.
-        *   Called a "negative experience" – known only upon waking.
-    **4. Turiya Avastha – The “Fourth" State (Beyond the First Three):**
-        *   Turiya = "The Fourth". Not a separate state, but the **ever-present Witness** of waking, dream, and deep sleep.
-        *   The purest experience of the Self:
-            *   No activity of gross or subtle body.
-            *   **Full awareness** of pure consciousness (not retrospective like after deep sleep).
-        *   Turiya is always present but usually masked. Realized via deep introspection, meditation, yoga.
-        *   It is the **true Self** – Sat-Chit-Ananda in its fullest expression.
+**Purpose:** Analyzing different states of experience to realize the true Self (Consciousness) which underlies them all. We directly experience three; the fourth is the witness.
+
+---
+
+### **1. Jagrat Avastha – Waking State**
+- Experience the **external world** via gross (sensory input) and subtle bodies (processing).
+- Consciousness present but distracted by external stimuli.
+- **Result:** Distorted experience of Self; identification with the outer world.
+
+---
+
+### **2. Swapna Avastha – Dream State**
+- Gross body inactive (asleep).
+- **Subtle body (mind) active**, creates a mental world. No external stimuli; experiences manufactured internally.
+- Consciousness experienced vaguely through illogical dream content.
+- Closer to Self than waking (less external distraction), but still contains mental objects/distortions.
+
+---
+
+### **3. Sushupti Avastha – Deep Sleep State**
+- Both gross and subtle bodies inactive.
+- No dreams, thoughts, or awareness of external/internal world.
+- **Consciousness still exists** (evidenced by waking to one's name, retrospective awareness "I slept well").
+- Experience of Self is **pure and undisturbed**, but lacks active awareness during the state.
+- Called a **"negative experience"** – known only upon waking.
+
+---
+
+### **4. Turiya Avastha – The “Fourth" State (Beyond the First Three)**
+- **Turiya** = "The Fourth". Not a separate state, but the **ever-present Witness** of waking, dream, and deep sleep.
+- The purest experience of the Self:
+  - No activity of gross or subtle body.
+  - **Full awareness** of pure consciousness (not retrospective like after deep sleep).
+- Turiya is always present but usually masked. Realized via deep introspection, meditation, yoga.
+- It is the **true Self** – *Sat-Chit-Ananda* in its fullest expression.
+
 
 *   **Summary Table: What Do the Four Avasthas Teach Us?**
 

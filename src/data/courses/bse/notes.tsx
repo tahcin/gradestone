@@ -37,6 +37,8 @@ The practice of using numerical and graphical methods to describe, summarize, an
 *   This process involves collecting, analyzing, presenting, and interpreting data – considered both a science and an art.
 *   This module lays the groundwork for subsequent modules by covering fundamental data types, visualization, numerical summaries, and probability.
 
+![](/images/BSE/Module1/1.png)
+
 # Types of Data
 
 ## Types of Data - Definition
@@ -62,6 +64,7 @@ The classification of data based on its nature and measurement properties, which
 *   **Nominal vs. Ordinal:** Both are categorical. Nominal has no order; Ordinal has a meaningful order.
 *   **Interval vs. Ratio:** Both are quantitative with meaningful intervals. Interval lacks a true zero; Ratio has a true zero, allowing for meaningful ratio comparisons.
 
+![](/images/BSE/Module1/2.png)
 # Data Visualization
 
 ## Data Visualization - Definition
@@ -108,6 +111,8 @@ Numerical values that describe the typical or central value around which data po
 *   **Sample Mean ($\\bar{x}$):** $\\bar{x} = \\frac{\\sum_{i=1}^{n} x_i}{n}$ (where $x_i$ are observations and $n$ is sample size)
 *   **Population Mean ($\\mu$):** $\\mu = \\frac{\\sum_{i=1}^{N} x_i}{N}$ (where $N$ is population size)
 
+![](/images/BSE/Module1/3.png)
+
 # Measures of Dispersion
 
 ## Measures of Dispersion - Definition
@@ -136,6 +141,8 @@ Numerical values that quantify the amount of variability, spread, or scatter wit
 *   **Coefficient of Variation (CV):**   $ CV = (s / \\bar{x}) * 100\\% $
 *   **Z-score:**   $ z = (x_i - \\bar{x}) / s $ (for a sample observation $x_i$)
 
+![](/images/BSE/Module1/4.png)
+
 # Five Number Summary and Box Plot
 
 ## Five Number Summary and Box Plot - Definition
@@ -151,6 +158,8 @@ A method combining a concise numerical summary with a graphical representation t
 ## Five Number Summary and Box Plot - Examples
 *   **Five Number Summary:** {Min, Q1, Median, Q3, Max}
 *   **Graphical:** Box Plot
+
+![](/images/BSE/Module1/5.png)
 
 # Descriptive Statistics Using Analysis ToolPak
 
@@ -185,10 +194,16 @@ The branch of mathematics concerned with analyzing random phenomena and quantify
 *   **Conditional Probability:** $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$ (assuming $P(B) > 0$)
 *   **Law of Total Probability:** $P(A) = \\sum_{i} P(A|B_i)P(B_i)$ (where $B_i$ are mutually exclusive and collectively exhaustive events)
 
+![](/images/BSE/Module1/6.png)
+
 # Conclusion
 
 Module 1 establishes the crucial role of descriptive statistics in business. It introduces methods for organizing data (types of data), summarizing it visually (data visualization), and numerically describing its central tendency and dispersion. Understanding these descriptive techniques, along with the fundamental concepts of probability, provides entrepreneurs with the essential tools to interpret data effectively and make more informed decisions in the face of uncertainty, setting the stage for more advanced statistical analysis in subsequent modules.
-    `
+ 
+![](/images/BSE/Module1/7.png)
+
+
+`
 },
 '2-1':{
     title: 'Random Variables and Discrete Probability Distributions',
@@ -235,6 +250,7 @@ A function that assigns a numerical value to each outcome in the sample space of
     *   E[S] = Σ E[Xᵢ] = nμ
     *   Var(S) = Σ Var(Xᵢ) = nσ² (due to independence)
 
+![](/images/BSE/Module2/1.png)
 
 
 # Bernoulli Distribution
@@ -261,6 +277,7 @@ Models a single trial with exactly two possible outcomes, conventionally labeled
 *   **Variance:**
     Var(Y) = p(1-p) = pq
 
+![](/images/BSE/Module2/2.png)
 
 
 # Binomial Distribution
@@ -294,6 +311,7 @@ Models the number of successes (**y**) in a fixed number (**n**) of independent 
     SD(Y) = √[np(1-p)] = √[npq]
 
 
+![](/images/BSE/Module2/3.png)
 
 
 # Poisson Distribution
@@ -327,12 +345,14 @@ Models the probability of a given number of events (**y**) occurring within a fi
 *   **Standard Deviation:**
     SD(Y) = √λ
 
+![](/images/BSE/Module2/4.png)
 
 
 # Conclusion
 
 This module introduces the foundational concept of **random variables** for quantifying uncertainty, characterized by their **probability distributions (PMF/CDF)**, **expectation**, and **variance**. Building on this, three key discrete distributions are detailed: the **Bernoulli** for single two-outcome trials, the **Binomial** for counting successes across multiple independent Bernoulli trials, and the **Poisson** for modeling the occurrence of rare events over continuous intervals. Understanding these distributions and their properties (like the relationship between Binomial and Bernoulli, or the mean-variance equality in Poisson) is essential for analyzing probabilistic scenarios in various fields.
 
+![](/images/BSE/Module2/5.png)
 
 
     `
@@ -367,6 +387,8 @@ This module introduces the foundational concept of **random variables** for quan
 ## Uniform Distribution - Examples
 *   The source notes mention examples but do not provide specific details in the provided excerpts. A common example would be a random number generator producing values between 0 and 1.
 
+![](/images/BSE/Module3/1.png)
+
 # Exponential Distribution
 
 ## Exponential Distribution - Definition
@@ -389,6 +411,8 @@ This module introduces the foundational concept of **random variables** for quan
 *   **Standard Deviation:** σ = 1 / λ
 *   **Variance:** σ² = (1 / λ)²
     *   Note: Mean equals Standard Deviation.
+
+![](/images/BSE/Module3/2.png)
 
 # Normal Distribution
 
@@ -426,6 +450,8 @@ This module introduces the foundational concept of **random variables** for quan
     *   Variance: σ² = n * p * q
     *   Standard Deviation: σ = sqrt(n * p * q)
 
+![](/images/BSE/Module3/3.png)
+
 # Distributions Related to the Normal Distribution
 
 ## Chi-Square (χ²) Distribution
@@ -440,10 +466,15 @@ This module introduces the foundational concept of **random variables** for quan
 *   **Definition/Derivation:** A continuous distribution derived from the ratio of two independent chi-square variables, each divided by its degrees of freedom.
 *   **Key Insights/Applications:** Primarily used to compare variances of two or more populations (e.g., in Analysis of Variance - ANOVA). Critical points F(alpha, k1, k2) correspond to upper tail probabilities (alpha) and depend on numerator (k1) and denominator (k2) degrees of freedom. The distribution shape peaks and approaches 1 as k2 increases. Important for statistical inference.
 
+![](/images/BSE/Module3/4.png)
+
 # Conclusion
 
 This module detailed several essential continuous probability distributions, contrasting them with discrete counterparts and establishing their foundational role in statistics. The Uniform, Exponential, and particularly the Normal distribution were explored, covering their definitions, properties, applications (from server loads to AI), and calculation methods using templates or functions. Additionally, the module introduced the Chi-Square, t, and F distributions, highlighting their derivation from the Normal distribution and their critical importance for upcoming topics in statistical inference, such as hypothesis testing and variance comparison.
-    `
+
+![](/images/BSE/Module3/5.png)
+
+`
 },
 '4-1':{
     title: 'Introduction to Microeconomics',
@@ -488,6 +519,8 @@ The process of using data from a sample (a subset) to estimate characteristics (
 *   **Parameter:** Fixed, describes population, usually unknown.
 *   **Statistic:** Variable, describes sample, calculated from data, used to estimate parameter.
 
+![](/images/BSE/Module4/1.png)
+
 # The Sampling Process
 
 ## The Sampling Process - Definition:
@@ -501,6 +534,8 @@ A structured procedure for selecting a sample from a population to ensure repres
     3.  **Select Sample Size:** Balance precision needs with practical constraints.
     4.  **Choose Sampling Method:** Select the technique for drawing the sample.
 
+![](/images/BSE/Module4/2.png)
+
 # Sampling Methods
 
 ## Sampling Methods - Definition:
@@ -509,6 +544,7 @@ Techniques used to select a sample from a population. Broadly categorized as pro
 ## Sampling Methods - Key Insights:
 *   Probabilistic methods allow for statistical inference and estimation of sampling error because selection probabilities are known.
 *   Non-probabilistic methods are often convenient but do not support statistically robust population inferences.
+
 
 ## Examples (Probabilistic):
 *   **Random Sampling:** Each member has an equal chance of selection. Simple and fundamental.
@@ -519,8 +555,11 @@ Techniques used to select a sample from a population. Broadly categorized as pro
 *   Convenience Sampling
 *   Judgment Sampling
 
+
 ## Sampling Methods - Comparisons:
 *   **Stratified vs. Cluster:** Stratified samples *within* all groups (strata) for representation; Cluster samples *all units within* selected groups (clusters) for efficiency.
+
+![](/images/BSE/Module4/3.png)
 
 # Sampling Distributions
 
@@ -544,6 +583,8 @@ The theoretical probability distribution of a specific sample statistic (like $\
     *   Expected Value: $E(\\bar{p}) = P$
     *   Standard Error: $SE(\\bar{p}) = \\sigma_{\\bar{p}} = \\sqrt{\\frac{P(1-P)}{n}}$ (Requires population proportion $P$; often estimated using $\\bar{p}$)
 
+![](/images/BSE/Module4/4.png)
+
 # Central Limit Theorem (CLT)
 
 ## Central Limit Theorem (CLT) - Definition:
@@ -557,6 +598,8 @@ A fundamental theorem stating that the sampling distribution of the sample mean 
 
 ## Formula (Implication):
 *   For large $n$, $ \\bar{x} \\sim N(\\mu, \\frac{\\sigma^2}{n}) $ (Note: $\\sim$ means "approximately distributed as", $N$ denotes Normal distribution with mean $\mu$ and variance $\\frac{\\sigma^2}{\ n}$)
+
+![](/images/BSE/Module4/5.png)
 
 # Properties of Point Estimators
 
@@ -574,6 +617,8 @@ Criteria used to evaluate the quality and reliability of point estimators (sampl
 *   **Consistency:** The estimator tends to get closer to the population parameter as the sample size ($n$) increases.
 *   **Sufficiency:** The estimator uses all the information available in the sample data relevant to estimating the parameter.
     *   Example: $\\bar{x}$ and $\\bar{p}$ are sufficient estimators.
+
+![](/images/BSE/Module4/6.png)
 
 # Sources of Error in Sampling
 
@@ -594,10 +639,15 @@ Errors that can affect the accuracy of inferences made from sample data, categor
 *   **Sampling Error:** Unavoidable consequence of sampling; reduced by larger $n$.
 *   **Non-sampling Error:** Avoidable through careful planning and execution; not reduced by larger $n$.
 
+![](/images/BSE/Module4/7.png)
+
 # Conclusion
 
 Understanding the relationship between populations and samples is central to statistical inference. Selecting appropriate probabilistic sampling methods ensures data representativeness, allowing sample statistics like $\\bar{x}$ and $\\bar{p}$ to serve as reliable point estimators for population parameters $\mu$ and $P$. The concepts of sampling distributions and the Central Limit Theorem provide the theoretical framework for assessing estimator variability (standard error) and making inferences, while evaluating estimator properties (unbiasedness, efficiency) and minimizing both sampling and non-sampling errors ensures the robustness of conclusions drawn from sample data.
-    `
+
+![](/images/BSE/Module4/8.png)
+
+`
 },
 '5-1':{
     title: 'Statistical Inference',
@@ -654,6 +704,8 @@ Specific forms depend on the parameter being estimated:
 
 *Note: The Margin of Error (\`E\`) depends on the confidence level, the standard error of the point estimate, and the relevant sampling distribution (e.g., \`Z\`, \`t\`, \`χ²\`).*
 
+![](/images/BSE/Module5/1.png)
+
 # Hypothesis Testing
 
 ## Hypothesis Testing - Definition
@@ -697,10 +749,15 @@ While specific formulas vary by test (\`Z-test\`, \`t-test\`, \`Chi-square test\
 2.  Determine the **p-value** associated with the test statistic or find the **Critical Value(s)** based on \`α\` and the distribution.
 3.  **Decision Rule**: Compare \`p-value\` to \`α\` or compare the test statistic to the critical value(s).
 
+![](/images/BSE/Module5/2.png)
+
 # Conclusion
 
 This module covers the fundamentals of statistical inference, focusing on **confidence intervals** and **hypothesis testing** as essential tools for entrepreneurial decision-making. Confidence intervals provide estimated ranges for key population parameters (\`mean\`, \`proportion\`, \`variance\`) based on sample data, quantifying the associated uncertainty. Hypothesis testing offers a structured framework to evaluate specific claims about these parameters using evidence from samples, guided by significance levels and \`p-values\`. Both techniques depend critically on understanding sampling distributions and allow entrepreneurs to move from sample observations to informed judgments about the broader populations relevant to their businesses.
-    `
+   
+![](/images/BSE/Module5/3.png)
+
+`
 },
 '6-1':{
     title: 'Association between Random Variables and Simple Linear Regression',
@@ -743,18 +800,20 @@ Measures used to quantify the extent and direction of a linear association betwe
     *   $s_x$ is the sample standard deviation of $x$.
     *   $s_y$ is the sample standard deviation of $y$.
 
+![](/images/BSE/Module6/1.png)
+
 # Simple Linear Regression (SLR)
 
-## Simple Linear Regression (SLR) - Definition
+## SLR - Definition
 A statistical technique that assumes a linear relationship between a single independent variable ($x$) and a dependent variable ($y$) to model and predict outcomes.
 
-## Simple Linear Regression (SLR) - Key Insights
+## SLR - Key Insights
 *   The goal is to find the best-fitting straight line through the data points.
 *   The model includes an intercept ($\\beta_0$), a slope ($\\beta_1$), and a random error term ($\\epsilon$).
 *   The process involves data preparation (splitting, descriptive stats), model definition, parameter estimation (typically via OLS), model validation (diagnostics), and application (prediction).
 *   The expected value of $y$ for a given $x$, $E(y)$, represents the average value of $y$ on the true regression line.
 
-## Simple Linear Regression (SLR) - Formula
+## SLR - Formula
 *   Regression Model:
     $$y = \\beta_0 + \\beta_1 x + \\epsilon$$
 *   Expected Value of y:
@@ -766,16 +825,18 @@ A statistical technique that assumes a linear relationship between a single inde
     *   $\\beta_1$ is the true population slope.
     *   $\\epsilon$ is the random error term.
 
+![](/images/BSE/Module6/2.png)
+
 # Ordinary Least Squares (OLS)
 
-## Ordinary Least Squares (OLS) - Definition
+## OLS - Definition
 A method used to estimate the unknown parameters (intercept $b_0$ and slope $b_1$ as estimates of $\\beta_0$ and $\\beta_1$) in a linear regression model.
 
-## Ordinary Least Squares (OLS) - Key Insights
+## OLS - Key Insights
 *   OLS works by minimizing the sum of the squared residuals (the vertical distances between observed data points and the fitted regression line).
 *   It provides the best linear unbiased estimates (BLUE) for the regression coefficients under the standard regression assumptions.
 
-## Ordinary Least Squares (OLS) - Formula
+## OLS - Formula
 *   Estimated Slope ($b_1$):
     $$b_1 = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sum (x_i - \\bar{x})^2}$$
 *   Estimated Intercept ($b_0$):
@@ -784,6 +845,8 @@ A method used to estimate the unknown parameters (intercept $b_0$ and slope $b_1
     *   $x_i$, $y_i$ are individual data points.
     *   $\\bar{x}$, $\\bar{y}$ are the sample means of $x$ and $y$.
     *   $\\sum$ denotes summation over all data points.
+
+![](/images/BSE/Module6/3.png)
 
 # Test of Significance (in Regression)
 
@@ -796,6 +859,8 @@ Statistical procedures used to determine whether the observed linear relationshi
 *   Rejecting the null hypothesis suggests statistically significant evidence of a linear relationship.
 
 *(Note: Specific formulas for t-statistic or F-statistic are context-dependent but generally compare the estimated coefficient to its standard error or compare model variance to residual variance).*
+
+![](/images/BSE/Module6/4.png)
 
 # Residual Analysis
 
@@ -819,6 +884,9 @@ The process of examining the model's residuals (the difference between observed 
     *   $\\epsilon_i$ is the residual for the i-th observation.
     *   $y_i$ is the observed value of the dependent variable.
     *   $\\hat{y}_i$ is the predicted value from the regression line ($b_0 + b_1 x_i$).
+
+
+![](/images/BSE/Module6/5.png)
 
 # Summary Statistics (in Regression Context)
 
@@ -844,6 +912,14 @@ Numerical values that summarize and describe the characteristics of a dataset or
     $$R^2 = \\frac{SSR}{SST}$$
 *   Relationship between Sums of Squares:
     $$SST = SSR + SSE$$
+
+# Conclusion
+
+These statistical concepts provide a foundational toolkit for analyzing bivariate relationships. Covariance and correlation offer initial insights into the linear association between two variables. Simple Linear Regression, using OLS for parameter estimation, formalizes this relationship into a predictive model. Subsequently, tests of significance validate the statistical relevance of the model's findings, while residual analysis ensures the model's underlying assumptions are met, safeguarding the reliability of conclusions. Summary statistics, particularly R-square, quantify the model's explanatory power, providing a concise measure of fit.
+
+
+![](/images/BSE/Module6/6.png)
+
     `
 },
 '7-1':{
@@ -891,6 +967,8 @@ An extension of simple linear regression used to establish and quantify a linear
     *   $b_0, b_i$: Sample estimates of intercept and slope coefficients.
     *   $\\epsilon$: Random error term.
     *   $p$: Number of independent variables.
+
+![](/images/BSE/Module7/1.png)
 
 # Ordinary Least Squares (OLS)
 
@@ -945,6 +1023,8 @@ The examination of the differences (residuals) between the observed values ($y_i
 *   Residual:
     $$e_i = y_i - \\hat{y}_i$$
 
+![](/images/BSE/Module7/2.png)
+
 # Summary Statistics
 
 ## Coefficient of Determination (R-squared)
@@ -988,7 +1068,9 @@ A phenomenon in multiple linear regression where two or more independent variabl
 # Conclusion
 
 Multiple Linear Regression (MLR) provides a powerful framework for modeling how multiple factors linearly influence an outcome variable. Coefficients are estimated using Ordinary Least Squares (OLS), quantifying the effect of each predictor while controlling for others. The overall model adequacy is checked using the F-test, while individual predictor significance is assessed via t-tests. Evaluating model fit with R-squared and validating assumptions through residual analysis are critical steps, alongside diagnosing potential issues like multicollinearity using VIF to ensure reliable interpretation and prediction.
-    `
+    
+![](/images/BSE/Module7/3.png)
+`
 },
 '8-1':{
     title: 'Multiple Linear Regression II',
@@ -1046,6 +1128,8 @@ The extension of Multiple Linear Regression to include independent variables tha
     *   $b_2$ = Estimated difference in $\\hat{y}$ between category 2 and baseline (category 1).
     *   $b_3$ = Estimated difference in $\\hat{y}$ between category 3 and baseline (category 1).
 
+![](/images/BSE/Module8/1.png)
+
 # Interaction Variables in MLR
 
 ## Interaction Variables in MLR - Definition
@@ -1075,10 +1159,15 @@ Variables created by multiplying two or more independent variables (numerical $\
     *   Effect of $x_1$ when \`Dummy_1=1\` (other category): $b_1 + b_3$
     *   $b_3$ represents the *difference* in the effect of $x_1$ between the two categories.
 
+![](/images/BSE/Module8/2.png)
+
 # Conclusion
 
 Incorporating categorical variables via dummy coding and interaction terms significantly enhances the flexibility and realism of Multiple Linear Regression models. These techniques allow analysts to quantify the impact of qualitative factors and to model complex scenarios where the effect of one predictor is conditional upon another. Mastering the creation and interpretation of dummy and interaction variables enables more nuanced data analysis, leading to better-informed business strategies and decisions.
-    `
+   
+![](/images/BSE/Module8/3.png)
+
+`
 },
 
 };

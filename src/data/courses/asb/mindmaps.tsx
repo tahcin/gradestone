@@ -3,7 +3,6 @@ export const bseMindmaps = {
     '1-3': {
       title: 'Indian Knowledge Systems Overview Mindmap',
       content: `
-  ![Mindmap](/images/IKS/Module1/mindmap.png)
       `
     },
     

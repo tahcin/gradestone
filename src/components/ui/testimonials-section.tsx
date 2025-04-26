@@ -49,7 +49,7 @@ export function TestimonialsSection({
   return (
     <section className={cn(
       "bg-white dark:bg-gray-800",
-      "py-12 sm:py-24 px-0 text-gray-900 dark:text-white",
+      "py-10 sm:py-12 px-0 text-gray-900 dark:text-white",
       className
     )}>
       <div className="mx-auto flex max-w-container flex-col items-center gap-4 text-center sm:gap-16">
