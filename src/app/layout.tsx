@@ -68,7 +68,7 @@ export default function RootLayout({
             "name": "Gradestone",
             "description": "Transform your academic performance with Gradestones intelligent learning platform. Access personalized study tools and resources.",
             "url": "https://gradestone.in",
-            "logo": "https://gradestone.in/images/Logo/gs.png",
+            "logo": "https://gradestone.in/images/Logo/favicon.ico",
             "sameAs": [
               "https://www.linkedin.com/company/gradestone-in/"
             ]
