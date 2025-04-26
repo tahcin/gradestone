@@ -230,12 +230,12 @@ export default function AboutPage() {
             {/* Team cards */}
             {[
               { name: 'Tahcin Sarwar', role: 'Product Management', image: '/images/team/photo.png', link: 'https://www.linkedin.com/in/tahcinsarwar/' },
-              { name: 'Priyanshi Sharma', role: 'Community Management', image: '/images/team/priyanshi2.png', link: ''},
-              { name: 'Kusum Lata', role: 'Content Curation', image: '/images/team/kusum.png', link: '' },
-              { name: 'Saswat Sahoo', role: 'Content Curation', image: '/images/team/saswat.png', link: '' },
-              { name: 'Samarth Saran', role: 'Marketing', image: '/images/team/samarth.png', link: '' },
-              { name: 'Samlan Ramung', role: 'Marketing', image: '/images/team/samlan.png', link: '' },
-              { name: 'Mayuresh Shet', role: 'Graphic Design', image: '/images/team/mayuresh.png', link: '' },
+              { name: 'Priyanshi Sharma', role: 'Community Management', image: '/images/team/priyanshi2.png', link: 'https://www.linkedin.com/in/priyanshisharma20/'},
+              { name: 'Kusum Lata', role: 'Content Curation', image: '/images/team/kusum.png', link: 'https://www.linkedin.com/in/kusum-lata-5634a4329/' },
+              { name: 'Saswat Sahoo', role: 'Content Curation', image: '/images/team/saswat.png', link: 'https://www.linkedin.com/in/saswatsahoo0/' },
+              { name: 'Samarth Saran', role: 'Marketing', image: '/images/team/samarth.png', link: 'https://www.linkedin.com/in/samarth-saran-12b9ba275/' },
+              { name: 'Samlan Ramung', role: 'Marketing', image: '/images/team/samlan.png', link: 'https://www.linkedin.com/in/samlan-ramung-57a03025b/' },
+              { name: 'Mayuresh Shet', role: 'Graphic Design', image: '/images/team/mayuresh.png', link: 'https://www.linkedin.com/in/mayuresh-shet-440361244/' },
             ].map((member, index) => (
               <Link href={member.link} key={index} target="_blank">
               <motion.div 
