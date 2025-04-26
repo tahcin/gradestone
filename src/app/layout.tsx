@@ -61,6 +61,17 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <link rel="icon" href="/images/Logo/favicon.ico" type="image/x-icon" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-T76TLEB8KH"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-T76TLEB8KH');
+          `}
+        </script>
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -110,9 +121,12 @@ export default function RootLayout({
             })
           }}
         />
+        
+        
 
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 pb-safe`} itemScope itemType="https://schema.org/WebPage">
+        
         <ThemeProvider>
           <header>
             <Navbar />
