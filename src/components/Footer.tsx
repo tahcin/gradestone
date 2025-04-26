@@ -27,13 +27,15 @@ const Footer = () => {
           <motion.div variants={slideUp} className="col-span-2 sm:col-span-2 lg:col-span-1">
             <div className="mb-3 sm:mb-4">
               <img
-                src={theme === 'dark' ? '/images/Logo/gradestonenight.png' : '/images/Logo/Gradestonenight.png'}
+                src={theme === 'dark' ? '/images/Logo/gradestonenight.png' : '/images/Logo/gradestonenight.png'}
                 alt="Gradestone Logo"
                 className="h-6 sm:h-8 w-auto"
               />
             </div>
             <p className="text-gray-300 text-sm sm:text-base mb-6 sm:mb-0">
-              Learn smart. Boost your grades!
+              Your grades, set in stone.<br/>
+              contact@gradestone.in
+
             </p>
           </motion.div>
           <motion.div variants={slideUp}>

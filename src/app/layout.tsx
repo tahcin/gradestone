@@ -61,50 +61,56 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <link rel="icon" href="/images/Logo/favicon.ico" type="image/x-icon" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "EducationalOrganization",
-            "name": "Gradestone",
-            "description": "Transform your academic performance with Gradestones intelligent learning platform.",
-            "url": "https://gradestone.in",
-            "logo": "https://gradestone.in/images/Logo/favicon.ico",
-            "sameAs": [
-              "https://www.linkedin.com/company/gradestone-in/"
-            ] 
-          })}
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://gradestone.in/"
-               },
-              {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Courses",
-              "item": "https://gradestone.in/courses"
-              },
-              {
-              "@type": "ListItem",
-              "position": 3,
-              "name": "GraDex",
-              "item": "https://gradestone.in/gradex"
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "name": "About",
-                "item": "https://gradestone.in/about"
-              },
-            ] 
-          })}
-          
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "name": "Gradestone",
+                  "description": "Transform your academic performance with Gradestone's intelligent learning platform.",
+                  "url": "https://gradestone.in",
+                  "logo": "https://gradestone.in/images/Logo/favicon.ico",
+                  "sameAs": [
+                    "https://www.linkedin.com/company/gradestone-in/"
+                  ]
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://gradestone.in/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Courses",
+                      "item": "https://gradestone.in/courses"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 3,
+                      "name": "GraDex",
+                      "item": "https://gradestone.in/gradex"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 4,
+                      "name": "About",
+                      "item": "https://gradestone.in/about"
+                    }
+                  ]
+                }
+              ]
+            })
+          }}
+        />
+
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 pb-safe`} itemScope itemType="https://schema.org/WebPage">
         <ThemeProvider>
