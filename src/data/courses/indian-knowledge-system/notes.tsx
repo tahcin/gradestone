@@ -99,7 +99,7 @@ IKS refers to the collective intellectual achievement of the Indian civilization
         *   **Sanātana Dharma**
             *   **Core**
                 *   14 Vidyāsthāna
-                *   Works of several
+                *   Works of several religious leaders and philsophers
             *   **Other**
                 *   Basic & Applied Sciences
                 *   Engineering, Technology, Aesthetics, Kāvyas, Arts, Health, Wellness, Psychology, Public Administration, Code of Living etc.

@@ -89,6 +89,7 @@ export default function RootLayout({
                   ]
                 },
                 {
+                  "@context": "https://schema.org",
                   "@type": "BreadcrumbList",
                   "itemListElement": [
                     {
@@ -102,21 +103,45 @@ export default function RootLayout({
                       "position": 2,
                       "name": "Courses",
                       "item": "https://gradestone.in/courses"
+                    }
+                  ]
+                },
+                {
+                  "@context": "https://schema.org",
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://gradestone.in/"
                     },
                     {
                       "@type": "ListItem",
-                      "position": 3,
+                      "position": 2,
                       "name": "GraDex",
                       "item": "https://gradestone.in/gradex"
+                    }
+                  ]
+                },
+                {
+                  "@context": "https://schema.org",
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://gradestone.in/"
                     },
                     {
                       "@type": "ListItem",
-                      "position": 4,
+                      "position": 2,
                       "name": "About",
                       "item": "https://gradestone.in/about"
                     }
                   ]
-                }
+                },
               ]
             })
           }}
