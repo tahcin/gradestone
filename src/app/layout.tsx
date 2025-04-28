@@ -89,7 +89,6 @@ export default function RootLayout({
                   ]
                 },
                 {
-                  "@context": "https://schema.org",
                   "@type": "BreadcrumbList",
                   "itemListElement": [
                     {
@@ -103,45 +102,36 @@ export default function RootLayout({
                       "position": 2,
                       "name": "Courses",
                       "item": "https://gradestone.in/courses"
-                    }
-                  ]
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                    {
-                      "@type": "ListItem",
-                      "position": 1,
-                      "name": "Home",
-                      "item": "https://gradestone.in/"
                     },
                     {
                       "@type": "ListItem",
-                      "position": 2,
+                      "position": 3,
                       "name": "GraDex",
                       "item": "https://gradestone.in/gradex"
-                    }
-                  ]
-                },
-                {
-                  "@context": "https://schema.org",
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                    {
-                      "@type": "ListItem",
-                      "position": 1,
-                      "name": "Home",
-                      "item": "https://gradestone.in/"
                     },
                     {
                       "@type": "ListItem",
-                      "position": 2,
+                      "position": 4,
                       "name": "About",
                       "item": "https://gradestone.in/about"
                     }
                   ]
                 },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "Courses",
+                  "url": "https://gradestone.in/courses"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "GraDex",
+                  "url": "https://gradestone.in/gradex"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "About",
+                  "url": "https://gradestone.in/about"
+                }
               ]
             })
           }}
