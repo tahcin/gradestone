@@ -238,114 +238,115 @@ export const fobc2Tests = {
     questions: [
       {
         id: 1,
-        question: 'According to the module, what is the primary objective of effective professional business communication?',
+        question: 'According to the module, what is the primary goal of refining interpersonal communication skills in a professional environment?',
         options: [
-          'To entertain the reader with creative language', // Index 0
-          'To achieve clarity, impact, and utilize structured writing', // Index 1 (Correct)
-          'To demonstrate complex vocabulary and sentence structures', // Index 2
-          'To primarily focus on personal expression' // Index 3
+          'To dominate conversations and ensure personal views prevail',
+          'To improve clarity, engagement, and collaboration',
+          'To minimize face-to-face interactions in favour of digital communication',
+          'To focus solely on giving evaluative feedback'
         ],
-        correctAnswer: 1 // Corrected from 2
+        correctAnswer: 1
       },
       {
         id: 2,
-        question: 'Which structural model is described as having an Opening for context, a Body for the main message, and a Closing for concluding details?',
+        question: 'Which component is NOT listed as part of Active Listening in the notes?',
         options: [
-          'Inverted Pyramid', // Index 0
-          'Minto Pyramid Principle', // Index 1
-          'OBC (Opening, Body, Closing)', // Index 2 (Correct)
-          'STAR Method' // Index 3
+          'Minimizing distractions and focusing attention',
+          'Using appropriate nonverbal cues',
+          'Interrupting frequently to show engagement',
+          'Asking clarifying questions and summarizing'
         ],
-        correctAnswer: 2 // Corrected from 3
+        correctAnswer: 2
       },
       {
         id: 3,
-        question: 'When is the direct approach most appropriately used in business communication?',
+        question: 'The Johari Window model helps understand self-awareness. Receiving feedback primarily helps reduce which area?',
         options: [
-          'When delivering bad news or sensitive information', // Index 0
-          'When the audience is expected to be resistant', // Index 1
-          'When conveying good news, neutral information, or routine requests', // Index 2 (Correct)
-          'When a long explanation is needed before the main point' // Index 3
+          'Open Area',
+          'Hidden Area',
+          'Blind Spot',
+          'Unknown Area'
         ],
-        correctAnswer: 2 // Corrected from 3
+        correctAnswer: 2
       },
       {
         id: 4,
-        question: 'What is the correct sequence of the four-step writing process outlined in the module?',
+        question: 'What is the main difference between Formative and Evaluative feedback?',
         options: [
-          'Drafting, Planning, Editing, Revising', // Index 0
-          'Planning & Pre-Writing, Drafting, Revision, Editing & Proofreading', // Index 1 (Correct)
-          'Revising, Drafting, Planning, Editing', // Index 2
-          'Planning, Revising, Drafting, Editing & Proofreading' // Index 3
+          'Formative is always positive; Evaluative is always negative',
+          'Formative aims for improvement; Evaluative assesses against criteria',
+          'Formative is written; Evaluative is verbal',
+          'Formative focuses on punishment; Evaluative focuses on rewards'
         ],
-        correctAnswer: 1 // Corrected from 2
+        correctAnswer: 1
       },
       {
         id: 5,
-        question: 'The principle of GIGO (Garbage In, Garbage Out) in the context of Generative AI means:',
+        question: 'The "Hamburger Method" is a technique primarily used for what purpose?',
         options: [
-          'AI tools always produce garbage output regardless of input', // Index 0
-          'The quality of the AI\'s output depends directly on the quality of the input prompt', // Index 1 (Correct)
-          'AI can magically turn poor input into high-quality output', // Index 2
-          'Human oversight is unnecessary when using high-quality AI' // Index 3
+          'Structuring meeting agendas',
+          'Asking open-ended questions',
+          'Delivering constructive criticism more receptively',
+          'Summarizing discussion points during active listening'
         ],
-        correctAnswer: 1 // Corrected from 2
+        correctAnswer: 2
       },
       {
         id: 6,
-        question: 'Which of the following is highlighted as a key limitation of current Generative AI tools in the writing process?',
+        question: 'Which questioning technique involves starting with broad questions and narrowing down to specifics?',
         options: [
-          'Inability to check basic grammar and spelling', // Index 0
-          'Lack of speed in generating text', // Index 1
-          'Absence of genuine critical thinking and independent fact verification', // Index 2 (Correct)
-          'Difficulty in formatting text according to basic standards' // Index 3
+          'Indirect Questioning',
+          'Closed Questioning',
+          'The Funnel Technique',
+          'Aggressive Questioning'
         ],
-        correctAnswer: 2 // Corrected from 3
+        correctAnswer: 2
       },
       {
         id: 7,
-        question: 'What is the purpose of using the indirect approach in business writing?',
+        question: 'What is a key characteristic of a Brainstorming session, as described in the module?',
         options: [
-          'To confuse the reader deliberately', // Index 0
-          'To state the main point as quickly as possible', // Index 1
-          'To soften the impact of bad news or persuade a resistant audience', // Index 2 (Correct)
-          'To exclusively deliver positive news' // Index 3
+          'Focusing on detailed task allocation',
+          'Critically evaluating each idea as it is proposed',
+          'Generating a high volume of ideas without initial judgment',
+          'Following a strict, pre-defined agenda with time limits per topic'
         ],
-        correctAnswer: 2 // Corrected from 3
+        correctAnswer: 2
       },
       {
         id: 8,
-        question: 'The module mentions the \'full block format\' for business letters. What does this format entail?',
+        question: 'Which of the following is NOT mentioned as a common challenge in managing small group meetings?',
         options: [
-          'All text is centered on the page', // Index 0
-          'Paragraphs are indented, and the signature is on the right', // Index 1
-          'All text, including date, addresses, and paragraphs, aligns to the left margin', // Index 2 (Correct)
-          'Only the body of the letter is aligned to the left margin' // Index 3
+          'Unclear meeting objectives',
+          'Inefficient use of time',
+          'Overly detailed minutes of meeting',
+          'Interpersonal conflict among participants'
         ],
-        correctAnswer: 2 // Corrected from 3
+        correctAnswer: 2
       },
       {
         id: 9,
-        question: 'In email etiquette, what is the appropriate use of the \'CC\' (Carbon Copy) field?',
+        question: 'In larger, formal meetings, who is primarily responsible for guiding discussion, managing participation, and controlling the pace?',
         options: [
-          'For the primary recipient who needs to take action', // Index 0
-          'To hide recipients\' email addresses from each other', // Index 1
-          'For individuals who need to be informed but are not the primary action takers', // Index 2 (Correct)
-          'Only for sending automated replies' // Index 3
+          'The Scribe',
+          'The most senior attendee',
+          'The Chairperson',
+          'All attendees equally'
         ],
-        correctAnswer: 2 // Corrected from 3
+        correctAnswer: 2
       },
       {
         id: 10,
-        question: 'Which best practice is specifically recommended for enhancing readability in digital content?',
+        question: 'Which element is essential content for formal Minutes of Meeting, according to the notes?',
         options: [
-          'Using long, complex paragraphs to show detail', // Index 0
-          'Writing in very small font sizes to fit more text', // Index 1
-          'Employing chunking, bullet points, and clear headlines', // Index 2 (Correct)
-          'Avoiding visuals and hyperlinks to keep it simple' // Index 3
+          'Verbatim transcription of all casual remarks',
+          'Attendees list, including absentees',
+          'Personal opinions of the scribe',
+          'Detailed descriptions of participants outfits'
         ],
-        correctAnswer: 2 // Corrected from 3
+        correctAnswer: 1
       }
+      
     ]
 },
 '4-2':{
