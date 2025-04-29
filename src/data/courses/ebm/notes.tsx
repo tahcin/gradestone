@@ -12,8 +12,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
 *   The invention of money made trade easier and more efficient.
 *   Wherever societies and civilizations exist, business exists too.
 
-**(Diagram Description: A flowchart illustrating the progression of business concepts. Top row shows arrows connecting icons representing: Human Civilization -> Need for Exchange -> Money Invention. Bottom row shows arrows connecting icons representing: Occupational Specialization -> Barter System -> [Implied step with '$' icon] -> [Implied step 'M Bu' - possibly Market/Business])**
-
+![](/images/EBM/Module1/1.png)
 
 # What Are the Ways in Which Business Can Be Conducted?
 
@@ -60,7 +59,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
 | Business Example     | Small town shopkeepers    | Traders in historic markets |
 | Long-Term Impact     | Sustains loyal customers  | Ensures honesty in business |
 
-**(Diagram Description: A diagram branching from "Relational Exchange". One branch leads to "Repetition-Based" with icons for "Repeat transactions" and an example "Shopkeeper in town". The other branch leads to "Reputation-Based" with icons for "Social credibility" and an example "Historic traders (Middle East)".)**
+![](/images/EBM/Module1/2.png)
 
 
 # What Are Some Examples of Power Exchange?
@@ -73,7 +72,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
     *   **Europe:** Nobility received a share of peasant production in return for providing military service.
 *   **Modern Example:** Employers can fire employees who do not comply with their instructions, demonstrating power-based exchange in corporate settings.
 
-**(Diagram Description: A diagram branching from "Power-Based Exchange". One branch leads to "Historical" with examples like "Landlords", "Colonial exploitation", "State control (China)". The other branch leads to "Modern" with the example "Employer-employee relations".)**
+![](/images/EBM/Module1/3.png)
 
 
 # What Is Contractual Exchange?
@@ -135,7 +134,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
     *   Existing business networks, such as **guilds**, may restrict new entrants to **limit competition**.
     *   This makes it hard for outsiders to enter and innovate within such social structures.
 
-**(Diagram Description: "The Dual Nature of Embeddedness". A central point branches upwards and downwards. Upwards (negative aspects): "Barriers to Entry" (Creates challenges for new entrants) and "Limited Opportunities" (Limits growth by restricting market access and innovation) and "Gossip/Manipulation" (Can lead to unethical practices and misinformation). Downwards (positive aspects): "Trust & Reputation" (Trust enhances collaboration and strengthens business relationships) and "Reduces Market Frictions" (Reduces transaction costs, improving market efficiency).)**
+![](/images/EBM/Module1/4.png)
 
 
 # What Are the Instances When Outsiders Find It Difficult to Enter the Socially Embedded Network?
@@ -166,7 +165,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
     *   As guilds became more restrictive, they stifled economic growth.
     *   Their decline began in London and Amsterdam (1500s) and spread across Europe by **1800**, replaced by modern firms and corporations.
 
-**(Diagram Description: A comparison diagram labelled "Pros vs Cons". On the "Pros" side, icons represent "Knowledge Sharing" and "Trade Security". On the "Cons" side, icons represent "Entry Barriers" and "Monopoly".)**
+![](/images/EBM/Module1/5.png)
     `
 },
 '2-1':{
@@ -188,7 +187,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
 *   **Ride-sharing** - we take cabs with unknown drivers but rely on the system for safety.
 *   **Living in a new city** - strangers at first, but over time, they become part of our social circle.
 
-**(Diagram Description: A circular flow diagram illustrating the benefits of interacting with strangers facilitated by contracts. Stages include: Interact with Strangers (Engaging with new people daily) -> Build Contracts (Establishing mutual agreements) -> Create Opportunities (Opening new possibilities) -> Increase Adaptability (Enhancing flexibility and resilience) -> Boost Efficiency (Improving productivity and effectiveness) -> back to Interact with Strangers.)**
+![](/images/EBM/Module2/1.png)
 
 # If Exchange for Strangers Is So Important Then Why Is It Not Everywhere?
 
@@ -222,7 +221,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
 *   A major shift happened in the **16th century in Northwestern Europe (Amsterdam, London)**—new systems and institutions were created to make trading with strangers easier and more reliable.
 *   This marked the beginning of **large-scale impersonal exchange**, which allowed economies to grow beyond local, trust-based ties.
 
-**(Diagram Description: A flowchart illustrating the emergence of impersonal exchange around the 1500s. "1500s Global Exploration" (ship icon) leads to "Atlantic Trade Boom" (graph icon) and "Ports like Amsterdam, London Grow" (port icon). Increased trade leads to "Guilds Decline" (M symbol crossed out). This decline, combined with growing trade, leads to "New Institutions: Contracts, Record-Keeping" (document icon). These factors culminate in "Impersonal Exchange Emerges" (group icon).)**
+![](/images/EBM/Module2/2.png)
 
 
 # What Happened to Northwest Europe Which Led to Emerge Impersonal Exchange?
@@ -337,7 +336,7 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
     *   Easier to track orders, give ratings, and get refunds.
     *   Competition makes businesses more reliable and customer-focused.
 
-**(Diagram Description: A horizontal flowchart titled "Evolution of Business Structures". Stages shown progressing from left to right: Guilds & Partnerships -> Joint Stock Companies (1600s) -> Stock Exchanges -> Modern Public Companies -> Separation Ownership Management.)**
+![](/images/EBM/Module2/3.png)
     `
 },
 '3-1':{
@@ -358,12 +357,12 @@ export const ebmNotes: { [key: string]: { title: string; content: string } } = {
 
 This economic similarity is explained by the **Malthusian Trap**. When economic conditions improved, populations grew due to better living conditions and more children. But this population growth led to pressure on limited resources like land and food, which in turn slowed down economic growth. Eventually, both economic and population growth would slow or stagnate.
 
-**(Diagram Description: A circular diagram titled "Malthusian Trap Cycle". Starts with "Economic Growth" (initiates increase in population and demand), leading to "Population Increases" (more children and migration expand population), then "Resource Demand Increases" (higher demand for land and agriculture resources), then "Resource Scarcity" (limited resources lead to scarcity issues), then "Growth Slows Down" (economic and population growth begin to slow), then "Population Growth Slows" (population growth rates decrease), and finally "Back to Stagnation" (returns to a state of economic and population stagnation), which loops back to Economic Growth if conditions improve.)**
+![](/images/EBM/Module3/1.png)
 
 
 # How Did Economic Growth Start?
 
-**(Diagram Description: A line graph titled "History's hockey stick: Gross domestic product per capita in five countries (1000–2015)". The Y-axis shows GDP per capita, and the X-axis shows the Year from 1000 to 2000. Lines for Britain, Japan, Italy, China, and India show relatively flat GDP per capita until around 1750-1800, after which Britain's line rises sharply, followed later by Italy, Japan, and eventually China and India, forming a "hockey stick" shape.)**
+![](/images/EBM/Module3/2.png)
 
 **Hockey stick growth:** A term used to describe the **sharp upward spike in economic growth**, especially after the **1750s**.
 
@@ -411,7 +410,7 @@ A thought experiment illustrates this:
 | 2. Embedded Learning      | Teachers (e.g., clan elders, guild masters) have better expertise than parents | Lower incentive to teach well compared to parents | Relies on **reputation** and **community ties** to ensure quality               |
 | 3. Market-based Learning  | Access to the **best available experts**, even strangers      | Risk of **opportunism** and **reduced personal attention** | If supported by **trustworthy institutions**, this model drives **maximum innovation and growth** |
 
-**(Diagram Description: A graph titled "Who is your teacher?" plotting Productivity Growth vs Population Growth. It shows curves representing different learning structures: Family member, Clan member, Guild master (monopolizes), Market stranger. Point G (Guild) is shown higher than point C (Clan) if guilds have little market power. A "Malthusian constrain" line limits growth. The market stranger offers the highest potential productivity growth.)**
+![](/images/EBM/Module3/3.png)
 
 As societies shift from **relationship-based** to **market-based** systems—with supportive institutions—the potential for innovation, learning, and economic growth accelerates, contributing to the "hockey stick" pattern in modern economic history.
 
@@ -547,7 +546,7 @@ This is known as the **"Reform and Opening Up"** era.
 *   Transition into the **world's 2nd largest economy**
 *   **Millions lifted out of poverty**
 
-**(Diagram Description: A simplified flowchart showing the transition stages discussed previously: Traditional Economy -> Atlantic Trade & Printing Revolution -> Decline of Elites & Guilds -> Adoption of Formal Business Rules -> Market Based Economy Emerges.)**
+![](/images/EBM/Module3/4.png)
     `
 },
 '4-1':{
@@ -610,7 +609,7 @@ To kickstart market development, we usually need:
 *   Travel bookings (IRL agents - apps)
 *   Shopping (local shopkeepers - e-commerce)
 
-**(Diagram Description: Two intertwined paths labelled "Formalize Businesses" and "Disrupt Elites" lead towards "New Markets Develop")**
+![](/images/EBM/Module4/1.png)
 
 
 ## Why doesn't this happen everywhere?
@@ -685,12 +684,8 @@ To keep markets & cities thriving, we need:
 
 ### Growth Isn't Automatic:
 
-**(Diagram Description: A staircase representing economic development stages)**
-*   **Bottom Step (Blue - Trigger Growth):** Initiate economic expansion through innovative strategies.
-*   **Yellow Step (Short-Term Boom):** Experience a rapid increase in economic activity.
-*   **Orange Step (Need Sustained Effort):** Recognize the necessity of continuous hard work to maintain progress.
-*   **Red Step (Avoid Stagnation):** Implement strategies to prevent economic stagnation.
-*   **Top Step (Green - Long-Term Development):** Achieve sustainable and lasting economic growth.
+![](/images/EBM/Module4/2.png)
+
 
 # What steps can be taken to ensure market development ?
 
@@ -748,11 +743,8 @@ We need:
     → Citizens
 
 
-**(Diagram Description: A circular diagram titled "Sustainable Market Growth" with four interconnected components)**
-*   **Top Left (Green - $$)**: Continued Care & Reform (Ongoing efforts to maintain and improve market systems.)
-*   **Top Right (Yellow - $$)**: Incentives & Formal Rules (Establishing clear guidelines and motivations to encourage participation and fairness.)
-*   **Bottom Right (Orange - Building)**: Disruption of Elites (Challenging entrenched power structures to promote equity and innovation.)
-*   **Bottom Left (Blue - Handshake)**: Open & Fair Transactions (Ensuring transparency and impartiality in market exchanges.)
+![](/images/EBM/Module4/3.png)
+
 
 # Aren't elites always dominating in capitalist market?
 
@@ -853,11 +845,8 @@ While **business development** and **market development** might seem similar, th
 
 ## Media's Role in Business and Society
 
-**(Diagram Description: Four classical pillars representing media roles)**
-*   **Pillar 1:** Informing the Public (Disseminating news and information to keep citizens informed.)
-*   **Pillar 2:** Exposing Malpractices (Uncovering and reporting on unethical or illegal activities.)
-*   **Pillar 3:** Holding Accountable (Ensuring businesses and politicians are responsible for their actions.)
-*   **Pillar 4:** Creating Competition (Fostering a competitive market environment and consumer awareness.)
+![](/images/EBM/Module4/4.png)
+
 
 # Introduction to Institutions, Culture and Technology
 
@@ -873,13 +862,8 @@ While **business development** and **market development** might seem similar, th
     *   Integrate and organize the **fragmented discussions** from previous weeks.
     *   Understand these factors to apply them in **developing economies like India**.
 
-**(Diagram Description: Steps leading upwards towards applying learnings)**
-*   **Bottom (Red): Traditional Structure** (A business environment rooted in social ties and power dynamics.)
-*   **Orange: Formal Contracts** (The introduction of formal agreements and market mechanisms.)
-*   **Yellow: Market Nurturing** (Efforts to support and develop market infrastructure.)
-*   **Green: Overcoming Cronyism** (Addressing issues of crony capitalism and incumbent dominance.)
-*   **Blue: Systematic Development** (Implementing a structured approach to economic growth.)
-*   **Top (Purple): Applying Learnings** (Adapting successful strategies to emerging economies.)
+![](/images/EBM/Module4/5.png)
+
 
 # What kind of institutions regulate the functioning of business ?
 
@@ -1042,10 +1026,8 @@ Beyond Formal Institutions (like courts/governments), the **legal system** itsel
 
 # How did technology help in evolving business ?
 
-**(Diagram Fragment: Shows axes for "Complexity of product descr" (Low/High) and "Asset specificity" (Low/High). A dividing line suggests "Market" dominates Low/Low and "Hierarchy" dominates High/High.)**
+![](/images/EBM/Module4/6.png)
 
-*   **(Example of) hierarchies** in meatpacking industry
-*   **(Example of) markets** in stocks and commodities futures
 
 ## Positive Impacts of ICT (Information and Communication Technology) on Markets
 ICT helps **reduce search costs**, allowing buyers and sellers to **find each other easily**, especially in areas where people could not previously interact freely.
@@ -1071,7 +1053,7 @@ However, ICT can also **centralize control** instead of decentralizing it. For i
 
 # Do transport advancement lead to market integration?
 
-**(Diagram Description: Maps of India from 1860 to 1930 showing increasing railroad density.)**
+![](/images/EBM/Module4/7.png)
 
 ##Railroads
 1)  decreased trade costs and interregional price gaps;
@@ -1153,8 +1135,8 @@ The idea of **nationhood** as we understand it today is deeply rooted in the con
     *   **Karnataka & Kerala** = more prosperous, faster growth
 *   Emerging **regional imbalance** in development and opportunity.
 
-**(Diagram Description: Flowchart "Regional Economic Shifts in India")**
-Economic Growth (Post-1991) → Rise of Southern & Western Cities → Neglect of Northern & Eastern Cities → Metropolis Vacuum in Gangetic Plain → Higher Poverty & Lower Urbanization → Regional Economic Inequality
+![](/images/EBM/Module4/8.png)
+
 
 # Metropolis Vacuum
 
@@ -1200,10 +1182,8 @@ Economic Growth (Post-1991) → Rise of Southern & Western Cities → Neglect of
     *   **Migration patterns**
     *   **Social indicators** like female literacy and dropout rates
 
-**(Diagram Description: "Impact of Liberalization on Regional Development")**
-Liberalization (1991) → Uneven Opportunity Access
-*   → South/West → Virtuous Cycle → High Development → High Education Levels
-*   → Hindi Heartland → Vicious Cycle → Low Development → High Dropouts
+![](/images/EBM/Module4/9.png)
+
 
 # Addressing issues of Hindi heartland
 
