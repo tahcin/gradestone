@@ -89,33 +89,9 @@ export default function RootLayout({
                   ]
                 },
                 {
-                  "@type": "BreadcrumbList",
-                  "itemListElement": [
-                    {
-                      "@type": "ListItem",
-                      "position": 1,
-                      "name": "Home",
-                      "item": "https://gradestone.in/"
-                    },
-                    {
-                      "@type": "ListItem",
-                      "position": 2,
-                      "name": "Courses",
-                      "item": "https://gradestone.in/courses"
-                    },
-                    {
-                      "@type": "ListItem",
-                      "position": 3,
-                      "name": "GraDex",
-                      "item": "https://gradestone.in/gradex"
-                    },
-                    {
-                      "@type": "ListItem",
-                      "position": 4,
-                      "name": "About",
-                      "item": "https://gradestone.in/about"
-                    }
-                  ]
+                  "@type": "SiteNavigationElement",
+                  "name": "Home",
+                  "url": "https://gradestone.in/"
                 },
                 {
                   "@type": "SiteNavigationElement",
@@ -131,7 +107,69 @@ export default function RootLayout({
                   "@type": "SiteNavigationElement",
                   "name": "About",
                   "url": "https://gradestone.in/about"
-                }
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://gradestone.in/"
+                    },
+                  ]
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://gradestone.in/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "Courses",
+                      "item": "https://gradestone.in/courses"
+                    },
+                  ]
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://gradestone.in/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "GraDex",
+                      "item": "https://gradestone.in/gradex"
+                    },
+                  ]
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [
+                    {
+                      "@type": "ListItem",
+                      "position": 1,
+                      "name": "Home",
+                      "item": "https://gradestone.in/"
+                    },
+                    {
+                      "@type": "ListItem",
+                      "position": 2,
+                      "name": "About",
+                      "item": "https://gradestone.in/about"
+                    },
+                  ]
+                },
               ]
             })
           }}
