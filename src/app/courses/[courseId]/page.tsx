@@ -5,7 +5,6 @@ import { getCourseById } from '@/data/courses/index';
 import { getCourseDetailsById } from '@/data/courses/courseDetails';
 import CourseDetailPage from '@/components/CourseDetailPage';
 import { useEffect, useState } from 'react';
-import { redirect } from 'next/navigation';
 
 export default function CourseDetails() {
   const params = useParams();
