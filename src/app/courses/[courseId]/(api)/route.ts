@@ -3,10 +3,14 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(request: NextRequest) {
   try {
-    const { path } = await request.json();
+    const { courseId } = await request.json();
     
-    // Revalidate the specific path
-    revalidatePath(path);
+    // Revalidate course detail page and related content
+    revalidatePath(`/courses/${courseId}`);
+    revalidatePath(`/courses/${courseId}/modules`);
+    revalidatePath(`/courses/${courseId}/notes`);
+    revalidatePath(`/courses/${courseId}/tests`);
+    revalidatePath(`/courses/${courseId}/mindmaps`);
     
     return NextResponse.json({ revalidated: true, now: Date.now() });
   } catch (err) {
