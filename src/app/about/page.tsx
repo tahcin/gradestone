@@ -19,6 +19,8 @@ import { fadeIn, slideUp, staggerContainer } from '../../utils/animations';
 import { useEffect, useState } from 'react';
 import ParticleBackground from '@/components/ParticleBackground';
 
+'use client';
+
 export default function AboutPage() {
   // Animation controls for each section
   const heroControls = useAnimationControls();
