@@ -1322,7 +1322,7 @@ The speaker suggests that history isn’t just shaped by individuals but by the 
 '5-2':{
     title: 'Exploring Alternate Realities, Experiential Living, and the Power of Will ',
     content: `
-    History is full of big events and famous people. But have you ever wondered what would’ve happened if things had gone differently? What if a different ruler had won a war? What if a famous leader had never existed? These kinds of questions help us see how much power a single person or decision can have. 
+History is full of big events and famous people. But have you ever wondered what would’ve happened if things had gone differently? What if a different ruler had won a war? What if a famous leader had never existed? These kinds of questions help us see how much power a single person or decision can have. 
 
  
 
@@ -1348,7 +1348,7 @@ Also, even strong people need the right situation to make change. Gandhi’s pea
 
  
 
-##In the End 
+## In the End 
 
 History is shaped by people, decisions, culture, and luck. One person can make a big difference—but so can everyday people choosing how to live. By learning from the past, thinking about “what ifs,” and focusing on meaningful choices today, we can build a better future.     `
 },
