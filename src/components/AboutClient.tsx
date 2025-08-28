@@ -202,14 +202,14 @@ export default function AboutClient() {
         </div>
       </motion.section>
 
-      {/* Our Team */}
+      {/* Our Team
       <motion.section 
         initial="hidden"
         animate={teamControls}
         variants={fadeIn}
         className="py-16 sm:py-24 bg-white dark:bg-gray-800 relative overflow-hidden"
       >
-        {/* Dotted background pattern */}
+        Dotted background pattern 
         <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] dark:bg-[radial-gradient(#374151_1px,transparent_1px)] [background-size:16px_16px] opacity-50"></div>
         
         <div className="container-custom px-4 sm:px-6 relative z-10">
@@ -223,7 +223,7 @@ export default function AboutClient() {
             </p>
           </motion.div>
 
-          {/* GradeCore Section */}
+          GradeCore Section 
           <motion.div variants={slideUp} className="mb-12">
             <h3 className="text-2xl font-bold mb-6 text-center">GradeCore</h3>
             <motion.div 
@@ -240,7 +240,7 @@ export default function AboutClient() {
                 variants={slideUp}
                 className="group relative bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden"
               >
-                {/* Profile image */}
+                Profile image
                 <div className="aspect-square w-full overflow-hidden">
                   <img 
                     src={member.image}
@@ -258,7 +258,7 @@ export default function AboutClient() {
                     {member.role}
                   </p>
                   
-                  {/* Hover arrow */}
+                  Hover arrow
                   <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 transition-all duration-300">
                     <svg className="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -271,7 +271,7 @@ export default function AboutClient() {
           </motion.div>
           </motion.div>
 
-          {/* GradeTeam Section */}
+          GradeTeam Section
           <motion.div variants={slideUp} className="mt-8 ">
             <h3 className="text-2xl font-bold mb-6 text-center">GradeTeam</h3>
             <motion.div 
@@ -291,7 +291,7 @@ export default function AboutClient() {
                   variants={slideUp}
                   className="group relative bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden"
                 >
-                  {/* Profile image */}
+                  Profile image
                   <div className="aspect-square w-full overflow-hidden">
                     <img 
                       src={member.image}
@@ -309,7 +309,7 @@ export default function AboutClient() {
                       {member.role}
                     </p>
                     
-                    {/* Hover arrow */}
+                    Hover arrow
                     <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transform translate-x-2 group-hover:translate-x-0 transition-all duration-300">
                       <svg className="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -322,7 +322,7 @@ export default function AboutClient() {
             </motion.div>
           </motion.div>
         </div>
-      </motion.section>
+      </motion.section>*/}
 
       {/* Support Us Section */}
       <motion.section 
